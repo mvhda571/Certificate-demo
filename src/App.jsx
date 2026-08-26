@@ -39,9 +39,12 @@ function App() {
   useEffect(() => { i18n.changeLanguage(language) }, [language])
   useEffect(() => { const syncFullscreen = () => setExamFullscreen(Boolean(document.fullscreenElement)); document.addEventListener('fullscreenchange', syncFullscreen); return () => document.removeEventListener('fullscreenchange', syncFullscreen) }, [])
 
+  if (!isAuthenticated) {
+    return <AuthGate />
+  }
+
   return (
     <BrowserRouter>
-      {!isAuthenticated && <AuthGate />}
       <div className="min-h-screen bg-[#F8FAFC] text-slate-950 transition-colors dark:bg-slate-950 dark:text-slate-100">
         <div className={`mx-auto flex min-h-screen max-w-[1600px] ${examFullscreen ? 'p-0' : 'gap-6 p-3 sm:p-5 lg:p-8'}`}>
           {!examFullscreen && <Sidebar open={menuOpen} onClose={() => setMenuOpen(false)} />}
