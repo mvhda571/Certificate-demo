@@ -8,13 +8,18 @@ import { historyGrades } from '../data/historyCurriculum'
 import math from '../data/mathCurriculum.json'
 import uzbek from '../data/uzbekCurriculum.json'
 import literature from '../data/literatureCurriculum.json'
+import { history6Course } from '../data/konspekt/tarix6'
+
+// Konspekt asosidagi kurslar: har bir yakunlangan mavzudan to'liq flashcard to'plami olinadi.
+const konspektCourses = { 6: history6Course }
 
 const factsOf = lesson => lesson.facts || lesson.formulas || lesson.points || lesson.rules || []
 
 function curriculumCards(completed) {
   const cards=[]
   Object.entries(curriculum).forEach(([subject,lessons])=>lessons.forEach(lesson=>{if(completed[`${subject}:${lesson.id}`])factsOf(lesson).slice(0,2).forEach((fact,index)=>cards.push({id:`${subject}-${lesson.id}-${index}`,subject,front:lesson.title,back:fact,source:'Dars mavzusi'}))}))
-  Object.entries(historyGrades).forEach(([grade,data])=>data.lessons.forEach(lesson=>{if(completed[`tarix-${grade}:${lesson.id}`])factsOf(lesson).slice(0,2).forEach((fact,index)=>cards.push({id:`tarix-${grade}-${lesson.id}-${index}`,subject:`Tarix ${grade}`,front:lesson.title,back:fact,source:'PDF mavzusi'}))}))
+  Object.entries(konspektCourses).forEach(([grade,course])=>course.topics.forEach(topic=>{if(completed[`tarix-${grade}:${topic.id}`])topic.flashcards.forEach((card,index)=>cards.push({id:`tarix-${grade}-konspekt-${topic.id}-${index}`,subject:`Tarix ${grade} · ${topic.id}-mavzu`,front:card.front,back:card.back,source:topic.title}))}))
+  Object.entries(historyGrades).forEach(([grade,data])=>!konspektCourses[grade]&&data.lessons.forEach(lesson=>{if(completed[`tarix-${grade}:${lesson.id}`])factsOf(lesson).slice(0,2).forEach((fact,index)=>cards.push({id:`tarix-${grade}-${lesson.id}-${index}`,subject:`Tarix ${grade}`,front:lesson.title,back:fact,source:'PDF mavzusi'}))}))
   ;[[math,'matematika'],[uzbek,'ona-tili'],[literature,'adabiyot']].forEach(([grades,subject])=>Object.entries(grades).forEach(([grade,data])=>(data.lessons||[]).forEach(lesson=>{if(completed[`${subject}-${grade}:${lesson.id}`])factsOf(lesson).slice(0,2).forEach((fact,index)=>cards.push({id:`${subject}-${grade}-${lesson.id}-${index}`,subject:`${subject} ${grade}`,front:lesson.title,back:fact,source:'PDF mavzusi'}))})))
   return cards
 }

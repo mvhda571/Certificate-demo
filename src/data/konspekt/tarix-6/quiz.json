@@ -1,0 +1,1544 @@
+{
+  "topics": {
+    "1": [
+      {
+        "q": "O‘rta Osiyo tarixi bo‘yicha eng qadimgi yozma manba qaysi?",
+        "o": [
+          "«Tarix»",
+          "«Avesto»",
+          "«Geografiya»",
+          "«Aleksandr anabasisi»"
+        ],
+        "a": 1,
+        "e": "«Avesto» — zardushtiylarning muqaddas kitobi va O‘rta Osiyo tarixiga oid eng qadimgi yozma manba."
+      },
+      {
+        "q": "Kimni «tarix otasi» deb atashadi?",
+        "o": [
+          "Strabon",
+          "Arrian",
+          "Kvint Kursiy Ruf",
+          "Gerodot"
+        ],
+        "a": 3,
+        "e": "Yunon tarixchisi Gerodot (mil. avv. V asr) to‘qqiz kitobli «Tarix» asari muallifi."
+      },
+      {
+        "q": "Odam suyaklari va tashqi ko‘rinishini o‘rganadigan mutaxassis kim?",
+        "o": [
+          "Antropolog",
+          "Arxeolog",
+          "Etnograf",
+          "Geograf"
+        ],
+        "a": 0,
+        "e": "Antropolog odam suyaklari va tashqi ko‘rinishini o‘rganadi; arxeolog qazish ishlari bilan, etnograf urf-odatlar bilan shug‘ullanadi."
+      }
+    ],
+    "2": [
+      {
+        "q": "Teshiktosh g‘oridan nima topilgan?",
+        "o": [
+          "Kromanyon odamining makoni",
+          "Neandertal bolaning suyak qoldiqlari",
+          "Eng qadimgi g‘or rasmlari",
+          "Bronza qurollar"
+        ],
+        "a": 1,
+        "e": "Surxondaryodagi Teshiktosh g‘oridan 8–9 yashar neandertal bolaning suyak qoldiqlari topilgan."
+      },
+      {
+        "q": "O‘rta paleolit davrida qaysi odam turi yashagan?",
+        "o": [
+          "Kromanyon",
+          "Pitekantrop",
+          "Neandertal",
+          "Avstralopitek"
+        ],
+        "a": 2,
+        "e": "O‘rta paleolit (mil. avv. 100–40 ming yillar) — neandertal odami davri."
+      },
+      {
+        "q": "Biror hayvon yoki o‘simlikni urug‘ning ajdodi deb bilish qanday e’tiqod?",
+        "o": [
+          "Animizm",
+          "Fetishizm",
+          "Zardushtiylik",
+          "Totemizm"
+        ],
+        "a": 3,
+        "e": "Totemizm — hayvon yoki o‘simlikni urug‘ ajdodi deb bilish. Animizm — hamma narsada ruh bor degan ishonch."
+      }
+    ],
+    "3": [
+      {
+        "q": "O‘q-yoy qaysi davrda ixtiro qilingan?",
+        "o": [
+          "Mezolitda",
+          "Neolitda",
+          "So‘nggi paleolitda",
+          "Eneolitda"
+        ],
+        "a": 0,
+        "e": "Mezolitda (mil. avv. 12–7 ming yillar) o‘q-yoy ixtiro qilindi va hayvonlar qo‘lga o‘rgatila boshlandi."
+      },
+      {
+        "q": "Machay, Obishir, Zarautsoy qaysi davr makonlari?",
+        "o": [
+          "Neolit",
+          "Bronza davri",
+          "Mezolit",
+          "Ilk paleolit"
+        ],
+        "a": 2,
+        "e": "Obishir, Qo‘shilish, Machay, Zarautsoy — O‘zbekistondagi mezolit makonlari."
+      },
+      {
+        "q": "Ishlab chiqaruvchi xo‘jalikka (dehqonchilik va chorvachilik) o‘tish qaysi davrda sodir bo‘ldi?",
+        "o": [
+          "Mezolitda",
+          "Neolitda",
+          "So‘nggi paleolitda",
+          "Temir davrida"
+        ],
+        "a": 1,
+        "e": "Neolitda odamlar mahsulotni o‘zi yetishtira boshladi va o‘troq turmushga o‘tdi."
+      }
+    ],
+    "4": [
+      {
+        "q": "«Eneolit» so‘zi qanday ma’noni bildiradi?",
+        "o": [
+          "Yangi tosh davri",
+          "O‘rta tosh davri",
+          "Temir davri",
+          "Mis-tosh davri"
+        ],
+        "a": 3,
+        "e": "Eneolit — lotincha «eneus» (mis) va yunoncha «litos» (tosh) so‘zlaridan, ya’ni mis-tosh davri."
+      },
+      {
+        "q": "Bronza qaysi metallarning qotishmasi?",
+        "o": [
+          "Mis va qalay",
+          "Mis va temir",
+          "Oltin va kumush",
+          "Temir va qalay"
+        ],
+        "a": 0,
+        "e": "Bronza — mis va qalay qotishmasi, u misdan ancha qattiq."
+      },
+      {
+        "q": "Buxoro viloyatidagi Zamonbobo manzilgohi qaysi davrga oid?",
+        "o": [
+          "Neolit",
+          "Temir davri",
+          "Bronza davri",
+          "Mezolit"
+        ],
+        "a": 2,
+        "e": "Zamonbobo — bronza davri yodgorligi, u yerdan bug‘doy va arpa donlari topilgan."
+      }
+    ],
+    "5": [
+      {
+        "q": "Temirdan birinchi bo‘lib qaysi xalq foydalana boshlagan?",
+        "o": [
+          "Misrliklar",
+          "Kichik Osiyodagi xettlar",
+          "Shumerlar",
+          "Forslar"
+        ],
+        "a": 1,
+        "e": "Temirdan birinchi bo‘lib Kichik Osiyodagi xettlar foydalangan (mil. avv. XIV–XIII asrlar)."
+      },
+      {
+        "q": "O‘rta Osiyoda temirdan yasalgan ilk mehnat qurollari qaysi davrga oid?",
+        "o": [
+          "Mil. avv. XIV–XIII asrlar",
+          "Mil. avv. IV asr",
+          "Mil. avv. 4-ming yillik",
+          "Mil. avv. IX–VIII asrlar"
+        ],
+        "a": 3,
+        "e": "O‘rta Osiyodagi ilk temir qurollar mil. avv. IX–VIII asrlarga oid."
+      },
+      {
+        "q": "Harbiy demokratiya nima?",
+        "o": [
+          "Saylangan harbiy sardorlar boshqargan, davlatchilikka o‘tish davri",
+          "Faqat ayollar boshqargan jamoa",
+          "Fir’avn boshqargan markazlashgan davlat",
+          "Afinadagi xalq majlisi"
+        ],
+        "a": 0,
+        "e": "Qabilalar ittifoqiga saylangan harbiy sardorlar rahbarlik qilgan tartib — harbiy demokratiya, ilk davlatchilikka o‘tish bosqichi."
+      }
+    ],
+    "6": [
+      {
+        "q": "Misrni yagona davlatga birlashtirgan hukmdor kim?",
+        "o": [
+          "Yaxmos",
+          "Xufu",
+          "Menes",
+          "Kambiz II"
+        ],
+        "a": 2,
+        "e": "Mil. avv. 3000-yilda Yuqori Misr hukmdori Menes yagona Misrni tuzdi."
+      },
+      {
+        "q": "Birlashgan Misrning poytaxti qaysi shahar edi?",
+        "o": [
+          "Memfis",
+          "Fiva",
+          "Bobil",
+          "Suza"
+        ],
+        "a": 0,
+        "e": "Menes birlashtirgan Misrning poytaxti — Memfis."
+      },
+      {
+        "q": "Qadimgi Misrda viloyat va uning hokimi qanday atalgan?",
+        "o": [
+          "Satraplik va satrap",
+          "Polis va strateg",
+          "Nom va nomarx",
+          "Varna va braxman"
+        ],
+        "a": 2,
+        "e": "Misrda viloyat «nom», uning hokimi «nomarx» deb atalgan."
+      }
+    ],
+    "7": [
+      {
+        "q": "Giksoslarni Misrdan haydab chiqargan fir’avn kim?",
+        "o": [
+          "Menes",
+          "Yaxmos",
+          "Tutanxamon",
+          "Xufu"
+        ],
+        "a": 1,
+        "e": "Fir’avn Yaxmos giksoslarni quvib, Yangi podsholik davriga asos soldi."
+      },
+      {
+        "q": "Misr forslar tomonidan qachon bosib olingan?",
+        "o": [
+          "Mil. avv. 539-yil",
+          "Mil. avv. 530-yil",
+          "Mil. avv. 330-yil",
+          "Mil. avv. 525-yil"
+        ],
+        "a": 3,
+        "e": "Mil. avv. 525-yilda Kambiz II Misrni bosib oldi."
+      },
+      {
+        "q": "Misrni bosib olgan fors shohi Kambiz II kimning o‘g‘li edi?",
+        "o": [
+          "Kir II",
+          "Doro I",
+          "Kserks",
+          "Kiaksar"
+        ],
+        "a": 0,
+        "e": "Kambiz II — Kir II ning o‘g‘li. Kir II mil. avv. 530-yilda massagetlar bilan jangda halok bo‘lgan."
+      }
+    ],
+    "8": [
+      {
+        "q": "Qadimgi misrliklarning bosh xudosi kim edi?",
+        "o": [
+          "Osiris",
+          "Ptax",
+          "Amon-Ra",
+          "Tot"
+        ],
+        "a": 2,
+        "e": "Quyosh xudosi Amon-Ra fir’avnlarning bosh ilohi va homiysi hisoblangan."
+      },
+      {
+        "q": "Marhumlar dunyosi xudosi kim?",
+        "o": [
+          "Osiris",
+          "Set",
+          "Xapi",
+          "Maat"
+        ],
+        "a": 0,
+        "e": "Osiris — marhumlar dunyosi xudosi; rivoyatga ko‘ra, misrliklarni dehqonchilikka o‘rgatgan."
+      },
+      {
+        "q": "Nima uchun fir’avnning hokimiyati «ilohiy» deb bilingan?",
+        "o": [
+          "U kohinlar tomonidan saylangani uchun",
+          "U Quyosh xudosining o‘g‘li hisoblangani uchun",
+          "U piramida qurdirgani uchun",
+          "U Nil xudosi bo‘lgani uchun"
+        ],
+        "a": 1,
+        "e": "Misrliklar fir’avnni Quyosh xudosining o‘g‘li deb bilishgan."
+      }
+    ],
+    "9": [
+      {
+        "q": "Eng katta piramida kim uchun qurilgan?",
+        "o": [
+          "Tutanxamon",
+          "Menkaura",
+          "Xafra",
+          "Xufu (Xeops)"
+        ],
+        "a": 3,
+        "e": "Eng katta piramida — Xufu (Xeops) piramidasi, balandligi 147 m."
+      },
+      {
+        "q": "Mumiyolash jarayoni necha kun davom etgan?",
+        "o": [
+          "40 kun",
+          "70 kun",
+          "30 kun",
+          "100 kun"
+        ],
+        "a": 1,
+        "e": "Misrliklar jasadni 70 kun davomida mumiyolashgan."
+      },
+      {
+        "q": "Talon-taroj qilinmay saqlanib qolgan mashhur maqbara kimniki?",
+        "o": [
+          "Tutanxamon",
+          "Xufu",
+          "Menes",
+          "Yaxmos"
+        ],
+        "a": 0,
+        "e": "Yosh fir’avn Tutanxamon maqbarasi talanmay saqlangan eng mashhur topilma."
+      }
+    ],
+    "10": [
+      {
+        "q": "Misr iyerogliflarining soni nechta bo‘lgan?",
+        "o": [
+          "22 ta",
+          "24 ta",
+          "750 ta",
+          "365 ta"
+        ],
+        "a": 2,
+        "e": "Misr yozuvi belgilari — iyerogliflar soni 750 ta."
+      },
+      {
+        "q": "Misr yozuvini birinchi bo‘lib kim, qachon o‘qigan?",
+        "o": [
+          "Shliman, 1877-yil",
+          "Rixtgofen, 1877-yil",
+          "Gerodot, mil. avv. V asr",
+          "Shampolyon, 1822-yil"
+        ],
+        "a": 3,
+        "e": "Fransuz olimi Jan-Fransua Shampolyon 1822-yilda Rozett toshi yordamida Misr yozuvini o‘qidi."
+      },
+      {
+        "q": "Rozett toshida matn qaysi tillarda yozilgan?",
+        "o": [
+          "Qadimgi misr va qadimgi yunon",
+          "Lotin va yunon",
+          "Shumer va akkad",
+          "Fors va misr"
+        ],
+        "a": 0,
+        "e": "Rozett toshiga bir xil matn qadimgi misr va qadimgi yunon tillarida yozilgan."
+      }
+    ],
+    "11": [
+      {
+        "q": "Mesopotamiya qaysi daryolar oralig‘ida joylashgan?",
+        "o": [
+          "Nil va Iordan",
+          "Dajla va Frot",
+          "Hind va Gang",
+          "Xuanxe va Yantszi"
+        ],
+        "a": 1,
+        "e": "Mesopotamiya — «Ikki daryo oralig‘i», ya’ni Dajla va Frot oralig‘i."
+      },
+      {
+        "q": "Mixxatni qaysi xalq ixtiro qilgan?",
+        "o": [
+          "Finikiyaliklar",
+          "Misrliklar",
+          "Shumerlar",
+          "Akkadlar"
+        ],
+        "a": 2,
+        "e": "Shumerlar mil. avv. 4-ming yillikda loy taxtachaga bosiladigan mixxatni ixtiro qilgan."
+      },
+      {
+        "q": "Shumer va Akkad shaharlarini kim birlashtirgan?",
+        "o": [
+          "Sargon I",
+          "Xammurapi",
+          "Gilgamish",
+          "Navuxodonosor II"
+        ],
+        "a": 0,
+        "e": "Mil. avv. 3-ming yillikning 2-yarmida Akkad shohi Sargon I Shumer va Akkadni birlashtirdi."
+      }
+    ],
+    "12": [
+      {
+        "q": "«Bobil» so‘zining ma’nosi nima?",
+        "o": [
+          "«Ikki daryo oralig‘i»",
+          "«Yuqori shahar»",
+          "«Xudolar darvozasi»",
+          "«Hayot daraxti»"
+        ],
+        "a": 2,
+        "e": "Bobil — «xudolar darvozasi» degani."
+      },
+      {
+        "q": "«Ko‘zga ko‘z, tishga tish» tamoyiliga asoslangan qonunlar muallifi kim?",
+        "o": [
+          "Drakont",
+          "Solon",
+          "Sargon I",
+          "Xammurapi"
+        ],
+        "a": 3,
+        "e": "Xammurapi (mil. avv. XVIII asr) qonunlari tosh ustunga yozilib, barcha shaharlarga o‘rnatilgan."
+      },
+      {
+        "q": "Bobil qachon forslar qo‘liga o‘tgan?",
+        "o": [
+          "Mil. avv. 539-yil",
+          "Mil. avv. 525-yil",
+          "Mil. avv. 605-yil",
+          "Mil. avv. 330-yil"
+        ],
+        "a": 0,
+        "e": "Mil. avv. 539-yilda fors qo‘shini Bobilni zabt etdi."
+      }
+    ],
+    "13": [
+      {
+        "q": "22 ta undosh harfdan iborat alifboni kim yaratgan?",
+        "o": [
+          "Yunonlar",
+          "Finikiyaliklar",
+          "Shumerlar",
+          "Rimliklar"
+        ],
+        "a": 1,
+        "e": "Finikiyaliklar mil. avv. X asrda 22 harfli alifbo yaratgan; yunon va lotin alifbolari shundan kelib chiqqan."
+      },
+      {
+        "q": "Nineviyadagi sopol taxtachalardan iborat eng yirik kutubxona kim davrida to‘plangan?",
+        "o": [
+          "Xammurapi",
+          "Kir II",
+          "Oshshurbanipal",
+          "Sargon I"
+        ],
+        "a": 2,
+        "e": "Ossuriya podshosi Oshshurbanipal davrida Nineviyada eng yirik kutubxona to‘plangan."
+      },
+      {
+        "q": "Ossuriya qachon va kimlar tomonidan tor-mor etilgan?",
+        "o": [
+          "Mil. avv. 539-yil, forslar",
+          "Mil. avv. 605-yil, Bobil va Midiya",
+          "Mil. avv. 525-yil, Kambiz II",
+          "Mil. avv. 1200-yil, doriylar"
+        ],
+        "a": 1,
+        "e": "Mil. avv. 605-yilda Ossuriyani Bobil va Midiya qo‘shinlari tor-mor etdi."
+      }
+    ],
+    "14": [
+      {
+        "q": "Ahamoniylar davlatiga kim asos solgan?",
+        "o": [
+          "Doro I",
+          "Kambiz II",
+          "Kserks",
+          "Kir II"
+        ],
+        "a": 3,
+        "e": "Mil. avv. 558-yilda Kir II barcha forslarni birlashtirdi."
+      },
+      {
+        "q": "Davlatni satrapliklarga bo‘lib, yagona oltin tanga joriy qilgan hukmdor kim?",
+        "o": [
+          "Doro I",
+          "Kir II",
+          "Kiaksar",
+          "Aleksandr"
+        ],
+        "a": 0,
+        "e": "Doro I (mil. avv. 522-yildan) satrapliklar, soliq, oltin tanga va yo‘llar bo‘yicha islohotlar o‘tkazdi."
+      },
+      {
+        "q": "Fors davlatini Aleksandr Makedonskiy qachon bosib olgan?",
+        "o": [
+          "Mil. avv. 329-yil",
+          "Mil. avv. 323-yil",
+          "Mil. avv. 330-yil",
+          "Mil. avv. 338-yil"
+        ],
+        "a": 2,
+        "e": "Mil. avv. 330-yilda Makedoniyalik Aleksandr Fors davlatini bosib oldi."
+      }
+    ],
+    "15": [
+      {
+        "q": "Hind daryosi vodiysidagi eng yirik qadimgi shaharlar qaysilar?",
+        "o": [
+          "Pataliputra va Magadha",
+          "Moxenjodaro va Xarappa",
+          "Ur va Uruk",
+          "Memfis va Fiva"
+        ],
+        "a": 1,
+        "e": "Mil. avv. 3-ming yillikda Hind vodiysida Moxenjodaro va Xarappa shaharlari paydo bo‘lgan."
+      },
+      {
+        "q": "Qadimgi Hindistonda jangchilar kastasi qanday atalgan?",
+        "o": [
+          "Braxmanlar",
+          "Vayshilar",
+          "Shudralar",
+          "Kshatriylar"
+        ],
+        "a": 3,
+        "e": "Kshatriylar — jangchilar; braxmanlar — kohinlar; vayshilar — dehqon va savdogarlar; shudralar — xizmatkorlar."
+      },
+      {
+        "q": "Hech qaysi kastaga kirmagan, eng pastdagi guruh qanday atalgan?",
+        "o": [
+          "Chandallar",
+          "Ilotlar",
+          "Meteklar",
+          "Plebeylar"
+        ],
+        "a": 0,
+        "e": "«Chandallar» («daxlsizlar») hech qaysi kastaga kirmagan."
+      }
+    ],
+    "16": [
+      {
+        "q": "Buddaviylik dinining asoschisi kim?",
+        "o": [
+          "Chandragupta",
+          "Ashoka",
+          "Siddhartha Gautama",
+          "Konfutsiy"
+        ],
+        "a": 2,
+        "e": "Mil. avv. VI asrda shahzoda Siddhartha Gautama Budda («nurlangan») nomini olib, buddaviylikka asos soldi."
+      },
+      {
+        "q": "Maurya davlatining asoschisi va poytaxti qaysi javobda to‘g‘ri berilgan?",
+        "o": [
+          "Chandragupta, Pataliputra",
+          "Ashoka, Moxenjodaro",
+          "Kanishka, Peshovar",
+          "Budda, Xarappa"
+        ],
+        "a": 0,
+        "e": "Maurya davlatiga Chandragupta asos solgan, poytaxti Pataliputra."
+      },
+      {
+        "q": "Quyidagilardan qaysi biri hindlar ixtirosi emas?",
+        "o": [
+          "Nol",
+          "Shaxmat",
+          "Hozirgi raqamlar",
+          "Kompas"
+        ],
+        "a": 3,
+        "e": "Kompas — Xitoy ixtirosi. Hindlar raqamlar, nol va shaxmatni ixtiro qilgan."
+      }
+    ],
+    "17": [
+      {
+        "q": "Qadimgi Xitoy sivilizatsiyasi qaysi daryolar bo‘yida paydo bo‘lgan?",
+        "o": [
+          "Hind va Gang",
+          "Dajla va Frot",
+          "Xuanxe va Yantszi",
+          "Amudaryo va Sirdaryo"
+        ],
+        "a": 2,
+        "e": "Qadimgi Xitoy sivilizatsiyasi Xuanxe va Yantszi daryolari bo‘yida shakllangan."
+      },
+      {
+        "q": "Shan davlatidan keyin Xitoyda qaysi davlat tuzilgan?",
+        "o": [
+          "Xan",
+          "Chjou",
+          "Sin",
+          "Maurya"
+        ],
+        "a": 1,
+        "e": "Chjou qabilasi Shan yerlarini egallab, Chjou davlatini tuzdi."
+      },
+      {
+        "q": "Kattalarni hurmat qilish, odob va bilim haqida ta’limot yaratgan Xitoy faylasufi kim?",
+        "o": [
+          "Konfutsiy",
+          "Lyu Ban",
+          "U-Di",
+          "Sin Shixuandi"
+        ],
+        "a": 0,
+        "e": "Konfutsiy mil. avv. VI–V asrlarda yashagan faylasuf."
+      }
+    ],
+    "18": [
+      {
+        "q": "Mil. avv. 221-yilda Xitoyni yagona davlatga birlashtirgan hukmdor kim?",
+        "o": [
+          "Lyu Ban",
+          "U-Di",
+          "Konfutsiy",
+          "Sin Shixuandi"
+        ],
+        "a": 3,
+        "e": "Sin Shixuandi («Sinning birinchi imperatori») mil. avv. 221-yilda Xitoyni birlashtirdi."
+      },
+      {
+        "q": "Sin sulolasini ag‘darib, Xan sulolasiga asos solgan qo‘zg‘olon rahbari kim?",
+        "o": [
+          "Lyu Ban",
+          "Chjan Syan",
+          "U-Di",
+          "Spartak"
+        ],
+        "a": 0,
+        "e": "Mil. avv. 206-yilda dehqon Lyu Ban boshchiligidagi qo‘zg‘olon Xan sulolasini hokimiyatga keltirdi."
+      },
+      {
+        "q": "Milodiy II asrdagi Xitoydagi eng yirik qo‘zg‘olon qanday nomlanadi?",
+        "o": [
+          "«Oq salla»",
+          "«Qizil bayroq»",
+          "«Sariq ro‘mollilar»",
+          "«Ko‘p podsholiklar»"
+        ],
+        "a": 2,
+        "e": "«Sariq ro‘mollilar» qo‘zg‘oloni — milodiy II asrdagi eng yirik isyon."
+      }
+    ],
+    "19": [
+      {
+        "q": "So‘g‘d (So‘g‘diyona) qaysi vohalarda joylashgan?",
+        "o": [
+          "Surxon vohasi",
+          "Zarafshon va Qashqadaryo vohalari",
+          "Amudaryoning quyi oqimi",
+          "Farg‘ona vodiysi"
+        ],
+        "a": 1,
+        "e": "So‘g‘d Zarafshon va Qashqadaryo vohalarida, markazi Maroqanda (Samarqand)."
+      },
+      {
+        "q": "Afrosiyob qaysi shaharning qadimgi o‘rni?",
+        "o": [
+          "Buxoro",
+          "Qarshi",
+          "Termiz",
+          "Samarqand"
+        ],
+        "a": 3,
+        "e": "Afrosiyob — qadimgi Samarqand xarobasi."
+      },
+      {
+        "q": "Amudaryoning qadimgi nomi qanday bo‘lgan?",
+        "o": [
+          "Oks",
+          "Politimet",
+          "Yaksart",
+          "Tibr"
+        ],
+        "a": 0,
+        "e": "Amudaryoning qadimgi nomi — Oks. Politimet esa Zarafshonning qadimgi nomi."
+      }
+    ],
+    "20": [
+      {
+        "q": "Zardushtiylikdagi ezgulik va yorug‘lik xudosi kim?",
+        "o": [
+          "Axriman",
+          "Amon-Ra",
+          "Ahuramazda",
+          "Zevs"
+        ],
+        "a": 2,
+        "e": "Ahuramazda — ezgulik va yorug‘lik xudosi; Axriman — yovuzlik va zulmat kuchi."
+      },
+      {
+        "q": "Zardusht va’zlari mil. avv. III asrda nechta kitobga jamlangan?",
+        "o": [
+          "12 ta",
+          "21 ta",
+          "9 ta",
+          "30 ta"
+        ],
+        "a": 1,
+        "e": "Zardusht va’zlari 21 ta kitobga jamlanib, «Avesto» asosini tashkil etgan."
+      },
+      {
+        "q": "Zardushtiylikda inson tanlashi kerak bo‘lgan uch ezgu narsa qaysilar?",
+        "o": [
+          "Ezgu fikr, ezgu so‘z, ezgu amal",
+          "Olov, suv, tuproq",
+          "Ov, dehqonchilik, chorvachilik",
+          "Ibodat, ro‘za, qurbonlik"
+        ],
+        "a": 0,
+        "e": "Zardushtiylikning asosiy talabi: ezgu fikr, ezgu so‘z, ezgu amal."
+      }
+    ],
+    "21": [
+      {
+        "q": "Qadimgi Yunoniston qaysi yarimorolda joylashgan?",
+        "o": [
+          "Apennin",
+          "Kichik Osiyo",
+          "Bolqon",
+          "Arabiston"
+        ],
+        "a": 2,
+        "e": "Qadimgi Yunoniston Bolqon yarimorolining janubida joylashgan."
+      },
+      {
+        "q": "Yunonistondagi ilk sivilizatsiya qayerda paydo bo‘lgan?",
+        "o": [
+          "Afina va Spartada",
+          "Krit orolida va Mikenda",
+          "Troyada",
+          "Makedoniyada"
+        ],
+        "a": 1,
+        "e": "Mil. avv. 2-ming yillikda Krit orolida (Knoss) va Mikenda ilk shahar-davlatlar paydo bo‘ldi."
+      },
+      {
+        "q": "Miken davlatini mil. avv. 1200-yil atrofida kim vayron qilgan?",
+        "o": [
+          "Forslar",
+          "Makedonlar",
+          "Rimliklar",
+          "Doriylar"
+        ],
+        "a": 3,
+        "e": "Shimoldan kelgan doriylar qabilalari Mikenni vayron qildi."
+      }
+    ],
+    "22": [
+      {
+        "q": "Qadimgi Yunonistonda «polis» nima?",
+        "o": [
+          "Shahar-davlat",
+          "Harbiy qo‘shin",
+          "Ibodatxona",
+          "Xalq maydoni"
+        ],
+        "a": 0,
+        "e": "Polis — shahar va uning atrofidan iborat mustaqil davlat."
+      },
+      {
+        "q": "Spartadagi yerga biriktirilgan davlat qullari qanday atalgan?",
+        "o": [
+          "Meteklar",
+          "Periyeklar",
+          "Ilotlar",
+          "Goplitlar"
+        ],
+        "a": 2,
+        "e": "Ilotlar — Spartadagi davlat qullari; periyeklar — erkin, lekin huquqsiz aholi."
+      },
+      {
+        "q": "«Akropol» so‘zining ma’nosi nima?",
+        "o": [
+          "«Xalq hokimiyati»",
+          "«Yuqori shahar»",
+          "«Tomoshalar joyi»",
+          "«Barcha xudolar»"
+        ],
+        "a": 1,
+        "e": "Akropol — «yuqori shahar», tepalikdagi qal’a."
+      }
+    ],
+    "23": [
+      {
+        "q": "Yunon koloniyalari qachon tashkil topgan?",
+        "o": [
+          "Mil. avv. 2-ming yillikda",
+          "Mil. avv. V–IV asrlarda",
+          "Milodiy I asrda",
+          "Mil. avv. VIII–VI asrlarda"
+        ],
+        "a": 3,
+        "e": "Yunonlar mil. avv. VIII–VI asrlarda O‘rtayer va Qora dengiz sohillarida koloniyalar tashkil etgan."
+      },
+      {
+        "q": "Quyidagilardan qaysi biri Qora dengiz bo‘yidagi yunon koloniyasi emas?",
+        "o": [
+          "Olviya",
+          "Xersones",
+          "Karfagen",
+          "Pantikapey"
+        ],
+        "a": 2,
+        "e": "Karfagen — finikiyaliklar asos solgan Shimoliy Afrikadagi davlat. Olviya, Xersones, Pantikapey — yunon koloniyalari."
+      },
+      {
+        "q": "Yunon alifbosi nechta harfdan iborat bo‘lgan?",
+        "o": [
+          "24 ta",
+          "22 ta",
+          "26 ta",
+          "750 ta"
+        ],
+        "a": 0,
+        "e": "Finikiya alifbosiga asoslangan yunon alifbosi 24 harfdan iborat."
+      }
+    ],
+    "24": [
+      {
+        "q": "«Siyoh bilan emas, qon bilan yozilgan» deb atalgan qonunlar muallifi kim?",
+        "o": [
+          "Solon",
+          "Drakont",
+          "Perikl",
+          "Xammurapi"
+        ],
+        "a": 1,
+        "e": "Mil. avv. 621-yildagi Drakont qonunlari juda qattiq bo‘lgan."
+      },
+      {
+        "q": "Afinada qarzga qullikni bekor qilib, demokratiyani joriy qilgan kim?",
+        "o": [
+          "Perikl",
+          "Drakont",
+          "Solon",
+          "Demosfen"
+        ],
+        "a": 2,
+        "e": "Mil. avv. 594-yilda Solon islohotlari aristokratiyani demokratiyaga almashtirdi."
+      },
+      {
+        "q": "Perikl necha marta strateg etib saylangan?",
+        "o": [
+          "15 marta",
+          "5 marta",
+          "12 marta",
+          "20 marta"
+        ],
+        "a": 0,
+        "e": "Perikl 15 marta strateg etib saylangan (mil. avv. 443–429-yillar — Perikl asri)."
+      }
+    ],
+    "25": [
+      {
+        "q": "Marafon jangi qachon bo‘lgan?",
+        "o": [
+          "Mil. avv. 480-yil",
+          "Mil. avv. 479-yil",
+          "Mil. avv. 449-yil",
+          "Mil. avv. 490-yil"
+        ],
+        "a": 3,
+        "e": "Mil. avv. 490-yilda afinaliklar Marafon vodiysida forslarni yengdi."
+      },
+      {
+        "q": "Sparta podshosi Leonid va 300 spartalik qaysi jangda halok bo‘lgan?",
+        "o": [
+          "Fermopil",
+          "Salamin",
+          "Plateya",
+          "Marafon"
+        ],
+        "a": 0,
+        "e": "Mil. avv. 480-yil Fermopil jangida Leonid va 300 spartalik oxirigacha jang qildi."
+      },
+      {
+        "q": "Yunon-fors urushlaridagi hal qiluvchi dengiz jangi qaysi?",
+        "o": [
+          "Plateya",
+          "Fermopil",
+          "Salamin",
+          "Xeroniya"
+        ],
+        "a": 2,
+        "e": "Mil. avv. 480-yilda Salamin bo‘g‘ozida yunon triyeralari fors flotini tor-mor etdi."
+      }
+    ],
+    "26": [
+      {
+        "q": "Yunonistonni bosib olgan Makedoniya podshosi kim?",
+        "o": [
+          "Aleksandr",
+          "Filipp II",
+          "Kserks",
+          "Leonid"
+        ],
+        "a": 1,
+        "e": "Makedoniya podshosi Filipp II mil. avv. 338-yil Xeroniya jangida yunonlarni yengdi."
+      },
+      {
+        "q": "Xeroniya jangi qachon bo‘lgan?",
+        "o": [
+          "Mil. avv. 337-yil",
+          "Mil. avv. 330-yil",
+          "Mil. avv. 329-yil",
+          "Mil. avv. 338-yil"
+        ],
+        "a": 3,
+        "e": "Xeroniya jangi — mil. avv. 338-yil; bir yildan keyin (337) Korinf ittifoqi tuzilgan."
+      },
+      {
+        "q": "Yunonlarni Makedoniyaga qarshi birlashishga chaqirgan afinalik notiq kim?",
+        "o": [
+          "Demosfen",
+          "Suqrot",
+          "Perikl",
+          "Solon"
+        ],
+        "a": 0,
+        "e": "Demosfen nutqlari «filippikalar» deb atalgan."
+      }
+    ],
+    "27": [
+      {
+        "q": "Birinchi Olimpiya o‘yinlari qachon o‘tkazilgan?",
+        "o": [
+          "Mil. avv. 753-yil",
+          "Mil. avv. 776-yil",
+          "Milodiy 394-yil",
+          "1896-yil"
+        ],
+        "a": 1,
+        "e": "Birinchi Olimpiya o‘yinlari mil. avv. 776-yilda Zevs sharafiga o‘tkazilgan."
+      },
+      {
+        "q": "Olimpiya o‘yinlari g‘oliblari nima bilan taqdirlangan?",
+        "o": [
+          "Oltin tanga bilan",
+          "Kumush kosa bilan",
+          "Zaytun gulchambari bilan",
+          "Yer bilan"
+        ],
+        "a": 2,
+        "e": "G‘oliblar zaytun novdasidan to‘qilgan gulchambar bilan taqdirlangan."
+      },
+      {
+        "q": "«Pedagog» so‘zining asl ma’nosi nima?",
+        "o": [
+          "Bolani yo‘lda kuzatib boruvchi",
+          "Maktab o‘qituvchisi",
+          "Kurash ustasi",
+          "Kitob yozuvchi"
+        ],
+        "a": 0,
+        "e": "Bolani maktabga olib borib keladigan qulni «pedagog» deyishgan."
+      }
+    ],
+    "28": [
+      {
+        "q": "Gomerning «Iliada» dostoni nima haqida?",
+        "o": [
+          "Odisseyning uyga qaytishi haqida",
+          "Olimpiya o‘yinlari haqida",
+          "Gerakl jasoratlari haqida",
+          "Troya urushi haqida"
+        ],
+        "a": 3,
+        "e": "«Iliada» Troya urushining oxirgi, o‘ninchi yili haqida; «Odisseya» — Odisseyning qaytishi haqida."
+      },
+      {
+        "q": "Troya joylashgan yerni kim topgan?",
+        "o": [
+          "Genrix Shliman",
+          "Shampolyon",
+          "Rixtgofen",
+          "Gerodot"
+        ],
+        "a": 0,
+        "e": "XIX asr oxirida nemis olimi Genrix Shliman Troyani topdi."
+      },
+      {
+        "q": "Parfenon bezaklari va Olimpiyadagi Zevs haykali muallifi kim?",
+        "o": [
+          "Miron",
+          "Sofokl",
+          "Fidiy",
+          "Arximed"
+        ],
+        "a": 2,
+        "e": "Haykaltarosh Fidiy — Parfenon bezaklari va Zevs haykali muallifi."
+      }
+    ],
+    "29": [
+      {
+        "q": "Makedoniyalik Aleksandrning ustozi kim bo‘lgan?",
+        "o": [
+          "Suqrot",
+          "Arastu (Aristotel)",
+          "Aflotun",
+          "Diogen"
+        ],
+        "a": 1,
+        "e": "Zanjir: Suqrot → Aflotun → Arastu → Aleksandr."
+      },
+      {
+        "q": "«Hamma narsa atomlardan tashkil topgan» deb hisoblagan faylasuf kim?",
+        "o": [
+          "Geraklit",
+          "Diogen",
+          "Suqrot",
+          "Demokrit"
+        ],
+        "a": 3,
+        "e": "Demokrit hamma narsa mayda zarrachalar — atomlardan tashkil topgan deb hisoblagan."
+      },
+      {
+        "q": "Richag (dastak) qonunini kashf etgan olim kim?",
+        "o": [
+          "Arximed",
+          "Gerodot",
+          "Arastu",
+          "Geraklit"
+        ],
+        "a": 0,
+        "e": "Arximed: «Menga tayanch nuqtasini bering, Yerni ag‘darib yuboraman!»"
+      }
+    ],
+    "30": [
+      {
+        "q": "Yunon xudolari qayerda yashaydi deb ishonilgan?",
+        "o": [
+          "Akropolda",
+          "Olimp tog‘ida",
+          "Krit orolida",
+          "Parnas tog‘ida"
+        ],
+        "a": 1,
+        "e": "Yunonlar xudolar Olimp tog‘ida yashaydi deb ishonishgan."
+      },
+      {
+        "q": "Gerakl nechta jasorat ko‘rsatgan?",
+        "o": [
+          "7 ta",
+          "10 ta",
+          "12 ta",
+          "300 ta"
+        ],
+        "a": 2,
+        "e": "Gerakl 12 ta jasorat ko‘rsatgan (masalan, Nemey arslonini yenggan)."
+      },
+      {
+        "q": "Yunonlarda temirchilik va hunarmandchilik xudosi kim?",
+        "o": [
+          "Gefest",
+          "Poseydon",
+          "Apollon",
+          "Aid"
+        ],
+        "a": 0,
+        "e": "Gefest — temirchilik xudosi; Rimda unga Vulqon mos keladi."
+      }
+    ],
+    "31": [
+      {
+        "q": "Kir II mil. avv. 530-yilda kim bilan jangda halok bo‘lgan?",
+        "o": [
+          "Saklar, cho‘pon Shiroq",
+          "Marg‘iyonaliklar, Frada",
+          "Massagetlar, malika To‘maris",
+          "Makedonlar, Aleksandr"
+        ],
+        "a": 2,
+        "e": "Massagetlar malikasi To‘maris qasos olib, Kir II qo‘shinini tor-mor etdi."
+      },
+      {
+        "q": "Mil. avv. 522-yilda Marg‘iyonada ko‘tarilgan qo‘zg‘olon rahbari kim?",
+        "o": [
+          "Frada",
+          "Spitamen",
+          "Shiroq",
+          "Bess"
+        ],
+        "a": 0,
+        "e": "Doro I hukmronligining birinchi yili Marg‘iyonada Frada qo‘zg‘oloni ko‘tarilgan."
+      },
+      {
+        "q": "Shiroq jasoratini yozib qoldirgan yunon muallifi kim?",
+        "o": [
+          "Gerodot",
+          "Arrian",
+          "Strabon",
+          "Polien"
+        ],
+        "a": 3,
+        "e": "Cho‘pon Shiroq jasoratini yunon muallifi Polien yozib qoldirgan."
+      }
+    ],
+    "32": [
+      {
+        "q": "Aleksandr Makedonskiy Maroqandani qachon egallagan?",
+        "o": [
+          "Mil. avv. 334-yil",
+          "Mil. avv. 329-yil",
+          "Mil. avv. 328-yil",
+          "Mil. avv. 323-yil"
+        ],
+        "a": 1,
+        "e": "Mil. avv. 329-yilda yunon-makedon qo‘shinlari Maroqandani egalladi."
+      },
+      {
+        "q": "Yunon-makedon istilochilariga qarshi qo‘zg‘olonga kim boshchilik qilgan?",
+        "o": [
+          "Spitamen",
+          "To‘maris",
+          "Diodot",
+          "Frada"
+        ],
+        "a": 0,
+        "e": "So‘g‘d zodagoni Spitamen qo‘zg‘olonga boshchilik qilgan va mil. avv. 328-yilda halok bo‘lgan."
+      },
+      {
+        "q": "Aleksandriya Esxata qayerda qurilgan?",
+        "o": [
+          "Zarafshon bo‘yida, Samarqand yaqinida",
+          "Amudaryo bo‘yida, Termiz yaqinida",
+          "Sirdaryo bo‘yida, Xo‘jand yaqinida",
+          "Nil deltasida"
+        ],
+        "a": 2,
+        "e": "Aleksandriya Esxata («Chekka Aleksandriya») Sirdaryo bo‘yida, Xo‘jand yaqinida qurilgan."
+      }
+    ],
+    "33": [
+      {
+        "q": "Aleksandr vafotidan keyin O‘rta Osiyo qaysi davlat tarkibida bo‘lgan?",
+        "o": [
+          "Ahamoniylar",
+          "Kushon davlati",
+          "Rim imperiyasi",
+          "Salavkiylar davlati"
+        ],
+        "a": 3,
+        "e": "Mil. avv. 323-yildan keyin O‘rta Osiyo sarkarda Salavk asos solgan Salavkiylar davlati tarkibida bo‘ldi."
+      },
+      {
+        "q": "Yunon-Baqtriya davlatiga kim asos solgan?",
+        "o": [
+          "Diodot",
+          "Demetriy",
+          "Yevtidem",
+          "Salavk"
+        ],
+        "a": 0,
+        "e": "Mil. avv. ~250-yilda Diodot o‘zini podsho deb e’lon qilib, Yunon-Baqtriya davlatini tuzdi."
+      },
+      {
+        "q": "Yunon-Baqtriyani mil. avv. 140–130-yillarda kim bosib olgan?",
+        "o": [
+          "Parfiyaliklar",
+          "Xunnlar",
+          "Yuechjilar",
+          "Rimliklar"
+        ],
+        "a": 2,
+        "e": "Ko‘chmanchi yuechji qabilalari Yunon-Baqtriyani bosib oldi."
+      }
+    ],
+    "34": [
+      {
+        "q": "Xitoy manbalarida Qang‘ davlati qanday atalgan?",
+        "o": [
+          "Davan",
+          "Qang‘yuy",
+          "Yuechji",
+          "Guyshuan"
+        ],
+        "a": 1,
+        "e": "Qang‘ davlati Xitoy manbalarida Qang‘yuy deb atalgan; markazi Toshkent vohasi."
+      },
+      {
+        "q": "Davan davlati qayerda joylashgan va nimasi bilan mashhur bo‘lgan?",
+        "o": [
+          "Xorazm, Tuproqqal’a bilan",
+          "Toshkent vohasi, Qanqa bilan",
+          "Surxondaryo, Dalvarzintepa bilan",
+          "Farg‘ona vodiysi, «samoviy otlar» bilan"
+        ],
+        "a": 3,
+        "e": "Davan — Farg‘ona vodiysida, «samoviy otlar» bilan mashhur, poytaxti Ershi."
+      },
+      {
+        "q": "Xorazmning milodiy II–III asrlarda gullagan mashhur shahri qaysi?",
+        "o": [
+          "Tuproqqal’a",
+          "Ershi",
+          "Maroqanda",
+          "Baqtra"
+        ],
+        "a": 0,
+        "e": "Tuproqqal’a — muhtasham saroyli Xorazm shahri (milodiy II–III asrlar)."
+      }
+    ],
+    "35": [
+      {
+        "q": "Kushon davlatining birinchi hukmdori kim?",
+        "o": [
+          "Kanishka",
+          "Vima Kadfiz",
+          "Kudzula Kadfiz",
+          "Demetriy"
+        ],
+        "a": 2,
+        "e": "Hukmdorlar tartibi: Kudzula Kadfiz → Vima Kadfiz → Kanishka."
+      },
+      {
+        "q": "Kanishka davrida Kushon davlatining poytaxti qayerga ko‘chirilgan?",
+        "o": [
+          "Peshovarga",
+          "Baqtraga",
+          "Maroqandaga",
+          "Pataliputraga"
+        ],
+        "a": 0,
+        "e": "Kanishka poytaxtni Baqtriyadan Peshovarga (hozirgi Pokiston) ko‘chirdi."
+      },
+      {
+        "q": "Kushon davrida O‘rta Osiyoda keng tarqalgan, Hindistondan kirib kelgan din qaysi?",
+        "o": [
+          "Xristianlik",
+          "Zardushtiylik",
+          "Konfutsiylik",
+          "Buddaviylik"
+        ],
+        "a": 3,
+        "e": "Buddaviylik O‘rta Osiyoda milodiy VIII asrgacha saqlangan."
+      }
+    ],
+    "36": [
+      {
+        "q": "Buyuk Ipak yo‘li qachon vujudga kelgan?",
+        "o": [
+          "Mil. avv. II asrda",
+          "Milodiy XVI asrda",
+          "Mil. avv. VI asrda",
+          "1877-yilda"
+        ],
+        "a": 0,
+        "e": "Buyuk Ipak yo‘li mil. avv. II asrda paydo bo‘lgan va milodiy XVI asrgacha faol ishlagan."
+      },
+      {
+        "q": "«Ipak yo‘li» nomini kim bergan?",
+        "o": [
+          "Chjan Syan",
+          "Genrix Shliman",
+          "Ferdinand Rixtgofen",
+          "Gerodot"
+        ],
+        "a": 2,
+        "e": "Nemis geografi F. Rixtgofen 1877-yilda «Ipak yo‘li» nomini bergan."
+      },
+      {
+        "q": "Buyuk Ipak yo‘li bo‘ylab Farg‘onadan qanday mahsulot mashhur bo‘lgan?",
+        "o": [
+          "Ipak matolar",
+          "Zotli otlar",
+          "La’l",
+          "Tuyalar"
+        ],
+        "a": 1,
+        "e": "Farg‘onadan zotli otlar, Baqtriyadan tuyalar, Badaxshondan la’l, Xitoydan ipak olib borilgan."
+      }
+    ],
+    "37": [
+      {
+        "q": "Rivoyatga ko‘ra, Rim shahriga qachon asos solingan?",
+        "o": [
+          "Mil. avv. 509-yil",
+          "Mil. avv. 776-yil",
+          "Mil. avv. 753-yil",
+          "Mil. avv. 1200-yil"
+        ],
+        "a": 2,
+        "e": "Rivoyatga ko‘ra, Romul va Rem mil. avv. 753-yilda Rimga asos solgan."
+      },
+      {
+        "q": "Rim qaysi daryo bo‘yida joylashgan?",
+        "o": [
+          "Tibr",
+          "Nil",
+          "Dunay",
+          "Po"
+        ],
+        "a": 0,
+        "e": "Rim Apennin yarimorolida, Tibr daryosi bo‘yida joylashgan."
+      },
+      {
+        "q": "Rim qachon respublika deb e’lon qilingan?",
+        "o": [
+          "Mil. avv. 753-yil",
+          "Mil. avv. 49-yil",
+          "Mil. avv. 29-yil",
+          "Mil. avv. 509-yil"
+        ],
+        "a": 3,
+        "e": "Oxirgi podsho Mag‘rur Tarkviniy quvilgach, mil. avv. 509-yilda Rim respublika bo‘ldi."
+      }
+    ],
+    "38": [
+      {
+        "q": "Rim respublikasida nechta konsul, qancha muddatga saylangan?",
+        "o": [
+          "1 ta, umrbod",
+          "2 ta, 1 yilga",
+          "3 ta, 5 yilga",
+          "12 ta, 1 yilga"
+        ],
+        "a": 1,
+        "e": "Xalq majlisi patritsiylar orasidan 2 konsulni 1 yil muddatga saylagan."
+      },
+      {
+        "q": "Rim Senati necha kishidan iborat bo‘lgan?",
+        "o": [
+          "300",
+          "500",
+          "12",
+          "100"
+        ],
+        "a": 0,
+        "e": "Senat 300 kishidan iborat bo‘lgan."
+      },
+      {
+        "q": "Hozirgi «kandidat» (nomzod) so‘zi qayerdan kelib chiqqan?",
+        "o": [
+          "Konsul qo‘riqchilari nomidan",
+          "Senat binosi nomidan",
+          "Nomzodlarning oq libosi «kandida»dan",
+          "Xalq tribunlari nomidan"
+        ],
+        "a": 2,
+        "e": "Saylovda nomzodlar «kandida» deb ataladigan oq libos kiyishgan."
+      }
+    ],
+    "39": [
+      {
+        "q": "Rimliklarning bosh xudosi kim edi?",
+        "o": [
+          "Mars",
+          "Neptun",
+          "Merkuriy",
+          "Yupiter"
+        ],
+        "a": 3,
+        "e": "Yupiter — Rimning bosh xudosi, yunonlardagi Zevsga mos keladi."
+      },
+      {
+        "q": "Vesta ibodatxonasidagi muqaddas olovni o‘chirmay saqlagan kohinalar qanday atalgan?",
+        "o": [
+          "Vestalkalar",
+          "Avgurlar",
+          "Pontifiklar",
+          "Liktorlar"
+        ],
+        "a": 0,
+        "e": "Vestalkalar muqaddas olovni saqlagan; avgurlar qushlar parvoziga qarab bashorat qilgan."
+      },
+      {
+        "q": "Rim shahriga toza suv keltiruvchi inshoot qanday atalgan?",
+        "o": [
+          "Forum",
+          "Amfiteatr",
+          "Akveduk",
+          "Zikkurat"
+        ],
+        "a": 2,
+        "e": "Akveduk — suv o‘tkazgich ko‘prik."
+      }
+    ],
+    "40": [
+      {
+        "q": "Karfagenning mashhur sarkardasi kim bo‘lgan?",
+        "o": [
+          "Ssipion",
+          "Gannibal",
+          "Spartak",
+          "Sezar"
+        ],
+        "a": 1,
+        "e": "Gannibal jangovar fillar bilan Alp tog‘laridan oshib, Italiyaga bostirib kirgan."
+      },
+      {
+        "q": "Kanna jangi qachon bo‘lgan va unda kim g‘alaba qozongan?",
+        "o": [
+          "Mil. avv. 216-yil, Gannibal",
+          "Mil. avv. 202-yil, Ssipion",
+          "Mil. avv. 146-yil, Rim",
+          "Mil. avv. 216-yil, Ssipion"
+        ],
+        "a": 0,
+        "e": "Mil. avv. 216-yilda Kanna yaqinida Gannibal rimliklarni tor-mor etgan."
+      },
+      {
+        "q": "Gannibal qayerda va kim tomonidan yengilgan?",
+        "o": [
+          "Kannada, Sezar",
+          "Karfagenda, Oktavian",
+          "Rimda, Pompey",
+          "Zamada, Ssipion"
+        ],
+        "a": 3,
+        "e": "Mil. avv. 202-yilda Zama yaqinida Ssipion Gannibalni yengdi."
+      }
+    ],
+    "41": [
+      {
+        "q": "Rimdagi eng yirik qullar qo‘zg‘olonining rahbari kim?",
+        "o": [
+          "Spitamen",
+          "Brut",
+          "Spartak",
+          "Alarix"
+        ],
+        "a": 2,
+        "e": "Spartak qo‘zg‘oloni mil. avv. 74–71-yillarda bo‘lgan."
+      },
+      {
+        "q": "Spartak qo‘zg‘oloni qaysi yillarda bo‘lgan?",
+        "o": [
+          "Mil. avv. 74–71-yillar",
+          "Mil. avv. 49–44-yillar",
+          "Mil. avv. 216–202-yillar",
+          "Mil. avv. 31–29-yillar"
+        ],
+        "a": 0,
+        "e": "Qo‘zg‘olon mil. avv. 74-yilda boshlanib, 71-yil bahorida bostirilgan."
+      },
+      {
+        "q": "Spartak va uning tarafdorlari qarorgohi qayerda bo‘lgan?",
+        "o": [
+          "Kolizeyda",
+          "Vezuviy tog‘ida",
+          "Alp tog‘larida",
+          "Sitsiliya orolida"
+        ],
+        "a": 1,
+        "e": "Qo‘zg‘olonchilar Vezuviy tog‘ida qarorgoh qurgan."
+      }
+    ],
+    "42": [
+      {
+        "q": "Yuliy Sezar qachon o‘ldirilgan?",
+        "o": [
+          "Mil. avv. 49-yil",
+          "Mil. avv. 31-yil",
+          "Mil. avv. 29-yil",
+          "Mil. avv. 44-yil"
+        ],
+        "a": 3,
+        "e": "Mil. avv. 44-yilda respublika tarafdori bo‘lgan senatorlar (ular orasida Brut) Sezarni o‘ldirdi."
+      },
+      {
+        "q": "Birinchi Rim imperatori kim bo‘lgan?",
+        "o": [
+          "Oktavian Avgust",
+          "Yuliy Sezar",
+          "Mark Antoniy",
+          "Trayan"
+        ],
+        "a": 0,
+        "e": "Mil. avv. 29-yilda Oktavian imperator unvonini va Avgust laqabini oldi."
+      },
+      {
+        "q": "«Rubikondan o‘tish» iborasi nimani anglatadi?",
+        "o": [
+          "Urushda yengilish",
+          "Daryoda cho‘kish",
+          "Ortga qaytmas qaror qabul qilish",
+          "Sulh tuzish"
+        ],
+        "a": 2,
+        "e": "Sezar mil. avv. 49-yilda Rubikondan o‘tib, Senatga ochiq qarshi chiqdi — ortga qaytmas qaror."
+      }
+    ],
+    "43": [
+      {
+        "q": "Rim imperiyasi qachon G‘arbiy va Sharqiy qismlarga bo‘lingan?",
+        "o": [
+          "330-yil",
+          "395-yil",
+          "410-yil",
+          "476-yil"
+        ],
+        "a": 1,
+        "e": "395-yilda imperator Feodosiy vafotidan keyin imperiya ikkiga bo‘lindi."
+      },
+      {
+        "q": "410-yilda Rimni egallab, talon-taroj qilganlar kimlar?",
+        "o": [
+          "Alarix boshchiligidagi gotlar",
+          "Attila boshchiligidagi xunnlar",
+          "Vandallar",
+          "Forslar"
+        ],
+        "a": 0,
+        "e": "410-yilda Alarix boshchiligidagi gotlar Rimni egalladi."
+      },
+      {
+        "q": "G‘arbiy Rim imperiyasi qachon qulagan?",
+        "o": [
+          "395-yil",
+          "455-yil",
+          "330-yil",
+          "476-yil"
+        ],
+        "a": 3,
+        "e": "476-yil — G‘arbiy Rim imperiyasining qulashi va Qadimgi dunyo tarixining tugashi."
+      }
+    ],
+    "44": [
+      {
+        "q": "Panteon nima?",
+        "o": [
+          "Gladiatorlar amfiteatri",
+          "Barcha xudolar ibodatxonasi",
+          "Rimning markaziy maydoni",
+          "Suv o‘tkazgich"
+        ],
+        "a": 1,
+        "e": "Panteon — «Pan» (hamma) + «teon» (xudo), barcha xudolar ibodatxonasi."
+      },
+      {
+        "q": "Xristianlik qachon va qayerda paydo bo‘lgan?",
+        "o": [
+          "Mil. avv. VI asr, Hindiston",
+          "Milodiy I asr, Falastin",
+          "Mil. avv. 1-ming yillik, O‘rta Osiyo",
+          "Milodiy IV asr, Konstantinopol"
+        ],
+        "a": 1,
+        "e": "Xristianlik milodiy I asrda Rim hokimiyati ostidagi Falastinda paydo bo‘lgan."
+      },
+      {
+        "q": "Aleksandr yurishlari haqida yozgan rimlik tarixchi kim?",
+        "o": [
+          "Kvint Kursiy Ruf",
+          "Tit Liviy",
+          "Plutarx",
+          "Gerodot"
+        ],
+        "a": 0,
+        "e": "Kvint Kursiy Ruf «Makedoniyalik Aleksandr tarixi» asari muallifi — O‘rta Osiyo tarixi uchun muhim manba."
+      }
+    ]
+  }
+}
