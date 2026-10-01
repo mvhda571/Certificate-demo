@@ -1,0 +1,114 @@
+{
+  "topics": {
+    "1": [
+      { "q": "O‘zbekiston mustaqilligi qachon e’lon qilindi?", "o": ["1990-yil 20-iyun", "1991-yil 31-avgust", "1991-yil 29-dekabr", "1992-yil 8-dekabr"], "a": 1, "e": "«31-avgust e’lon, 1-sentabr bayram»." },
+      { "q": "1991-yil 29-dekabrdagi mustaqillik referendumida necha foiz «ha» deb ovoz berdi?", "o": ["75%", "86,4%", "98,2%", "100%"], "a": 2, "e": "Shu kuni Prezident saylovi ham bo‘ldi." },
+      { "q": "O‘zbekiston Respublikasi Konstitutsiyasi qachon qabul qilindi?", "o": ["1992-yil 8-dekabr", "1991-yil 1-sentabr", "1992-yil 2-iyul", "1990-yil 24-mart"], "a": 0, "e": "6 bo‘lim, 26 bob, 128 modda." }
+    ],
+    "2": [
+      { "q": "O‘zbekiston Davlat gerbi qachon qabul qilindi va unda qanday qush tasvirlangan?", "o": ["1991-yil 18-noyabr, Lochin", "1992-yil 10-dekabr, Burgut", "1992-yil 8-dekabr, Laylak", "1992-yil 2-iyul, Humo"], "a": 3, "e": "«B-G-M» — Bayroq, Gerb, Madhiya." },
+      { "q": "Oliy Majlis qachondan ikki palatali bo‘ldi?", "o": ["2005-yildan", "1994-yildan", "1992-yildan", "2016-yildan"], "a": 0, "e": "2002-yil 27-yanvar referendumi asosida." },
+      { "q": "Davlat madhiyasi so‘zlari muallifi kim?", "o": ["Erkin Vohidov", "Abdulla Oripov", "Mutal Burhonov", "G‘afur G‘ulom"], "a": 1, "e": "Musiqasi — Mutal Burhonov." }
+    ],
+    "3": [
+      { "q": "«Fozil odamlar shahri» asari muallifi kim?", "o": ["Yusuf Xos Hojib", "Nizomulmulk", "Abu Nasr Farobiy", "Alisher Navoiy"], "a": 2, "e": "Adolatli jamiyat haqidagi asar." },
+      { "q": "«Fuqarolik jamiyati» atamasini ilmiy asoslagan faylasuf?", "o": ["Arastu", "Monteskye", "Jon Lokk", "Gegel"], "a": 3, "e": "Monteskye — hokimiyatlar bo‘linishi g‘oyasi muallifi." },
+      { "q": "O‘zbekistonda fuqarolik jamiyati qurish tamoyili qanday?", "o": ["«Kuchli davlatdan kuchli fuqarolik jamiyati sari»", "«Avval siyosat, keyin iqtisod»", "«Shok terapiya»", "«Bo‘lib tashla va hukmronlik qil»"], "a": 0, "e": "Davlat vazifalari bosqichma-bosqich jamiyat institutlariga beriladi." }
+    ],
+    "4": [
+      { "q": "O‘zbekistondagi birinchi siyosiy partiya qaysi?", "o": ["O‘zLiDeP", "Xalq demokratik partiyasi (XDP)", "«Adolat» SDP", "«Milliy tiklanish»"], "a": 1, "e": "1991-yil noyabrda tuzilgan." },
+      { "q": "Harakatlar strategiyasi qaysi yillarga mo‘ljallangan?", "o": ["2016–2020", "2017–2021", "2022–2026", "2010–2015"], "a": 1, "e": "«5 yo‘nalish, 5 yil»." },
+      { "q": "2017-yil qanday nom bilan e’lon qilindi?", "o": ["«Amir Temur yili»", "«Yoshlar yili»", "«Faol tadbirkorlik yili»", "«Xalq bilan muloqot va inson manfaatlari yili»"], "a": 3, "e": "Xalq bilan to‘g‘ridan-to‘g‘ri muloqot bosqichi." }
+    ],
+    "5": [
+      { "q": "Milliy valyuta so‘m qachon muomalaga kiritildi?", "o": ["1994-yil 1-iyul", "1993-yil 15-noyabr", "1991-yil 18-noyabr", "1996-yil"], "a": 0, "e": "1993-yil noyabrda so‘m-kupon kiritilgan edi." },
+      { "q": "O‘zbek modelining tamoyillari nechta?", "o": ["3 ta", "4 ta", "5 ta", "7 ta"], "a": 2, "e": "«5 tamoyil = 5 barmoq»." },
+      { "q": "Quyidagilardan qaysi biri o‘zbek modeli tamoyili emas?", "o": ["Davlat — bosh islohotchi", "Qonun ustuvorligi", "Kuchli ijtimoiy siyosat", "«Shok terapiya» bilan tez o‘tish"], "a": 3, "e": "O‘zbek modeli bosqichma-bosqich o‘tishni tanladi." }
+    ],
+    "6": [
+      { "q": "O‘zbekistondagi birinchi avtomobil zavodi qayerda qurildi?", "o": ["Samarqandda", "Asakada", "Toshkentda", "Navoiyda"], "a": 1, "e": "«Asaka — Avtomobil — 1996» (UzDaewoo)." },
+      { "q": "O‘zbekistondagi birinchi erkin iqtisodiy zona?", "o": ["«Angren»", "«Jizzax»", "«Navoiy»", "«Qo‘qon»"], "a": 2, "e": "2008-yilda tashkil etilgan." },
+      { "q": "Valyuta konvertatsiyasi qachon erkinlashtirildi?", "o": ["2017-yil 5-sentabr", "1994-yil 1-iyul", "2016-yil 4-dekabr", "2008-yil"], "a": 0, "e": "Qora bozor yo‘qoldi." }
+    ],
+    "7": [
+      { "q": "1991-yilda O‘zbekiston aholisi qancha edi?", "o": ["32,65 mln", "6,5 mln", "15 mln", "20,7 mln"], "a": 3, "e": "2018-yil 1-yanvarda 32,65 mln." },
+      { "q": "Muhtoj oilalarga ijtimoiy yordam qaysi institut orqali beriladi?", "o": ["Mahalla orqali", "Partiyalar orqali", "Banklar orqali", "Xorijiy jamg‘armalar orqali"], "a": 0, "e": "1997-yildan manzilli ijtimoiy yordam." },
+      { "q": "Barcha bolali oilalar uchun yagona nafaqa qachondan joriy etildi?", "o": ["1991-yil dekabr", "1997-yil", "1994-yil sentabr", "2009-yil"], "a": 2, "e": "Kuchli ijtimoiy siyosat tamoyili asosida." }
+    ],
+    "8": [
+      { "q": "O‘zbekistonda nechta milliy-madaniy markaz faoliyat yuritadi?", "o": ["10 ta", "138 ta", "130 ta", "16 ta"], "a": 1, "e": "«130+ millat, 138 markaz, 7 tilda ta’lim»." },
+      { "q": "Milliy-madaniy markazlarni muvofiqlashtiruvchi tashkilot?", "o": ["Din ishlari bo‘yicha qo‘mita", "«Kamolot»", "Madaniyat vazirligi", "Respublika Baynalmilal madaniyat markazi"], "a": 3, "e": "1992-yilda tashkil etilgan." },
+      { "q": "YUNESKO «Bag‘rikenglik tamoyillari deklaratsiyasi» qachon qabul qilindi?", "o": ["1995-yil", "1989-yil", "1992-yil", "2007-yil"], "a": 0, "e": "16-noyabr — Xalqaro bag‘rikenglik kuni." }
+    ],
+    "9": [
+      { "q": "Konstitutsiyaning qaysi moddasi vijdon erkinligini kafolatlaydi?", "o": ["18-modda", "17-modda", "31-modda", "4-modda"], "a": 2, "e": "«31-modda — vijdon erkinligi»." },
+      { "q": "Toshkent qachon «Islom madaniyati poytaxti» deb e’lon qilindi?", "o": ["1999-yil", "2007-yil", "2017-yil", "1991-yil"], "a": 1, "e": "AYSESKO tomonidan." },
+      { "q": "O‘zbekistonda nechta diniy konfessiya faoliyat yuritadi?", "o": ["16 ta", "89 ta", "7 ta", "138 ta"], "a": 0, "e": "Islom, pravoslav, katolik, protestant, iudaizm, buddaviylik va boshqalar." }
+    ],
+    "10": [
+      { "q": "«Kadrlar tayyorlash milliy dasturi» qachon qabul qilindi?", "o": ["1992-yil 2-iyul", "2017-yil", "1993-yil", "1997-yil 29-avgust"], "a": 3, "e": "Uch bosqich: 1997–2001, 2001–2005, 2005-yildan." },
+      { "q": "O‘qituvchilar va murabbiylar kuni qachon nishonlanadi?", "o": ["1-sentabr", "1-oktabr", "8-dekabr", "30-iyun"], "a": 1, "e": "1997-yildan." },
+      { "q": "Kadrlar tayyorlash milliy dasturida majburiy ta’lim necha yil edi?", "o": ["9 yil", "11 yil", "12 yil", "10 yil"], "a": 2, "e": "«9 + 3 = 12 yil» (maktab + litsey/kollej)." }
+    ],
+    "11": [
+      { "q": "Davlat test markazi qachon tashkil etildi?", "o": ["1994-yil", "1992-yil", "1996-yil", "1997-yil"], "a": 0, "e": "Barcha oliygohlarga test orqali qabul joriy etildi." },
+      { "q": "Oliy ta’limdagi ikki bosqich qaysilar?", "o": ["Litsey va kollej", "Aspirantura va doktorantura", "Kontrakt va grant", "Bakalavriat va magistratura"], "a": 3, "e": "«Bakalavr (4) + Magistr (2)»." },
+      { "q": "1997-yilda iqtidorli yoshlarni xorijda o‘qitish uchun tuzilgan jamg‘arma?", "o": ["«Kamolot»", "«Umid»", "«El-yurt umidi»", "«Iste’dod»"], "a": 1, "e": "Keyin «Iste’dod», 2018-yildan «El-yurt umidi»." }
+    ],
+    "12": [
+      { "q": "Oliy attestatsiya komissiyasi (OAK) qachon tashkil etildi?", "o": ["1997-yil", "2017-yil", "1992-yil mart", "2006-yil"], "a": 2, "e": "Ilmiy kadrlar tayyorlashni boshqaradi." },
+      { "q": "Xorazm Ma’mun akademiyasi qachon qayta tiklandi?", "o": ["1997-yil", "1004-yil", "2000-yil", "1992-yil"], "a": 0, "e": "«Ma’mun akademiyasi: 1004 → 1997»." },
+      { "q": "YUNESKO «Jahon xotirasi» ro‘yxatiga kiritilgan qo‘lyozmalar fondi qaysi institutda?", "o": ["Tarix institutida", "Arxeologiya institutida", "Adabiyot muzeyida", "Sharqshunoslik institutida"], "a": 3, "e": "2000-yilda kiritilgan." }
+    ],
+    "13": [
+      { "q": "Mustaqil O‘zbekistonning birinchi olimpiya chempioni kim?", "o": ["Artur Taymazov", "Lina Cheryazova", "Ruslan Nurudinov", "Hasanboy Do‘smatov"], "a": 1, "e": "1994-yil, Lillehammer, fristayl." },
+      { "q": "Xalqaro kurash assotsiatsiyasi qachon va qayerda tuzildi?", "o": ["1998-yil sentabr, Toshkentda", "1992-yil, Termizda", "2001-yil, Samarqandda", "2018-yil, Jakartada"], "a": 0, "e": "28 davlat, asoschilaridan biri Komil Yusupov." },
+      { "q": "Bolalar sporti musobaqalarining uch bosqichi to‘g‘ri berilgan javob?", "o": ["«Barkamol avlod» → «Umid nihollari» → «Universiada»", "«Universiada» → «Barkamol avlod» → «Umid nihollari»", "«Umid nihollari» → «Barkamol avlod» → «Universiada»", "«Kamolot» → «Umid» → «Iste’dod»"], "a": 2, "e": "Maktab → kollej → oliygoh." }
+    ],
+    "14": [
+      { "q": "O‘zbekiston yoshlar ittifoqi qachon tuzildi?", "o": ["2001-yil", "1996-yil", "2016-yil 14-sentabr", "2017-yil 30-iyun"], "a": 3, "e": "«Kamolot» negizida." },
+      { "q": "Yoshlar kuni qachon nishonlanadi?", "o": ["30-iyun", "1-iyun", "1-oktabr", "20-noyabr"], "a": 0, "e": "«30-iyun — Yoshlar kuni»." },
+      { "q": "Yoshlar siyosati haqidagi birinchi qonun qachon qabul qilindi?", "o": ["2016-yil 14-sentabr", "1991-yil 20-noyabr", "1996-yil", "2017-yil 30-iyun"], "a": 1, "e": "MDHda birinchilardan." }
+    ],
+    "15": [
+      { "q": "Qaysi yil «Amir Temur yili» deb e’lon qilindi?", "o": ["1991-yil", "1994-yil", "1996-yil", "1999-yil"], "a": 2, "e": "Temurning 660 yilligi." },
+      { "q": "Samarqandning 2750 yilligi qachon nishonlandi?", "o": ["2007-yil", "1997-yil", "2009-yil", "1994-yil"], "a": 0, "e": "«Buxoro-Xiva 2500 (1997), Samarqand 2750 (2007), Toshkent 2200 (2009)»." },
+      { "q": "Toshkentda «Shahidlar xotirasi» majmuasi qachon ochildi?", "o": ["1991-yil", "2009-yil", "1996-yil", "1999-yil"], "a": 3, "e": "31-avgust — Qatag‘on qurbonlarini yod etish kuni." }
+    ],
+    "16": [
+      { "q": "«Sharq taronalari» festivali qayerda o‘tkaziladi?", "o": ["Toshkentda", "Samarqandda", "Buxoroda", "Boysunda"], "a": 1, "e": "1997-yildan, Registonda." },
+      { "q": "2001-yilda qaysi teatrga «Milliy teatr» maqomi berildi?", "o": ["O‘zbek davlat akademik drama teatriga", "Navoiy nomidagi katta teatrga", "Rus drama teatriga", "«Turkiston» saroyiga"], "a": 0, "e": "Teatrning 100 yilligi 2014-yilda nishonlandi." },
+      { "q": "Shashmaqom YUNESKO nomoddiy meros ro‘yxatiga qachon kiritildi?", "o": ["1997-yil", "2001-yil", "2018-yil", "2003-yil"], "a": 3, "e": "«Shashmaqom — YUNESKO — 2003»." }
+    ],
+    "17": [
+      { "q": "Tashqi siyosiy faoliyat konsepsiyasi qachon qabul qilindi?", "o": ["1996-yil", "2017-yil", "2012-yil sentabr", "1992-yil"], "a": 2, "e": "Konsepsiyaning «3 YO‘Q»i." },
+      { "q": "2012-yilgi konsepsiyaning asosiy qoidasi qaysi?", "o": ["Harbiy-siyosiy bloklarga qo‘shilmaslik", "KXShTga a’zo bo‘lish", "Xorijiy harbiy bazalarni ko‘paytirish", "Qo‘shinni xorijga yuborish"], "a": 0, "e": "Xorijiy harbiy bazalar joylashtirilmaydi." },
+      { "q": "2017-yildan tashqi siyosatda qaysi mintaqa ustuvor?", "o": ["Yevropa", "Yaqin Sharq", "Lotin Amerikasi", "Markaziy Osiyo"], "a": 3, "e": "Qo‘shnilar bilan munosabatlar tubdan yaxshilandi." }
+    ],
+    "18": [
+      { "q": "«Markaziy Osiyo» atamasi qachon qabul qilindi?", "o": ["1991-yil dekabr", "1993-yil yanvar", "1998-yil oktabr", "2006-yil"], "a": 1, "e": "Toshkent uchrashuvida, «O‘rta Osiyo» o‘rniga." },
+      { "q": "Qozog‘iston bilan abadiy do‘stlik shartnomasi qachon imzolandi?", "o": ["1994-yil yanvar", "2017-yil", "1998-yil oktabr", "1993-yil"], "a": 2, "e": "«Abadiy do‘stlik — Qozog‘iston — 1998»." },
+      { "q": "Markaziy Osiyo rahbarlarining birinchi maslahat uchrashuvi qayerda bo‘ldi?", "o": ["Ostonada (2018)", "Toshkentda (1993)", "Samarqandda (2017)", "Dushanbeda (2018)"], "a": 0, "e": "2018-yil martda." }
+    ],
+    "19": [
+      { "q": "Toshkentda birinchi ochilgan xorijiy elchixona?", "o": ["Rossiya elchixonasi", "Xitoy elchixonasi", "Turkiya elchixonasi", "AQSh elchixonasi"], "a": 3, "e": "1992-yil mart." },
+      { "q": "Xitoy O‘zbekiston mustaqilligini qachon tan oldi?", "o": ["1991-yil 27-dekabr", "1992-yil yanvar", "1991-yil 31-avgust", "2017-yil may"], "a": 0, "e": "Diplomatik munosabatlar 1992-yil yanvarda o‘rnatildi." },
+      { "q": "Rossiya bilan ittifoqchilik munosabatlari shartnomasi qachon imzolandi?", "o": ["1992-yil", "2004-yil", "2005-yil", "2017-yil"], "a": 2, "e": "«Strategik (2004) → Ittifoqchi (2005)»." }
+    ],
+    "20": [
+      { "q": "Tokioda Alisher Navoiy haykali qachon o‘rnatildi?", "o": ["1992-yil", "2004-yil", "2015-yil", "2002-yil"], "a": 1, "e": "Soka universiteti hududida." },
+      { "q": "1993-yilda O‘zbekistonga tashrif buyurgan Hindiston bosh vaziri?", "o": ["Narasimxa Rao", "Lal Bahodir Shastri", "Indira Gandi", "Narendra Modi"], "a": 0, "e": "1993-yil may." },
+      { "q": "Asakadagi avtomobil zavodi qaysi mamlakat bilan hamkorlikda qurilgan?", "o": ["Yaponiya", "Hindiston", "Xitoy", "Koreya Respublikasi"], "a": 3, "e": "«Koreya — Avtomobil (Asaka)»." }
+    ],
+    "21": [
+      { "q": "O‘zbekiston BMTga qachon qabul qilindi?", "o": ["1991-yil 31-avgust", "1993-yil 28-sentabr", "1992-yil 2-mart", "1992-yil 8-dekabr"], "a": 2, "e": "«2-mart 1992 — BMT»." },
+      { "q": "Afg‘oniston bo‘yicha O‘zbekiston taklif qilgan muloqot guruhi?", "o": ["«6+2»", "«5+1»", "«Shanxay beshligi»", "«C5+1»"], "a": 0, "e": "6 qo‘shni + AQSh va Rossiya (1997)." },
+      { "q": "Mirziyoyev BMT 72-sessiyasida qaysi rezolyutsiyani taklif qildi?", "o": ["«Yadro qurolidan xoli hudud»", "«Terrorizmga qarshi kurash»", "«Orolni qutqarish»", "«Ma’rifat va diniy bag‘rikenglik»"], "a": 3, "e": "2018-yil dekabrda qabul qilindi." }
+    ],
+    "22": [
+      { "q": "MDHga qachon va qayerda asos solindi?", "o": ["1991-yil 21-dekabr, Olmaotada", "1991-yil 8-dekabr, Minskda", "1993-yil yanvar, Moskvada", "2001-yil, Shanxayda"], "a": 1, "e": "Belarus, Rossiya, Ukraina rahbarlari." },
+      { "q": "Shanxay hamkorlik tashkiloti qachon tuzildi?", "o": ["1996-yil", "2004-yil", "2001-yil 15-iyun", "2017-yil"], "a": 2, "e": "«ShHT = Shanxay beshligi + O‘zbekiston»." },
+      { "q": "ShHT Mintaqaviy aksilterror tuzilmasi qayerda joylashgan?", "o": ["Toshkentda", "Pekinda", "Moskvada", "Ostonada"], "a": 0, "e": "2004-yilda tashkil etilgan." }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "topics": {
+    "1": [
+      { "q": "«Sovuq urush» qachon tugadi?", "o": ["1975-yilda", "1989–1991-yillarda", "2001-yilda", "1985-yilda"], "a": 1, "e": "Berlin devori qulashi va SSSR parchalanishi." },
+      { "q": "AQShdagi yirik teraktlar qachon bo‘ldi?", "o": ["2003-yil 20-mart", "1991-yil 17-yanvar", "2005-yil 7-iyul", "2001-yil 11-sentabr"], "a": 3, "e": "«Al-Qoida», ~3000 qurbon." },
+      { "q": "Hozirgi dunyo tartibi qanday?", "o": ["Ko‘p qutbli", "Ikki qutbli", "Bir qutbli", "Qutbsiz"], "a": 0, "e": "«Bipolyar → Unipolyar → Multipolyar»." }
+    ],
+    "2": [
+      { "q": "Polshadagi «Hamjihatlik» harakati rahbari?", "o": ["Vatslav Gavel", "Nikolae Chaushesku", "Lex Valensa", "Todor Jivkov"], "a": 2, "e": "1990-yilda prezident bo‘ldi." },
+      { "q": "Qaysi mamlakatda 1989-yilgi inqilob qonli bo‘ldi?", "o": ["Ruminiya", "Polsha", "Chexoslovakiya", "Vengriya"], "a": 0, "e": "Chaushesku otib tashlandi." },
+      { "q": "Chexoslovakiya qachon ikkiga bo‘lindi?", "o": ["1989-yil noyabr", "1991-yil", "1995-yil", "1993-yil 1-yanvar"], "a": 3, "e": "«Baxmal ajralish»." }
+    ],
+    "3": [
+      { "q": "SSSRda birinchi bo‘lib mustaqillik e’lon qilgan respublika?", "o": ["Ukraina", "Litva", "Estoniya", "Gruziya"], "a": 1, "e": "1990-yil 11-mart." },
+      { "q": "MDH qachon va qayerda tuzildi?", "o": ["1991-yil 8-dekabr, Belovej", "1991-yil 21-dekabr, Olmaota", "1991-yil 26-dekabr, Moskva", "1992-yil, Minsk"], "a": 0, "e": "Rossiya, Ukraina, Belarus." },
+      { "q": "SSSR qachon rasman tarqaldi?", "o": ["1991-yil 19-avgust", "1991-yil 8-dekabr", "1991-yil 26-dekabr", "1990-yil 11-mart"], "a": 2, "e": "25-dekabr — Gorbachyov iste’fosi." }
+    ],
+    "4": [
+      { "q": "Rossiyaning birinchi prezidenti?", "o": ["Vladimir Putin", "Mixail Gorbachyov", "Dmitriy Medvedev", "Boris Yelsin"], "a": 3, "e": "1991–1999." },
+      { "q": "Rossiya Konstitutsiyasi qachon qabul qilindi?", "o": ["1993-yil 12-dekabr", "1991-yil 12-iyun", "2000-yil", "1998-yil"], "a": 0, "e": "Prezidentlik respublikasi, Federal Majlis." },
+      { "q": "Rossiyada defolt qachon bo‘ldi?", "o": ["1992-yil", "1998-yil avgust", "2008-yil", "2014-yil"], "a": 1, "e": "Moliyaviy inqiroz." }
+    ],
+    "5": [
+      { "q": "Ukrainadagi «To‘q sariq inqilob» qachon bo‘ldi?", "o": ["2014-yil", "1991-yil", "2004-yil", "2010-yil"], "a": 2, "e": "«To‘q sariq — 2004, Maydon — 2014»." },
+      { "q": "Belarus prezidenti (1994-yildan)?", "o": ["Aleksandr Lukashenko", "Leonid Kravchuk", "Viktor Yushchenko", "Stanislav Shushkevich"], "a": 0, "e": "1999 — Rossiya bilan Ittifoq davlati." },
+      { "q": "Moldovadagi tan olinmagan hudud?", "o": ["Abxaziya", "Qrim", "Tog‘li Qorabog‘", "Dnestrbo‘yi"], "a": 3, "e": "1992-yilgi mojaro." }
+    ],
+    "6": [
+      { "q": "Boltiqbo‘yi davlatlari NATO va YeIga qachon kirdi?", "o": ["1999-yil", "2004-yil", "1991-yil", "2011-yil"], "a": 1, "e": "MDHga kirmagan." },
+      { "q": "«Boltiq yo‘li» nima?", "o": ["1989-yil 23-avgustdagi 600 km inson zanjiri", "Boltiq dengizi bo‘ylab temiryo‘l", "Gaz quvuri", "Harbiy operatsiya"], "a": 0, "e": "~2 mln kishi qatnashdi." },
+      { "q": "Yevroga birinchi o‘tgan Boltiqbo‘yi davlati?", "o": ["Litva", "Latviya", "Estoniya", "Uchalasi bir vaqtda"], "a": 2, "e": "Estoniya — 2011, Latviya — 2014, Litva — 2015." }
+    ],
+    "7": [
+      { "q": "Tog‘li Qorabog‘ mojarosi qaysi davlatlar o‘rtasida?", "o": ["Gruziya va Rossiya", "Armaniston va Turkiya", "Ozarbayjon va Eron", "Armaniston va Ozarbayjon"], "a": 3, "e": "1988–1994." },
+      { "q": "Gruziyadagi «Atirgullar inqilobi» qachon bo‘ldi?", "o": ["2003-yil", "2004-yil", "2008-yil", "1991-yil"], "a": 0, "e": "Mixail Saakashvili." },
+      { "q": "Rossiya–Gruziya urushi qachon bo‘ldi?", "o": ["1992-yil", "2008-yil avgust", "2003-yil", "2014-yil"], "a": 1, "e": "2009-yilda Gruziya MDHdan chiqdi." }
+    ],
+    "8": [
+      { "q": "Tojikistondagi fuqarolar urushi yillari?", "o": ["1991–1993", "2005–2010", "1992–1997", "1989–1991"], "a": 2, "e": "1997 — Moskvada tinchlik kelishuvi." },
+      { "q": "Qaysi davlat doimiy betaraflik maqomiga ega?", "o": ["Turkmaniston", "Qozog‘iston", "Qirg‘iziston", "Tojikiston"], "a": 0, "e": "1995-yil 12-dekabr, BMT tan oldi." },
+      { "q": "Qozog‘iston poytaxti qachon Ostonaga ko‘chirildi?", "o": ["1991-yil", "1995-yil", "2005-yil", "1997-yil"], "a": 3, "e": "Olmaotadan." }
+    ],
+    "9": [
+      { "q": "Yevropa Ittifoqi qaysi shartnoma asosida tuzildi?", "o": ["Rim shartnomasi", "Maastrixt shartnomasi (1992)", "Lissabon shartnomasi", "Shengen kelishuvi"], "a": 1, "e": "1993-yil 1-noyabrda YeI tuzildi." },
+      { "q": "Yevro naqd pul qachon muomalaga kirdi?", "o": ["1999-yil", "1993-yil", "2002-yil 1-yanvar", "2004-yil"], "a": 2, "e": "1999-yilda naqdsiz shaklda." },
+      { "q": "Brexit referendumi qachon bo‘ldi?", "o": ["2016-yil 23-iyun", "2014-yil", "2019-yil", "2010-yil"], "a": 0, "e": "Britaniya YeIdan chiqishni yoqladi." }
+    ],
+    "10": [
+      { "q": "AQShning birinchi qora tanli prezidenti?", "o": ["Bill Klinton", "Kolin Pauell", "Martin Lyuter King", "Barak Obama"], "a": 3, "e": "2009–2017." },
+      { "q": "AQSh Iroqqa qachon qo‘shin kiritdi?", "o": ["1991-yil", "2003-yil", "2001-yil", "2011-yil"], "a": 1, "e": "Saddam Husayn ag‘darildi." },
+      { "q": "Klinton davrida tuzilgan erkin savdo zonasi?", "o": ["NAFTA (1994)", "MERKOSUR", "ASEAN", "YeI"], "a": 0, "e": "AQSh, Kanada, Meksika." }
+    ],
+    "11": [
+      { "q": "Germaniyaning birinchi ayol kansleri?", "o": ["Ursula fon der Lyayen", "Angela Merkel", "Margaret Tetcher", "Tereza Mey"], "a": 1, "e": "2005-yildan." },
+      { "q": "«Agenda 2010» islohotlari muallifi?", "o": ["Helmut Kol", "Angela Merkel", "Gerxard Shryoder", "Konrad Adenauer"], "a": 2, "e": "1998–2005 kansler." },
+      { "q": "Birlashgan Germaniya poytaxti?", "o": ["Bonn", "Myunxen", "Frankfurt", "Berlin"], "a": 3, "e": "1991-yilgi qaror, 1999 — hukumat ko‘chdi." }
+    ],
+    "12": [
+      { "q": "«Yangi leyborizm» yetakchisi?", "o": ["Toni Bler", "Gordon Braun", "Jon Meyjor", "Devid Kemeron"], "a": 0, "e": "1997–2007, «uchinchi yo‘l»." },
+      { "q": "Shimoliy Irlandiyadagi tinchlik kelishuvi?", "o": ["Deyton", "Oslo", "«Xayrli juma» (1998)", "Maastrixt"], "a": 2, "e": "Toni Bler davrida." },
+      { "q": "Brexit referendumidan keyin iste’fo bergan bosh vazir?", "o": ["Tereza Mey", "Devid Kemeron", "Toni Bler", "Gordon Braun"], "a": 1, "e": "2016-yilda." }
+    ],
+    "13": [
+      { "q": "Fransiyada prezident muddati qachon 5 yilga qisqartirildi?", "o": ["2000-yil", "1995-yil", "2007-yil", "1981-yil"], "a": 0, "e": "Shirak davrida referendum." },
+      { "q": "Fransiya NATO harbiy tuzilmasiga qachon qaytdi?", "o": ["1966-yil", "2003-yil", "2015-yil", "2009-yil"], "a": 3, "e": "Sarkozi davrida." },
+      { "q": "Parij iqlim kelishuvi qachon qabul qilindi?", "o": ["1997-yil", "2015-yil", "1992-yil", "2009-yil"], "a": 1, "e": "Olland davrida." }
+    ],
+    "14": [
+      { "q": "Italiyadagi korrupsiyaga qarshi operatsiya?", "o": ["«Cho‘l bo‘roni»", "«Doy moy»", "«Toza qo‘llar» (1992–1994)", "«Tangentopoli»"], "a": 2, "e": "Eski partiyalar tarqaldi." },
+      { "q": "Bu davrda Italiyaning eng uzoq hukmronlik qilgan bosh vaziri?", "o": ["Silvio Berluskoni", "Romano Prodi", "Mario Monti", "Matteo Renssi"], "a": 0, "e": "1994, 2001–2006, 2008–2011." },
+      { "q": "Italiyaning asosiy ijtimoiy-iqtisodiy muammosi?", "o": ["Neft yetishmasligi", "Aholining tez o‘sishi", "Monarxiyaning qaytishi", "Shimol va janub tafovuti, katta davlat qarzi"], "a": 3, "e": "«Shimol ligasi» separatizmi ham bor." }
+    ],
+    "15": [
+      { "q": "BRIKS tarkibiga qaysi davlat kirmaydi?", "o": ["Braziliya", "Hindiston", "Yaponiya", "Janubiy Afrika"], "a": 2, "e": "B-R-I-K-S." },
+      { "q": "«Arab bahori» qaysi davlatda boshlandi?", "o": ["Tunisda", "Misrda", "Suriyada", "Liviyada"], "a": 0, "e": "2010-yil dekabr, Buazizi." },
+      { "q": "Janubiy Afrika BRIKSga qachon qo‘shildi?", "o": ["2006-yil", "2009-yil", "2015-yil", "2011-yil"], "a": 3, "e": "BRIK → BRIKS." }
+    ],
+    "16": [
+      { "q": "Gonkong qachon Xitoyga qaytarildi?", "o": ["1999-yil 20-dekabr", "1997-yil 1-iyul", "2001-yil", "1992-yil"], "a": 1, "e": "«Bir davlat — ikki tizim»." },
+      { "q": "«Bir makon, bir yo‘l» tashabbusi muallifi?", "o": ["Si Szinpin (2013)", "Den Syaoping", "Xu Szintao", "Szyan Szemin"], "a": 0, "e": "Yangi Ipak yo‘li." },
+      { "q": "Xitoy qachon dunyoning ikkinchi iqtisodiga aylandi?", "o": ["2001-yil", "2008-yil", "2010-yil", "1997-yil"], "a": 2, "e": "Yaponiyani ortda qoldirib." }
+    ],
+    "17": [
+      { "q": "Yaponiyaning 1990-yillardagi turg‘unlik davri qanday ataladi?", "o": ["«Iqtisodiy mo‘jiza»", "«Abenomika»", "«Doy moy»", "«Yo‘qotilgan o‘n yillik»"], "a": 3, "e": "«Pufak iqtisodiyot» yorilgach." },
+      { "q": "Fukusima AES halokati qachon bo‘ldi?", "o": ["2011-yil 11-mart", "1995-yil", "1986-yil", "2008-yil"], "a": 0, "e": "Tohoku zilzilasi va sunami." },
+      { "q": "«Abenomika» muallifi?", "o": ["Junitiro Koidzumi", "Sindzo Abe", "Yoshixiko Noda", "Akixito"], "a": 1, "e": "«Uch o‘q»." }
+    ],
+    "18": [
+      { "q": "ASEAN qachon tuzilgan?", "o": ["1995-yil", "1997-yil", "2015-yil", "1967-yil"], "a": 3, "e": "10 a’zo." },
+      { "q": "Osiyo moliyaviy inqirozi qaysi mamlakatda boshlandi?", "o": ["Tailandda (1997)", "Indoneziyada", "Janubiy Koreyada", "Yaponiyada"], "a": 0, "e": "Bat valyutasi qulashi." },
+      { "q": "Vyetnamdagi islohotlar nomi?", "o": ["«Vision 2020»", "«Make in India»", "«Doy moy»", "«Yangi kurs»"], "a": 2, "e": "1986-yildan — yangilanish." }
+    ],
+    "19": [
+      { "q": "Hindistonda iqtisodiy islohotlar qachon boshlandi?", "o": ["1998-yil", "1991-yil", "2004-yil", "2014-yil"], "a": 1, "e": "«1991 — Rao + Singx = islohot»." },
+      { "q": "«Make in India» dasturi muallifi?", "o": ["Narendra Modi", "Manmoxan Singx", "Atal Bixari Vajpayi", "Narasimxa Rao"], "a": 0, "e": "2014-yildan bosh vazir." },
+      { "q": "Hindiston ShHTga qachon a’zo bo‘ldi?", "o": ["2001-yil", "2009-yil", "2014-yil", "2017-yil"], "a": 3, "e": "Pokiston bilan birga." }
+    ],
+    "20": [
+      { "q": "Turkiyada 2002-yildan hukmron partiya?", "o": ["Demokratik partiya", "Adolat va taraqqiyot partiyasi (AKP)", "Respublika xalq partiyasi", "Ona Vatan partiyasi"], "a": 1, "e": "Erdo‘g‘on." },
+      { "q": "Turkiyadagi harbiy to‘ntarish urinishi qachon bo‘ldi?", "o": ["2013-yil", "1980-yil", "2016-yil 15-iyul", "2017-yil aprel"], "a": 2, "e": "Xalq ko‘chaga chiqib, to‘ntarish bostirildi." },
+      { "q": "Turkiya YeI bilan a’zolik muzokaralarini qachon boshladi?", "o": ["2005-yil", "1999-yil", "2014-yil", "1952-yil"], "a": 0, "e": "Keyin sekinlashdi." }
+    ],
+    "21": [
+      { "q": "Eronda eng yuqori hokimiyat kimda?", "o": ["Prezidentda", "Majlisda", "Bosh vazirda", "Oliy rahbarda"], "a": 3, "e": "1989-yildan — Ali Xomanaiy." },
+      { "q": "Eron yadroviy kelishuvi qachon imzolandi?", "o": ["2015-yil 14-iyul", "2006-yil", "2018-yil", "2013-yil"], "a": 0, "e": "«5+1» bilan (JCPOA)." },
+      { "q": "Eronning islohotchi prezidenti (1997–2005)?", "o": ["Rafsanjoniy", "Muhammad Xotamiy", "Ahmadinajod", "Ruhoniy"], "a": 1, "e": "«Sivilizatsiyalar dialogi»." }
+    ],
+    "22": [
+      { "q": "Tolibon Kobulni qachon egalladi?", "o": ["1992-yil", "2001-yil", "1996-yil", "1989-yil"], "a": 2, "e": "«Tolibon: 1996 keldi — 2001 ketdi»." },
+      { "q": "Afg‘onistonning 2004–2014-yillardagi prezidenti?", "o": ["Hamid Karzay", "Ashraf G‘ani", "Najibulla", "Ahmad Shoh Mas’ud"], "a": 0, "e": "2014-yildan — Ashraf G‘ani." },
+      { "q": "Pokistonda 1999-yilda to‘ntarish qilgan general?", "o": ["Ziyo ul-Haq", "Ayubxon", "Navoz Sharif", "Parvez Musharraf"], "a": 3, "e": "2001–2008 prezident." }
+    ],
+    "23": [
+      { "q": "Saddam Husayn qachon ag‘darildi?", "o": ["1991-yil", "2003-yil", "2006-yil", "2011-yil"], "a": 1, "e": "2006-yilda qatl etildi." },
+      { "q": "Suriyada fuqarolar urushi qachon boshlandi?", "o": ["2011-yil", "2000-yil", "2014-yil", "2015-yil"], "a": 0, "e": "«Arab bahori» ta’sirida." },
+      { "q": "Rossiya Suriyadagi harbiy operatsiyani qachon boshladi?", "o": ["2011-yil", "2017-yil", "2015-yil sentabr", "2014-yil"], "a": 2, "e": "Asadni qo‘llab-quvvatlash uchun." }
+    ],
+    "24": [
+      { "q": "Oslo kelishuvi qachon imzolandi?", "o": ["1991-yil", "1987-yil", "2005-yil", "1993-yil"], "a": 3, "e": "«Oslo — 1993 — Rabin + Arafat»." },
+      { "q": "Isroil bosh vaziri Itzhak Rabin qachon o‘ldirildi?", "o": ["1995-yil", "1993-yil", "2000-yil", "2004-yil"], "a": 0, "e": "Isroillik ekstremist tomonidan." },
+      { "q": "G‘azoni 2007-yilda kim egalladi?", "o": ["FATH", "XAMAS", "Isroil", "FOT"], "a": 1, "e": "2006-yilgi saylovda g‘alabadan so‘ng." }
+    ],
+    "25": [
+      { "q": "Venesuelada «Bolivar inqilobi» muallifi?", "o": ["Nikolas Maduro", "Evo Morales", "Lula da Silva", "Ugo Chaves"], "a": 3, "e": "1999–2013." },
+      { "q": "Lotin Amerikasi integratsiya tashkiloti (1991)?", "o": ["NAFTA", "UNASUR", "MERKOSUR", "ASEAN"], "a": 2, "e": "Braziliya, Argentina, Urugvay, Paragvay." },
+      { "q": "AQSh va Kuba diplomatik munosabatlari qachon tiklandi?", "o": ["2015-yil", "2008-yil", "1991-yil", "2016-yil"], "a": 0, "e": "Obama davrida." }
+    ],
+    "26": [
+      { "q": "Janubiy Afrikaning birinchi qora tanli prezidenti?", "o": ["Frederik de Klerk", "Nelson Mandela", "Tabo Mbeki", "Jeykob Zuma"], "a": 1, "e": "1994–1999." },
+      { "q": "Afrika Ittifoqi qachon tuzildi?", "o": ["1963-yil", "1994-yil", "2011-yil", "2002-yil"], "a": 3, "e": "Afrika Birligi Tashkiloti o‘rniga." },
+      { "q": "Dunyodagi eng yosh davlat (2011)?", "o": ["Janubiy Sudan", "Eritreya", "Sharqiy Timor", "Kosovo"], "a": 0, "e": "193-BMT a’zosi." }
+    ],
+    "27": [
+      { "q": "Jahon savdo tashkiloti qachon tuzildi?", "o": ["1992-yil", "2001-yil", "1995-yil", "1997-yil"], "a": 2, "e": "Globallashuv belgisi." },
+      { "q": "Iqlim o‘zgarishiga qarshi 2015-yilgi kelishuv?", "o": ["Kioto protokoli", "Rio deklaratsiyasi", "Montreal protokoli", "Parij kelishuvi"], "a": 3, "e": "«Rio → Kioto → Parij»." },
+      { "q": "Globallashuvning salbiy oqibatiga kirmaydiganini toping.", "o": ["Texnologiya va bilimlarning tarqalishi", "Boy va kambag‘al davlatlar tafovuti", "Inqirozlarning tez tarqalishi", "Milliy madaniyatlarga tahdid"], "a": 0, "e": "Bu ijobiy oqibat." }
+    ],
+    "28": [
+      { "q": "Barqaror rivojlanish maqsadlari nechta va qaysi yilgacha?", "o": ["8 ta, 2015-yilgacha", "17 ta, 2030-yilgacha", "10 ta, 2020-yilgacha", "21 ta, 2050-yilgacha"], "a": 1, "e": "«8 → 17»." },
+      { "q": "Dunyo aholisi qachon 7 mlrd ga yetdi?", "o": ["2000-yil", "2015-yil", "2011-yil", "1999-yil"], "a": 2, "e": "Demografik muammolar." },
+      { "q": "«Barqaror rivojlanish» atamasi qachon kiritildi?", "o": ["1987-yil (Brundtland komissiyasi)", "1992-yil", "2000-yil", "2015-yil"], "a": 0, "e": "«Umumiy kelajagimiz» ma’ruzasi." }
+    ],
+    "29": [
+      { "q": "WWW (Butunjahon o‘rgimchak to‘ri) muallifi?", "o": ["Bill Geyts", "Stiv Jobs", "Mark Sukerberg", "Tim Berners-Li"], "a": 3, "e": "1991-yil." },
+      { "q": "Birinchi klonlangan sutemizuvchi?", "o": ["Qo‘y Dolli (1996)", "Sichqon", "It Laika", "Maymun"], "a": 0, "e": "«Dolli — 1996 — klon»." },
+      { "q": "Inson genomi qachon to‘liq o‘qildi?", "o": ["1996-yil", "2003-yil", "2012-yil", "1953-yil"], "a": 1, "e": "«Genom — 2003»." }
+    ]
+  }
+}

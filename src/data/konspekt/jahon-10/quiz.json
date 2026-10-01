@@ -1,0 +1,134 @@
+{
+  "topics": {
+    "1": [
+      { "q": "Versal shartnomasi qachon imzolandi?", "o": ["1918-yil 11-noyabr", "1919-yil 28-iyun", "1920-yil 21-yanvar", "1923-yil"], "a": 1, "e": "Germaniya bilan tuzilgan asosiy shartnoma." },
+      { "q": "Millatlar Ligasiga qaysi yirik davlat a’zo bo‘lmadi?", "o": ["Angliya", "Fransiya", "Italiya", "AQSh"], "a": 3, "e": "AQSh Senati Versal shartnomasini ratifikatsiya qilmadi." },
+      { "q": "Turkiya mustaqilligini tan olgan shartnoma?", "o": ["Lozanna (1923)", "Sevr (1920)", "Versal (1919)", "Brian–Kellog (1928)"], "a": 0, "e": "Lozanna Sevr shartnomasi o‘rniga tuzildi." }
+    ],
+    "2": [
+      { "q": "Penitsillinni kim kashf etgan?", "o": ["Chedvik", "Eynshteyn", "Aleksandr Fleming", "Lindberg"], "a": 2, "e": "«Fleming — Pen (penitsillin) — 1928»." },
+      { "q": "Neytronni kim va qachon kashf etdi?", "o": ["Chedvik, 1932", "Bor, 1922", "Gan, 1938", "Fleming, 1928"], "a": 0, "e": "«Chedvik — Neytron — 1932»." },
+      { "q": "Uran yadrosining bo‘linishi qachon kashf etildi?", "o": ["1921-yil", "1927-yil", "1932-yil", "1938-yil"], "a": 3, "e": "Gan va Shtrassman; atom energiyasi yo‘li ochildi." }
+    ],
+    "3": [
+      { "q": "Britaniya Hamdo‘stligini rasmiylashtirgan hujjat?", "o": ["Versal shartnomasi", "Vestminster statuti (1931)", "Myunxen kelishuvi", "Lokarno kelishuvi"], "a": 1, "e": "Dominionlar to‘liq mustaqil bo‘ldi." },
+      { "q": "Birinchi leyborist bosh vazir kim?", "o": ["Nevill Chemberlen", "Uinston Cherchill", "Ramsey Makdonald", "Lloyd Jorj"], "a": 2, "e": "1924-yilda birinchi leyborist hukumati." },
+      { "q": "«Tinchlantirish» siyosatini yuritgan bosh vazir?", "o": ["Nevill Chemberlen", "Ramsey Makdonald", "Bolduin", "Ettli"], "a": 0, "e": "«Chemberlen — Chekinish»." }
+    ],
+    "4": [
+      { "q": "Rur viloyati qachon egallandi?", "o": ["1919-yil", "1936-yil", "1938-yil", "1923-yil"], "a": 3, "e": "Germaniya reparatsiya to‘lamagani uchun." },
+      { "q": "Fransiyadagi Xalq fronti hukumati rahbari?", "o": ["Daladye", "Leon Blyum", "Klemanso", "De Goll"], "a": 1, "e": "1936-yilda." },
+      { "q": "Xalq fronti qanday islohot o‘tkazdi?", "o": ["40 soatlik ish haftasi va haq to‘lanadigan ta’til", "Xususiylashtirish", "Monarxiyani tikladi", "Ish kunini uzaytirdi"], "a": 0, "e": "«Blyum — 40 soat + ta’til»." }
+    ],
+    "5": [
+      { "q": "«Qora payshanba» qachon bo‘ldi?", "o": ["1933-yil 4-mart", "1929-yil 24-oktabr", "1935-yil", "1920-yil"], "a": 1, "e": "Nyu-York birjasi qulashi — Buyuk depressiya boshlandi." },
+      { "q": "«Yangi kurs» muallifi?", "o": ["Gerbert Guver", "Vudro Vilson", "Franklin Ruzvelt", "Kalvin Kulij"], "a": 2, "e": "1933-yildan." },
+      { "q": "«Yangi kurs»ning asosiy g‘oyasi?", "o": ["Davlatning iqtisodiyotga aralashuvi", "Davlatning iqtisoddan chiqishi", "Barcha korxonalarni natsionalizatsiya qilish", "Izolyatsionizmdan voz kechish"], "a": 0, "e": "Keyns g‘oyalari asosida." }
+    ],
+    "6": [
+      { "q": "Gitler qachon reyxskansler bo‘ldi?", "o": ["1923-yil noyabr", "1934-yil avgust", "1938-yil mart", "1933-yil 30-yanvar"], "a": 3, "e": "«30-yanvar 1933 — Gitler hokimiyatga»." },
+      { "q": "1919–1933-yillarda Germaniya qanday ataladi?", "o": ["Uchinchi reyx", "Veymar respublikasi", "Germaniya imperiyasi", "GFR"], "a": 1, "e": "Veymar Konstitutsiyasi — 1919." },
+      { "q": "Avstriyaning Germaniyaga qo‘shib olinishi qanday ataladi?", "o": ["Anshlyus", "Blitskrig", "Reparatsiya", "Pivo puchi"], "a": 0, "e": "1938-yil mart." }
+    ],
+    "7": [
+      { "q": "SSSR qachon tashkil topdi?", "o": ["1917-yil 25-oktyabr", "1918-yil mart", "1922-yil 30-dekabr", "1924-yil"], "a": 2, "e": "4 respublika: RSFSR, Ukraina, Belorussiya, Zakavkazye." },
+      { "q": "NEP qachon joriy etildi?", "o": ["1918-yil", "1928-yil", "1936-yil", "1921-yil"], "a": 3, "e": "X syezdda, oziq-ovqat solig‘i bilan." },
+      { "q": "«Katta terror» qaysi yillarda bo‘ldi?", "o": ["1936–1938", "1918–1921", "1929–1933", "1941–1945"], "a": 0, "e": "Partiya, armiya, ziyolilar qatag‘oni." }
+    ],
+    "8": [
+      { "q": "Mussolini qachon hokimiyatga keldi?", "o": ["1919-yil", "1922-yil («Rimga yurish»)", "1926-yil", "1935-yil"], "a": 1, "e": "Dunyodagi birinchi fashistik diktatura." },
+      { "q": "Ispaniya fuqarolar urushi yillari?", "o": ["1931–1933", "1939–1945", "1936–1939", "1923–1926"], "a": 2, "e": "Franko g‘alaba qildi." },
+      { "q": "Ispaniyada diktatura o‘rnatgan general?", "o": ["Fransisko Franko", "Benito Mussolini", "Primo de Rivera", "Salazar"], "a": 0, "e": "Franko diktaturasi 1975-yilgacha davom etdi." }
+    ],
+    "9": [
+      { "q": "Meksikada neftni natsionalizatsiya qilgan prezident?", "o": ["Getulio Vargas", "Xuan Peron", "Fidel Kastro", "Lasaro Kardenas"], "a": 3, "e": "1938-yilda (PEMEX)." },
+      { "q": "Braziliyada 1930-yildan hukmronlik qilgan rahbar?", "o": ["Getulio Vargas", "Kardenas", "Peron", "Batista"], "a": 0, "e": "1937 — «Yangi davlat»." },
+      { "q": "Ruzveltning Lotin Amerikasiga nisbatan siyosati?", "o": ["«Katta tayoq»", "«Yaxshi qo‘shnichilik»", "«Dollar diplomatiyasi»", "«Ochiq eshiklar»"], "a": 1, "e": "1933 — harbiy aralashuvdan voz kechish." }
+    ],
+    "10": [
+      { "q": "Yaponiya Manchjuriyani qachon bosib oldi?", "o": ["1937-yil", "1933-yil", "1931-yil", "1941-yil"], "a": 2, "e": "Mukden voqeasi." },
+      { "q": "Manchjuriyada tuzilgan qo‘g‘irchoq davlat?", "o": ["Manchjou-go", "Gomindan", "Koreya", "Manchu imperiyasi"], "a": 0, "e": "1932, rahbari — Pu I." },
+      { "q": "Yaponiya Xitoyga qarshi keng ko‘lamli urushni qachon boshladi?", "o": ["1931-yil", "1945-yil", "1932-yil", "1937-yil"], "a": 3, "e": "1937-yil 7-iyul — Marko Polo ko‘prigi voqeasi." }
+    ],
+    "11": [
+      { "q": "Gomindan rahbari kim edi?", "o": ["Mao Szedun", "Chan Kayshi", "Pu I", "Den Syaoping"], "a": 1, "e": "Sun Yatsendan keyin, 1925-yildan." },
+      { "q": "«Buyuk yurish»dan so‘ng XKP rahbari bo‘lgan?", "o": ["Mao Szedun", "Chan Kayshi", "Sun Yatsen", "Chjou Enlay"], "a": 0, "e": "1934–1935, 12 ming km." },
+      { "q": "Gandining kurash usuli qanday ataladi?", "o": ["Intifoda", "Partizan urushi", "Satyagraha (zo‘ravonliksiz qarshilik)", "Qurolli qo‘zg‘olon"], "a": 2, "e": "1930 — «Tuz yurishi»." }
+    ],
+    "12": [
+      { "q": "Turkiya Respublikasi qachon e’lon qilindi?", "o": ["1920-yil", "1922-yil 1-noyabr", "1924-yil", "1923-yil 29-oktabr"], "a": 3, "e": "Poytaxt — Anqara." },
+      { "q": "«Otaturk» kim?", "o": ["Mustafo Kamol", "Rizo Pahlaviy", "Ismat Inonu", "Anvar posho"], "a": 0, "e": "«Turklar otasi», 1934-yildan familiya." },
+      { "q": "Eronda Pahlaviylar sulolasi asoschisi?", "o": ["Muhammad Mossadiq", "Rizo shoh Pahlaviy", "Oyatulloh Xumayniy", "Nosiriddin shoh"], "a": 1, "e": "1925-yilda Qojarlar ag‘darildi." }
+    ],
+    "13": [
+      { "q": "Misr mustaqilligi qachon tan olindi?", "o": ["1919-yil", "1936-yil", "1922-yil", "1952-yil"], "a": 2, "e": "Britaniya protektoratni bekor qildi." },
+      { "q": "Efiopiyani 1935–1936-yillarda bosib olgan davlat?", "o": ["Italiya", "Britaniya", "Fransiya", "Germaniya"], "a": 0, "e": "Imperator — Xayle Selassie." },
+      { "q": "Afrika xalqlari birligi g‘oyasi qanday ataladi?", "o": ["Panislomizm", "Pantyurkizm", "Aparteid", "Panafrikanizm"], "a": 3, "e": "V. Dyubua, panafrika kongresslari." }
+    ],
+    "14": [
+      { "q": "Ikkinchi jahon urushi qachon boshlandi?", "o": ["1939-yil 1-sentabr", "1941-yil 22-iyun", "1938-yil 29-sentabr", "1939-yil 23-avgust"], "a": 0, "e": "Germaniya Polshaga hujum qildi." },
+      { "q": "Urushdagi burilish jangi?", "o": ["Normandiya", "Perl-Xarbor", "Stalingrad (1942–1943)", "Moskva"], "a": 2, "e": "Keyin Kursk jangi (1943)." },
+      { "q": "Ikkinchi front qachon ochildi?", "o": ["1943-yil", "1944-yil 6-iyun", "1942-yil", "1945-yil may"], "a": 1, "e": "Normandiyaga desant." }
+    ],
+    "15": [
+      { "q": "«Temir parda» iborasi kimniki?", "o": ["Trumen", "Stalin", "Ruzvelt", "Cherchill"], "a": 3, "e": "Fulton nutqi, 1946-yil 5-mart." },
+      { "q": "NATO qachon tuzildi?", "o": ["1949-yil", "1945-yil", "1955-yil", "1962-yil"], "a": 0, "e": "«NATO — 49, Varshava — 55»." },
+      { "q": "Dunyoni yadro urushi yoqasiga keltirgan inqiroz?", "o": ["Berlin blokadasi", "Koreya urushi", "Karib inqirozi (1962)", "Suvaysh inqirozi"], "a": 2, "e": "Kuba raketa inqirozi." }
+    ],
+    "16": [
+      { "q": "Uotergeyt janjali tufayli iste’foga chiqqan prezident?", "o": ["Jon Kennedi", "Richard Nikson", "Ronald Reygan", "Lindon Jonson"], "a": 1, "e": "1974 — yagona iste’foga chiqqan prezident." },
+      { "q": "«Reyganomika» muallifi?", "o": ["Ronald Reygan", "Jimmi Karter", "Jorj Bush", "Eyzenxauer"], "a": 0, "e": "Soliqlarni kamaytirish, davlat aralashuvini qisqartirish." },
+      { "q": "Qora tanlilar huquqlari uchun kurash yetakchisi?", "o": ["Malkolm Iks", "Nelson Mandela", "Barak Obama", "Martin Lyuter King"], "a": 3, "e": "1963 — «Mening orzuim bor»." }
+    ],
+    "17": [
+      { "q": "Kosmosga birinchi uchgan inson?", "o": ["Nil Armstrong", "Yuriy Gagarin", "German Titov", "Aleksey Leonov"], "a": 1, "e": "1961-yil 12-aprel." },
+      { "q": "«Turg‘unlik» davri rahbari?", "o": ["L. Brejnev", "N. Xrushchev", "M. Gorbachyov", "I. Stalin"], "a": 0, "e": "1964–1982." },
+      { "q": "SSSR qachon tarqaldi?", "o": ["1991-yil 8-dekabr", "1990-yil", "1991-yil 26-dekabr", "1989-yil 9-noyabr"], "a": 2, "e": "25-dekabr — Gorbachyov iste’fosi." }
+    ],
+    "18": [
+      { "q": "«Temir xonim» laqabli bosh vazir?", "o": ["Tereza Mey", "Indira Gandi", "Golda Meir", "Margaret Tetcher"], "a": 3, "e": "1979–1990, xususiylashtirish." },
+      { "q": "Fransiyada Beshinchi Respublika qachon tuzildi?", "o": ["1958-yil", "1946-yil", "1962-yil", "1968-yil"], "a": 0, "e": "Sharl de Goll." },
+      { "q": "Jazoir qachon mustaqil bo‘ldi?", "o": ["1954-yil", "1962-yil", "1956-yil", "1958-yil"], "a": 1, "e": "1954–1962-yillardagi urushdan so‘ng." }
+    ],
+    "19": [
+      { "q": "GFRning birinchi kansleri?", "o": ["Villi Brandt", "Helmut Kol", "Konrad Adenauer", "Lyudvig Erxard"], "a": 2, "e": "«Adenauer — Avval»." },
+      { "q": "Berlin devori qachon quladi?", "o": ["1989-yil 9-noyabr", "1961-yil 13-avgust", "1990-yil 3-oktabr", "1991-yil"], "a": 0, "e": "1990-yil 3-oktabrda Germaniya birlashdi." },
+      { "q": "Germaniya qachon birlashdi?", "o": ["1949-yil", "1989-yil", "1955-yil", "1990-yil 3-oktabr"], "a": 3, "e": "«49 — ikkiga bo‘lindi, 90 — birlashdi»." }
+    ],
+    "20": [
+      { "q": "Yaponiya Konstitutsiyasi qachon qabul qilindi?", "o": ["1945-yil", "1947-yil", "1951-yil", "1956-yil"], "a": 1, "e": "9-modda — urushdan voz kechish." },
+      { "q": "«To‘rt Osiyo ajdahosi»ga qaysi davlat kirmaydi?", "o": ["Janubiy Koreya", "Tayvan", "Yaponiya", "Singapur"], "a": 2, "e": "«Ko-Ta-Go-Si» — Koreya, Tayvan, Gonkong, Singapur." },
+      { "q": "Janubiy Koreyaning yirik konsernlari qanday ataladi?", "o": ["Chebollar", "Dzaybatsu", "Kommunalar", "Transmilliy banklar"], "a": 0, "e": "Samsung, Hyundai." }
+    ],
+    "21": [
+      { "q": "XXR qachon e’lon qilindi?", "o": ["1946-yil", "1958-yil", "1966-yil", "1949-yil 1-oktabr"], "a": 3, "e": "Mao Szedun." },
+      { "q": "«Madaniy inqilob» yillari?", "o": ["1966–1976", "1958–1960", "1978–1989", "1949–1953"], "a": 0, "e": "Xunveybinlar ziyolilarga qarshi." },
+      { "q": "Xitoy iqtisodiy islohotlari muallifi?", "o": ["Mao Szedun", "Den Syaoping", "Chan Kayshi", "Si Szinpin"], "a": 1, "e": "1978-yildan." }
+    ],
+    "22": [
+      { "q": "Hindiston va Pokiston qachon mustaqil bo‘ldi?", "o": ["1945-yil", "1950-yil", "1947-yil 15-avgust", "1971-yil"], "a": 2, "e": "«Maunbatten rejasi»." },
+      { "q": "Hindiston–Pokiston sulhi qayerda imzolangan?", "o": ["Toshkentda (1966)", "Dehlida", "Moskvada", "Islomobodda"], "a": 0, "e": "Toshkent deklaratsiyasi." },
+      { "q": "Pokistondan ajralgan davlat?", "o": ["Shri-Lanka", "Nepal", "Afg‘oniston", "Bangladesh (1971)"], "a": 3, "e": "Sharqiy Pokiston." }
+    ],
+    "23": [
+      { "q": "Eron Islom inqilobi rahbari?", "o": ["Muhammad Mossadiq", "Oyatulloh Xumayniy", "Rizo Pahlaviy", "Ali Xomanaiy"], "a": 1, "e": "1979-yil." },
+      { "q": "Sovet qo‘shinlari Afg‘onistondan qachon chiqdi?", "o": ["1989-yil", "1979-yil", "1985-yil", "1992-yil"], "a": 0, "e": "1979-yil dekabrda kiritilgan edi." },
+      { "q": "Turkiyadagi bozor islohotlari muallifi?", "o": ["Kenan Evren", "Adnan Menderes", "Turg‘ut O‘zal", "Mustafo Kamol"], "a": 2, "e": "1983 — bosh vazir, keyin prezident." }
+    ],
+    "24": [
+      { "q": "Kuba inqilobi rahbari?", "o": ["Fulgensio Batista", "Che Gevara", "Salvador Alyende", "Fidel Kastro"], "a": 3, "e": "1959-yil 1-yanvar." },
+      { "q": "Chilida 1973-yilda to‘ntarish qilgan general?", "o": ["Augusto Pinochet", "Xuan Peron", "Fransisko Franko", "Getulio Vargas"], "a": 0, "e": "1973-yil 11-sentabr, Alyende halok bo‘ldi." },
+      { "q": "Argentinadagi populistik prezident?", "o": ["Salvador Alyende", "Xuan Peron", "Lasaro Kardenas", "Fidel Kastro"], "a": 1, "e": "«Peron — Populizm»." }
+    ],
+    "25": [
+      { "q": "«Afrika yili» qaysi yil?", "o": ["1957-yil", "1963-yil", "1960-yil", "1975-yil"], "a": 2, "e": "17 davlat mustaqil bo‘ldi." },
+      { "q": "Tropik Afrikada birinchi mustaqil bo‘lgan davlat?", "o": ["Gana (1957)", "Nigeriya", "Kongo", "Senegal"], "a": 0, "e": "Kvame Nkruma." },
+      { "q": "Janubiy Afrikadagi irqiy segregatsiya siyosati?", "o": ["Panafrikanizm", "Neokolonializm", "Dekolonizatsiya", "Aparteid"], "a": 3, "e": "1948–1994." }
+    ],
+    "26": [
+      { "q": "Oyga birinchi qadam qo‘ygan inson?", "o": ["Yuriy Gagarin", "Nil Armstrong", "Bazz Oldrin", "Yuriy Leonov"], "a": 1, "e": "1969-yil 20-iyul, «Apollon-11»." },
+      { "q": "DNK tuzilishini kim kashf etgan?", "o": ["Uotson va Krik", "Fleming", "Barnard", "Chedvik"], "a": 0, "e": "1953-yil." },
+      { "q": "Dunyodagi birinchi AES qachon, qayerda ishga tushdi?", "o": ["1945-yil, Los-Alamos", "1986-yil, Chernobil", "1954-yil, Obninsk", "1961-yil, Moskva"], "a": 2, "e": "SSSRda." }
+    ]
+  }
+}

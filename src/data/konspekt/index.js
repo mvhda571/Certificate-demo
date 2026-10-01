@@ -5,6 +5,10 @@ import { worldHistory8Course } from './jahon8'
 import { uzbekHistory8Course } from './ozbekiston8'
 import { uzbekHistory9Course } from './ozbekiston9'
 import { worldHistory9Course } from './jahon9'
+import { uzbekHistory10Course } from './ozbekiston10'
+import { uzbekHistory11Course } from './ozbekiston11'
+import { worldHistory10Course } from './jahon10'
+import { worldHistory11Course } from './jahon11'
 
 // Konspekt asosidagi tarix kurslari. `key` — progress saqlanadigan kalit (useLearningStore).
 // `period` berilsa, dastur sarlavhasi va mavzular ro'yxati kursning o'zidan olinadi.
@@ -17,6 +21,10 @@ export const konspektCourses = {
   'tarix-8-jahon': { key: 'tarix-8-jahon', grade: '8', track: 'jahon', title: 'Jahon tarixi', period: 'Yangi davr tarixi (XV asr oxiri – 1870-yil)', course: worldHistory8Course },
   'tarix-9': { key: 'tarix-9', grade: '9', track: 'ozbekiston', title: 'O‘zbekiston tarixi', period: 'XIX asr o‘rtalari – XX asr boshlarida O‘zbekiston tarixi', pdf: '/textbooks/tarix-9.pdf', course: uzbekHistory9Course },
   'tarix-9-jahon': { key: 'tarix-9-jahon', grade: '9', track: 'jahon', title: 'Jahon tarixi', period: 'Eng yangi davr boshlari (XIX asr oxiri – XX asr boshi)', course: worldHistory9Course },
+  'tarix-10': { key: 'tarix-10', grade: '10', track: 'ozbekiston', title: 'O‘zbekiston tarixi', period: 'O‘zbekiston tarixi (1917–1991-yillar)', pdf: '/textbooks/tarix-10.pdf', course: uzbekHistory10Course },
+  'tarix-10-jahon': { key: 'tarix-10-jahon', grade: '10', track: 'jahon', title: 'Jahon tarixi', period: 'Eng yangi davr tarixi (1918–1991-yillar)', course: worldHistory10Course },
+  'tarix-11': { key: 'tarix-11', grade: '11', track: 'ozbekiston', title: 'O‘zbekiston tarixi', period: 'Mustaqil O‘zbekiston tarixi (1991-yildan)', pdf: '/textbooks/tarix-11.pdf', course: uzbekHistory11Course },
+  'tarix-11-jahon': { key: 'tarix-11-jahon', grade: '11', track: 'jahon', title: 'Jahon tarixi', period: 'XX asr oxiri – XXI asr boshlarida jahon tarixi', course: worldHistory11Course },
 }
 
 // Bir nechta yo'nalishga ega sinflar: sinf bosilganda avval yo'nalish tanlanadi.
@@ -32,6 +40,14 @@ export const historyTracks = {
   9: [
     { id: 'ozbekiston', title: 'O‘zbekiston tarixi', description: 'XIX asr o‘rtalari – XX asr boshlarida O‘zbekiston tarixi: 39 ta konspekt, flashcardlar, oraliq va yakuniy test.' },
     { id: 'jahon', title: 'Jahon tarixi', description: 'XIX asr oxiri – XX asr boshi jahon tarixi: 41 ta konspekt, flashcardlar, oraliq va yakuniy test.' },
+  ],
+  10: [
+    { id: 'ozbekiston', title: 'O‘zbekiston tarixi', description: '1917–1991-yillarda O‘zbekiston tarixi: 28 ta konspekt, flashcardlar, oraliq va yakuniy test.' },
+    { id: 'jahon', title: 'Jahon tarixi', description: '1918–1991-yillarda jahon tarixi: 26 ta konspekt, flashcardlar, oraliq va yakuniy test.' },
+  ],
+  11: [
+    { id: 'ozbekiston', title: 'O‘zbekiston tarixi', description: 'Mustaqil O‘zbekiston tarixi: 22 ta konspekt, flashcardlar, oraliq va yakuniy test.' },
+    { id: 'jahon', title: 'Jahon tarixi', description: 'XX asr oxiri – XXI asr boshlarida jahon tarixi: 29 ta konspekt, flashcardlar, oraliq va yakuniy test.' },
   ],
 }
 

@@ -46,7 +46,8 @@ export function buildCourse({ files, quiz, exams, flashcards = {}, midtermLastTo
   const topics = Object.entries(files)
     .map(([path, raw]) => {
       const { meta, body } = parseFrontmatter(raw)
-      const id = Number(meta.tartib)
+      // 10–11-sinf konspektlarida `tartib` ikki sinf bo'ylab davom etadi, sinf ichidagi raqam — `sinf_tartib`.
+      const id = Number(meta.sinf_tartib || meta.tartib)
       const sections = parseSections(body)
       return {
         id,

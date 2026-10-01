@@ -1,0 +1,144 @@
+{
+  "topics": {
+    "1": [
+      { "q": "Rossiyada Fevral inqilobi qachon bo‘ldi?", "o": ["1917-yil 27-fevral", "1917-yil 25-oktyabr", "1916-yil 25-iyun", "1918-yil 26-yanvar"], "a": 0, "e": "Yangi hisobda 12-mart; Nikolay II taxtdan voz kechdi." },
+      { "q": "Jadidlar 1917-yil 14-martda Toshkentda qanday tashkilot tuzdi?", "o": ["«Sho‘roi Ulamo»", "«Sho‘roi Islomiya»", "«Birlik»", "Musbyuro"], "a": 1, "e": "«Sho‘roi Islomiya — jadidlar, Sho‘roi Ulamo — qadimchilar»." },
+      { "q": "1917-yil aprelda Toshkentdagi I Butunturkiston musulmonlari qurultoyi qanday talab qo‘ydi?", "o": ["Rossiya tarkibidan to‘liq chiqish", "Sovet hokimiyatini o‘rnatish", "Turkistonga muxtoriyat berish", "Buxoro amirligiga qo‘shilish"], "a": 2, "e": "Turkiston o‘lka musulmonlari Sho‘rosi (Mustafo Cho‘qay) tuzildi." }
+    ],
+    "2": [
+      { "q": "Turkiston o‘lkasi XKS raisi kim edi?", "o": ["Turor Risqulov", "Mixail Frunze", "Mustafo Cho‘qay", "Fyodor Kolesov"], "a": 3, "e": "III o‘lka Sovetlar syezdida (1917-yil 15–22-noyabr) tuzilgan." },
+      { "q": "Toshkentda sovet hokimiyati qachon o‘rnatildi?", "o": ["1917-yil 28-oktyabr – 1-noyabr", "1917-yil 2-mart", "1918-yil 30-yanvar", "1917-yil 27-noyabr"], "a": 0, "e": "Qurolli to‘qnashuvda Turkiston qo‘mitasi ag‘darildi." },
+      { "q": "III o‘lka Sovetlar syezdi mahalliy musulmonlarga nisbatan qanday qaror qabul qildi?", "o": ["Ularga muxtoriyat berdi", "Ularni oliy hokimiyat organlariga kiritishni rad etdi", "Hukumatning yarmini ularga berdi", "Ularni Qo‘qonga ko‘chirdi"], "a": 1, "e": "14 a’zoli XKSda birorta ham mahalliy yo‘q edi." }
+    ],
+    "3": [
+      { "q": "Turkiston Muxtoriyati qachon e’lon qilindi?", "o": ["1918-yil 22-fevral", "1917-yil 14-mart", "1917-yil 27-noyabr", "1920-yil 8-oktabr"], "a": 2, "e": "Qo‘qondagi IV favqulodda o‘lka musulmonlari qurultoyida." },
+      { "q": "Turkiston Muxtoriyatining birinchi Bosh vaziri kim edi?", "o": ["Muhammadjon Tinishboyev", "Mustafo Cho‘qay", "Ubaydulla Xo‘jayev", "Islom Sulton Shoahmedov"], "a": 0, "e": "«Tinishboyev → Cho‘qay» (T → Ch)." },
+      { "q": "Muxtoriyat e’lon qilingan tunni «Milliy laylatulqadrimiz» deb kim atagan?", "o": ["Cho‘lpon", "Hamza", "Behbudiy", "Fitrat"], "a": 3, "e": "Muxtoriyat 72 kun yashadi." }
+    ],
+    "4": [
+      { "q": "Turkiston ASSR qachon tuzildi?", "o": ["1917-yil noyabr", "1918-yil 20-aprel – 1-may", "1920-yil aprel", "1924-yil 27-oktyabr"], "a": 1, "e": "V o‘lka Sovetlar syezdida, RSFSR tarkibida." },
+      { "q": "Musbyuro (RKP(b) o‘lka Musulmonlar byurosi) rahbari kim edi?", "o": ["Fayzulla Xo‘jayev", "Akmal Ikromov", "Turor Risqulov", "Yo‘ldosh Oxunboboyev"], "a": 2, "e": "1919-yil mart; Risqulov g‘oyalari millatchilik deb rad etildi." },
+      { "q": "Dehqonlardan g‘allani majburan olish tizimi qanday atalgan?", "o": ["Oziq-ovqat razvyorstkasi", "Oziq-ovqat solig‘i", "Trudoden", "Kolxoz"], "a": 0, "e": "«Harbiy kommunizm» (1918–1920); NEP uni soliq bilan almashtirdi." }
+    ],
+    "5": [
+      { "q": "Farg‘ona Muvaqqat hukumati qachon va kim boshchiligida tuzildi?", "o": ["1918-yil fevral, Katta Ergash", "1920-yil, Sher Muhammadbek", "1922-yil, Anvar posho", "1919-yil 12-oktabr, Madaminbek"], "a": 3, "e": "Pomirning Ergashtom ovulida tuzilgan." },
+      { "q": "Istiqlolchilik harakati qayerda boshlandi?", "o": ["Qo‘qon atrofida", "Xivada", "Toshkentda", "Sharqiy Buxoroda"], "a": 0, "e": "1918-yil fevral oxirida, Muxtoriyat tugatilgach." },
+      { "q": "Sovet tarixchilari istiqlolchilarni qanday atagan?", "o": ["Jadidlar", "«Bosmachilar»", "Qadimchilar", "«Desant»"], "a": 1, "e": "Haqiqatda bu mustaqillik uchun kurash edi." }
+    ],
+    "6": [
+      { "q": "Kolesov yurishidan so‘ng 1918-yil 25-martda qanday bitim imzolandi?", "o": ["Brest bitimi", "Olmaota deklaratsiyasi", "Qiziltepa bitimi", "Molotov–Ribbentrop bitimi"], "a": 2, "e": "Sovet Turkistoni Buxoro mustaqilligini tan oldi." },
+      { "q": "Buxoro amirligi qachon ag‘darildi?", "o": ["1920-yil 2-sentabr", "1920-yil 1-fevral", "1918-yil 25-mart", "1924-yil 27-oktyabr"], "a": 0, "e": "Frunze qo‘shinlari Buxoroni bombardimon qildi, Ark yondi." },
+      { "q": "BXSR Xalq Nozirlar Sho‘rosi raisi kim edi?", "o": ["Polvonniyoz Yusupov", "Fitrat", "Usmon Xo‘ja", "Fayzulla Xo‘jayev"], "a": 3, "e": "BXSR 1920-yil 8-oktabrda e’lon qilindi." }
+    ],
+    "7": [
+      { "q": "XXSR (Xorazm Xalq Sovet Respublikasi) qachon e’lon qilindi?", "o": ["1920-yil oktabr", "1920-yil 26–30-aprel", "1918-yil 30-oktyabr", "1924-yil oxiri"], "a": 1, "e": "«1920 — aprel XXSR, oktabr BXSR»." },
+      { "q": "Yosh xivaliklar partiyasining rahbari kim edi?", "o": ["Junaidxon", "Asfandiyorxon", "Polvonniyoz Yusupov", "Said Abdullaxon"], "a": 2, "e": "Partiya 1914-yilda tuzilgan; u XXSR hukumatini boshqargan." },
+      { "q": "Asfandiyorxon qachon o‘ldirildi?", "o": ["1918-yil 30-oktyabr", "1917-yil 5-aprel", "1920-yil 1-fevral", "1917-yil noyabr"], "a": 0, "e": "Saroy fitnasida; taxtga Said Abdullaxon o‘tqazildi." }
+    ],
+    "8": [
+      { "q": "Anvar posho qachon va qayerda halok bo‘ldi?", "o": ["1921-yil mart, Buxoroda", "1924-yil, Qizilqumda", "1920-yil, Ergashtomda", "1922-yil avgust, Obidarada"], "a": 3, "e": "Baljuvon atrofidagi Obidara qishlog‘ida." },
+      { "q": "Xorazmdagi istiqlolchilar yetakchisi kim edi?", "o": ["Junaidxon", "Ibrohimbek", "Madaminbek", "Mulla Abdulqahhor"], "a": 0, "e": "«Junaidxon — Xorazm, Ibrohimbek — Sharqiy Buxoro»." },
+      { "q": "Sobiq amir Olimxon qachon Afg‘onistonga o‘tdi?", "o": ["1920-yil sentabr", "1921-yil mart", "1922-yil avgust", "1924-yil oxiri"], "a": 1, "e": "Sharqiy Buxorodagi mag‘lubiyatlardan so‘ng." }
+    ],
+    "9": [
+      { "q": "O‘zbekiston SSR tuzish haqidagi SSSR MIK qarori qachon qabul qilindi?", "o": ["1925-yil 13-fevral", "1917-yil 27-noyabr", "1924-yil 27-oktyabr", "1929-yil"], "a": 2, "e": "«27-oktyabr 1924 — O‘zSSR»." },
+      { "q": "O‘zbekiston SSR tarkibida 1924-yilda qaysi avtonom respublika tuzildi?", "o": ["Tojikiston ASSR", "Qoraqalpog‘iston ASSR", "Turkiston ASSR", "Qirg‘iziston ASSR"], "a": 0, "e": "Tojikiston 1929-yilda alohida SSRga aylantirildi." },
+      { "q": "Milliy-hududiy chegaralanishning asl maqsadi nima edi?", "o": ["Har bir millatga to‘liq mustaqillik berish", "Rossiya hududini kengaytirish", "Paxta ekin maydonlarini oshirish", "Yagona Turkiston g‘oyasiga barham berish"], "a": 3, "e": "«Bo‘lib tashla va hukmronlik qil»." }
+    ],
+    "10": [
+      { "q": "O‘zbekiston SSR qachon va qayerda rasman e’lon qilindi?", "o": ["1924-yil 27-oktyabr, Moskvada", "1925-yil 13-fevral, Buxoroda", "1925-yil may, Samarqandda", "1930-yil, Toshkentda"], "a": 1, "e": "Butuno‘zbek Sovetlarining I Ta’sis qurultoyida." },
+      { "q": "O‘zSSR MIK raisi kim edi?", "o": ["Yo‘ldosh Oxunboboyev", "Fayzulla Xo‘jayev", "Akmal Ikromov", "Bobon Mavlonbekov"], "a": 0, "e": "«Oxunboboyev — MIK, Xo‘jayev — XKS»." },
+      { "q": "O‘zbekiston SSR poytaxtlari qaysi tartibda o‘zgargan?", "o": ["Samarqand → Buxoro → Toshkent", "Toshkent → Samarqand → Buxoro", "Buxoro → Samarqand → Toshkent", "Buxoro → Toshkent → Samarqand"], "a": 2, "e": "«B-S-T»: Toshkent 1930-yildan poytaxt." }
+    ],
+    "11": [
+      { "q": "Yalpi kollektivlashtirish va quloqlarni tugatish haqidagi qaror qachon qabul qilindi?", "o": ["1925-yil 2-dekabr", "1929-yil", "1932-yil", "1930-yil 17-fevral"], "a": 3, "e": "«1930 — Quloq surgun»." },
+      { "q": "«Quloq» deb topilganlar qanday jazolandi?", "o": ["Mulki musodara qilinib, surgun qilindi", "Kolxoz raisi etib tayinlandi", "Soliqdan ozod qilindi", "Yer bilan taqdirlandi"], "a": 0, "e": "Ukraina, Shimoliy Kavkaz, Sibirga surgun qilindi." },
+      { "q": "Sovxoz qanday xo‘jalik edi?", "o": ["Kollektiv xo‘jalik", "Davlat xo‘jaligi", "Xususiy dehqon xo‘jaligi", "Vaqf xo‘jaligi"], "a": 1, "e": "«Kolxoz — Kollektiv, Sovxoz — Sovet (davlat)»." }
+    ],
+    "12": [
+      { "q": "Birinchi besh yillik qaysi yillarda bo‘lgan?", "o": ["1933–1937", "1946–1950", "1928–1932", "1921–1925"], "a": 2, "e": "Muddatidan 9 oy oldin yakunlandi." },
+      { "q": "Birinchi besh yillikda O‘zbekistonda nechta yangi korxona qurildi?", "o": ["289 ta", "79 ta", "100 ta", "413 ta"], "a": 0, "e": "Yana 79 ta korxona qayta qurildi." },
+      { "q": "O‘zbekiston sanoatining asosiy kamchiligi nima edi?", "o": ["Ishchilar faqat mahalliy bo‘lgani", "Paxta yetishtirilmagani", "Faqat tayyor mahsulot chiqarilgani", "Bir tomonlamalik — xomashyo yo‘nalishi"], "a": 3, "e": "Asosan paxta tozalash va xomashyoni qayta ishlash." }
+    ],
+    "13": [
+      { "q": "«Hujum» kompaniyasi qachon boshlandi?", "o": ["1926-yil sentabr", "1927-yil 8-mart", "1930-yil 17-fevral", "1939-yil"], "a": 1, "e": "«Hujum — 8-mart 1927» (Xotin-qizlar kuni)." },
+      { "q": "«Hujum»ning asosiy maqsadi nima edi?", "o": ["Ayollarni paranjidan ozod qilib, ijtimoiy hayotga jalb qilish", "Paxta hosilini oshirish", "Yozuvni lotinga o‘tkazish", "Quloqlarni surgun qilish"], "a": 0, "e": "Ayni paytda dinga qarshi kurash vositasi ham edi." },
+      { "q": "«Hujum»ning asosiy kamchiligi nimada edi?", "o": ["Juda sekin o‘tkazilgani", "Faqat shaharlarda o‘tkazilgani", "Zo‘ravonlik bilan o‘tkazilgani", "Ayollar qatnashmagani"], "a": 2, "e": "Paranji tashlagan minglab ayollar o‘ldirildi." }
+    ],
+    "14": [
+      { "q": "O‘zbekistonda lotin yozuviga birinchi marta qachon o‘tildi?", "o": ["1921-yil", "1940-yil", "1993-yil", "1929-yil"], "a": 3, "e": "«Arab → Lotin (1929) → Kirill (1940) → Lotin (1993)»." },
+      { "q": "Kirill yozuviga qachon o‘tildi?", "o": ["1940-yil", "1929-yil", "1932-yil", "1945-yil"], "a": 0, "e": "Natijada xalq ming yillik yozma merosidan uzildi." },
+      { "q": "O‘zFAN (SSSR FA O‘zbekiston filiali) qachon tuzildi?", "o": ["1932-yil 14-oktyabr", "1940-yil 9-yanvar", "1943-yil 4-noyabr", "1920-yil"], "a": 1, "e": "1932-yilda esa O‘zSSR Fanlar komiteti tuzilgan." }
+    ],
+    "15": [
+      { "q": "Fitrat, Cho‘lpon va Abdulla Qodiriy qachon otib tashlandi?", "o": ["1938-yil mart", "1930-yil avgust", "1938-yil 4-oktabr", "1952-yil fevral"], "a": 2, "e": "«4-oktabr 1938 — Uch yulduz (F-Ch-Q)»." },
+      { "q": "«Katta terror» qaysi yillarda bo‘ldi?", "o": ["1936–1938", "1929–1930", "1945–1953", "1983–1988"], "a": 0, "e": "Cho‘qqisi 1937-yil yozida." },
+      { "q": "Qatag‘on qurbonlarini yod etish kuni qachon?", "o": ["9-may", "1-sentabr", "8-dekabr", "31-avgust"], "a": 3, "e": "Mustaqillik kuni arafasi." }
+    ],
+    "16": [
+      { "q": "Ikkinchi jahon urushi qachon boshlandi?", "o": ["1941-yil 22-iyun", "1939-yil 1-sentabr", "1939-yil 23-avgust", "1940-yil iyul"], "a": 1, "e": "Germaniya Polshaga hujum qildi." },
+      { "q": "Germaniya SSSRga qachon hujum qildi?", "o": ["1941-yil 22-iyun", "1939-yil 17-sentabr", "1941-yil 30-iyun", "1945-yil 9-may"], "a": 0, "e": "Hujum qilmaslik bitimiga qaramay to‘satdan." },
+      { "q": "SSSR Millatlar Ligasidan qachon chiqarildi?", "o": ["1939-yil 1-sentabr", "1940-yil 12-mart", "1939-yil 14-dekabr", "1941-yil 22-iyun"], "a": 2, "e": "Sovet–fin urushi uchun agressor deb e’lon qilindi." }
+    ],
+    "17": [
+      { "q": "O‘rta Osiyodagi birinchi metallurgiya kombinati qayerda qurildi?", "o": ["Olmaliqda", "Chirchiqda", "Navoiyda", "Bekobodda"], "a": 3, "e": "1944-yil martda birinchi navbati ishga tushdi." },
+      { "q": "Urush yillarida xalq hashar usulida qurgan GES?", "o": ["Farhod GES", "Chorvoq GES", "Norin GES", "Tuyamo‘yin GES"], "a": 0, "e": "«Bekobod — Po‘lat, Farhod — Elektr, 1944»." },
+      { "q": "1943-yilda sanoatning xalq xo‘jaligidagi ulushi qancha edi?", "o": ["43%", "75%", "90%", "20%"], "a": 1, "e": "1942-yilda yangi sanoat mahsuloti 2 baravar oshgan." }
+    ],
+    "18": [
+      { "q": "Birinchi o‘zbek generali kim edi?", "o": ["Tuychi Erjigitov", "Ziyodulla Shamsiyev", "Sobir Rahimov", "Qudrat Tursunqulov"], "a": 2, "e": "1945-yil 26-mart Gdansk shturmida halok bo‘ldi." },
+      { "q": "14 yetim bolani asrab olgan oila?", "o": ["Shomahmudovlar", "Rashidovlar", "Xo‘jayevlar", "Oripovlar"], "a": 0, "e": "Shoahmad va Bahri opa, Toshkent." },
+      { "q": "Urush yillarida O‘zbekistondan frontga qancha kishi ketdi?", "o": ["500 ming", "6,5 mln", "200 ming", "1,5 mln dan ortiq"], "a": 3, "e": "Ularning ~500 ming nafari halok bo‘ldi." }
+    ],
+    "19": [
+      { "q": "O‘zbekiston Fanlar akademiyasi qachon tuzildi?", "o": ["1940-yil", "1943-yil", "1932-yil", "1945-yil"], "a": 1, "e": "1943-yil 4-noyabr, O‘zFAN asosida." },
+      { "q": "O‘zbekiston Fanlar akademiyasining birinchi prezidenti?", "o": ["Toshmuhammad Qori-Niyoziy", "Otajon Hoshimov", "Hamid Olimjon", "Sharof Rashidov"], "a": 0, "e": "Matematik, akademik (1897–1970)." },
+      { "q": "«Sen yetim emassan» she’ri muallifi kim?", "o": ["Oybek", "Hamid Olimjon", "G‘afur G‘ulom", "Maqsud Shayxzoda"], "a": 2, "e": "Urush yillari vatanparvarlik she’riyati namunasi." }
+    ],
+    "20": [
+      { "q": "Birinchi paxta terish mashinalarini qaysi zavod chiqardi?", "o": ["Toshkent traktor zavodi", "Chkalov zavodi", "Bekobod metallurgiya zavodi", "Tashselmash"], "a": 3, "e": "«1948 — birinchi paxta terish mashinasi — Tashselmash»." },
+      { "q": "Oziq-ovqat kartochka tizimi qachon bekor qilindi?", "o": ["1947-yil dekabr", "1945-yil may", "1953-yil mart", "1946-yil fevral"], "a": 0, "e": "Pul islohoti bilan birga." },
+      { "q": "Urushdan keyin qishloq xo‘jaligining asosiy muammosi nima edi?", "o": ["Don yakkahokimligi", "Paxta yakkahokimligi", "Chorvachilikning o‘sishi", "Bog‘larning ko‘payishi"], "a": 1, "e": "Boshqa ekinlar va bog‘lar qisqardi." }
+    ],
+    "21": [
+      { "q": "Shaxsga sig‘inishni kim va qachon fosh qildi?", "o": ["L. Brejnev, 1964-yil", "M. Gorbachyov, 1985-yil", "N. Xrushchev, 1956-yil", "Yu. Andropov, 1983-yil"], "a": 2, "e": "KPSS XX syezdi yopiq majlisida." },
+      { "q": "Stalin qachon vafot etdi?", "o": ["1953-yil 5-mart", "1956-yil 25-fevral", "1952-yil fevral", "1945-yil 9-may"], "a": 0, "e": "U 1922–1953-yillarda hukmronlik qilgan." },
+      { "q": "1952-yilgi O‘zKP MK X plenumidan keyin qaysi shoir qamaldi?", "o": ["Abdulla Qodiriy", "G‘afur G‘ulom", "Abdulla Oripov", "Maqsud Shayxzoda"], "a": 3, "e": "Mirtemir, Shukrullo, Hamid Sulaymon ham qamaldi." }
+    ],
+    "22": [
+      { "q": "1947-yilda qurilgan 600 km lik temiryo‘l?", "o": ["Chorjo‘y–Qo‘ng‘irot", "Navoiy–Uchquduq", "Angren–Pop", "Termiz–Hayraton"], "a": 0, "e": "Urushdan keyingi transport qurilishi." },
+      { "q": "Paxta tolasining qancha qismi O‘zbekistondan tashqariga jo‘natilgan?", "o": ["~25%", "~50%", "~90%", "~10%"], "a": 2, "e": "«Paxta — 90% chetga» — bir tomonlamalik belgisi." },
+      { "q": "1959-yilda sanoat ishchilari orasida o‘zbeklar ulushi qancha edi?", "o": ["62%", "90%", "75%", "43%"], "a": 3, "e": "Aholida esa o‘zbeklar 62% dan ortiq edi." }
+    ],
+    "23": [
+      { "q": "Sharof Rashidov qachon O‘zKP MK birinchi kotibi bo‘ldi?", "o": ["1950-yil", "1959-yil 15-mart", "1966-yil 26-aprel", "1983-yil oktabr"], "a": 1, "e": "«Rashidov — 1959–1983 (24 yil)»." },
+      { "q": "Toshkent zilzilasi qachon bo‘ldi?", "o": ["1966-yil 26-aprel", "1977-yil noyabr", "1959-yil 15-mart", "1970-yil 26-aprel"], "a": 0, "e": "Soat 5:23 da." },
+      { "q": "Toshkent metropoliteni qachon ochildi?", "o": ["1966-yil", "1983-yil", "1977-yil noyabr", "1970-yil"], "a": 2, "e": "O‘rta Osiyodagi birinchi metro, 9 bekat." }
+    ],
+    "24": [
+      { "q": "Gazli koni qachon topildi?", "o": ["1961-yil", "1975-yil", "1958-yil", "1956-yil"], "a": 3, "e": "«Gazli — 1956 — Gaz»." },
+      { "q": "Dunyodagi eng yirik oltin koni qaysi?", "o": ["Muruntov", "Olmaliq", "Angren", "Sho‘rtan"], "a": 0, "e": "1961-yil ishga tushgan, 1963-yil birinchi sof oltin." },
+      { "q": "Navoiy shahriga qachon asos solindi?", "o": ["1956-yil", "1958-yil 3-sentabr", "1982-yil aprel", "1966-yil"], "a": 1, "e": "1982-yilda Navoiy viloyati tuzildi." }
+    ],
+    "25": [
+      { "q": "Orol fojiasining asosiy sababi nima?", "o": ["Zilzilalar", "Neft qazib olish", "Paxta yakkahokimligi va daryo suvlarining isrofi", "Iqlimning tabiiy isishi"], "a": 2, "e": "«P-S-K»: Paxta, Suv isrofi, Kimyo." },
+      { "q": "O‘zbekistonda 1981-yilda taqiqlangan zaharli defoliant?", "o": ["Butifos", "Superfosfat", "Selitra", "Karbamid"], "a": 0, "e": "Ayrim xo‘jaliklar keyin ham ishlatgan." },
+      { "q": "Orol fojiasidan eng ko‘p aziyat chekkan hudud?", "o": ["Farg‘ona vodiysi", "Toshkent", "Surxondaryo", "Qoraqalpog‘iston"], "a": 3, "e": "Qoraqalpog‘iston va Xorazm aholisi kasalliklardan aziyat chekdi." }
+    ],
+    "26": [
+      { "q": "«Paxta ishi»ga turtki bo‘lgan plenum?", "o": ["KPSS XX syezdi", "O‘zKP MK XVI plenumi (1984-yil 23-iyun)", "O‘zKP MK X plenumi (1952)", "1985-yil aprel plenumi"], "a": 1, "e": "Rashidov davri qoralandi." },
+      { "q": "«Paxta ishi»ning asosiy maqsadi nima edi?", "o": ["O‘zbek xalqini kamsitish, respublikani Markazga bo‘ysundirish", "Paxta hosilini oshirish", "Orol dengizini qutqarish", "Mustaqillikni tayyorlash"], "a": 0, "e": "4 mingdan ortiq kishi qamaldi, ko‘pchiligi begunoh." },
+      { "q": "Rashidovdan keyingi O‘zKP MK birinchi kotibi kim?", "o": ["Rafiq Nishonov", "Islom Karimov", "Inomjon Usmonxo‘jayev", "Shukurulla Mirsaidov"], "a": 2, "e": "«Rashidov → Usmonxo‘jayev → Nishonov → Karimov»." }
+    ],
+    "27": [
+      { "q": "«Qayta qurish» siyosatini kim boshladi?", "o": ["N. Xrushchev", "L. Brejnev", "Yu. Andropov", "M. Gorbachyov"], "a": 3, "e": "1985-yil aprel plenumida." },
+      { "q": "«Davlat tili haqida»gi qonun qachon qabul qilindi?", "o": ["1989-yil 21-oktabr", "1990-yil 20-iyun", "1991-yil 31-avgust", "1992-yil 8-dekabr"], "a": 0, "e": "«21-oktabr — O‘zbek tili bayrami»." },
+      { "q": "Farg‘ona fojialari qachon bo‘ldi?", "o": ["1990-yil iyun", "1989-yil may–iyun", "1986-yil dekabr", "1991-yil avgust"], "a": 1, "e": "Mahalliy aholi va turk-mesxetinlar o‘rtasida." }
+    ],
+    "28": [
+      { "q": "O‘zbekistonda Prezident lavozimi qachon joriy etildi?", "o": ["1991-yil 29-dekabr", "1989-yil 23-iyun", "1990-yil 24-mart", "1990-yil 20-iyun"], "a": 2, "e": "SSSRda birinchi respublika prezidenti — I. Karimov." },
+      { "q": "Mustaqillik deklaratsiyasi qachon qabul qilindi?", "o": ["1990-yil 20-iyun", "1991-yil 31-avgust", "1990-yil 24-mart", "1991-yil 17-mart"], "a": 0, "e": "«Til → Prezident → Deklaratsiya → Mustaqillik»." },
+      { "q": "«Birlik» xalq harakatining rahbari kim edi?", "o": ["Islom Karimov", "Rafiq Nishonov", "Mirahmad Mirqosimov", "Abdurahim Po‘latov"], "a": 3, "e": "«Birlik» 1988-yil noyabrda tuzilgan." }
+    ]
+  }
+}
