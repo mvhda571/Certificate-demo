@@ -1,0 +1,224 @@
+{
+  "topics": {
+    "1": [
+      { "q": "«Xalqlarning buyuk ko‘chishi» qaysi asrlarda bo‘lgan?", "o": ["I–III asrlar", "IV–VI asrlar", "VII–IX asrlar", "X–XII asrlar"], "a": 1, "e": "Xalqlarning buyuk ko‘chishi IV–VI asrlarda bo‘lgan va uni xunnlar boshlab bergan." },
+      { "q": "O‘rta asrlarning boshlanishi deb qaysi voqea hisoblanadi?", "o": ["Rim imperiyasining ikkiga bo‘linishi (395)", "Franklar davlatining tuzilishi (486)", "G‘arbiy Rim imperiyasining qulashi (476)", "Buyuk Karlning toj kiyishi (800)"], "a": 2, "e": "476-yilda G‘arbiy Rim imperiyasi qulab tushdi — bu O‘rta asrlarning boshlanishi." },
+      { "q": "German zodagonlarining yo‘lboshchisi (keyinchalik qirol) qanday atalgan?", "o": ["Konung", "Senyor", "Vassal", "Gersog"], "a": 0, "e": "Konung — german zodagonlarining yo‘lboshchisi, keyinchalik qirolga aylangan." }
+    ],
+    "2": [
+      { "q": "Franklar davlatiga kim va qachon asos solgan?", "o": ["Buyuk Karl, 800-yil", "Karl Martell, 732-yil", "Otton I, 962-yil", "Xlodvig, 486-yil"], "a": 3, "e": "486-yilda qirol Xlodvig Galliyadagi so‘nggi Rim hududini bosib olib, franklar davlatiga asos soldi." },
+      { "q": "Senyor vassaliga harbiy xizmati evaziga bergan yer qanday atalgan?", "o": ["Benefitsiy", "Domen", "Iqto", "Xiroj"], "a": 0, "e": "Benefitsiy — xizmat evaziga berilgan yer-mulk." },
+      { "q": "Xlodvigning xristianlikni qabul qilishi nima berdi?", "o": ["Arablar bilan ittifoq", "Cherkov va rim-gall zodagonlarining qo‘llab-quvvatlashi", "Vizantiya taxti", "Soliqlardan ozod bo‘lish"], "a": 1, "e": "Xristianlikni qabul qilish cherkov va rim-gall zodagonlari qo‘llab-quvvatlashini ta’minladi." }
+    ],
+    "3": [
+      { "q": "Buyuk Karl imperator tojini qachon olgan?", "o": ["768-yil", "843-yil", "800-yil", "814-yil"], "a": 2, "e": "800-yil dekabrida papa Lev III Karlga imperatorlik tojini kiydirdi." },
+      { "q": "843-yilgi Verden shartnomasining natijasi nima bo‘ldi?", "o": ["Franklar imperiyasi uch qirollikka bo‘lindi", "Karl imperator bo‘ldi", "Sakslar bo‘ysundirildi", "Ispaniya qo‘shib olindi"], "a": 0, "e": "Verden shartnomasi bilan imperiya uchga bo‘lindi — keyin Fransiya, Germaniya, Italiya paydo bo‘ldi." },
+      { "q": "«Ritsar» so‘zining ma’nosi nima?", "o": ["Qilichboz", "Zodagon", "Piyoda askar", "Otliq"], "a": 3, "e": "Nemischa «ritter» — otliq degani." }
+    ],
+    "4": [
+      { "q": "Rim legionlari Britaniyani qachon tark etgan?", "o": ["395-yil", "407-yil", "476-yil", "871-yil"], "a": 1, "e": "407-yilda Rim legionlari Italiyaga qaytib ketdi." },
+      { "q": "«Angliya» nomi nimani bildiradi?", "o": ["«Orollar yurti»", "«Sakslar yurti»", "«Anglar yurti»", "«Brittlar yurti»"], "a": 2, "e": "Angliya — «anglar yurti»; anglar, sakslar va yutlar V asrda bostirib kirgan." },
+      { "q": "Daniyaliklarga qarshi kurashib, qo‘shin, flot va qonunlar to‘plamini yaratgan ingliz qiroli kim?", "o": ["Alfred", "Artur", "Amvrosiy Avrelian", "Vilgelm"], "a": 0, "e": "Qirol Alfred (871–900) daniyaliklarga (normannlarga) qarshi kurashgan." }
+    ],
+    "5": [
+      { "q": "Germaniya qirolligi qachon tuzilgan?", "o": ["843-yil", "962-yil", "955-yil", "919-yil"], "a": 3, "e": "919-yilda Saksoniya gersogi Genrix qirol qilib saylandi." },
+      { "q": "Otton I 955-yilda Lex daryosi bo‘yida kimlarni yengdi?", "o": ["Vengerlarni", "Arablarni", "Daniyaliklarni", "Sakslarni"], "a": 0, "e": "955-yilda Bavariyadagi Lex daryosi bo‘yida vengerlar yengildi." },
+      { "q": "Muqaddas Rim imperiyasi qaysi yillarda mavjud bo‘lgan?", "o": ["800–843", "476–1453", "962–1806", "919–1453"], "a": 2, "e": "962-yilda Otton I imperator bo‘ldi; imperiya 1806-yilgacha mavjud bo‘ldi." }
+    ],
+    "6": [
+      { "q": "Vizantiyaning poytaxti qaysi shahar edi?", "o": ["Rim", "Afina", "Konstantinopol", "Ravenna"], "a": 2, "e": "Vizantiya (Sharqiy Rim) poytaxti — Konstantinopol." },
+      { "q": "Vizantiya qudrat cho‘qqisiga qaysi imperator davrida yetdi?", "o": ["Yustinian I", "Feodosiy", "Aleksey I", "Mixail VIII"], "a": 0, "e": "Yustinian I (527–565) davrida Vizantiya qudrat cho‘qqisiga yetdi." },
+      { "q": "Vizantiyaning asrlar davomida eng ishonchli xalqaro puli qanday atalgan?", "o": ["Syan", "Dinor", "Florin", "Numisma"], "a": 3, "e": "Numisma — Vizantiya oltin tangasi." }
+    ],
+    "7": [
+      { "q": "Quyidagilardan qaysi xalqlar g‘arbiy slavyanlarga kiradi?", "o": ["Ruslar, ukrainlar, beloruslar", "Chexlar, polyaklar, slovaklar", "Serblar, xorvatlar, bolgarlar", "Litvaliklar, latishlar, estonlar"], "a": 1, "e": "G‘arbiy slavyanlar — chexlar, polyaklar, slovaklar («ChPS»)." },
+      { "q": "Bolgariya podsholigiga kim asos solgan?", "o": ["Simeon", "Oleg", "Asparux", "Vladimir"], "a": 2, "e": "Turkiy bulg‘orlar xoni Asparux (681–701) Bolgariya podsholigini tuzgan." },
+      { "q": "Bolgariya podsholigi kimning davrida qudrat cho‘qqisiga yetgan?", "o": ["Simeon (893–927)", "Asparux (681–701)", "Yustinian I", "Yaroslav Donishmand"], "a": 0, "e": "Bolgariya Simeon davrida gullagan." }
+    ],
+    "8": [
+      { "q": "Kiyev Rusiga kim va qachon asos solgan?", "o": ["Vladimir, 988-yil", "Igor, 945-yil", "Yaroslav, XI asr", "Oleg, 882-yil"], "a": 3, "e": "882-yilda knyaz Oleg Kiyevni egallab, Kiyev Rusi davlatiga asos soldi." },
+      { "q": "Kiyev Rusida xristianlik qachon davlat dini sifatida qabul qilingan?", "o": ["882-yil", "988-yil", "945-yil", "1054-yil"], "a": 1, "e": "988-yilda knyaz Vladimir davrida xristianlik joriy etildi." },
+      { "q": "Sharqiy slavyanlarda muhim masalalar hal qilingan xalq yig‘ini qanday atalgan?", "o": ["Veche", "Drujina", "Seym", "Qurultoy"], "a": 0, "e": "Veche — xalq yig‘ini; drujina — knyazning harbiy bo‘linmasi." }
+    ],
+    "9": [
+      { "q": "Triviumga qaysi fanlar kirgan?", "o": ["Arifmetika, geometriya, musiqa", "Grammatika, dialektika, ritorika", "Ilohiyot, huquq, tibbiyot", "Astronomiya, geografiya, tarix"], "a": 1, "e": "Trivium — grammatika, dialektika, ritorika; kvadrivium — arifmetika, geometriya, musiqa, astronomiya." },
+      { "q": "Buyuk Karl saroy akademiyasidagi mashhur olim kim?", "o": ["Gerbert", "Rober de Sorbon", "Dante", "Alkuin"], "a": 3, "e": "Buyuk Karl saroy akademiyasida olim Alkuin saboq bergan." },
+      { "q": "Konstantinopol universiteti qachon ochilgan?", "o": ["IX asr boshida", "XII asrda", "XI asr o‘rtalarida", "VI asrda"], "a": 2, "e": "XI asr o‘rtalarida huquqshunoslik va falsafa fakultetlaridan iborat universitet ochildi." }
+    ],
+    "10": [
+      { "q": "Muhammad (s.a.v.) qachon va qayerda tug‘ilgan?", "o": ["570-yil, Makka", "622-yil, Madina", "610-yil, Makka", "630-yil, Yaman"], "a": 0, "e": "Muhammad (s.a.v.) 570-yilda Makkada tavallud topgan." },
+      { "q": "Hijriy yil hisobining boshlanishi qaysi yil?", "o": ["570-yil", "610-yil", "630-yil", "622-yil"], "a": 3, "e": "622-yilda Makkadan Madinaga hijrat bo‘lgan — hijriy yil hisobi shundan boshlanadi." },
+      { "q": "«Qur’on» so‘zining ma’nosi nima?", "o": ["Itoat", "O‘qish", "Vahiy", "Bo‘ysunish"], "a": 1, "e": "Qur’on — arabcha «o‘qish»; Islom — «itoat, bo‘ysunish»." }
+    ],
+    "11": [
+      { "q": "Puate jangi qachon bo‘lgan va unda kim g‘alaba qozongan?", "o": ["711-yil, Toriq", "1356-yil, inglizlar", "732-yil, Karl Martell", "756-yil, arablar"], "a": 2, "e": "732-yil Puate jangida Karl Martell arablarni yengib, ularning Yevropaga yurishlariga chek qo‘ydi." },
+      { "q": "Abbosiylar sulolasining poytaxti qaysi shahar bo‘lgan?", "o": ["Damashq", "Kordova", "Makka", "Bag‘dod"], "a": 3, "e": "Umaviylar poytaxti — Damashq, Abbosiylarniki — Bag‘dod." },
+      { "q": "Arab xalifaligiga kim va qachon barham bergan?", "o": ["Xulagu, 1258-yil", "Chingizxon, 1206-yil", "Salohiddin, 1187-yil", "Botu, 1240-yil"], "a": 0, "e": "1258-yilda mo‘g‘ul xoni Xulagu Bag‘dodni egallab, xalifalikka barham berdi." }
+    ],
+    "12": [
+      { "q": "Guptalar sulolasiga kim asos solgan?", "o": ["Ashoka", "Chandragupta I", "Qutbiddin Oybek", "Bahlul Lodiy"], "a": 1, "e": "Chandragupta I (320–340) Gang vodiysida Guptalar sulolasiga asos soldi." },
+      { "q": "Guptalar imperiyasi qachon gullab-yashnagan?", "o": ["IV asr oxirida", "VII asrda", "II asrda", "X asrda"], "a": 0, "e": "IV asr oxirida Guptalar imperiyasi gullab-yashnadi — hind madaniyatining «oltin asri»." },
+      { "q": "Guptalar imperiyasini zaiflashtirgan hujum kimlardan bo‘lgan?", "o": ["Arablardan", "Mo‘g‘ullardan", "Turk va afg‘onlardan", "Eftallardan (oq xunnlar)"], "a": 3, "e": "V–VI asrlarda eftallar hujumi natijasida Guptalar imperiyasi parchalandi." }
+    ],
+    "13": [
+      { "q": "Buyuk kanalni qaysi Xitoy sulolasi qurdirgan?", "o": ["Tan", "Sun", "Suy", "Min"], "a": 2, "e": "Suy sulolasi (589–618) janub va shimolni bog‘lash uchun Buyuk kanalni qurdirdi." },
+      { "q": "Tan sulolasiga kim asos solgan?", "o": ["Li Yuan", "Chju Yuanchjan", "Xubilay", "Sin Shixuandi"], "a": 0, "e": "618-yilda Li Yuan taxtni egallab, Tan sulolasiga asos soldi." },
+      { "q": "Xitoy sulolalarining to‘g‘ri ketma-ketligini toping.", "o": ["Tan → Suy → Yuan → Sun → Min", "Suy → Sun → Tan → Min → Yuan", "Min → Yuan → Sun → Tan → Suy", "Suy → Tan → Sun → Yuan → Min"], "a": 3, "e": "«S-T-S-Yu-M»: Suy → Tan → Sun → Yuan → Min." }
+    ],
+    "14": [
+      { "q": "«Bayt ul-hikma» qayerda va qachon tashkil etilgan?", "o": ["Damashqda, VII asrda", "Bag‘dodda, IX asr boshida", "Kordovada, X asrda", "Samarqandda, XV asrda"], "a": 1, "e": "«Bayt ul-hikma» («Donishmandlik uyi») IX asr boshida Bag‘dodda tashkil etilgan." },
+      { "q": "Yevropa tibbiyoti XVII asr o‘rtasigacha qaysi allomalar asarlaridan foydalangan?", "o": ["Xorazmiy va Farg‘oniy", "Alkuin va Gerbert", "Ibn Sino va ar-Roziy", "Marko Polo va Dante"], "a": 2, "e": "Abu Ali ibn Sino va Abu Bakr ar-Roziy asarlari Yevropa tibbiyotida qo‘llanilgan." },
+      { "q": "Granadadagi mashhur arab me’morchiligi durdonasi qaysi?", "o": ["Al-Hamro saroyi", "Avliyo Sofiya ibodatxonasi", "Notr-Dam sobori", "Qutb Minor"], "a": 0, "e": "Ispaniyadagi Granadadagi Al-Hamro saroyi va Kordova masjidi — arab me’morchiligi durdonalari." }
+    ],
+    "15": [
+      { "q": "O‘rta asrlarning rivojlangan davri qaysi asrlarni o‘z ichiga oladi?", "o": ["V–X asrlar", "XI–XV asrlar", "XVI–XVIII asrlar", "IV–VI asrlar"], "a": 1, "e": "XI–XV asrlar — o‘rta asrlarning rivojlangan davri." },
+      { "q": "Yevropadagi ilk o‘rta asr shaharlari qaysilar?", "o": ["Moskva, Novgorod, Kiyev", "London, Oksford, Kembrij", "Kyoln, Lyubek, Gamburg", "Venetsiya, Genuya, Florensiya, Marsel"], "a": 3, "e": "IX–X asrlarda Italiya va Fransiya janubida birinchi shaharlar paydo bo‘ldi." },
+      { "q": "Shahar kengashi yig‘iladigan bino qanday atalgan?", "o": ["Ratusha", "Kommuna", "Faktoriya", "Seym"], "a": 0, "e": "Ratusha — shahar kengashi binosi; kommuna — o‘zini o‘zi boshqaradigan shahar." }
+    ],
+    "16": [
+      { "q": "Sex ichidagi toifalarning to‘g‘ri tartibi (pastdan yuqoriga) qaysi?", "o": ["Usta → xalfa → shogird", "Xalfa → shogird → usta", "Shogird → xalfa → usta", "Shogird → usta → xalfa"], "a": 2, "e": "«Sh-X-U»: shogird → xalfa → usta." },
+      { "q": "Shimoliy Yevropadagi nemis shaharlarining savdo ittifoqi qanday atalgan?", "o": ["Lombard ligasi", "Ganza", "Kommuna", "Yarmarka"], "a": 1, "e": "Ganza — nemis shaharlarining savdo ittifoqi." },
+      { "q": "Mo‘g‘ul xoni Xubilay saroyiga yetib borgan venetsiyalik savdogar kim?", "o": ["Marko Polo", "Gutenberg", "Piri Rais", "Rober de Sorbon"], "a": 0, "e": "Marko Polo 1271–1295-yillardagi sayohati haqida kitob yozgan." }
+    ],
+    "17": [
+      { "q": "Samarqand qanday ta’riflangan?", "o": ["«Fanlar onasi»", "«Ingliz tojining marvaridi»", "«Xudolar darvozasi»", "«Sayqali ro‘yi zamin»"], "a": 3, "e": "Samarqand — «sayqali ro‘yi zamin» (yer yuzining sayqali)." },
+      { "q": "Xitoyliklar qurgan, 600–700 kishi sig‘adigan yirik kemalar qanday atalgan?", "o": ["Triyeralar", "Jonkalar", "Karavellalar", "Galeralar"], "a": 1, "e": "Jonkalar — xitoyliklarning yirik kemalari." },
+      { "q": "Xitoyda o‘rta asr shaharlari qachon vujudga kelib rivojlangan?", "o": ["IX–XIII asrlarda", "V–VII asrlarda", "XV–XVI asrlarda", "II–IV asrlarda"], "a": 0, "e": "Xitoyda o‘rta asr shaharlari IX–XIII asrlarda rivojlangan." }
+    ],
+    "18": [
+      { "q": "Papa viloyati qachon tashkil topgan?", "o": ["1054-yil", "800-yil", "756-yil", "1198-yil"], "a": 2, "e": "Frank qiroli ko‘magida 756-yilda Italiyada Papa viloyati tuzildi." },
+      { "q": "Gunohlardan kechish yorlig‘i qanday atalgan?", "o": ["Interdikt", "Inkvizitsiya", "Autodafe", "Indulgensiya"], "a": 3, "e": "Indulgensiya (lotincha «afv») — gunohlardan kechish yorlig‘i." },
+      { "q": "Eretiklarga qarshi tuzilgan cherkov sudi qanday atalgan?", "o": ["Inkvizitsiya", "Interdikt", "Seym", "Ushr"], "a": 0, "e": "Inkvizitsiya (lotincha «qidiruv») — eretiklarga qarshi cherkov sudi." }
+    ],
+    "19": [
+      { "q": "Salib yurishlari qaysi yillarda bo‘lib o‘tgan?", "o": ["1095–1204", "1096–1270", "1187–1291", "1066–1215"], "a": 1, "e": "Salib yurishlari 1096–1270-yillar oralig‘ida bo‘lgan (jami 8 ta)." },
+      { "q": "1095-yilda salib yurishiga kim va qayerda chaqirgan?", "o": ["Innokentiy III, Rimda", "Bonifatsiy VIII, Avinonda", "Lev III, Ahenda", "Urban II, Klermonda"], "a": 3, "e": "Papa Urban II Fransiya janubidagi Klermon shahrida chaqiriq qilgan." },
+      { "q": "Quyidagilardan qaysi biri salib yurishlarining sababi EMAS?", "o": ["Feodallarning yangi yer va boylik izlashi", "Italiya savdogarlarining Sharq savdosini egallash istagi", "Arablarning Yevropaga yurishi", "Cherkovning ta’sirini kengaytirish istagi"], "a": 2, "e": "Arablar Yevropaga yurishi 732-yilda to‘xtatilgan; salib yurishlari sabablari — feodallar, dehqonlar, savdogarlar va cherkov manfaatlari." }
+    ],
+    "20": [
+      { "q": "Birinchi salib yurishi natijasida Quddus qachon egallangan?", "o": ["1099-yil", "1096-yil", "1187-yil", "1204-yil"], "a": 0, "e": "Birinchi salib yurishi (1096–1099) Quddusni egalladi." },
+      { "q": "Salibchilardan Quddusni qaytarib olgan Misr sultoni kim?", "o": ["Alp Arslon", "Mehmed II", "Boyazid I", "Salohiddin Ayubiy"], "a": 3, "e": "1187-yilda Salohiddin Ayubiy Quddusni qaytarib oldi." },
+      { "q": "«Sheryurak» laqabli qirol kim?", "o": ["Fransiya qiroli Filipp II", "Angliya qiroli Richard I", "Germaniya imperatori Fridrix I", "Fransiya qiroli Lyudovik IX"], "a": 1, "e": "Angliya qiroli Richard I Sheryurak Uchinchi salib yurishida qatnashgan." }
+    ],
+    "21": [
+      { "q": "To‘rtinchi salib yurishi qaysi shaharni talon-taroj qilgan?", "o": ["Quddusni", "Venetsiyani", "Konstantinopolni", "Damashqni"], "a": 2, "e": "1204-yilda salibchilar xristian Konstantinopolni taladi." },
+      { "q": "Lotin imperiyasi qaysi yillarda mavjud bo‘lgan?", "o": ["1204–1261", "1096–1099", "1189–1192", "1269–1270"], "a": 0, "e": "Lotin imperiyasi 1204–1261-yillarda mavjud bo‘lgan." },
+      { "q": "1261-yilda Konstantinopolni qaytarib, Vizantiyani tiklagan kim?", "o": ["Aleksey I", "Yustinian I", "Mehmed II", "Mixail VIII Paleolog"], "a": 3, "e": "Nikeya imperatori Mixail VIII Paleolog 1261-yil 15-avgustda Konstantinopolga kirdi." }
+    ],
+    "22": [
+      { "q": "Domen nima?", "o": ["Shahar kengashi binosi", "Qirol yoki feodalning shaxsiy yer-mulki", "Cherkov solig‘i", "Harbiy xizmat evaziga berilgan yer"], "a": 1, "e": "Domen (lotincha «mulk») — qirol, gersog, graf va baronlarning yer-mulklari." },
+      { "q": "Fransiya qirolining dastlabki domeni qayerdan qayergacha bo‘lgan?", "o": ["Parijdan Orleangacha", "Marseldan Tuluzagacha", "Normandiyadan Akvitaniyagacha", "Reymsdan Ruangacha"], "a": 0, "e": "Qirol shimolda d’E qal’asidan Parij orqali janubda Orleangacha bo‘lgan yerni boshqargan." },
+      { "q": "«Ingliz tojining marvaridi» deb atalgan viloyat qaysi?", "o": ["Akvitaniya", "Flandriya", "Shampan", "Normandiya"], "a": 3, "e": "Filipp II Avgust Normandiyani XIII asr boshida qaytarib oldi." }
+    ],
+    "23": [
+      { "q": "Fransiyada General shtatlar birinchi marta qachon chaqirilgan?", "o": ["1265-yil", "1309-yil", "1302-yil", "1337-yil"], "a": 2, "e": "Filipp IV 1302-yilda uch toifa vakillarini chaqirdi." },
+      { "q": "General shtatlardagi uch toifa qaysilar?", "o": ["Ruhoniylar, dvoryanlar, shaharliklar", "Qirol, baronlar, ritsarlar", "Dehqonlar, hunarmandlar, savdogarlar", "Gersoglar, graflar, baronlar"], "a": 0, "e": "General shtatlar — ruhoniylar, dvoryanlar va shaharliklar vakillari yig‘ini." },
+      { "q": "«Papalarning Avinon tutquni» qaysi yillarni o‘z ichiga oladi?", "o": ["1285–1314", "1302–1307", "1337–1453", "1309–1377"], "a": 3, "e": "1309–1377-yillarda papa qarorgohi Avinonda bo‘lib, papalar Fransiya qiroliga qaram bo‘lgan." }
+    ],
+    "24": [
+      { "q": "Yuz yillik urush qaysi yillarda bo‘lgan?", "o": ["1337–1453", "1300–1400", "1346–1356", "1455–1485"], "a": 0, "e": "Yuz yillik urush aslida 116 yil davom etgan: 1337–1453." },
+      { "q": "Yuz yillik urush qaysi davlatlar o‘rtasida bo‘lgan?", "o": ["Fransiya va Germaniya", "Angliya va Fransiya", "Angliya va Ispaniya", "Fransiya va Italiya"], "a": 1, "e": "Yuz yillik urush Angliya va Fransiya o‘rtasida bo‘lgan." },
+      { "q": "Kresi jangi qachon bo‘lgan?", "o": ["1340-yil", "1356-yil", "1337-yil", "1346-yil"], "a": 3, "e": "1346-yil Kresi jangida fransuz ritsarlari ingliz kamonchilaridan yengildi." }
+    ],
+    "25": [
+      { "q": "«Orlean qizi» deb kim atalgan?", "o": ["Jinevra", "Olga", "Janna d’Ark", "Malika Izabella"], "a": 2, "e": "Janna d’Ark 1429-yilda Orlean qamalini yorib, «Orlean qizi» laqabini oldi." },
+      { "q": "Fransiyadagi 1358-yilgi dehqonlar qo‘zg‘oloni qanday nomlanadi?", "o": ["Jakeriya", "Uot Tayler qo‘zg‘oloni", "Qizil ro‘mollilar", "Lombard ligasi"], "a": 0, "e": "Jakeriya — nomi «Jak-soddadil» laqabidan." },
+      { "q": "Janna d’Ark qachon va qayerda yoqilgan?", "o": ["1429-yil, Orleanda", "1453-yil, Parijda", "1420-yil, Reymsda", "1431-yil 30-may, Ruanda"], "a": 3, "e": "Cherkov sudi hukmi bilan Janna d’Ark 1431-yil 30-mayda Ruan maydonida yoqildi." }
+    ],
+    "26": [
+      { "q": "1066-yilda Angliyani kim bosib olgan?", "o": ["Daniya qiroli", "Normandiya gersogi Vilgelm", "Fransiya qiroli Filipp II", "Alfred"], "a": 1, "e": "1066-yil Gastings jangida Normandiya gersogi Vilgelm anglsakslarni yengdi." },
+      { "q": "«Buyuk erkinliklar xartiyasi» qachon qabul qilingan?", "o": ["1066-yil", "1086-yil", "1215-yil", "1265-yil"], "a": 2, "e": "1215-yilda baronlar Ioann Yersizni xartiyani imzolashga majbur qildi." },
+      { "q": "Angliyada birinchi parlament qachon chaqirilgan?", "o": ["1265-yil", "1215-yil", "1302-yil", "1381-yil"], "a": 0, "e": "1265-yilda birinchi parlament chaqirildi: baronlar, ruhoniylar, ritsarlar va shahar vakillari." }
+    ],
+    "27": [
+      { "q": "1381-yilgi Angliyadagi qo‘zg‘olon rahbari kim?", "o": ["Jon Bol", "Richard II", "Genrix Tyudor", "Uot Tayler"], "a": 3, "e": "Uot Tayler qo‘zg‘oloni (1381) og‘ir jon solig‘i sababli boshlangan; Jon Bol — ruhoniy rahbar." },
+      { "q": "«Qizil va oq gullar urushi»da qaysi sulolalar kurashgan?", "o": ["Kapetinglar va Valualar", "Lankasterlar va Yorklar", "Tyudorlar va Normandlar", "Shtaufenlar va Karolinglar"], "a": 1, "e": "Lankasterlar gerbida qizil gul, Yorklar gerbida oq gul bo‘lgan." },
+      { "q": "Tyudorlar sulolasining asoschisi kim?", "o": ["Genrix VII", "Genrix II", "Richard II", "Eduard III"], "a": 0, "e": "1485-yil Bosvort jangida g‘olib chiqqan Genrix VII Tyudor (1485–1509)." }
+    ],
+    "28": [
+      { "q": "«Barbarossa» laqabli imperator kim?", "o": ["Otton I", "Karl Martell", "Fridrix I", "Genrix I"], "a": 2, "e": "Fridrix I Barbarossa (1152–1190): «barba» — soqol, «rossa» — qizil." },
+      { "q": "1176-yilgi Lenyano jangining natijasi qanday bo‘lgan?", "o": ["Lombard ligasi imperator ritsarlarini yengdi", "Imperator Milanni vayron qildi", "Imperator Italiyani to‘liq bo‘ysundirdi", "Germaniya markazlashdi"], "a": 0, "e": "Lombard ligasi g‘alabasidan so‘ng Fridrix shaharlarga kommuna huquqini berishga majbur bo‘ldi." },
+      { "q": "Germaniya imperatorini kimlar saylagan?", "o": ["Rim papalari", "Xalq majlisi", "Shahar kengashlari", "Kurfyurstlar"], "a": 3, "e": "Kurfyurstlar — imperatorni saylaydigan knyazlar." }
+    ],
+    "29": [
+      { "q": "Lyubech syezdi qachon bo‘lgan?", "o": ["1147-yil", "1097-yil", "1136-yil", "988-yil"], "a": 1, "e": "1097-yilda Vladimir Monomax tashabbusi bilan knyazlarning birinchi syezdi bo‘ldi." },
+      { "q": "Moskvaga kim va qachon asos solgan?", "o": ["Ivan Kalita, 1325-yil", "Aleksandr Nevskiy, 1240-yil", "Yuriy Dolgorukiy, 1147-yil", "Oleg, 882-yil"], "a": 2, "e": "1147-yilda Yuriy Dolgorukiy asos solgan Kuchkovo qo‘rg‘oni keyinchalik Moskva bo‘ldi." },
+      { "q": "Novgorodda hokimiyat kimning qo‘lida bo‘lgan?", "o": ["Veche (xalq yig‘ini)", "Knyazning", "Metropolitning", "Mo‘g‘ul xonining"], "a": 0, "e": "Novgorod respublikasida hokimiyat veche qo‘lida edi; knyazni veche taklif qilgan." }
+    ],
+    "30": [
+      { "q": "Botu Kiyevni qachon egallagan?", "o": ["1223-yil", "1237-yil", "1242-yil", "1240-yil"], "a": 3, "e": "1240-yilda Kiyev mo‘g‘ullar tomonidan olindi." },
+      { "q": "Neva jangida (1240) Aleksandr Nevskiy kimlarni yengdi?", "o": ["Shvedlarni", "Nemis ritsarlarini", "Mo‘g‘ullarni", "Polyaklarni"], "a": 0, "e": "1240-yil 15-iyulda Neva sohilida shvedlar yengildi, shundan «Nevskiy» laqabi." },
+      { "q": "«Muz ustidagi jang» qachon va kimga qarshi bo‘lgan?", "o": ["1240-yil, shvedlarga", "1380-yil, Mamayga", "1242-yil, nemis ritsarlariga", "1223-yil, mo‘g‘ullarga"], "a": 2, "e": "1242-yil aprelida Chud ko‘lida Livon ordeni ritsarlari tor-mor etildi." }
+    ],
+    "31": [
+      { "q": "Kulikovo jangi qachon bo‘lgan va unda kim g‘alaba qozongan?", "o": ["1378-yil, Dmitriy Donskoy", "1380-yil, Dmitriy Donskoy", "1395-yil, Amir Temur", "1480-yil, Ivan III"], "a": 1, "e": "1380-yil sentabrida Dmitriy Ivanovich Mamay qo‘shinini yengib, «Donskoy» laqabini oldi." },
+      { "q": "Moskvaning yuksalishi qaysi knyaz nomi bilan bog‘liq?", "o": ["Yuriy Dolgorukiy", "Vladimir Monomax", "Aleksandr Nevskiy", "Ivan Kalita"], "a": 3, "e": "Ivan Kalita (1325–1340) davrida kurash uzil-kesil Moskva foydasiga hal bo‘ldi." },
+      { "q": "Rus yerlari Oltin O‘rdaga o‘lpon to‘lashni qachon to‘xtatgan?", "o": ["1480-yil", "1380-yil", "1395-yil", "1453-yil"], "a": 0, "e": "1480-yilda Ivan III davrida boj-yasoq to‘lash to‘xtatildi («Ugra daryosidagi turish»)." }
+    ],
+    "32": [
+      { "q": "Kitob bosish dastgohini kim va qachon ixtiro qilgan?", "o": ["Marko Polo, 1295-yil", "Rober de Sorbon, XII asr", "Gutenberg, 1445-yil", "Dante, XIV asr"], "a": 2, "e": "1445-yilda nemis Iogann Gutenberg kitob bosish dastgohini ixtiro qildi." },
+      { "q": "Yevropada universitetlar qachondan ochila boshlagan?", "o": ["IX asrdan", "XII asrdan", "XV asrdan", "VII asrdan"], "a": 1, "e": "XII asrdan yirik shaharlarda universitetlar ochildi: Boloniya, Parij, Oksford, Kembrij." },
+      { "q": "Parij universiteti (Sorbonna) nomi kimning nomidan olingan?", "o": ["Rober de Sorbon", "Alkuin", "Filipp IV", "Buyuk Karl"], "a": 0, "e": "Sorbonna asoschisi — Rober de Sorbon." }
+    ],
+    "33": [
+      { "q": "Gotika uslubi qachon va qayerda paydo bo‘lgan?", "o": ["X asr, Italiyada", "XI asr, Germaniyada", "XIV asr, Angliyada", "XII asr o‘rtasi, Shimoliy Fransiyada"], "a": 3, "e": "Gotika XII asr o‘rtalarida Shimoliy Fransiyada paydo bo‘ldi." },
+      { "q": "Rangli shishalardan yasalgan tasvir qanday ataladi?", "o": ["Miniatyura", "Vitraj", "Mozaika", "Ikona"], "a": 1, "e": "Vitraj — gotik soborlarning katta derazalaridagi rangli shisha tasvirlar." },
+      { "q": "«Ilohiy komediya» asarining muallifi kim?", "o": ["Dante Aligeri", "Gutenberg", "Alkuin", "Marko Polo"], "a": 0, "e": "XIV asr boshida italyan shoiri Dante Aligeri «Ilohiy komediya»ni yozgan." }
+    ],
+    "34": [
+      { "q": "Saljuqiylar davlati qaysi yillarda mavjud bo‘lgan?", "o": ["1299–1922", "1206–1526", "1038–1308", "960–1279"], "a": 2, "e": "Saljuqiylar davlati 1038–1308-yillarda mavjud bo‘lgan." },
+      { "q": "1071-yil Manzikert jangida Vizantiyani yengan saljuqiy sulton kim?", "o": ["Alp Arslon", "To‘g‘rulbek", "Malikshoh", "Sanjar"], "a": 0, "e": "Alp Arslon g‘alabasidan so‘ng turklar Kichik Osiyoga keng joylasha boshladi." },
+      { "q": "«Siyosatnoma» asarining muallifi bo‘lgan saljuqiy vazir kim?", "o": ["Xulagu", "Toriq", "Usmon", "Nizomulmulk"], "a": 3, "e": "Nizomulmulk — mashhur saljuqiy vazir, «Siyosatnoma» muallifi." }
+    ],
+    "35": [
+      { "q": "Usmonlilar davlatiga kim asos solgan?", "o": ["Mehmed II", "Usmon", "Boyazid I", "Alp Arslon"], "a": 1, "e": "Usmon (1299–1326) — sulola asoschisi; davlat uning nomi bilan atalgan." },
+      { "q": "«Yildirim» laqabli usmonli sulton kim?", "o": ["Mehmed II", "Usmon", "Boyazid I", "Sulaymon"], "a": 2, "e": "Boyazid I tezkor g‘alabalari uchun «Yildirim» (chaqmoq) laqabini olgan." },
+      { "q": "Konstantinopolni egallab, uni Istanbul deb atagan sulton kim va qachon?", "o": ["Mehmed II, 1453-yil", "Boyazid I, 1402-yil", "Usmon, 1299-yil", "Alp Arslon, 1071-yil"], "a": 0, "e": "Mehmed II Fotih 1453-yil mayida Konstantinopolni egalladi." }
+    ],
+    "36": [
+      { "q": "Temuchin qachon Chingizxon deb e’lon qilingan?", "o": ["1155-yil", "1211-yil", "1227-yil", "1206-yil"], "a": 3, "e": "1206-yilda Onon daryosi bo‘yidagi qurultoyda Temuchin Chingizxon deb e’lon qilindi." },
+      { "q": "Chingizxon qonunlari to‘plami qanday atalgan?", "o": ["«Siyosatnoma»", "«Yasa»", "«Yorliq»", "«Xartiya»"], "a": 1, "e": "«Yasa» — Chingizxon qonunlari to‘plami." },
+      { "q": "Mo‘g‘ullarning an’anaviy dini qaysi?", "o": ["Buddaviylik", "Islom", "Shomonlik", "Zardushtiylik"], "a": 2, "e": "Mo‘g‘ullar shomonlikka — yovuz va ezgu ruhlarga ishonishgan." }
+    ],
+    "37": [
+      { "q": "Oltin O‘rdaga kim asos solgan?", "o": ["Botuxon", "Chingizxon", "O‘zbekxon", "Xulagu"], "a": 0, "e": "Oltin O‘rdaga (Jo‘ji ulusi) Botuxon asos solgan." },
+      { "q": "Oltin O‘rdaning poytaxti qaysi shahar edi?", "o": ["Qoraqurum", "Xanbaliq", "Moskva", "Saroy"], "a": 3, "e": "Oltin O‘rda poytaxti — Volga bo‘yidagi Saroy (Saroy-Botu)." },
+      { "q": "Kim davrida Islom Oltin O‘rdada davlat dini bo‘lgan?", "o": ["Botuxon", "O‘zbekxon", "To‘xtamish", "Mamay"], "a": 1, "e": "O‘zbekxon (1312–1342) davrida Islom davlat dini bo‘lib, Oltin O‘rda gullab-yashnadi." }
+    ],
+    "38": [
+      { "q": "Yuan sulolasi qaysi yillarda hukmronlik qilgan?", "o": ["960–1279", "1368–1644", "618–907", "1279–1368"], "a": 3, "e": "Mo‘g‘ullar 1279-yilda Xitoyni to‘liq bo‘ysundirib, Yuan sulolasiga asos soldi; 1368-yilda u ag‘darildi." },
+      { "q": "Min sulolasiga kim va qachon asos solgan?", "o": ["Xubilay, 1279-yil", "Li Yuan, 618-yil", "Chju Yuanchjan, 1368-yil", "Sin Shixuandi, mil. avv. 221-yil"], "a": 2, "e": "Min sulolasiga 1368-yilda Chju Yuanchjan asos soldi." },
+      { "q": "Xubilay saroyida yuksak lavozimda xizmat qilgan yevropalik kim?", "o": ["Marko Polo", "Gutenberg", "Rober de Sorbon", "Piri Rais"], "a": 0, "e": "Venetsiyalik Marko Polo Xubilay saroyida xizmat qilgan." }
+    ],
+    "39": [
+      { "q": "Yaponiyada real hokimiyat kim qo‘lida bo‘lgan?", "o": ["Mikado", "Samuraylar", "Syogun", "Ryokalar"], "a": 2, "e": "Rasman mikado (imperator) boshqargan, lekin real hokimiyat syogun qo‘lida bo‘lgan." },
+      { "q": "Yapon vassal jangchilari qanday atalgan?", "o": ["Samuraylar", "Ritsarlar", "Yangichilar", "Drujina"], "a": 0, "e": "Samuray — «xizmat qiluvchi», bushido sharaf kodeksiga amal qilgan." },
+      { "q": "Qachon Minamoto Yoritomo syogun bo‘lib, davlatni Kamakuradan boshqargan?", "o": ["1231-yil", "1483-yil", "1177-yil", "1192-yil"], "a": 3, "e": "1192-yilda Minamoto Yoritomo syogun bo‘ldi." }
+    ],
+    "40": [
+      { "q": "Koreyadagi uch qirollik qaysilar?", "o": ["Koryo, Choson, Silla", "Koguryo, Pekche, Silla", "Nara, Xeyan, Kamakura", "Vey, Shu, U"], "a": 1, "e": "Uch qirollik: Koguryo (shimol), Pekche (janubi-g‘arb), Silla (janubi-sharq)." },
+      { "q": "Li sulolasiga (Choson) kim va qachon asos solgan?", "o": ["Sechjon Buyuk, 1418-yil", "Tangun, I asr", "Xubilay, 1231-yil", "Li Son Ge, 1392-yil"], "a": 3, "e": "1392-yilda sarkarda Li Son Ge so‘nggi Koryo hukmdorini taxtdan tushirdi." },
+      { "q": "Koreys alifbosi — hangul kim davrida yaratilgan?", "o": ["Sechjon Buyuk", "Li Son Ge", "Koguryo qirollari", "Minamoto Yoritomo"], "a": 0, "e": "Sechjon Buyuk (1418–1450) davrida hangul (1446), yangi taqvim va yomg‘ir o‘lchagich yaratildi." }
+    ],
+    "41": [
+      { "q": "Dehli sultonligi qaysi yillarda mavjud bo‘lgan?", "o": ["1206–1526", "1038–1308", "1398–1526", "1414–1489"], "a": 0, "e": "Dehli sultonligi 1206–1526-yillarda — 320 yil mavjud bo‘lgan." },
+      { "q": "Dehli sultonligiga kim asos solgan?", "o": ["Bahlul Lodiy", "Mahmud G‘aznaviy", "Qutbiddin Oybek", "Bobur"], "a": 2, "e": "Sobiq g‘ulom-sarkarda Qutbiddin Oybek; u Qutb Minor qurilishini boshlagan." },
+      { "q": "Dehli sultonligiga kim va qaysi jangda barham bergan?", "o": ["Amir Temur, 1398-yil", "Bahlul Lodiy, 1451-yil", "Chingizxon, 1206-yil", "Bobur, Panipat jangi (1526)"], "a": 3, "e": "1526-yilda Bobur Panipat jangida oxirgi Lodiy sultonni yengdi." }
+    ],
+    "42": [
+      { "q": "Asteklar poytaxti qaysi shahar edi?", "o": ["Kusko", "Tenochtitlan", "Chichen-Itsa", "Timbuktu"], "a": 1, "e": "Asteklar poytaxti Tenochtitlan ko‘l orolida qurilgan." },
+      { "q": "Matematikaga «nol»ni hindlardan ham avval kiritgan xalq qaysi?", "o": ["Mayyalar", "Asteklar", "Inklar", "Arablar"], "a": 0, "e": "Mayyalar nol belgisini hindlardan ham avval kiritgan va aniq taqvim tuzgan." },
+      { "q": "Yozuv o‘rniga tugunli iplar (kipu) ishlatgan xalq qayerda yashagan?", "o": ["Yukatan yarimorolida", "Meksikada", "Shimoliy Amerikada", "And tog‘larida (Peru)"], "a": 3, "e": "Inklar And tog‘larida yashagan, poytaxti Kusko; ular kipu ishlatgan." }
+    ],
+    "43": [
+      { "q": "Afrikadagi «oltin mamlakati» deb atalgan ilk davlat qaysi?", "o": ["Mali", "Aksum", "Gana", "Songai"], "a": 2, "e": "Gana — Niger va Senegal havzasidagi ilk davlat, oltin bilan mashhur." },
+      { "q": "Ganani 1076-yilda kim istilo qilgan?", "o": ["Marokash sultoni Abu Bakr", "Sundiata Keyta", "Muso I", "Misr sultoni Salohiddin"], "a": 0, "e": "1076-yilda Marokash sultoni Abu Bakr katta qo‘shin bilan Ganani istilo qildi." },
+      { "q": "Mali davlatini birlashtirgan hukmdor kim?", "o": ["Muso I", "Abu Bakr", "Asparux", "Sundiata Keyta"], "a": 3, "e": "Sundiata Keyta (1230–1255) kuchli qo‘shin tuzib, Malini birlashtirdi." }
+    ],
+    "44": [
+      { "q": "300 dan ortiq inshoot qurgan usmonli me’mor kim?", "o": ["Piri Rais", "Sinon", "Mehmed II", "Nizomulmulk"], "a": 1, "e": "Me’mor Sinon — Istanbuldagi Sulaymoniya masjidi va 300 dan ortiq inshoot muallifi." },
+      { "q": "«Bahriya» dengiz atlasining muallifi kim?", "o": ["Marko Polo", "Sinon", "Piri Rais", "Sechjon Buyuk"], "a": 2, "e": "Dengiz sayyohi Piri Rais O‘rta, Qora va Egey dengizlari atlasi «Bahriya»ni yaratgan." },
+      { "q": "Koreyada yangi taqvim va yomg‘ir o‘lchagich kimning davrida yaratilgan?", "o": ["Sechjon Buyuk", "Li Son Ge", "Xubilay", "Minamoto Yoritomo"], "a": 0, "e": "Sechjon Buyuk (1418–1450) davrida taqvim, yomg‘ir o‘lchagich va hangul alifbosi yaratildi." }
+    ]
+  }
+}

@@ -64,6 +64,7 @@ function App() {
                   <Route path="/fanlar" element={<SubjectsPage />} />
                   <Route path="/subjects/tarix" element={<HistoryGradesPage />} />
                   <Route path="/subjects/tarix/grade/:gradeId" element={<HistoryGradePage />} />
+                  <Route path="/subjects/tarix/grade/:gradeId/:track" element={<HistoryGradePage />} />
                   <Route path="/subjects/ona-tili" element={<UzbekGradesPage />} />
                   <Route path="/subjects/ona-tili/grade/:gradeId" element={<UzbekGradePage />} />
                   <Route path="/subjects/adabiyot" element={<LiteratureGradesPage />} />
