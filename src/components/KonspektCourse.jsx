@@ -1,7 +1,7 @@
-import { Fragment, useMemo, useState } from 'react'
-import { HiArrowLeft as FiArrowLeft, HiArrowRight as FiArrowRight, HiBookOpen as FiBookOpen, HiCheck as FiCheck, HiCollection as FiLayers, HiLightBulb as FiBulb, HiPencilAlt as FiEdit, HiRefresh as FiRefresh, HiX as FiX } from 'react-icons/hi'
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
+import { HiArrowLeft as FiArrowLeft, HiArrowRight as FiArrowRight, HiArrowsExpand as FiExpand, HiBookOpen as FiBookOpen, HiCheck as FiCheck, HiClock as FiClock, HiCollection as FiLayers, HiLightBulb as FiBulb, HiPencilAlt as FiEdit, HiRefresh as FiRefresh, HiX as FiX } from 'react-icons/hi'
 
-const STEPS = [['read', 'Konspekt', FiBookOpen], ['cards', 'Flashcardlar', FiLayers], ['quiz', 'Oraliq test', FiEdit]]
+const STEPS = [['read', 'Konspekt', FiBookOpen], ['cards', 'Flashcardlar', FiLayers], ['quiz', 'Mavzu testi', FiEdit]]
 const LETTERS = ['A', 'B', 'C', 'D']
 
 function Inline({ text }) {
@@ -72,7 +72,7 @@ function QuestionList({ questions, answers, onAnswer, checked }) {
   return <div className="space-y-6">{questions.map((question, index) => {
     const picked = answers[index]
     const correct = picked === question.answer
-    return <div key={question.text}>
+    return <div key={`${index}-${question.text}`}>
       <p className="font-semibold leading-7">{index + 1}. {question.text}</p>
       <div className="mt-3 grid gap-2 sm:grid-cols-2">{question.options.map((option, optionIndex) => {
         let tone = 'border-slate-200 hover:border-slate-300 dark:border-slate-700'
@@ -86,18 +86,8 @@ function QuestionList({ questions, answers, onAnswer, checked }) {
   })}</div>
 }
 
-export function KonspektLesson({ topic, done, isLast, midtermAfter, onSubmitQuiz, onNext, onFinal, onMidterm }) {
+export function KonspektLesson({ topic, done, isLast, midtermAfter, testSize, durationMinutes, onStartTest, onNext, onFinal, onMidterm }) {
   const [step, setStep] = useState('read')
-  const [answers, setAnswers] = useState({})
-  const [checked, setChecked] = useState(false)
-  const score = topic.quiz.filter((question, index) => answers[index] === question.answer).length
-  const allAnswered = Object.keys(answers).length === topic.quiz.length
-
-  const submit = () => {
-    setChecked(true)
-    onSubmitQuiz(score, topic.quiz.filter((question, index) => answers[index] !== question.answer))
-  }
-  const retry = () => { setAnswers({}); setChecked(false) }
 
   return <div>
     <div className="flex flex-wrap items-start justify-between gap-3"><div><p className="eyebrow text-orange-600">{topic.section}</p><h2 className="mt-2 text-3xl font-black">{topic.id}-mavzu. {topic.title}</h2></div>{done && <span className="pill inline-flex items-center gap-1 bg-emerald-100 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-300"><FiCheck/> O‘zlashtirilgan</span>}</div>
@@ -105,62 +95,99 @@ export function KonspektLesson({ topic, done, isLast, midtermAfter, onSubmitQuiz
 
     <div className="mt-7">
       {step === 'read' && <><TopicText topic={topic}/><div className="mt-8 flex justify-end"><button type="button" onClick={() => setStep('cards')} className="btn-primary bg-orange-500 hover:bg-orange-600">Flashcardlarga o‘tish <FiArrowRight/></button></div></>}
-      {step === 'cards' && <><Flashcards key={topic.id} cards={topic.flashcards}/><div className="mt-8 flex justify-end"><button type="button" onClick={() => setStep('quiz')} className="btn-primary bg-orange-500 hover:bg-orange-600">Oraliq testni boshlash <FiArrowRight/></button></div></>}
-      {step === 'quiz' && <div>
-        <p className="mb-6 text-sm text-slate-500">{checked ? 'Natijangiz va xatolar tahlili:' : `${topic.quiz.length} ta savol. Barcha savollarga javob bering, keyin «Javoblarni yuborish» tugmasini bosing.`}</p>
-        <QuestionList questions={topic.quiz} answers={answers} onAnswer={(index, option) => setAnswers({ ...answers, [index]: option })} checked={checked}/>
-        {!checked ? <button type="button" disabled={!allAnswered} onClick={submit} className="btn-primary mt-8 w-full bg-orange-500 hover:bg-orange-600 disabled:cursor-not-allowed disabled:opacity-40">Javoblarni yuborish</button> : <div className="mt-8 rounded-2xl border border-slate-200 p-5 dark:border-slate-700">
-          <p className="text-lg font-black">{score}/{topic.quiz.length} to‘g‘ri javob</p>
-          <p className="mt-1 text-sm text-slate-500">{score === topic.quiz.length ? 'Ajoyib! Mavzuni to‘liq o‘zlashtirdingiz.' : 'Xatolaringiz yuqorida izohlandi. Konspektni qayta ko‘rib chiqib, testni yana ishlashingiz mumkin.'}</p>
-          <div className="mt-5 flex flex-wrap gap-3">
-            <button type="button" onClick={retry} className="btn-secondary"><FiRefresh/> Qayta ishlash</button>
-            {score < topic.quiz.length && <button type="button" onClick={() => { retry(); setStep('read') }} className="btn-secondary"><FiBookOpen/> Konspektni qayta o‘qish</button>}
-            {midtermAfter && <button type="button" onClick={onMidterm} className="btn-secondary"><FiEdit/> Oraliq test (1–{topic.id})</button>}
-            {isLast ? <button type="button" onClick={onFinal} className="btn-primary flex-1 bg-slate-950 hover:bg-slate-800 dark:bg-orange-600">Yakuniy testga o‘tish <FiArrowRight/></button> : <button type="button" onClick={onNext} className="btn-primary flex-1 bg-orange-500 hover:bg-orange-600">Keyingi mavzu <FiArrowRight/></button>}
-          </div>
-        </div>}
+      {step === 'cards' && <><Flashcards key={topic.id} cards={topic.flashcards}/><div className="mt-8 flex justify-end"><button type="button" onClick={() => setStep('quiz')} className="btn-primary bg-orange-500 hover:bg-orange-600">Mavzu testiga o‘tish <FiArrowRight/></button></div></>}
+      {step === 'quiz' && <div className="rounded-3xl border border-orange-200 bg-orange-50/60 p-6 dark:border-orange-500/20 dark:bg-orange-500/5 sm:p-8">
+        <p className="eyebrow text-orange-600">Mavzu testi</p>
+        <h3 className="mt-2 text-2xl font-black">{topic.title}</h3>
+        <div className="mt-5 grid gap-3 sm:grid-cols-3">
+          <span className="flex items-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-semibold dark:bg-slate-900"><FiEdit className="text-orange-500"/> {testSize} ta savol</span>
+          <span className="flex items-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-semibold dark:bg-slate-900"><FiClock className="text-orange-500"/> {durationMinutes} daqiqa</span>
+          <span className="flex items-center gap-2 rounded-xl bg-white px-4 py-3 text-sm font-semibold dark:bg-slate-900"><FiExpand className="text-orange-500"/> To‘liq ekran</span>
+        </div>
+        <p className="mt-5 text-sm leading-6 text-slate-600 dark:text-slate-300">Savollar konspektdan har safar yangidan tuziladi — qayta topshirganda boshqa savollar chiqadi. Test to‘liq ekran rejimida o‘tadi; vaqt tugasa, javoblar avtomatik yuboriladi.</p>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <button type="button" onClick={onStartTest} className="btn-primary bg-orange-500 hover:bg-orange-600">{done ? 'Testni qayta topshirish' : 'Testni boshlash'} <FiArrowRight/></button>
+          {done && midtermAfter && <button type="button" onClick={onMidterm} className="btn-secondary"><FiEdit/> Oraliq test</button>}
+          {done && (isLast ? <button type="button" onClick={onFinal} className="btn-secondary">Yakuniy test <FiArrowRight/></button> : <button type="button" onClick={onNext} className="btn-secondary">Keyingi mavzu <FiArrowRight/></button>)}
+        </div>
       </div>}
     </div>
   </div>
 }
 
-const shuffle = (items) => [...items].sort(() => Math.random() - 0.5)
-
 function gradeFor(percent) {
-  if (percent >= 86) return { label: 'A’lo (5)', tone: 'text-emerald-600', text: 'Butun konspektni juda yaxshi o‘zlashtirgansiz!' }
-  if (percent >= 71) return { label: 'Yaxshi (4)', tone: 'text-blue-600', text: 'Yaxshi natija. Quyidagi mavzularni qayta ko‘rib chiqsangiz, a’loga chiqasiz.' }
-  if (percent >= 56) return { label: 'Qoniqarli (3)', tone: 'text-amber-600', text: 'Asosiy bilim bor, lekin bir nechta mavzuni qayta o‘qish kerak.' }
-  return { label: 'Qayta tayyorlanish kerak (2)', tone: 'text-red-600', text: 'Quyidagi mavzularni qayta o‘qib, flashcardlarni takrorlang va testni qayta topshiring.' }
+  if (percent >= 86) return { label: 'A’lo (5)', tone: 'text-emerald-600', text: 'Ajoyib! Materialni juda yaxshi o‘zlashtirgansiz.' }
+  if (percent >= 71) return { label: 'Yaxshi (4)', tone: 'text-blue-600', text: 'Yaxshi natija. Xato qilgan joylaringizni ko‘rib chiqsangiz, a’loga chiqasiz.' }
+  if (percent >= 56) return { label: 'Qoniqarli (3)', tone: 'text-amber-600', text: 'Asosiy bilim bor, lekin konspektni qayta o‘qish kerak.' }
+  return { label: 'Qayta tayyorlanish kerak (2)', tone: 'text-red-600', text: 'Konspektni qayta o‘qing, flashcardlarni takrorlang va testni qayta topshiring.' }
 }
 
-export function CourseExam({ exam, topics, onClose, onComplete, onOpenTopic }) {
-  const [questions, setQuestions] = useState(() => shuffle(exam.questions))
+const formatTime = (seconds) => `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`
+
+/**
+ * To'liq ekranda o'tadigan, taymerli test (mavzu testi, oraliq va yakuniy test).
+ * exam: { title, subtitle, questions, showWeakTopics }
+ */
+export function ProctoredExam({ exam, topics, durationSeconds, onComplete, onClose, onRetry, onOpenTopic, actions = [] }) {
   const [answers, setAnswers] = useState({})
   const [checked, setChecked] = useState(false)
+  const [remaining, setRemaining] = useState(durationSeconds)
+  const finishRef = useRef(null)
+  const { questions } = exam
   const score = questions.filter((question, index) => answers[index] === question.answer).length
   const percent = Math.round(score / questions.length * 100)
   const grade = gradeFor(percent)
+  const answeredCount = Object.keys(answers).length
   const weakTopics = useMemo(() => {
+    if (!exam.showWeakTopics) return []
     const ids = [...new Set(questions.filter((question, index) => answers[index] !== question.answer).map(question => question.topicId))].sort((a, b) => a - b)
     return ids.map(id => topics.find(topic => topic.id === id)).filter(Boolean)
-  }, [answers, topics, questions])
+  }, [answers, exam.showWeakTopics, questions, topics])
 
   const submit = () => {
+    if (checked) return
     setChecked(true)
     onComplete(score, percent, questions.filter((question, index) => answers[index] !== question.answer))
+    window.scrollTo({ top: 0 })
   }
-  const restart = () => { setQuestions(shuffle(exam.questions)); setAnswers({}); setChecked(false) }
 
-  return <div className="fixed inset-0 z-[90] grid place-items-center overflow-y-auto bg-slate-950/80 p-4">
-    <div className="my-8 w-full max-w-3xl rounded-3xl bg-white p-6 dark:bg-slate-900 sm:p-8">
-      <div className="flex justify-between gap-4"><div><p className="eyebrow text-orange-600">Qadimgi dunyo tarixi · 6-sinf</p><h2 className="mt-1 text-2xl font-black">{exam.title}</h2><p className="mt-1 text-sm text-slate-500">{exam.scope} · {questions.length} ta savol</p></div><button type="button" onClick={onClose} className="icon-button" aria-label="Yopish"><FiX/></button></div>
-      {checked && <div className="mt-6 rounded-2xl bg-slate-50 p-5 dark:bg-slate-800/70">
-        <div className="flex flex-wrap items-center gap-5"><span className="grid h-20 w-20 shrink-0 place-items-center rounded-full bg-orange-100 text-xl font-black text-orange-600 dark:bg-orange-500/15">{score}/{questions.length}</span><div><p className={`text-xl font-black ${grade.tone}`}>{percent}% · {grade.label}</p><p className="mt-1 text-sm text-slate-500">{grade.text}</p></div></div>
+  // Taymer tugaganda eng so'nggi javoblar bilan avtomatik yuboriladi.
+  useEffect(() => { finishRef.current = submit })
+  useEffect(() => {
+    if (checked) return undefined
+    const timer = window.setInterval(() => setRemaining(value => {
+      if (value <= 1) { window.clearInterval(timer); window.queueMicrotask(() => finishRef.current?.()); return 0 }
+      return value - 1
+    }), 1000)
+    return () => window.clearInterval(timer)
+  }, [checked])
+
+  return <div className="fixed inset-0 z-[90] overflow-y-auto bg-slate-100 dark:bg-slate-950">
+    <div className="sticky top-0 z-10 border-b border-slate-200 bg-white/95 px-4 py-3 backdrop-blur dark:border-slate-800 dark:bg-slate-900/95">
+      <div className="mx-auto flex max-w-3xl items-center justify-between gap-4">
+        <div className="min-w-0"><p className="truncate text-xs font-bold uppercase tracking-wider text-orange-600">{exam.subtitle}</p><h2 className="truncate text-lg font-black">{exam.title}</h2></div>
+        {checked ? <button type="button" onClick={onClose} className="icon-button" aria-label="Yopish"><FiX/></button> : <div className="flex items-center gap-3">
+          <span className="hidden text-sm text-slate-500 sm:block">{answeredCount}/{questions.length}</span>
+          <span className={`flex items-center gap-2 rounded-xl px-3 py-2 font-mono text-lg font-black ${remaining <= 60 ? 'bg-red-50 text-red-600 dark:bg-red-500/10' : 'bg-slate-100 dark:bg-slate-800'}`}><FiClock className="h-4 w-4"/>{formatTime(remaining)}</span>
+        </div>}
+      </div>
+      {!checked && <div className="mx-auto mt-2 h-1.5 max-w-3xl overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800"><div className="h-full rounded-full bg-orange-500 transition-all" style={{ width: `${answeredCount / questions.length * 100}%` }}/></div>}
+    </div>
+
+    <div className="mx-auto max-w-3xl px-4 pb-16 pt-6">
+      {checked && <div className="mb-8 rounded-3xl bg-white p-6 shadow-sm dark:bg-slate-900">
+        <div className="flex flex-wrap items-center gap-5"><span className="grid h-20 w-20 shrink-0 place-items-center rounded-full bg-orange-100 text-xl font-black text-orange-600 dark:bg-orange-500/15">{score}/{questions.length}</span><div><p className={`text-xl font-black ${grade.tone}`}>{percent}% · {grade.label}</p><p className="mt-1 text-sm text-slate-500">{grade.text}</p>{remaining === 0 && <p className="mt-1 text-xs font-bold text-red-500">Vaqt tugadi — javoblar avtomatik yuborildi.</p>}</div></div>
         {weakTopics.length > 0 && <div className="mt-5"><p className="text-sm font-bold">Qayta o‘qish tavsiya etiladigan mavzular:</p><div className="mt-3 flex flex-wrap gap-2">{weakTopics.map(topic => <button type="button" key={topic.id} onClick={() => onOpenTopic(topic.id)} className="rounded-xl border border-orange-200 bg-white px-3 py-2 text-left text-xs font-semibold text-orange-700 transition hover:bg-orange-50 dark:border-orange-500/30 dark:bg-slate-900 dark:text-orange-300">{topic.id}. {topic.title}</button>)}</div></div>}
-        <button type="button" onClick={restart} className="btn-secondary mt-5"><FiRefresh/> Qayta topshirish</button>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <button type="button" onClick={onRetry} className="btn-secondary"><FiRefresh/> Yangi savollar bilan qayta topshirish</button>
+          {actions.map(action => <button type="button" key={action.label} onClick={action.onClick} className={action.primary ? 'btn-primary flex-1 bg-orange-500 hover:bg-orange-600' : 'btn-secondary'}>{action.label} {action.primary && <FiArrowRight/>}</button>)}
+          {!actions.length && <button type="button" onClick={onClose} className="btn-primary flex-1 bg-orange-500 hover:bg-orange-600">Yopish</button>}
+        </div>
+        <p className="mt-6 text-sm font-bold text-slate-500">Javoblar tahlili:</p>
       </div>}
-      <div className="mt-7"><QuestionList questions={questions} answers={answers} onAnswer={(index, option) => setAnswers({ ...answers, [index]: option })} checked={checked}/></div>
-      {!checked && <button type="button" disabled={Object.keys(answers).length < questions.length} onClick={submit} className="btn-primary mt-8 w-full bg-orange-500 hover:bg-orange-600 disabled:cursor-not-allowed disabled:opacity-40">Yakuniy javoblarni yuborish ({Object.keys(answers).length}/{questions.length})</button>}
+
+      <div className="rounded-3xl bg-white p-6 shadow-sm dark:bg-slate-900 sm:p-8"><QuestionList questions={questions} answers={answers} onAnswer={(index, option) => setAnswers({ ...answers, [index]: option })} checked={checked}/></div>
+      {!checked && <button type="button" onClick={submit} className="btn-primary mt-6 w-full bg-orange-500 hover:bg-orange-600">Javoblarni yuborish ({answeredCount}/{questions.length})</button>}
     </div>
   </div>
 }

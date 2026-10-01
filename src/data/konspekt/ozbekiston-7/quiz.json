@@ -1,0 +1,214 @@
+{
+  "topics": {
+    "1": [
+      { "q": "Ilk o‘rta asrlarda «dehqon» so‘zi kimni anglatgan?", "o": ["Oddiy ziroatchini", "Qishloq hokimi, mulkdor tabaqani", "Qaram qishloq aholisini", "Qo‘riqchi askarni"], "a": 1, "e": "O‘sha davrda dehqon — qishloq hokimi, mulkdor tabaqa; oddiy ziroatchi esa kashovarz." },
+      { "q": "Dehqon mulkini qo‘riqlovchi askar qanday atalgan?", "o": ["Kadivar", "Kashovarz", "Chokar", "Barzikor"], "a": 2, "e": "Har bir katta yer egasining 30–100 dan ortiq chokari bo‘lgan." },
+      { "q": "Dehqonga qaram bo‘lgan qishloq aholisi qanday atalgan?", "o": ["Kadivar", "Chokar", "Ixshid", "Yabg‘u"], "a": 0, "e": "Kadivar — dehqonga qaram qishloq aholisi." }
+    ],
+    "2": [
+      { "q": "Xorazmda IV–X asrlarda hukmronlik qilgan sulola qaysi?", "o": ["Somoniylar", "Ma’muniylar", "Kidariylar", "Afrig‘iylar"], "a": 3, "e": "Afrig‘iylar sulolasi IV–X asrlarda hukmronlik qilgan; ramzlari burgut va lochin." },
+      { "q": "Milodiy 305-yilda Afrig‘ poytaxtni qaysi shaharga ko‘chirdi?", "o": ["Tuproqqal’a", "Kat", "Gurganch", "Samarqand"], "a": 1, "e": "305-yilda xorazmshoh Afrig‘ qarorgohini qadimgi Kat shahriga ko‘chirdi." },
+      { "q": "Xioniylar davlatining markazi qayerda bo‘lgan?", "o": ["Zarafshon vohasida", "Farg‘ona vodiysida", "Xorazmda", "Toshkent vohasida"], "a": 0, "e": "Xioniylar davlati markazi Zarafshon vohasida bo‘lgan." }
+    ],
+    "3": [
+      { "q": "Eftallar bilan urushda halok bo‘lgan sosoniy shoh kim?", "o": ["Xusrav I", "Kir II", "Pero‘z", "Doro I"], "a": 2, "e": "484-yilda shoh Pero‘z eftallar bilan urushda halok bo‘ldi, Eron eftallarga o‘lpon to‘ladi." },
+      { "q": "Eftallar davlati qachon barbod bo‘ldi?", "o": ["456-yil", "484-yil", "552-yil", "563–567-yillar"], "a": 3, "e": "Turk xoqonligi va sosoniylar zarbasidan 563–567-yillarda barbod bo‘ldi." },
+      { "q": "Eftallar davlati qancha vaqt mavjud bo‘lgan?", "o": ["120 yildan ortiq", "50 yil", "300 yil", "20 yil"], "a": 0, "e": "V asrning 20-yillaridan VI asrning 70-yillarigacha — 120 yildan ortiq." }
+    ],
+    "4": [
+      { "q": "Turk xoqonligi qachon va kim tomonidan tuzilgan?", "o": ["552-yil, Bumin", "563-yil, Istami", "618-yil, To‘ng yabg‘u", "555-yil, Xusrav I"], "a": 0, "e": "552-yilda Bumin xoqon deb e’lon qilindi." },
+      { "q": "Turk xoqonligining g‘arbiy yurishlariga kim boshchilik qildi?", "o": ["Bumin", "Abruy", "Istami", "Pero‘z"], "a": 2, "e": "G‘arbiy yurishlarga Buminning ukasi Istami boshchilik qilgan." },
+      { "q": "Turk xoqonligi qachon Sharqiy va G‘arbiy qismlarga bo‘lindi?", "o": ["V asr o‘rtasida", "VI asrning 80-yillari oxirida", "VII asr boshida", "VIII asr o‘rtasida"], "a": 1, "e": "Ichki nizolar oqibatida VI asrning 80-yillari oxirida xoqonlik ikkiga bo‘lindi." }
+    ],
+    "5": [
+      { "q": "G‘arbiy turk xoqonligining eng kuchli hukmdori kim?", "o": ["Bumin", "Istami", "Abruy", "To‘ng yabg‘u"], "a": 3, "e": "To‘ng yabg‘u (618–630) boshqaruvni isloh qilib, tudunlarni tayinladi." },
+      { "q": "585–586-yillarda Buxoroda kim boshchiligida qo‘zg‘olon bo‘lgan?", "o": ["Muqanna", "Abruy", "Divashtich", "Mahmud Torobiy"], "a": 1, "e": "Abruy qo‘zg‘oloni qashshoqlik va zulmga qarshi bo‘lgan." },
+      { "q": "Xoqonning mahalliy hokimlar ustidan nazoratchisi qanday atalgan?", "o": ["Tudun", "Yabg‘u", "Ixshid", "Chokar"], "a": 0, "e": "Tudun — xoqon vakili; yabg‘u — xoqondan keyingi unvon." }
+    ],
+    "6": [
+      { "q": "V–VII asrlarda yurtimiz nechta mahalliy hokimlikka bo‘lingan edi?", "o": ["5 ta", "10 ta", "15 dan ortiq", "50 dan ortiq"], "a": 2, "e": "Yurtimiz 15 dan ortiq mahalliy hokimlikka bo‘lingan edi." },
+      { "q": "Sug‘d hukmdorining unvoni nima bo‘lgan?", "o": ["Yabg‘u", "Xoqon", "Tudun", "Ixshid"], "a": 3, "e": "Sug‘d hukmdori ixshid deb atalgan, markazi Samarqand." },
+      { "q": "Qaysi hokimlik tangalarida malika tasviri bo‘lib, u vazir darajasida boshqaruvda qatnashgan?", "o": ["Choch", "Sug‘d", "Xorazm", "Toxariston"], "a": 0, "e": "Choch tangalarida hukmdor bilan birga malika tasviri bor." }
+    ],
+    "7": [
+      { "q": "Sug‘d va xorazm yozuvlari qaysi yozuv asosida shakllangan?", "o": ["Baqtriya", "Oromiy", "Run (ko‘kturk)", "Arab"], "a": 1, "e": "Sug‘d va xorazm yozuvlari oromiy yozuvi asosida, toxar yozuvi baqtriya yozuvi asosida shakllangan." },
+      { "q": "Shaharning hunarmand va savdogarlar yashagan tashqi mavzesi qanday atalgan?", "o": ["Ark", "Shahriston", "Ko‘handiz", "Rabot"], "a": 3, "e": "Shahar: ark (ko‘handiz) → shahriston → rabot." },
+      { "q": "O‘rta Osiyodagi nasroniylik markazlaridan biri qayerda bo‘lgan?", "o": ["Urgut (Samarqand)", "Varaxsha", "Quva", "Binkat"], "a": 0, "e": "Samarqandning Urgut tumani nasroniylik markazlaridan biri bo‘lgan." }
+    ],
+    "8": [
+      { "q": "Movarounnahrni zabt etgan arab sarkardasi kim?", "o": ["Abu Muslim", "Qutayba ibn Muslim", "Nasr ibn Sayyor", "Ubaydulloh ibn Ziyod"], "a": 1, "e": "Qutayba ibn Muslim 705-yildan yurishlarni boshlagan." },
+      { "q": "Arablar Buxoro va Samarqandni qachon egalladi?", "o": ["651 va 673-yillar", "705 va 709-yillar", "709 va 712-yillar", "710 va 720-yillar"], "a": 2, "e": "709-yil — Buxoro, 712-yil — Samarqand." },
+      { "q": "«Movarounnahr» so‘zining ma’nosi nima?", "o": ["«Ikki daryo oralig‘i»", "«Tog‘lar orti»", "«Sug‘d yurti»", "«Daryoning narigi tomoni»"], "a": 3, "e": "Arablar Amudaryoning narigi tomonini Movarounnahr deb atagan." }
+    ],
+    "9": [
+      { "q": "Islomni qabul qilmaganlardan olinadigan jon solig‘i qanday atalgan?", "o": ["Xiroj", "Jizya", "Ushr", "Zakot"], "a": 1, "e": "Jizya — jon solig‘i; xiroj — yer solig‘i." },
+      { "q": "Hosilning o‘ndan bir qismi hajmidagi soliq qanday atalgan?", "o": ["Ushr", "Xiroj", "Kalon", "Qopchur"], "a": 0, "e": "Ushr — arabcha «o‘ndan bir»." },
+      { "q": "Buxorodagi zardushtiylar ibodatxonasini jome masjidiga kim aylantirdi?", "o": ["Abu Muslim", "Umar ibn Abdulaziz", "Nasr ibn Sayyor", "Qutayba ibn Muslim"], "a": 3, "e": "Qutayba ibodatxonani masjidga aylantirib, sug‘d yozuvidagi kitoblarni yo‘q qildi." }
+    ],
+    "10": [
+      { "q": "«Oq kiyimlilar» qo‘zg‘olonining rahbari kim?", "o": ["Divashtich", "G‘urak", "Muqanna", "Abu Muslim"], "a": 2, "e": "Muqanna (Hoshim ibn Hakim) yuziga parda tutgani uchun «Niqobdor» deb atalgan." },
+      { "q": "«Oq kiyimlilar» qo‘zg‘oloni qaysi yillarda bo‘lgan (darslik bo‘yicha)?", "o": ["769–783", "720–738", "747–749", "806–810"], "a": 0, "e": "Qo‘zg‘olon 769–783-yillarda bo‘lib, Som qal’asi qamali bilan tugagan." },
+      { "q": "720-yilgi Sug‘d qo‘zg‘oloniga aloqador Panjikent hokimi kim?", "o": ["G‘urak", "Muqanna", "Nasr ibn Sayyor", "Divashtich"], "a": 3, "e": "Divashtich Mug‘ tog‘idagi qal’ada mudofaa qilgan va qatl etilgan." }
+    ],
+    "11": [
+      { "q": "Umaviylarni ag‘darib, abbosiylarni hokimiyatga keltirgan qo‘zg‘olon rahbari kim?", "o": ["Muqanna", "Abu Muslim", "Rofe ibn Lays", "Tohir"], "a": 1, "e": "Abu Muslim qo‘zg‘oloni 747–749-yillarda bo‘lgan." },
+      { "q": "751-yilgi Talas jangining natijasi nima bo‘ldi?", "o": ["Xitoy qo‘shinlari yengilib, mintaqadan quvildi", "Arablar Samarqanddan quvildi", "Abu Muslim halok bo‘ldi", "Turk xoqonligi tuzildi"], "a": 0, "e": "Talas jangidan keyin O‘rta Osiyoga qog‘oz tayyorlash siri ham kirib kelgan." },
+      { "q": "Abbosiylar davrida xalifalik poytaxti qayerga ko‘chdi?", "o": ["Makkaga", "Marvga", "Bag‘dodga", "Buxoroga"], "a": 2, "e": "Poytaxt Damashqdan Bag‘dodga ko‘chdi." }
+    ],
+    "12": [
+      { "q": "Tohiriylar sulolasi qaysi yillarda hukmronlik qilgan?", "o": ["865–999", "821–873", "750–1258", "977–1186"], "a": 1, "e": "821-yilda Tohir noib bo‘ldi, 873-yilda safforiylar tohiriylarni tugatdi." },
+      { "q": "O‘g‘uzlar davlatining poytaxti qaysi shahar edi?", "o": ["Yangikent", "Kat", "Nishopur", "Taroz"], "a": 0, "e": "O‘g‘uzlar davlati Sirdaryo havzasi va Orol bo‘yida, poytaxti Yangikent." },
+      { "q": "Tohiriylar hukmronligini kim tugatdi?", "o": ["Somoniylar", "Qoraxoniylar", "G‘aznaviylar", "Safforiylar (Ya’qub va Amr ibn Lays)"], "a": 3, "e": "873-yilda safforiylar Nishopurni egalladi." }
+    ],
+    "13": [
+      { "q": "Somoniylar davlatining poytaxti qaysi shahar edi?", "o": ["Samarqand", "Nishopur", "Buxoro", "G‘azna"], "a": 2, "e": "Somoniylar poytaxti — Buxoro." },
+      { "q": "Ismoil Somoniy Movarounnahrni qachon birlashtirgan?", "o": ["865-yil", "888-yil", "900-yil", "999-yil"], "a": 1, "e": "888-yilda Ismoil Somoniy butun Movarounnahrni birlashtirdi." },
+      { "q": "900-yilda Ismoil Somoniy kimni yengib, Xurosonni egalladi?", "o": ["Safforiy Amr ibn Laysni", "Tohirni", "Nasr Eloqxonni", "Mahmud G‘aznaviyni"], "a": 0, "e": "Xalifa gijgijlagan safforiy Amr ibn Lays 900-yilda yengildi." }
+    ],
+    "14": [
+      { "q": "Somoniylar davrida bir shaharda pul topshirib, boshqasida olish imkonini bergan hujjat qanday atalgan?", "o": ["Yorliq", "Chek", "Suyurg‘ol", "Iqto"], "a": 1, "e": "Chek — hozirgi bank chekining ajdodi." },
+      { "q": "Somoniylar davrida aholining asosiy mashg‘uloti nima edi?", "o": ["Ko‘chmanchi chorvachilik", "Dengizchilik", "Ovchilik", "Sug‘orma dehqonchilik"], "a": 3, "e": "Aholining asosiy qismi sug‘orma dehqonchilik bilan shug‘ullangan." },
+      { "q": "Aholidan ikki marta soliq qachon undirilgan?", "o": ["942-yil", "961-yil", "976-yil", "888-yil"], "a": 0, "e": "Xazina bo‘shab, 942-yilda aholidan ikki marta soliq olindi — inqiroz belgisi." }
+    ],
+    "15": [
+      { "q": "G‘aznaviylarning eng qudratli hukmdori kim?", "o": ["Alptegin", "Sabuktegin", "Ma’sud G‘aznaviy", "Mahmud G‘aznaviy"], "a": 3, "e": "Mahmud G‘aznaviy (997–1030) davrida davlat Sharqning eng qudratlilaridan biriga aylandi." },
+      { "q": "Mahmud G‘aznaviy Xorazmni qachon bosib oldi?", "o": ["1004-yil", "1017-yil", "1040-yil", "999-yil"], "a": 1, "e": "1017-yilda Xorazm g‘aznaviylar saltanatiga qo‘shildi." },
+      { "q": "G‘aznaviylar davlati qachon butunlay tugatildi?", "o": ["1040-yil", "1097-yil", "1186-yil", "1231-yil"], "a": 2, "e": "Dandanakandagi mag‘lubiyatdan keyin zaiflashib, 1186-yilda tugatildi." }
+    ],
+    "16": [
+      { "q": "Qoraxoniylar davlatining asoschisi kim?", "o": ["Nasr Eloqxon", "Sotuq Bug‘roxon", "Horun Bug‘roxon", "Ismoil Somoniy"], "a": 1, "e": "Abdulkarim Sotuq Bug‘roxon Islomni qabul qilgan asoschi." },
+      { "q": "999-yilda Buxoroni egallab, Somoniylarga barham bergan kim?", "o": ["Nasr Eloqxon", "Mahmud G‘aznaviy", "Nasr II", "Alptegin"], "a": 0, "e": "Tuzoq: Nasr Eloqxon — qoraxoniy, Nasr II — somoniy hukmdor." },
+      { "q": "Xizmat evaziga beriladigan yer mulki qanday atalgan?", "o": ["Vaqf", "Mulki devon", "Kalon", "Iqto"], "a": 3, "e": "Iqto XI asrdan keng yoyilgan; unda barzikorlar ishlagan." }
+    ],
+    "17": [
+      { "q": "995-yilda Xorazmni birlashtirgan kim?", "o": ["Ma’mun ibn Muhammad", "Otsiz", "Takash", "Afrig‘"], "a": 0, "e": "Gurganch amiri Ma’mun ibn Muhammad Katni egallab, Xorazmshoh unvonini oldi." },
+      { "q": "Xorazm mustaqilligi uchun kurash qaysi hukmdor nomi bilan bog‘liq?", "o": ["Qutbiddin Muhammad", "Alovuddin Muhammad", "Otsiz", "Elarslon"], "a": 2, "e": "Otsiz (1127–1156) Xorazm mustaqilligi uchun kurashgan." },
+      { "q": "Anushteginiylar (Xorazmshohlar) sulolasi qaysi yillarda hukmronlik qilgan?", "o": ["995–1017", "1040–1097", "1220–1231", "1097–1231"], "a": 3, "e": "Anushteginiylar 1097–1231-yillarda hukmronlik qilgan." }
+    ],
+    "18": [
+      { "q": "Temuchin qachon Chingizxon deb e’lon qilingan?", "o": ["1155-yil", "1206-yil", "1218-yil", "1227-yil"], "a": 1, "e": "1206-yilda Onon daryosi bo‘yidagi qurultoyda." },
+      { "q": "Mo‘g‘ul savdo karvonini qirgan O‘tror hokimi kim?", "o": ["Qoracha Hojib", "Temur Malik", "G‘oyirxon (Inolchiq)", "Mahmud Yalavoch"], "a": 2, "e": "G‘oyirxon savdogarlarni josuslikda ayblab qirib tashladi." },
+      { "q": "O‘tror fojiasi qachon sodir bo‘lgan?", "o": ["1218-yil", "1216-yil", "1219-yil", "1220-yil"], "a": 0, "e": "1218-yilda 450 savdogarli karvon qirildi — urushga bahona bo‘ldi." }
+    ],
+    "19": [
+      { "q": "O‘tror qamali qancha davom etgan?", "o": ["2 hafta", "1 oy", "1 yil", "5 oy"], "a": 3, "e": "1219-yil kuzidan boshlangan qamal 5 oy davom etgan." },
+      { "q": "Xo‘jand mudofaasiga kim boshchilik qilgan?", "o": ["Temur Malik", "G‘oyirxon", "Jaloliddin", "Qoracha Hojib"], "a": 0, "e": "Xo‘jand hokimi Temur Malik qahramonona mudofaa qilgan." },
+      { "q": "Urganch mudofaasida qo‘lida qurol bilan halok bo‘lgan shayx kim?", "o": ["Ahmad Yassaviy", "Bahouddin Naqshband", "Najmiddin Kubro", "Xoja Ahror"], "a": 2, "e": "Kubroviya tariqati asoschisi Najmiddin Kubro 1221-yilda halok bo‘lgan." }
+    ],
+    "20": [
+      { "q": "Muhammad Xorazmshoh qayerda vafot etgan?", "o": ["Urganchda", "Kaspiy dengizidagi Ashura orolida", "Nishopurda", "Buxoroda"], "a": 1, "e": "1220-yil dekabrida Ashura orolida vafot etib, taxtni Jaloliddinga qoldirdi." },
+      { "q": "Jaloliddinning mo‘g‘ullar ustidan birinchi yirik g‘alabasi qaysi jang?", "o": ["Sind jangi", "Isfahon jangi", "Garni jangi", "Parvon jangi (1221)"], "a": 3, "e": "Parvon jangi (Afg‘oniston) — mo‘g‘ullarning birinchi yirik mag‘lubiyati." },
+      { "q": "Sind daryosi bo‘yidagi jang qachon bo‘lgan?", "o": ["1221-yil 25-noyabr", "1220-yil dekabr", "1227-yil sentabr", "1231-yil"], "a": 0, "e": "Jaloliddin yengilgach, ot bilan daryoga sakrab o‘tgan." }
+    ],
+    "21": [
+      { "q": "Jaloliddin Manguberdi qachon halok bo‘lgan?", "o": ["1221-yil", "1227-yil", "1231-yil", "1241-yil"], "a": 2, "e": "1231-yilda mo‘g‘ullar Ozarbayjonga bostirib kirganda halok bo‘ldi." },
+      { "q": "1227-yilda Jaloliddin mo‘g‘ul qo‘shinini qayerda yengdi?", "o": ["Isfahon yaqinida", "Basra yaqinida", "Arzinjonda", "Garnida"], "a": 0, "e": "1227-yil sentabrida Isfahon yaqinida mo‘g‘ullar (Taynol no‘yon) yengildi." },
+      { "q": "Gurjiston qachon to‘liq egallangan?", "o": ["1224-yil", "1225-yil", "1230-yil", "1226-yil"], "a": 3, "e": "1226-yilda Gurjiston (Tiflis) to‘liq egallandi." }
+    ],
+    "22": [
+      { "q": "Jaloliddin haqidagi eng muhim manba muallifi kim?", "o": ["Ibn al-Asir", "Juvayniy", "Shihobiddin Nasaviy", "Rashididdin"], "a": 2, "e": "Nasaviy — Jaloliddin kotibi, 1241-yilda asarini yozgan." },
+      { "q": "Jaloliddin tavalludining 800 yilligi qachon nishonlangan?", "o": ["1999-yil", "1996-yil", "1944-yil", "2000-yil"], "a": 0, "e": "1999-yilda keng nishonlandi, Urganchda haykal o‘rnatildi." },
+      { "q": "«Jaloliddin Manguberdi» dramasining muallifi kim?", "o": ["Abdulla Qodiriy", "Maqsud Shayxzoda", "Alisher Navoiy", "Nasaviy"], "a": 1, "e": "Maqsud Shayxzoda dramasi 1944-yilda yozilgan." }
+    ],
+    "23": [
+      { "q": "Chig‘atoy ulusi qachon tashkil topgan?", "o": ["1206-yil", "1218-yil", "1224-yil", "1238-yil"], "a": 2, "e": "1224-yilda Chingizxon yerlarni o‘g‘illariga bo‘lib berdi." },
+      { "q": "Chorva mollaridan 2,5% miqdorida olinadigan soliq qanday atalgan?", "o": ["Kalon", "Qopchur", "Xiroj", "Jizya"], "a": 1, "e": "Qopchur — ko‘chmanchilardan, kalon — o‘troq dehqonlardan (hosilning 1/10)." },
+      { "q": "1238-yilgi Buxoro qo‘zg‘olonining rahbari kim?", "o": ["Mahmud Torobiy", "Mahmud Yalavoch", "Mas’udbek", "Abruy"], "a": 0, "e": "Hunarmand (g‘alvirchi) Mahmud Torobiy jangda halok bo‘lgan." }
+    ],
+    "24": [
+      { "q": "Mas’udbek pul islohoti qachon o‘tkazilgan?", "o": ["1238-yil", "1318-yil", "1348-yil", "1271-yil"], "a": 3, "e": "1271-yilda sifatli kumush tangalar zarb qilindi." },
+      { "q": "Qarshi shahrini qurdirgan xon kim?", "o": ["Kebek", "Tug‘luq Temur", "Chig‘atoy", "Ilyosxo‘ja"], "a": 0, "e": "Kebek (1318–1326) — mo‘g‘ulcha «qarshi» — saroy." },
+      { "q": "Masjid va madrasaga tegishli yerlar qanday atalgan?", "o": ["Mulki devon", "Mulki inju", "Mulki vaqf", "Iqto"], "a": 2, "e": "Mulki vaqf — diniy muassasalar yeri." }
+    ],
+    "25": [
+      { "q": "O‘zbek xalqi qaysi asrlarda shakllangan?", "o": ["IV–VI asrlar", "IX–XII asrlar", "XIV–XV asrlar", "I–III asrlar"], "a": 1, "e": "IX–XII asrlarda o‘zbek xalqi shakllanib bo‘ldi." },
+      { "q": "«Qovunchi madaniyati» qaysi davlat davriga oid?", "o": ["Qang‘ davlati", "Somoniylar", "Kushon podsholigi", "Eftallar"], "a": 0, "e": "Qang‘ davrida antropologik qiyofa to‘liq tarkib topdi." },
+      { "q": "Yurtimiz qachondan «Turkiston» nomi bilan atala boshlagan?", "o": ["IX asrdan", "XII asrdan", "IV asrdan", "VII asrdan"], "a": 3, "e": "VII asrdan «Turkiston» nomi paydo bo‘lgan." }
+    ],
+    "26": [
+      { "q": "«Al-jabr» asarining muallifi kim?", "o": ["Ahmad al-Farg‘oniy", "Abu Rayhon Beruniy", "Muhammad al-Xorazmiy", "Abu Nasr Farobiy"], "a": 2, "e": "Xorazmiy — Bayt ul-hikma mudiri; «algebra» va «algoritm» so‘zlari u bilan bog‘liq." },
+      { "q": "Xorazmdagi «Ma’mun akademiyasi» qachon tashkil topgan?", "o": ["1004-yil", "1017-yil", "861-yil", "999-yil"], "a": 0, "e": "1004-yilda Gurganchda; 1017-yilda faoliyati tugatilgan." },
+      { "q": "Aristoteldan keyin «Ikkinchi muallim» deb atalgan olim kim?", "o": ["Ibn Sino", "Beruniy", "Xorazmiy", "Abu Nasr Farobiy"], "a": 3, "e": "Farobiy «Muallimi soniy» deb atalgan." }
+    ],
+    "27": [
+      { "q": "«Qutadg‘u bilig» asarining muallifi kim?", "o": ["Mahmud Koshg‘ariy", "Yusuf Xos Hojib", "Ahmad Yugnakiy", "Zamaxshariy"], "a": 1, "e": "1069-yilda Bolasog‘unda boshlab, 1070-yilda Koshg‘arda tugatgan." },
+      { "q": "«Devonu lug‘otit turk» qachon tugatilgan?", "o": ["1069-yil", "1072-yil", "1144-yil", "1056-yil"], "a": 1, "e": "Mahmud Koshg‘ariy 1072-yilda Bag‘dodda tugatgan." },
+      { "q": "«Arab va g‘ayri arablar ustozi» unvonini olgan olim kim?", "o": ["Zamaxshariy", "Farobiy", "Ahmad Yugnakiy", "Moturidiy"], "a": 0, "e": "Mahmud az-Zamaxshariy (1075–1144) — arab tili grammatikasi bo‘yicha buyuk olim." }
+    ],
+    "28": [
+      { "q": "«Al-jome’ as-sahih» asariga nechta hadis kiritilgan?", "o": ["1018 ta", "7275 ta", "3000 ta", "750 ta"], "a": 1, "e": "Imom al-Buxoriy asariga 7275 hadis kiritilgan." },
+      { "q": "«Hidoya» asarining muallifi kim?", "o": ["At-Termiziy", "Al-Moturidiy", "Imom al-Buxoriy", "Burhoniddin al-Marg‘inoniy"], "a": 3, "e": "Rishtonda tug‘ilgan Marg‘inoniyning to‘rt jildli fiqh asari." },
+      { "q": "Naqshbandiya tariqati qayerda va qachon paydo bo‘lgan?", "o": ["Buxoroda, XIV asrda", "Xorazmda, XII asr oxirida", "Turkistonda, XII asrda", "Samarqandda, X asrda"], "a": 0, "e": "Yassaviya — Turkiston (XII), Kubroviya — Xorazm (XII oxiri), Naqshbandiya — Buxoro (XIV)." }
+    ],
+    "29": [
+      { "q": "X asrga oid Buxorodagi pishiq g‘ishtdan qurilgan mashhur maqbara qaysi?", "o": ["Go‘ri Amir", "Shohizinda", "Ismoil Somoniy maqbarasi", "Minorai Kalon"], "a": 2, "e": "Ismoil Somoniy maqbarasida g‘ishtning o‘zi naqsh vazifasini bajaradi." },
+      { "q": "Nurota tizmalaridagi qadimiy suv ombori qanday atalgan?", "o": ["Xonbandi", "Obirahmat", "Chirchiq", "Bulung‘ur"], "a": 0, "e": "Xonbandida 1,5 mln m³ suv to‘plangan." },
+      { "q": "Qaysi kuylar keyinchalik «Shashmaqom»ga asos bo‘lgan?", "o": ["Faqat xalq qo‘shiqlari", "Yevropa kuylari", "Harbiy marshlar", "Rost, Buzruk, Navo va boshqalar"], "a": 3, "e": "«Rost», «Buzruk», «Navo», «Ushshoq», «Sipohon» kuylari Shashmaqomga poydevor bo‘ldi." }
+    ],
+    "30": [
+      { "q": "Amir Temur qachon va qayerda tug‘ilgan?", "o": ["1336-yil 9-aprel, Xoja Ilg‘or", "1370-yil 10-aprel, Balx", "1336-yil 22-may, Samarqand", "1405-yil 18-fevral, O‘tror"], "a": 0, "e": "Kesh viloyatidagi Xoja Ilg‘or qishlog‘ida (Yakkabog‘ tumani)." },
+      { "q": "«Loy jangi» qachon va qayerda bo‘lgan?", "o": ["1363-yil, Qunduz yonida", "1370-yil, Balxda", "1365-yil 22-may, Chirchiq bo‘yida", "1360-yil, Samarqandda"], "a": 2, "e": "Kuchli jala quyib, maydon loyga aylangan; Temur va Husayn mag‘lub bo‘ldi." },
+      { "q": "Samarqand sarbadorlarining rahbari bo‘lgan mudarris kim?", "o": ["Abu Bakr Kalaviy", "Mavlonozoda Samarqandiy", "Amir Husayn", "Ilyosxo‘ja"], "a": 1, "e": "Mavlonozoda Samarqandiy — mudarris; Abu Bakr Kalaviy — hunarmand." }
+    ],
+    "31": [
+      { "q": "Amir Temur qachon oliy hukmdor deb e’lon qilingan?", "o": ["1365-yil", "1370-yil aprelda", "1381-yil", "1388-yil"], "a": 1, "e": "1370-yil 10-aprelda Balx taslim bo‘lgach, qurultoyda oliy hukmdor deb e’lon qilindi." },
+      { "q": "«Ko‘ragon» unvonining ma’nosi nima?", "o": ["Buyuk sarkarda", "Adolatli hukmdor", "Xonning kuyovi", "Sohibqiron"], "a": 2, "e": "Temur chingiziy malikaga uylanib, «Ko‘ragon» unvonini olgan." },
+      { "q": "Xorazm qachon uzil-kesil bo‘ysundirilgan?", "o": ["1388-yil", "1372-yil", "1381-yil", "1395-yil"], "a": 0, "e": "1372-yildan 5 marta yurish qilinib, 1388-yilda Xorazm uzil-kesil bo‘ysundirildi." }
+    ],
+    "32": [
+      { "q": "Anqara jangi qachon bo‘lgan?", "o": ["1395-yil 15-aprel", "1405-yil 18-fevral", "1404-yil 27-noyabr", "1402-yil 20-iyul"], "a": 3, "e": "Anqara jangida Usmonli sulton Boyazid I yengildi." },
+      { "q": "Saltanat bo‘ylab qurilgan pochta bekatlari qanday atalgan?", "o": ["Karvonsaroylar", "Yomxonalar", "Devonlar", "Uluslar"], "a": 1, "e": "Har bir yomxonada 50–200 bosh ot turgan." },
+      { "q": "Amir Temur qachon va qayerda vafot etgan?", "o": ["1405-yil 18-fevral, O‘tror", "1404-yil, Samarqand", "1402-yil, Anqara", "1405-yil 18-mart, Shahrisabz"], "a": 0, "e": "Xitoy yurishi paytida, qahraton qishda O‘trorda vafot etdi." }
+    ],
+    "33": [
+      { "q": "1404-yilda Samarqandga kelgan Kastiliya elchisi kim?", "o": ["Perondino", "Kristofer Marlo", "Rui Gonsales de Klavixo", "Pero Mexia"], "a": 2, "e": "Klavixo «Kundaliklar»ida Temur saroyini tasvirlagan." },
+      { "q": "Amir Temur bilan aloqa qilgan Misr sultoni kim?", "o": ["Barquq", "Boyazid", "Salohiddin", "To‘xtamish"], "a": 0, "e": "Barquq bilan rasmiy aloqalar 1385-yildan boshlangan." },
+      { "q": "XIV asr oxiridagi to‘rt qudratli davlatga qaysi biri KIRMAYDI?", "o": ["Amir Temur davlati", "Usmonlilar (Turkiya)", "Oltin O‘rda", "Kastiliya"], "a": 3, "e": "To‘rt qudratli: Temur davlati, Turkiya, Misr, Oltin O‘rda." }
+    ],
+    "34": [
+      { "q": "Qaysi yil O‘zbekistonda «Amir Temur yili» deb e’lon qilingan?", "o": ["1999-yil", "1996-yil", "1991-yil", "2000-yil"], "a": 1, "e": "1996-yilda Temur tavalludining 660 yilligi nishonlandi (1336 + 660 = 1996)." },
+      { "q": "«Buyuk Temur» sahna asarining muallifi kim?", "o": ["Kristofer Marlo", "Perondino", "Klavixo", "Volter"], "a": 0, "e": "Ingliz dramaturgi Kristofer Marlo." },
+      { "q": "Amir Temurning Yevropa uchun ahamiyati nimada?", "o": ["Yevropani bosib oldi", "Yevropaga xristianlikni olib bordi", "Yevropa bilan aloqani uzdi", "Yevropani Usmonlilar va Oltin O‘rda xavfidan qutqardi"], "a": 3, "e": "To‘xtamish va Boyazidni yengib, Yevropani ikki xavfdan qutqardi." }
+    ],
+    "35": [
+      { "q": "Amir Temur vasiyati bo‘yicha taxt vorisi kim edi?", "o": ["Xalil Sulton", "Shohrux", "Pirmuhammad", "Mironshoh"], "a": 2, "e": "Nabirasi Pirmuhammad (Jahongirning o‘g‘li) voris qilingan." },
+      { "q": "1405-yil 18-martda Samarqandni o‘zboshimchalik bilan egallagan temuriy kim?", "o": ["Xalil Sulton", "Ulug‘bek", "Pirmuhammad", "Abu Said"], "a": 0, "e": "Mironshohning o‘g‘li Xalil Sulton." },
+      { "q": "Shohrux poytaxtni qayerga ko‘chirgan?", "o": ["Samarqandga", "Buxoroga", "Shahrisabzga", "Hirotga"], "a": 3, "e": "Shohrux (1409–1447) poytaxtni Hirotga ko‘chirib, Samarqandga Ulug‘bekni qoldirdi." }
+    ],
+    "36": [
+      { "q": "Ulug‘bek necha yoshida Movarounnahr hokimi etib tayinlangan?", "o": ["18 yoshida", "15 yoshida", "20 yoshida", "12 yoshida"], "a": 1, "e": "1409-yilda 15 yoshli Ulug‘bek hokim qilib tayinlandi (1394-yilda tug‘ilgan)." },
+      { "q": "Ulug‘bekning «zafarnoma»si qayerda saqlangan?", "o": ["Jizzax yaqinidagi Ilono‘tti darasida", "Samarqand Registonida", "Shahrisabzda", "Hirotda"], "a": 0, "e": "1425-yilgi Mo‘g‘uliston yurishi g‘alabasi nishoni." },
+      { "q": "Ulug‘bekni qatl ettirgan kim?", "o": ["Abu Said", "Shohrux", "Xalil Sulton", "O‘g‘li Abdullatif"], "a": 3, "e": "1449-yilda; Abdullatif tarixda «Padarkush» nomi bilan qolgan." }
+    ],
+    "37": [
+      { "q": "Saltanatni 1457-yilda vaqtincha birlashtirgan temuriy kim?", "o": ["Husayn Boyqaro", "Abu Said", "Sulton Ahmad", "Abdullatif"], "a": 1, "e": "Abu Said 1457-yilda Hirotni ham egalladi." },
+      { "q": "Husayn Boyqaro qaysi yillarda hukmronlik qilgan va poytaxti qayer?", "o": ["1469–1506, Hirot", "1451–1469, Samarqand", "1409–1447, Hirot", "1469–1494, Samarqand"], "a": 0, "e": "Husayn Boyqaro 1469-yil 24-martda Hirotga kirgan." },
+      { "q": "Raqib temuriylarni yarashtirgan naqshbandiya shayxi kim?", "o": ["Bahouddin Naqshband", "Najmiddin Kubro", "Ahmad Yassaviy", "Xoja Ubaydulloh Ahror"], "a": 3, "e": "Xoja Ahror 1454-yilda Samarqand qamalida raqiblarni yarashtirgan." }
+    ],
+    "38": [
+      { "q": "Temuriylar davrida hunarmandchilikning eng rivojlangan sohasi qaysi?", "o": ["Kulolchilik", "Qurolsozlik", "Kemasozlik", "Shishasozlik"], "a": 0, "e": "Eng rivojlangan soha — kulolchilik." },
+      { "q": "Butun Sharqda mashhur bo‘lgan Samarqand mahsuloti qaysi?", "o": ["Samarqand ipagi", "Samarqand qog‘ozi", "Samarqand shishasi", "Samarqand temiri"], "a": 1, "e": "Samarqand qog‘ozi chet ellarga ham chiqarilgan." },
+      { "q": "Ulug‘bekning mis pullar (fulus) islohoti qachon o‘tkazilgan?", "o": ["1409-yil", "1420-yil", "1428-yil", "1449-yil"], "a": 2, "e": "1428-yilda; rasadxona qurilishi ham shu yillarga to‘g‘ri keladi." }
+    ],
+    "39": [
+      { "q": "Ulug‘bek madrasalari qurilishining to‘g‘ri tartibi qaysi?", "o": ["Samarqand → Buxoro → G‘ijduvon", "Buxoro (1417) → Samarqand (1420) → G‘ijduvon (1433)", "G‘ijduvon → Samarqand → Buxoro", "Buxoro → G‘ijduvon → Samarqand"], "a": 1, "e": "«B-S-G‘ = 17-20-33»." },
+      { "q": "Samarqanddagi Ulug‘bek madrasasi necha qavatli va necha hujrali bo‘lgan?", "o": ["2 qavatli, 50 hujrali", "1 qavatli, 20 hujrali", "3 qavatli, 100 hujrali", "2 qavatli, 1018 hujrali"], "a": 0, "e": "Registon maydonidagi madrasa ikki qavatli, 50 hujrali." },
+      { "q": "Ulug‘bekning shogirdi bo‘lgan olim kim?", "o": ["Qozizoda Rumiy", "Jamshid Koshiy", "Abdurazzoq Samarqandiy", "Ali Qushchi"], "a": 3, "e": "Ali Qushchi — Ulug‘bekning shogirdi." }
+    ],
+    "40": [
+      { "q": "Ulug‘bek rasadxonasi qachon qurilgan (darslik bo‘yicha)?", "o": ["1409–1412", "1424–1429", "1447–1449", "1404–1405"], "a": 1, "e": "Rasadxona Obirahmat ariqi bo‘yidagi tepalikda qurilgan." },
+      { "q": "«Ziji jadidi Ko‘ragoniy»da nechta qo‘zg‘almas yulduz jadvali berilgan?", "o": ["1018 ta", "7275 ta", "10 000 ta", "750 ta"], "a": 0, "e": "1018 ta yulduzning o‘rni va holati aniqlangan." },
+      { "q": "Ulug‘bek rasadxonasi qaysi ariq bo‘yida qurilgan?", "o": ["Bulung‘ur", "Chirchiq", "Xonbandi", "Obirahmat"], "a": 3, "e": "Samarqand yaqinidagi Obirahmat ariqi bo‘yida." }
+    ],
+    "41": [
+      { "q": "«Xamsa» asarining muallifi kim?", "o": ["Lutfiy", "Abdurahmon Jomiy", "Alisher Navoiy", "Xondamir"], "a": 2, "e": "Alisher Navoiy (1441–1501) — «Xamsa» (besh doston) muallifi." },
+      { "q": "«Habib us-siyar» asarining muallifi kim?", "o": ["Xondamir", "Mirxond", "Sharafiddin Ali Yazdiy", "Hofizi Abru"], "a": 0, "e": "Xondamir — Mirxondning nabirasi." },
+      { "q": "Navoiy «Malik ul-kalom» deb atagan shoir kim?", "o": ["Jomiy", "Bobur", "Yazdiy", "Lutfiy"], "a": 3, "e": "Lutfiy (1366–1465) — g‘azal ustasi." }
+    ],
+    "42": [
+      { "q": "Nasta’liq xatini kim kashf etgan?", "o": ["Sultonali Mashhadiy", "Mir Ali Tabriziy", "Kamoliddin Behzod", "Boysung‘ur mirzo"], "a": 1, "e": "Mir Ali Tabriziy (1330–1404)." },
+      { "q": "XV asr tasviriy san’atining buyuk namoyandasi, Hirot maktabi asoschisi kim?", "o": ["Kamoliddin Behzod", "Mir Ali Tabriziy", "Navoiy", "Jomiy"], "a": 0, "e": "Behzod (1455–1536) Husayn Boyqaro va Navoiy portretlarini chizgan." },
+      { "q": "Kitobni muqovalovchi usta qanday atalgan?", "o": ["Xattot", "Musavvir", "Lavvoh", "Sahhof"], "a": 3, "e": "Xattot — yozuv, musavvir — rasm, lavvoh — bezak, sahhof — muqova." }
+    ]
+  }
+}
