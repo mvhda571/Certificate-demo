@@ -1,0 +1,209 @@
+{
+  "topics": {
+    "1": [
+      { "q": "Korxonalar to‘liq birlashib, yagona boshqaruvga o‘tgan monopoliya turi qaysi?", "o": ["Kartel", "Trest", "Sindikat", "Konsern"], "a": 1, "e": "«K-S-T-K»: Kartel, Sindikat, Trest, Konsern." },
+      { "q": "II Internatsional qachon tuzilgan?", "o": ["1871-yil", "1900-yil", "1889-yil", "1905-yil"], "a": 2, "e": "Xalqaro sotsialistik ishchi partiyalari uyushmasi." },
+      { "q": "Bank va sanoat kapitalining qo‘shilishi nima deb ataladi?", "o": ["Monopoliya", "Kartel", "Urbanizatsiya", "Moliya kapitali"], "a": 3, "e": "Kapital chetga chiqarish ham ko‘paydi." }
+    ],
+    "2": [
+      { "q": "XX asr boshida sanoat ishlab chiqarishida birinchi o‘rindagi davlat qaysi?", "o": ["AQSh", "Buyuk Britaniya", "Germaniya", "Fransiya"], "a": 0, "e": "«1-AQSh, 2-Germaniya, 3-Britaniya, 4-Fransiya»." },
+      { "q": "Aholining shaharlarga ko‘chishi qanday ataladi?", "o": ["Emigratsiya", "Urbanizatsiya", "Industrializatsiya", "Modernizatsiya"], "a": 1, "e": "Industrial sivilizatsiyaning belgilaridan biri." },
+      { "q": "Industrial sivilizatsiya nimaga asoslangan?", "o": ["Qishloq xo‘jaligiga", "Savdoga", "Mashinalashgan sanoat ishlab chiqarishiga", "Hunarmandchilikka"], "a": 2, "e": "Agrar jamiyatdan keyingi bosqich." }
+    ],
+    "3": [
+      { "q": "Napoleon III qaysi jangda asirga tushgan?", "o": ["Vaterloo", "Leypsig", "Austerlis", "Sedan"], "a": 3, "e": "1870-yil 1–2-sentabr." },
+      { "q": "Germaniya imperiyasi qachon va qayerda e’lon qilingan?", "o": ["1871-yil 18-yanvar, Versal", "1870-yil 4-sentabr, Parij", "1866-yil, Berlin", "1871-yil may, Frankfurt"], "a": 0, "e": "Versal saroyining Oynali zalida." },
+      { "q": "Frankfurt sulhi bo‘yicha Fransiya qancha tovon to‘lagan?", "o": ["1 mlrd frank", "5 mlrd frank", "500 mln frank", "10 mlrd frank"], "a": 1, "e": "Shuningdek Elzas va Lotaringiyani berdi." }
+    ],
+    "4": [
+      { "q": "Parij Kommunasi necha kun yashagan?", "o": ["100 kun", "30 kun", "72 kun", "1 yil"], "a": 2, "e": "1871-yil 18-mart – 28-may." },
+      { "q": "1871-yilda Fransiya hukumati boshlig‘i kim edi?", "o": ["Napoleon III", "Jan Jores", "Klemanso", "Adolf Tyer"], "a": 3, "e": "Hukumat Versalga qochdi." },
+      { "q": "Fransiyada Uchinchi Respublika qachon e’lon qilingan?", "o": ["1870-yil 4-sentabr", "1871-yil 18-mart", "1875-yil", "1848-yil"], "a": 0, "e": "Sedan mag‘lubiyatidan so‘ng." }
+    ],
+    "5": [
+      { "q": "Fransiya imperializmi qanday nom olgan?", "o": ["Mustamlakachi", "Sudxo‘r", "Trestlar", "Yunker-burjua"], "a": 1, "e": "Fransiya kapital eksportida kuchli edi." },
+      { "q": "Dreyfusni himoya qilib «Ayblayman!» maqolasini yozgan yozuvchi kim?", "o": ["Viktor Gyugo", "Gi de Mopassan", "Emil Zola", "Jyul Vern"], "a": 2, "e": "Dreyfus ishi 1894–1906-yillar." },
+      { "q": "Fransiyada cherkov davlatdan qachon ajratilgan?", "o": ["1875-yil", "1884-yil", "1892-yil", "1905-yil"], "a": 3, "e": "Fransiya dunyoviy davlatga aylandi." }
+    ],
+    "6": [
+      { "q": "1875-yilgi Konstitutsiya bo‘yicha Fransiya prezidenti necha yilga saylangan?", "o": ["7 yilga", "4 yilga", "5 yilga", "Umrbod"], "a": 0, "e": "Prezidentni parlament saylagan." },
+      { "q": "Fransiyada bepul, majburiy, dunyoviy ta’limni joriy etgan arbob kim?", "o": ["Jan Jores", "Jyul Ferri", "Klemanso", "Tyer"], "a": 1, "e": "1881–1882-yillar." },
+      { "q": "Fransiya sotsialistlari yetakchisi kim edi?", "o": ["Klemanso", "Bulanje", "Jan Jores", "Dreyfus"], "a": 2, "e": "1905-yilda yagona Sotsialistik partiya tuzildi." }
+    ],
+    "7": [
+      { "q": "Fransiya–Angliya «Samimiy kelishuvi» qachon tuzilgan?", "o": ["1893-yil", "1907-yil", "1898-yil", "1904-yil"], "a": 3, "e": "Mustamlaka nizolari hal qilindi." },
+      { "q": "Antantaga qaysi davlatlar kirgan?", "o": ["Fransiya, Rossiya, Angliya", "Germaniya, Avstriya-Vengriya, Italiya", "Fransiya, Germaniya, Rossiya", "Angliya, AQSh, Yaponiya"], "a": 0, "e": "«Antanta» — fransuzcha «kelishuv»." },
+      { "q": "Fransiya tashqi siyosatining asosiy maqsadi nima edi?", "o": ["Angliyani yengish", "Germaniyadan revansh, Elzas-Lotaringiyani qaytarish", "Rossiyani bosib olish", "Italiya bilan ittifoq"], "a": 1, "e": "Shu sababli Rossiya va Angliya bilan ittifoq tuzdi." }
+    ],
+    "8": [
+      { "q": "Germaniya imperiyasining birinchi kansleri kim?", "o": ["Vilgelm I", "Vilgelm II", "Otto fon Bismark", "Frans Iosif"], "a": 2, "e": "«Temir kansler» (1871–1890)." },
+      { "q": "Umumiy saylov asosida saylangan Germaniya parlamenti qanday atalgan?", "o": ["Bundesrat", "Duma", "Senat", "Reyxstag"], "a": 3, "e": "Bundesrat — davlatlar vakillari kengashi." },
+      { "q": "Prussiya pomeshchik-dvoryanlari qanday atalgan?", "o": ["Yunkerlar", "Burlar", "Kayzerlar", "Kurfyurstlar"], "a": 0, "e": "Ular harbiylar bilan birga kuchli ta’sirga ega edi." }
+    ],
+    "9": [
+      { "q": "Bismarkning katolik cherkoviga qarshi siyosati qanday nomlangan?", "o": ["Weltpolitik", "Kulturkampf", "Revansh", "Gomrul"], "a": 1, "e": "«Madaniyat uchun kurash»." },
+      { "q": "Germaniyada «Sotsialistlarga qarshi favqulodda qonun» qachon qabul qilingan?", "o": ["1871-yil", "1883-yil", "1878-yil", "1890-yil"], "a": 2, "e": "1890-yilgacha amal qildi." },
+      { "q": "Bismarkni kim va qachon iste’foga chiqargan?", "o": ["Vilgelm I, 1888", "Reyxstag, 1878", "Frans Iosif, 1882", "Vilgelm II, 1890"], "a": 3, "e": "Vilgelm II 1888-yilda imperator bo‘lgan." }
+    ],
+    "10": [
+      { "q": "Uchlar ittifoqi qachon tuzilgan?", "o": ["1882-yil", "1873-yil", "1879-yil", "1907-yil"], "a": 0, "e": "Germaniya, Avstriya-Vengriya, Italiya." },
+      { "q": "Vilgelm II ning mustamlakachilik shiori qanday edi?", "o": ["«Temir va qon»", "«Quyosh ostidan joy»", "«Ochiq eshiklar»", "«Katta tayoq»"], "a": 1, "e": "«Weltpolitik» — jahon siyosati." },
+      { "q": "«Uch imperator ittifoqi»ga qaysi davlatlar kirgan?", "o": ["Germaniya, Fransiya, Angliya", "Germaniya, Italiya, Turkiya", "Germaniya, Avstriya-Vengriya, Rossiya", "Rossiya, Fransiya, Angliya"], "a": 2, "e": "1873-yilda tuzilgan." }
+    ],
+    "11": [
+      { "q": "Buyuk Britaniya imperializmi qanday nom olgan?", "o": ["Sudxo‘r", "Trestlar", "Yunker", "Mustamlakachi"], "a": 3, "e": "Dunyo quruqligining 1/4 qismi Britaniya mustamlakasi edi." },
+      { "q": "O‘zini o‘zi boshqaradigan Britaniya mustamlakasi qanday atalgan?", "o": ["Dominion", "Protektorat", "Gomrul", "Koloniya"], "a": 0, "e": "Kanada (1867), Avstraliya (1901)." },
+      { "q": "Leyboristlar partiyasi qachon tuzilgan?", "o": ["1884-yil", "1900-yil", "1906-yil", "1911-yil"], "a": 1, "e": "Mehnat partiyasi." }
+    ],
+    "12": [
+      { "q": "Irlandiya muxtoriyati qanday atalgan?", "o": ["Dominion", "Svaraj", "Gomrul", "Tred-yunion"], "a": 2, "e": "«Gladston — Gomrul»." },
+      { "q": "Britaniyada keksalik pensiyasi qachon joriy etilgan?", "o": ["1884-yil", "1900-yil", "1911-yil", "1908-yil"], "a": 3, "e": "Liberallar (Lloyd Jorj) islohoti." },
+      { "q": "Ayollar saylov huquqi uchun kurashchilar qanday atalgan?", "o": ["Suffrajistkalar", "Chartistlar", "Leyboristlar", "Tred-yunionlar"], "a": 0, "e": "Britaniyada faol bo‘lgan." }
+    ],
+    "13": [
+      { "q": "Britaniyaning XIX asr oxiridagi tashqi siyosati qanday nomlangan?", "o": ["«Katta tayoq»", "«Shonli yakkalanish»", "«Ochiq eshiklar»", "«Weltpolitik»"], "a": 1, "e": "Hech kim bilan doimiy ittifoq tuzmaslik." },
+      { "q": "Anglo-bur urushi qaysi yillarda bo‘lgan?", "o": ["1882–1885", "1877–1878", "1899–1902", "1904–1905"], "a": 2, "e": "Transvaal va Oranj bosib olindi." },
+      { "q": "Angliya Misrni qachon bosib olgan?", "o": ["1869-yil", "1875-yil", "1898-yil", "1882-yil"], "a": 3, "e": "1875-yilda Suvaysh kanali aksiyalari sotib olingan." }
+    ],
+    "14": [
+      { "q": "AQSh sanoat ishlab chiqarishida qachon birinchi o‘ringa chiqqan?", "o": ["1894-yil", "1865-yil", "1914-yil", "1876-yil"], "a": 0, "e": "XIX asr oxirida." },
+      { "q": "«Standard Oil» kompaniyasi asoschisi kim?", "o": ["Morgan", "Rokfeller", "Karnegi", "Ford"], "a": 1, "e": "«R-M-K-F»." },
+      { "q": "AQSh imperializmi qanday nom olgan?", "o": ["Mustamlakachi", "Sudxo‘r", "Trestlar imperializmi", "Yunker"], "a": 2, "e": "Yirik trestlar hukmronligi." }
+    ],
+    "15": [
+      { "q": "1-may bayrami qaysi voqea bilan bog‘liq?", "o": ["Parij Kommunasi", "Qonli yakshanba", "Sherman qonuni", "1886-yil Chikago ish tashlashi"], "a": 3, "e": "8 soatlik ish kuni talabi." },
+      { "q": "Birinchi antitrest qonuni qaysi?", "o": ["Sherman qonuni (1890)", "Kleyton qonuni (1914)", "Gomstid qonuni (1862)", "Federal zaxira qonuni (1913)"], "a": 0, "e": "Trestlarni cheklash uchun." },
+      { "q": "Teodor Ruzvelt siyosati qanday nomlangan?", "o": ["«Yangi demokratiya»", "«Adolatli kelishuv»", "«Dollar diplomatiyasi»", "«Yangi kurs»"], "a": 1, "e": "Vilson — «Yangi demokratiya»." }
+    ],
+    "16": [
+      { "q": "AQShning birinchi imperialistik urushi qaysi?", "o": ["Fuqarolar urushi", "Meksika urushi", "Ispaniya–Amerika urushi (1898)", "Birinchi jahon urushi"], "a": 2, "e": "Puerto-Riko, Filippin, Guam AQShga o‘tdi." },
+      { "q": "«Katta tayoq» siyosati muallifi kim?", "o": ["Vilson", "Taft", "Monro", "Teodor Ruzvelt"], "a": 3, "e": "Taft — «Dollar diplomatiyasi»." },
+      { "q": "Panama kanali qachon ochilgan?", "o": ["1914-yil", "1903-yil", "1898-yil", "1869-yil"], "a": 0, "e": "Atlantika va Tinch okeanini tutashtiradi." }
+    ],
+    "17": [
+      { "q": "Lotin Amerikasidagi harbiy diktatorlar qanday atalgan?", "o": ["Latifundistlar", "Kaudilyolar", "Peonlar", "Konkistadorlar"], "a": 1, "e": "Tez-tez harbiy to‘ntarishlar bo‘lgan." },
+      { "q": "Braziliyada qullik qachon bekor qilingan?", "o": ["1865-yil", "1889-yil", "1888-yil", "1810-yil"], "a": 2, "e": "Amerikada oxirgi; 1889 — respublika." },
+      { "q": "Bitta mahsulotga ixtisoslashgan iqtisod qanday ataladi?", "o": ["Monopoliya", "Kartel", "Urbanizatsiya", "Monokultura"], "a": 3, "e": "Masalan, Braziliya — kofe, Kuba — shakar." }
+    ],
+    "18": [
+      { "q": "Meksika inqilobi qaysi yillarda bo‘lgan?", "o": ["1910–1917", "1876–1911", "1898–1902", "1917–1920"], "a": 0, "e": "1917-yil Konstitutsiyasi bilan yakunlandi." },
+      { "q": "Meksikada janubdagi dehqon harakati yetakchisi kim?", "o": ["Pancho Vilya", "Emiliano Sapata", "Porfirio Dias", "Fransisko Madero"], "a": 1, "e": "Shiori — «Yer va erkinlik!»" },
+      { "q": "Meksikani 1876–1911-yillarda boshqargan diktator kim?", "o": ["Madero", "Sapata", "Porfirio Dias", "Vilya"], "a": 2, "e": "Chet el kapitaliga yo‘l ochgan." }
+    ],
+    "19": [
+      { "q": "«Qonli yakshanba» qachon bo‘lgan?", "o": ["1905-yil 17-oktabr", "1904-yil yanvar", "1907-yil 3-iyun", "1905-yil 9-yanvar"], "a": 3, "e": "Birinchi rus inqilobi boshlandi." },
+      { "q": "1897-yilgi pul islohoti (oltin rubl) muallifi kim?", "o": ["S. Vitte", "P. Stolipin", "Nikolay II", "Aleksandr III"], "a": 0, "e": "Moliya vaziri (1892–1903)." },
+      { "q": "Xutor va otrub tuzishga ruxsat bergan islohot qaysi?", "o": ["Vitte islohoti", "Stolipin agrar islohoti", "1861-yilgi islohot", "Oktabr Manifesti"], "a": 1, "e": "1906-yildan boshlangan." }
+    ],
+    "20": [
+      { "q": "Rus-yapon urushi qaysi yillarda bo‘lgan?", "o": ["1894–1895", "1877–1878", "1904–1905", "1914–1918"], "a": 2, "e": "Portsmut sulhi bilan tugadi." },
+      { "q": "Rossiya flotini yo‘q qilgan dengiz jangi qaysi?", "o": ["Yutlandiya", "Mukden", "Port-Artur", "Susima"], "a": 3, "e": "Boltiq floti yo‘q qilindi." },
+      { "q": "Portsmut sulhi bo‘yicha Yaponiyaga qaysi hudud o‘tgan?", "o": ["Janubiy Saxalin", "Manchjuriya", "Kamchatka", "Port-Artur va Kuril"], "a": 0, "e": "Koreya ham Yaponiya ta’siriga o‘tdi." }
+    ],
+    "21": [
+      { "q": "Muddatini to‘liq o‘tagan yagona Duma qaysi?", "o": ["I Duma", "III Duma (1907–1912)", "II Duma", "IV Duma"], "a": 1, "e": "Oktyabristlar ko‘pchilik edi." },
+      { "q": "Turkiston aholisi Dumaga saylov huquqidan qachon mahrum qilingan?", "o": ["1905-yil", "1906-yil", "1907-yil (3-iyun to‘ntarishi)", "1912-yil"], "a": 2, "e": "Saylov qonuni o‘zgartirildi." },
+      { "q": "Davlat dumasi qaysi hujjat asosida tuzilgan?", "o": ["Sudebnik", "Stolipin farmoni", "Konstitutsiya", "1905-yil 17-oktabr Manifesti"], "a": 3, "e": "Nikolay II imzolagan." }
+    ],
+    "22": [
+      { "q": "Avstriya-Vengriya qachon tuzilgan?", "o": ["1867-yil", "1848-yil", "1871-yil", "1908-yil"], "a": 0, "e": "Dualistik monarxiya." },
+      { "q": "Avstriya-Vengriya imperatori kim edi?", "o": ["Vilgelm I", "Frans Iosif I", "Frans Ferdinand", "Karl I"], "a": 1, "e": "1848–1916-yillarda hukmronlik qilgan." },
+      { "q": "Avstriya-Vengriyadagi eng o‘tkir muammo nima edi?", "o": ["Mustamlakalar yo‘qligi", "Diniy nizolar", "Milliy ziddiyatlar", "Dengizga chiqish yo‘qligi"], "a": 2, "e": "Imperiya «xalqlar turmasi» deb atalgan." }
+    ],
+    "23": [
+      { "q": "Bosniya va Gersegovina qachon Avstriya-Vengriyaga qo‘shib olingan?", "o": ["1878-yil", "1882-yil", "1914-yil", "1908-yil"], "a": 3, "e": "Bosniya inqirozi." },
+      { "q": "Frans Ferdinandni kim o‘ldirgan?", "o": ["Gavrilo Prinsip", "Frans Iosif", "Vilgelm II", "Pu I"], "a": 0, "e": "1914-yil 28-iyun, Sarayevo." },
+      { "q": "Avstriya-Vengriya Serbiyaga qachon urush e’lon qilgan?", "o": ["1914-yil 28-iyun", "1914-yil 28-iyul", "1914-yil 1-avgust", "1908-yil"], "a": 1, "e": "«28-iyun — o‘q, 28-iyul — urush»." }
+    ],
+    "24": [
+      { "q": "Italiya Liviyani qachon bosib olgan?", "o": ["1896-yil", "1882-yil", "1911–1912-yillar", "1915-yil"], "a": 2, "e": "Italiya-turk urushi natijasida." },
+      { "q": "Italiya qaysi jangda Efiopiyadan yengilgan?", "o": ["Sedan", "Omdurman", "Verden", "Adua (1896)"], "a": 3, "e": "Imperator Menelik II yengdi." },
+      { "q": "Birinchi jahon urushida Italiya qaysi blokka o‘tgan?", "o": ["Antantaga (1915)", "Uchlar ittifoqida qoldi", "Betaraf qoldi", "To‘rtlar ittifoqiga"], "a": 0, "e": "London shartnomasi asosida." }
+    ],
+    "25": [
+      { "q": "Bolqon nima deb atalgan?", "o": ["«Xalqlar turmasi»", "«Yevropaning porox bochkasi»", "«Yevropaning bemor odami»", "«Quyosh botmas imperiya»"], "a": 1, "e": "Buyuk davlatlar manfaatlari to‘qnashgan joy." },
+      { "q": "Birinchi Bolqon urushida kim yengilgan?", "o": ["Serbiya", "Bolgariya", "Turkiya", "Gretsiya"], "a": 2, "e": "Turkiya Yevropadagi deyarli barcha yerlarini yo‘qotdi." },
+      { "q": "Ikkinchi Bolqon urushida kim yengilgan?", "o": ["Turkiya", "Serbiya", "Ruminiya", "Bolgariya"], "a": 3, "e": "«2-urush — hammasi Bolgariyaga»." }
+    ],
+    "26": [
+      { "q": "Yaponiya Konstitutsiyasi qachon qabul qilingan?", "o": ["1889-yil", "1868-yil", "1872-yil", "1910-yil"], "a": 0, "e": "Prussiya namunasida." },
+      { "q": "Yapon-xitoy urushidan keyin Yaponiyaga qaysi orol o‘tgan?", "o": ["Saxalin", "Tayvan", "Xaynan", "Okinava"], "a": 1, "e": "Shimonoseki shartnomasi (1895)." },
+      { "q": "Koreya qachon Yaponiyaga qo‘shib olingan?", "o": ["1895-yil", "1905-yil", "1910-yil", "1902-yil"], "a": 2, "e": "«Xitoy (95) → Rossiya (05) → Koreya (10)»." }
+    ],
+    "27": [
+      { "q": "«Bokschilar» qo‘zg‘oloni qanday nomlangan?", "o": ["Taypin", "Sinhay", "Uchan", "Ixetuan"], "a": 3, "e": "1899–1901-yillar." },
+      { "q": "«Yuz kunlik islohotlar» qachon bo‘lgan?", "o": ["1898-yil", "1911-yil", "1901-yil", "1895-yil"], "a": 0, "e": "Kan Yuvey tashabbusi bilan." },
+      { "q": "Ixetuan qo‘zg‘olonini necha davlat qo‘shini bostirgan?", "o": ["3 ta", "8 ta", "5 ta", "12 ta"], "a": 1, "e": "1900-yilda Pekin olindi." }
+    ],
+    "28": [
+      { "q": "Sinhay inqilobi qachon bo‘lgan?", "o": ["1905-yil", "1898-yil", "1911-yil", "1919-yil"], "a": 2, "e": "Sin sulolasi ag‘darildi." },
+      { "q": "Xitoy Respublikasi qachon e’lon qilingan?", "o": ["1911-yil 10-oktabr", "1912-yil fevral", "1916-yil", "1912-yil 1-yanvar"], "a": 3, "e": "Nankinda, Sun Yatsen muvaqqat prezident." },
+      { "q": "«Uch xalq tamoyili» muallifi kim?", "o": ["Sun Yatsen", "Yuan Shikay", "Kan Yuvey", "Pu I"], "a": 0, "e": "Millatchilik, xalq hokimiyati, xalq farovonligi." }
+    ],
+    "29": [
+      { "q": "Hindiston Milliy Kongressi qachon tuzilgan?", "o": ["1857-yil", "1885-yil", "1905-yil", "1906-yil"], "a": 1, "e": "Dastlab mo‘tadil tashkilot." },
+      { "q": "Ingliz tovarlarini boykot qilish harakati qanday atalgan?", "o": ["Svaraj", "Gomrul", "Svadeshi", "Satyagraxa"], "a": 2, "e": "Svaraj — o‘z-o‘zini boshqarish." },
+      { "q": "HMKdagi radikal oqim yetakchisi kim edi?", "o": ["Gokxale", "Kerzon", "Gandi", "Bal Gangadxar Tilak"], "a": 3, "e": "1908-yilda qamalgan." }
+    ],
+    "30": [
+      { "q": "Eron inqilobi qaysi yillarda bo‘lgan?", "o": ["1905–1911", "1891–1892", "1917–1921", "1856–1857"], "a": 0, "e": "1911-yilda bostirildi." },
+      { "q": "Eronda Majlis va Konstitutsiya qachon qabul qilingan?", "o": ["1905-yil", "1906-yil", "1907-yil", "1909-yil"], "a": 1, "e": "Shoh Muzaffariddin davrida." },
+      { "q": "1907-yilgi kelishuvga ko‘ra Eronning shimoli kimning ta’sirida bo‘lgan?", "o": ["Angliyaning", "Turkiyaning", "Rossiyaning", "Germaniyaning"], "a": 2, "e": "Janub — Angliya ta’sirida." }
+    ],
+    "31": [
+      { "q": "Afg‘oniston va Britaniya Hindistoni chegarasi qanday atalgan?", "o": ["Vaxon yo‘lagi", "Pomir chegarasi", "Kerzon chizig‘i", "Dyurand chizig‘i"], "a": 3, "e": "1893-yilda belgilangan." },
+      { "q": "«Temir amir» laqabli Afg‘on hukmdori kim?", "o": ["Abdurahmonxon", "Habibullaxon", "Omonullaxon", "Ahmadshoh"], "a": 0, "e": "1880–1901-yillarda hukmronlik qilgan." },
+      { "q": "Afg‘oniston mustaqilligi qachon qo‘lga kiritilgan?", "o": ["1893-yil", "1919-yil", "1880-yil", "1901-yil"], "a": 1, "e": "Omonullaxon davrida." }
+    ],
+    "32": [
+      { "q": "Usmonli davlatining birinchi Konstitutsiyasi qachon qabul qilingan?", "o": ["1908-yil", "1878-yil", "1876-yil", "1839-yil"], "a": 2, "e": "Midhat posho tashabbusi bilan." },
+      { "q": "Yosh turklarning tashkiloti qanday nomlangan?", "o": ["«Yangi usmonlilar»", "«Tanzimat»", "«Musulmonlar ligasi»", "«Ittihod va taraqqiyot»"], "a": 3, "e": "1908-yilda inqilob qilgan." },
+      { "q": "Abdulhamid II Konstitutsiyani qachon to‘xtatgan?", "o": ["1878-yil", "1876-yil", "1908-yil", "1909-yil"], "a": 0, "e": "Istibdod (zulm) rejimi o‘rnatildi." }
+    ],
+    "33": [
+      { "q": "Suvaysh kanali qachon ochilgan?", "o": ["1882-yil", "1869-yil", "1875-yil", "1914-yil"], "a": 1, "e": "Fransuz muhandisi Lesseps qurgan." },
+      { "q": "Sudandagi mustamlakachilikka qarshi qo‘zg‘olon qanday nomlangan?", "o": ["Ixetuan qo‘zg‘oloni", "Sipohiylar qo‘zg‘oloni", "Mahdiylar qo‘zg‘oloni", "Orobiy qo‘zg‘oloni"], "a": 2, "e": "Rahbari — Muhammad Ahmad (Mahdiy)." },
+      { "q": "Marokash qachon Fransiya protektoratiga aylangan?", "o": ["1881-yil", "1830-yil", "1905-yil", "1912-yil"], "a": 3, "e": "Germaniya bilan ikki inqirozdan so‘ng." }
+    ],
+    "34": [
+      { "q": "XX asr boshida mustaqil qolgan Afrika davlatlari qaysilar?", "o": ["Efiopiya va Liberiya", "Misr va Sudan", "Jazoir va Tunis", "Kongo va Angola"], "a": 0, "e": "«E-L»." },
+      { "q": "Afrikani bo‘lish qoidalarini belgilagan konferensiya qaysi?", "o": ["Vena kongressi", "Berlin konferensiyasi (1884–1885)", "Parij konferensiyasi", "Versal konferensiyasi"], "a": 1, "e": "14 davlat qatnashgan." },
+      { "q": "Adua jangida Italiyani yenggan Efiopiya imperatori kim?", "o": ["Teodros II", "Kassa", "Menelik II", "Xayle Selassie"], "a": 2, "e": "1896-yilda." }
+    ],
+    "35": [
+      { "q": "Birinchi jahon urushiga bahona bo‘lgan voqea qaysi?", "o": ["Marna jangi", "Bosniya inqirozi", "Marokash inqirozi", "Sarayevo qotilligi"], "a": 3, "e": "1914-yil 28-iyun." },
+      { "q": "Germaniyaning tezkor urush rejasi qanday nomlangan?", "o": ["«Shliffen rejasi»", "«Barbarossa rejasi»", "«Weltpolitik»", "«Kulturkampf»"], "a": 0, "e": "Blitskrig — «yashin urush»." },
+      { "q": "Blitskrigni barbod qilgan jang qaysi?", "o": ["Verden", "Marna (1914)", "Somma", "Sedan"], "a": 1, "e": "Urush pozitsion urushga aylandi." }
+    ],
+    "36": [
+      { "q": "Tanklar birinchi marta qaysi jangda qo‘llanilgan?", "o": ["Verden", "Marna", "Somma (1916)", "Ipr"], "a": 2, "e": "Inglizlar qo‘llagan." },
+      { "q": "AQSh Birinchi jahon urushiga qachon kirgan?", "o": ["1914-yil avgust", "1915-yil may", "1918-yil mart", "1917-yil aprel"], "a": 3, "e": "Germaniyaning cheklanmagan suv osti urushi sababli." },
+      { "q": "Rossiyani urushdan chiqargan sulh qaysi?", "o": ["Brest-Litovsk sulhi (1918)", "Portsmut sulhi", "Versal sulhi", "Kompyen sulhi"], "a": 0, "e": "1918-yil martda." }
+    ],
+    "37": [
+      { "q": "Birinchi jahon urushi qachon tugagan?", "o": ["1919-yil 28-iyun", "1918-yil 11-noyabr", "1917-yil aprel", "1918-yil mart"], "a": 1, "e": "Kompyen o‘rmonida sulh imzolandi." },
+      { "q": "Versal shartnomasi bo‘yicha Germaniya armiyasi qanchaga cheklangan?", "o": ["500 ming", "1 mln", "100 ming", "50 ming"], "a": 2, "e": "Flot, aviatsiya, tanklar taqiqlandi." },
+      { "q": "Birinchi jahon urushidan keyin qaysi xalqaro tashkilot tuzilgan?", "o": ["BMT", "NATO", "Antanta", "Millatlar Ligasi"], "a": 3, "e": "1919–1920-yillarda." }
+    ],
+    "38": [
+      { "q": "Telefonni kim ixtiro qilgan?", "o": ["Aleksandr Bell (1876)", "Tomas Edison", "Aleksandr Popov", "Markoni"], "a": 0, "e": "«Bell — Bong (telefon)»." },
+      { "q": "Birinchi boshqariladigan samolyot parvozi kimlarga tegishli?", "o": ["Aka-uka Lyumerlar", "Aka-uka Raytlar", "Daymler va Bens", "Genri Ford"], "a": 1, "e": "1903-yilda." },
+      { "q": "Konveyer usulini joriy etgan kim?", "o": ["Rokfeller", "Edison", "Genri Ford", "Rudolf Dizel"], "a": 2, "e": "1913-yilda." }
+    ],
+    "39": [
+      { "q": "Nisbiylik nazariyasining muallifi kim?", "o": ["Maks Plank", "Rezerford", "Tomson", "Albert Eynshteyn"], "a": 3, "e": "1905-yilda." },
+      { "q": "Radiy va poloniyni kashf etgan olimlar kimlar?", "o": ["Mariya va Pyer Kyuri", "Rentgen va Bekkerel", "Paster va Kox", "Plank va Eynshteyn"], "a": 0, "e": "Mariya — ikki marta Nobel mukofoti olgan." },
+      { "q": "Kimyoviy elementlar davriy jadvali muallifi kim?", "o": ["Darvin", "D. Mendeleyev (1869)", "Pavlov", "Mendel"], "a": 1, "e": "1869-yilda." }
+    ],
+    "40": [
+      { "q": "Kubizm yo‘nalishining asoschisi kim?", "o": ["Klod Mone", "Van Gog", "Pablo Pikasso", "Kandinskiy"], "a": 2, "e": "Modernizm yo‘nalishi." },
+      { "q": "Impressionizm asoschilaridan biri kim?", "o": ["Pikasso", "Roden", "Sezann", "Klod Mone"], "a": 3, "e": "«Taassurot. Chiqayotgan quyosh» asari." },
+      { "q": "Birinchi kinoseansni kimlar o‘tkazgan?", "o": ["Aka-uka Lyumerlar (1895)", "Aka-uka Raytlar", "Edison va Bell", "Charli Chaplin"], "a": 0, "e": "Parijda." }
+    ],
+    "41": [
+      { "q": "«Urush va tinchlik» romanining muallifi kim?", "o": ["Dostoyevskiy", "Lev Tolstoy", "Chexov", "Gorkiy"], "a": 1, "e": "«Anna Karenina» ham uning asari." },
+      { "q": "Osiyodan birinchi Nobel mukofotini olgan yozuvchi kim?", "o": ["Lu Sin", "Kipling", "Rabindranat Tagor", "Ibsen"], "a": 2, "e": "1913-yilda." },
+      { "q": "«Tom Soyerning sarguzashtlari» asarining muallifi kim?", "o": ["Jek London", "Jyul Vern", "Gerbert Uells", "Mark Tven"], "a": 3, "e": "AQSh yozuvchisi." }
+    ]
+  }
+}

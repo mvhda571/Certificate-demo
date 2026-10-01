@@ -1,0 +1,199 @@
+{
+  "topics": {
+    "1": [
+      { "q": "XIX asr o‘rtalarida O‘rta Osiyoda nechta mustaqil o‘zbek davlati bo‘lgan?", "o": ["Ikkita", "Uchta", "To‘rtta", "Bitta"], "a": 1, "e": "Buxoro amirligi, Xiva xonligi, Qo‘qon xonligi." },
+      { "q": "Xiva xonligi qaysi hududda joylashgan?", "o": ["Farg‘ona vodiysida", "Zarafshon vohasida", "Amudaryoning quyi oqimida", "Toshkent vohasida"], "a": 2, "e": "Xorazm vohasi, poytaxti — Xiva." },
+      { "q": "Buxoro amirligi aholisi qancha bo‘lgan?", "o": ["500 ming", "10 million", "5 million", "~2 million"], "a": 3, "e": "O‘zbeklar, tojiklar, turkmanlar va boshqalar." }
+    ],
+    "2": [
+      { "q": "Xiva xonligida bosh vazir qanday atalgan?", "o": ["Mehtar", "Qo‘shbegi", "Mingboshi", "Dodxoh"], "a": 0, "e": "«Q-M-M»: Qo‘shbegi, Mehtar, Mingboshi." },
+      { "q": "Qo‘qon xonligida bosh vazir va bosh qo‘mondon kim edi?", "o": ["Qushbegi", "Mingboshi", "Parvonachi", "Otaliq"], "a": 1, "e": "Mingboshi ijroiya hokimiyatni boshqargan." },
+      { "q": "Xonliklarda sud qanday qonunlar asosida olib borilgan?", "o": ["Rus qonunlari", "Odat huquqi", "Shariat", "Napoleon kodeksi"], "a": 2, "e": "Qozilar shariat asosida hukm chiqargan." }
+    ],
+    "3": [
+      { "q": "Masjid va madrasalarga tegishli yer qanday atalgan?", "o": ["Amlok", "Mulk", "Tanho", "Vaqf"], "a": 3, "e": "«A-M-V»: Amlok, Mulk, Vaqf." },
+      { "q": "Xonliklardagi asosiy soliq qaysi?", "o": ["Xiroj", "Zakot", "Tanobona", "Jizya"], "a": 0, "e": "Xiroj — hosilning 1/5–2/5 qismi." },
+      { "q": "Xonliklarning eng yirik savdo hamkori qaysi davlat edi?", "o": ["Eron", "Rossiya", "Xitoy", "Angliya"], "a": 1, "e": "Paxta, ipak, qorako‘l evaziga metall, chit, qand." }
+    ],
+    "4": [
+      { "q": "Xorazmning 1812–1872-yillar tarixini kim yozgan?", "o": ["Munis", "Ahmad Donish", "Ogahiy", "Muhammad Yunus"], "a": 2, "e": "Ogahiy (1809–1874)." },
+      { "q": "Rossiyaga borib islohot g‘oyasini ilgari surgan buxorolik olim kim?", "o": ["Nodira", "Uvaysiy", "Munis", "Ahmad Donish"], "a": 3, "e": "1857 va 1865-yillarda Rossiyada bo‘lgan." },
+      { "q": "Xivadagi eng katta madrasa qaysi?", "o": ["Muhammad Aminxon madrasasi", "Olloqulixon madrasasi", "Mir Arab madrasasi", "Islomxo‘ja madrasasi"], "a": 0, "e": "1851–1855-yillarda qurilgan." }
+    ],
+    "5": [
+      { "q": "Rossiya bosqinining asosiy iqtisodiy sababi nima edi?", "o": ["Oltin konlari", "Paxta xomashyosi va bozorga ehtiyoj", "Neft zaxiralari", "Dengizga chiqish"], "a": 1, "e": "AQSh fuqarolar urushi paxta taqchilligini kuchaytirgan." },
+      { "q": "Oqmachit qachon bosib olingan?", "o": ["1847-yil", "1864-yil", "1853-yil", "1865-yil"], "a": 2, "e": "Perovskiy tomonidan." },
+      { "q": "Rossiya bosqinining uchinchi bosqichi qaysi yillar?", "o": ["1847–1865", "1865–1868", "1868–1873", "1873–1879"], "a": 3, "e": "Xiva va Qo‘qon, turkman yerlari." }
+    ],
+    "6": [
+      { "q": "Toshkent qachon bosib olingan?", "o": ["1865-yil 17-iyun", "1864-yil 1-oktabr", "1865-yil 9-may", "1866-yil 8-may"], "a": 0, "e": "Chernyayev boshchiligida." },
+      { "q": "Toshkent mudofaasida halok bo‘lgan Qo‘qon lashkarboshisi kim?", "o": ["Hakimxo‘ja", "Alimqul", "Solihbek dodxoh", "Abulqosim eshon"], "a": 1, "e": "1865-yil 9-mayda halok bo‘ldi." },
+      { "q": "Toshkentni bosib olgan rus generali kim?", "o": ["Kaufman", "Skobelev", "M. Chernyayev", "Romanovskiy"], "a": 2, "e": "Keyin Turkiston viloyati harbiy gubernatori bo‘ldi." }
+    ],
+    "7": [
+      { "q": "Turkiston general-gubernatorligi qachon tuzilgan?", "o": ["1865-yil", "1868-yil", "1886-yil", "1867-yil"], "a": 3, "e": "Markazi — Toshkent." },
+      { "q": "Birinchi Turkiston general-gubernatori kim?", "o": ["K.P. fon Kaufman", "M. Chernyayev", "Rozenbax", "Duxovskoy"], "a": 0, "e": "1867–1881-yillarda." },
+      { "q": "Mahalliy aholi Kaufmanni qanday atagan?", "o": ["«Oq podsho»", "«Yarim podsho»", "«Temir general»", "«Qora amir»"], "a": 1, "e": "U urush e’lon qilish va sulh tuzish huquqiga ham ega edi." }
+    ],
+    "8": [
+      { "q": "Erjar jangi qachon bo‘lgan?", "o": ["1865-yil 17-iyun", "1868-yil 1-may", "1866-yil 8-may", "1866-yil 18-oktabr"], "a": 2, "e": "Amir Muzaffar qo‘shini yengildi." },
+      { "q": "Jizzax qachon bosib olingan?", "o": ["1865-yil", "1868-yil", "1873-yil", "1866-yil 18-oktabr"], "a": 3, "e": "Ikki kecha-kunduz jangdan so‘ng." },
+      { "q": "1864–1866-yillarda bosib olingan yerlarda qaysi viloyat tuzilgan?", "o": ["Sirdaryo viloyati", "Farg‘ona viloyati", "Samarqand viloyati", "Yettisuv viloyati"], "a": 0, "e": "Keyin general-gubernatorlik tarkibiga kirdi." }
+    ],
+    "9": [
+      { "q": "Buxoro qachon Rossiya protektoratiga aylangan?", "o": ["1866-yil", "1868-yil 23-iyun", "1873-yil", "1876-yil"], "a": 1, "e": "Kaufman va amir Muzaffar shartnomasi." },
+      { "q": "1868-yilgi shartnoma bo‘yicha Buxoro qancha tovon to‘lagan?", "o": ["2,2 mln rubl", "1 mln rubl", "500 ming rubl", "100 ming rubl"], "a": 2, "e": "Xiva esa 2,2 mln rubl to‘lagan." },
+      { "q": "Protektorat nima?", "o": ["To‘liq mustaqil davlat", "Imperiya viloyati", "Harbiy ittifoq", "Tashqi siyosati boshqa davlat nazoratidagi qaram davlat"], "a": 3, "e": "Davlat nomigagina mustaqil qoladi." }
+    ],
+    "10": [
+      { "q": "Gandimiyon shartnomasi qachon imzolangan?", "o": ["1873-yil 12-avgust", "1868-yil 23-iyun", "1876-yil 19-fevral", "1873-yil may"], "a": 0, "e": "Xiva Rossiya protektoratiga aylandi." },
+      { "q": "Gandimiyon shartnomasini imzolagan Xiva xoni kim?", "o": ["Said Abdullaxon", "Muhammad Rahimxon II", "Asfandiyorxon", "Said Muhammadxon"], "a": 1, "e": "Taxallusi — Feruz." },
+      { "q": "Gandimiyon shartnomasi bo‘yicha qaysi hudud Rossiyaga o‘tgan?", "o": ["Xorazmning hammasi", "Amudaryoning chap qirg‘og‘i", "Amudaryoning o‘ng qirg‘og‘i", "Marv vohasi"], "a": 2, "e": "Amudaryo bo‘limi tuzildi." }
+    ],
+    "11": [
+      { "q": "Qo‘qon xonligi qachon tugatilgan?", "o": ["1875-yil", "1868-yil", "1882-yil", "1876-yil 19-fevral"], "a": 3, "e": "O‘rnida Farg‘ona viloyati tuzildi." },
+      { "q": "1875-yilgi Qo‘qon qo‘zg‘olonining rahbari kim?", "o": ["Po‘latxon (Mulla Is’hoq)", "Xudoyorxon", "Nasriddinbek", "Alimqul"], "a": 0, "e": "Marg‘ilonda qatl etilgan." },
+      { "q": "Qo‘qon qo‘zg‘olonini bostirgan rus generali kim?", "o": ["Chernyayev", "Skobelev", "Perovskiy", "Ivanov"], "a": 1, "e": "Farg‘ona viloyatining birinchi harbiy gubernatori." }
+    ],
+    "12": [
+      { "q": "Turkiston boshqaruvi haqidagi asosiy qonun qaysi?", "o": ["1865-yilgi Muvaqqat Nizom", "1877-yilgi Shahar nizomi", "1886-yilgi Nizom", "1916-yilgi farmon"], "a": 2, "e": "«Turkiston o‘lkasini idora qilish to‘g‘risidagi Nizom»." },
+      { "q": "Uyezdni kim boshqargan?", "o": ["Mingboshi", "Oqsoqol", "Qozi", "Uyezd boshlig‘i (rus harbiysi)"], "a": 3, "e": "Yuqori lavozimlarda faqat rus harbiylari bo‘lgan." },
+      { "q": "Toshkentda «Shahar nizomi» qachon joriy etilgan?", "o": ["1877-yil", "1867-yil", "1886-yil", "1892-yil"], "a": 0, "e": "Shahar boshqaruvi Dumaga o‘tdi." }
+    ],
+    "13": [
+      { "q": "1886-yilgi Nizom bo‘yicha yerlar kimning mulki deb e’lon qilingan?", "o": ["Dehqonlar mulki", "Davlat mulki", "Vaqf", "Beklar mulki"], "a": 1, "e": "Dehqonlar merosiy foydalanuvchi bo‘ldi." },
+      { "q": "Turkistondagi birinchi rus manzilgohi qachon va qayerda tuzilgan?", "o": ["1865-yil, Toshkent", "1868-yil, Samarqand", "1875-yil, Avliyoota", "1886-yil, Farg‘ona"], "a": 2, "e": "1875–1890-yillarda 19 ta rus qishlog‘i tuzildi." },
+      { "q": "1875–1890-yillarda nechta rus qishlog‘i tashkil topgan?", "o": ["5 ta", "100 ta", "50 ta", "19 ta"], "a": 3, "e": "1300 oila ko‘chirildi." }
+    ],
+    "14": [
+      { "q": "Ko‘chmanchi aholi uchun qanday sud bo‘lgan?", "o": ["Biylar sudi", "Qozilar sudi", "Okrug sudi", "Harbiy sud"], "a": 0, "e": "«Qozi — o‘troq, Biy — ko‘chmanchi»." },
+      { "q": "1898-yilda qanday sud organlari tuzilgan?", "o": ["Qozilar sudi", "Okrug sudlari va Toshkent sud palatasi", "Biylar sudi", "Harbiy-sudlov komissiyalari"], "a": 1, "e": "Viloyat sudlari tugatildi." },
+      { "q": "Turkiston qaysi yillarda favqulodda qo‘riqlov holatida bo‘lgan?", "o": ["1865–1876", "1876–1886", "1892–1916", "1917–1920"], "a": 2, "e": "1892-yildan qarshilik ko‘rsatganlar harbiy dala sudiga berilgan." }
+    ],
+    "15": [
+      { "q": "Turkistonda Amerika paxta navi qachondan ekila boshlagan?", "o": ["1865-yil", "1905-yil", "1913-yil", "1884-yil"], "a": 3, "e": "Turkiston paxta xomashyo bazasiga aylandi." },
+      { "q": "Orenburg–Toshkent temiryo‘li qachon qurilgan?", "o": ["1905-yil", "1888-yil", "1899-yil", "1913-yil"], "a": 0, "e": "Turkiston Rossiya markazi bilan bevosita bog‘landi." },
+      { "q": "Samarqandga birinchi poyezd qachon kelgan?", "o": ["1880-yil", "1888-yil", "1899-yil", "1905-yil"], "a": 1, "e": "Kaspiyorti temiryo‘li orqali." }
+    ],
+    "16": [
+      { "q": "1878-yilda Mingtepadagi qo‘zg‘olon rahbari kim?", "o": ["Darvishxon", "Dukchi eshon", "Yetimxon", "Po‘latxon"], "a": 2, "e": "Mingtepa — hozirgi Marhamat tumani." },
+      { "q": "1885-yilgi Andijon qo‘zg‘oloni rahbari kim?", "o": ["Yetimxon", "Vose", "Nazirxo‘ja", "Darvishxon"], "a": 3, "e": "«Darvishxon — 1885 — Andijon»." },
+      { "q": "Milliy-ozodlik harakatlarining asosiy sabablari qaysilar?", "o": ["Mustamlaka zulmi, og‘ir soliqlar, yerlarning tortib olinishi", "Diniy nizolar", "Xonlar o‘rtasidagi urushlar", "Tabiiy ofatlar"], "a": 0, "e": "Shuningdek milliy va diniy qadriyatlarning kamsitilishi." }
+    ],
+    "17": [
+      { "q": "«Vabo isyoni» qachon boshlangan?", "o": ["1898-yil 17-may", "1892-yil 24-iyun", "1916-yil 13-iyul", "1892-yil 18-iyun"], "a": 1, "e": "Toshkentda." },
+      { "q": "«Vabo isyoni»ning boshqa nomi qanday?", "o": ["«Mardikorlik qo‘zg‘oloni»", "«Dukchi eshon qo‘zg‘oloni»", "«Toshotar voqeasi»", "«Kolesov voqeasi»"], "a": 2, "e": "Qo‘zg‘olonchilar tosh otgani uchun." },
+      { "q": "Qo‘zg‘olonchilar kaltaklagan Eski shahar ma’muriyati boshlig‘i kim?", "o": ["Kaufman", "Duxovskoy", "Chernyayev", "Putintsev"], "a": 3, "e": "Ma’muriyat binosi vayron qilindi." }
+    ],
+    "18": [
+      { "q": "Andijon qo‘zg‘oloni rahbari kim?", "o": ["Dukchi eshon (Muhammad Ali)", "Darvishxon", "Yetimxon", "Nazirxo‘ja eshon"], "a": 0, "e": "Yoshligida duk yasagani uchun «Dukchi» laqabini olgan." },
+      { "q": "Andijon qo‘zg‘oloni qachon bo‘lgan?", "o": ["1892-yil iyun", "1898-yil may", "1885-yil yoz", "1916-yil iyul"], "a": 1, "e": "17-maydan 18-mayga o‘tar kechasi." },
+      { "q": "Andijon qo‘zg‘olonidan keyin qaysi qishloq yer bilan yakson qilingan?", "o": ["Baxshitepa", "Niyozbek", "Mingtepa", "Gandimiyon"], "a": 2, "e": "O‘rniga rus qishlog‘i qurildi." }
+    ],
+    "19": [
+      { "q": "Qo‘zg‘olonlar mag‘lub bo‘lishining asosiy sabablaridan biri qaysi?", "o": ["Xalqning qo‘llamagani", "Rahbarlarning xiyonati", "Xorijiy aralashuv", "Tarqoqlik va qurollanishdagi farq"], "a": 3, "e": "«T-Q-T»: Tarqoqlik, Qurol farqi, Tashkilotning zaifligi." },
+      { "q": "Qo‘zg‘olonlar mag‘lubiyatidan keyin ilg‘or ziyolilar qanday yo‘lni tanladi?", "o": ["Ma’rifat va islohot (jadidchilik)", "Qurolli kurash", "Xorijga ko‘chish", "Rossiyaga qo‘shilish"], "a": 0, "e": "Jadidchilik harakati shakllandi." },
+      { "q": "XIX asr oxiridagi qo‘zg‘olonlar qaysi harakatga zamin yaratdi?", "o": ["Kolesov voqeasiga", "1916-yilgi umumxalq qo‘zg‘oloniga", "Qrim urushiga", "Afyun urushlariga"], "a": 1, "e": "Xalqning ozodlik irodasini ko‘rsatdi." }
+    ],
+    "20": [
+      { "q": "1855-yilgi qoraqalpoqlar qo‘zg‘oloni rahbari kim?", "o": ["Oydo‘stbiy", "Bobo Go‘klan", "Ernazarbiy (Ernazar Olako‘z)", "Berdaq"], "a": 2, "e": "Qo‘ldovli qabilasidan." },
+      { "q": "1855-yilgi qo‘zg‘olonni bostirgan Xiva xoni kim?", "o": ["Muhammad Aminxon", "Feruz", "Asfandiyorxon", "Said Muhammadxon"], "a": 3, "e": "1856-yilda katta qo‘shin yuborgan." },
+      { "q": "Qoraqalpoqlar asosan qayerda yashagan?", "o": ["Amudaryo deltasida", "Farg‘ona vodiysida", "Zarafshon vohasida", "Toshkent vohasida"], "a": 0, "e": "Orol dengizi janubida." }
+    ],
+    "21": [
+      { "q": "Qariyb 10 yil davom etgan qoraqalpoq qo‘zg‘oloni rahbari kim?", "o": ["Ernazarbiy", "Bobo Go‘klan", "Oydo‘stbiy", "Matyoqub pishiq"], "a": 1, "e": "1881–1891-yillar, Biybozor va Nukus volostlarida." },
+      { "q": "Amudaryo bo‘limida rus ma’murlari joriy etgan soliq qaysi?", "o": ["Xiroj", "Solg‘ut", "Kibitka (tutun) solig‘i", "Tanobona"], "a": 2, "e": "1873-yildan olingan." },
+      { "q": "1914-yilda qoraqalpoq yerlarida nechta umumta’lim maktabi bo‘lgan?", "o": ["100 ta", "40 ta", "20 ta", "4 ta"], "a": 3, "e": "Ularda 200 o‘quvchi o‘qigan." }
+    ],
+    "22": [
+      { "q": "Amudaryo bo‘limining markazi qaysi shahar edi?", "o": ["Petroaleksandrovsk (To‘rtko‘l)", "Nukus", "Chimboy", "Xiva"], "a": 0, "e": "«P-T»." },
+      { "q": "Amudaryo bo‘limi qachon tuzilgan?", "o": ["1868-yil", "1873-yil", "1887-yil", "1867-yil"], "a": 1, "e": "Gandimiyon shartnomasi asosida." },
+      { "q": "Amudaryo flotiliyasi qachon ta’sis etilgan?", "o": ["1873-yil", "1875-yil", "1887-yil", "1909-yil"], "a": 2, "e": "Rossiyaning harbiy va savdo kemalari." }
+    ],
+    "23": [
+      { "q": "Qoraqalpoqlarning buyuk shoiri kim?", "o": ["Ajiniyoz", "Kunxo‘ja", "Otash Olshinboy", "Berdaq"], "a": 3, "e": "Berdaq (1827–1900)." },
+      { "q": "«Qiz Mengesh bilan aytishuv» asarining muallifi kim?", "o": ["Ajiniyoz", "Berdaq", "Kunxo‘ja", "Jiyen Jirov"], "a": 0, "e": "Taxallusi — Ziyo." },
+      { "q": "Tosh madrasa qachon qurilgan?", "o": ["1873-yil", "1841-yil", "1887-yil", "1810-yil"], "a": 1, "e": "Mang‘it hokimi Xo‘janiyoz qurdirgan." }
+    ],
+    "24": [
+      { "q": "«Jadid» so‘zining ma’nosi nima?", "o": ["Eski", "Ozod", "Yangi", "Ma’rifatli"], "a": 2, "e": "«Usuli jadid» — yangi usul." },
+      { "q": "Jadidchilik harakatining asoschisi kim?", "o": ["Behbudiy", "Munavvarqori", "Fitrat", "Ismoil G‘aspirali"], "a": 3, "e": "Qrim-tatar ma’rifatparvari." },
+      { "q": "Birinchi jadid maktabi qachon va qayerda ochilgan?", "o": ["1884-yil, Boqchasaroy", "1893-yil, Buxoro", "1901-yil, Toshkent", "1888-yil, Samarqand"], "a": 0, "e": "Ismoil G‘aspirali ochgan." }
+    ],
+    "25": [
+      { "q": "1911-yilda Turkistonda nechta yangi usul maktabi bo‘lgan?", "o": ["24 ta", "63 ta", "100 ta", "89 ta"], "a": 1, "e": "4106 o‘quvchi o‘qigan." },
+      { "q": "Jadidlarning siyosiy maqsadi nima edi?", "o": ["Rossiyaga qo‘shilish", "Xonlikni tiklash", "Muxtoriyat (milliy davlatchilik)", "Monarxiyani saqlash"], "a": 2, "e": "Keyinchalik to‘liq mustaqillik." },
+      { "q": "Buxoro amirligida jadid maktablari qachon yopilgan?", "o": ["1893-yil", "1911-yil", "1917-yil", "1913-yil"], "a": 3, "e": "1911-yilda Turkistonda ~50 ta jadid maktabi yopilgan." }
+    ],
+    "26": [
+      { "q": "«O‘rta Osiyo jadidlarining otasi» deb kim atalgan?", "o": ["Mahmudxo‘ja Behbudiy", "Abdulla Avloniy", "Munavvarqori", "Fitrat"], "a": 0, "e": "Behbudiy (1875–1919)." },
+      { "q": "«Turkiy Guliston yoxud axloq» asarining muallifi kim?", "o": ["Behbudiy", "Abdulla Avloniy", "Hamza", "Cho‘lpon"], "a": 1, "e": "1913-yilda yozilgan." },
+      { "q": "Toshkent jadidlari rahbari kim bo‘lgan?", "o": ["Fitrat", "Abdulla Qodiriy", "Munavvarqori Abdurashidxonov", "Fayzulla Xo‘jayev"], "a": 2, "e": "1901-yilda yangi usul maktabi ochgan." }
+    ],
+    "27": [
+      { "q": "1917-yil martida Toshkentda tuzilgan jadidlar tashkiloti qaysi?", "o": ["«Ittifoq»", "«Turon»", "«Yosh buxoroliklar»", "«Sho‘roi Islomiya»"], "a": 3, "e": "«Musulmon markaziy sho‘rosi»." },
+      { "q": "Jadidlar qachon qatag‘on qilingan?", "o": ["1937–1938-yillar", "1917–1918-yillar", "1920–1924-yillar", "1941–1945-yillar"], "a": 0, "e": "Fitrat, Qodiriy, Cho‘lpon va boshqalar." },
+      { "q": "Turkiston Muxtoriyati qachon e’lon qilingan?", "o": ["1917-yil mart", "1917-yil noyabr", "1918-yil fevral", "1920-yil aprel"], "a": 1, "e": "Jadidlar tashabbusi bilan." }
+    ],
+    "28": [
+      { "q": "1914-yilda Turkistonda qanday holat e’lon qilingan?", "o": ["Harbiy diktatura", "Respublika", "Favqulodda muhofaza holati", "Mustaqillik"], "a": 2, "e": "Nazorat va jazo choralari kuchaydi." },
+      { "q": "1915-yildan paxtaga qanday narx joriy etilgan?", "o": ["Erkin bozor narxi", "Ikki barobar oshirilgan narx", "Jahon narxi", "O‘zgarmas (qat’iy) davlat narxi"], "a": 3, "e": "Paxtakor xarajatlari qoplanmadi." },
+      { "q": "Urush yillarida soliqlar necha barobar oshgan?", "o": ["3–5 barobar", "10 barobar", "2 barobar", "Oshmagan"], "a": 0, "e": "Har xil «harbiy ehtiyojlar» yig‘imlari ham olindi." }
+    ],
+    "29": [
+      { "q": "Mardikorlik haqidagi farmon qachon chiqarilgan?", "o": ["1916-yil 4-iyul", "1916-yil 25-iyun", "1916-yil 13-iyul", "1914-yil avgust"], "a": 1, "e": "Imperator Nikolay II tomonidan." },
+      { "q": "Farmon bo‘yicha qaysi yoshdagi erkaklar olinishi kerak edi?", "o": ["18–30", "20–50", "19–43", "16–40"], "a": 2, "e": "Front orti ishlariga." },
+      { "q": "1916-yilgi qo‘zg‘olon birinchi qayerda boshlangan?", "o": ["Jizzaxda", "Toshkentda", "Andijonda", "Xo‘jandda"], "a": 3, "e": "4-iyulda." }
+    ],
+    "30": [
+      { "q": "Jizzax qo‘zg‘oloni rahbarlari kimlar?", "o": ["Nazirxo‘ja eshon va Abdurahmon jevachi", "Dukchi eshon va Darvishxon", "Po‘latxon va Nasriddinbek", "Behbudiy va Fitrat"], "a": 0, "e": "Qo‘zg‘olon 1916-yil 13-iyulda boshlandi." },
+      { "q": "Jizzax qo‘zg‘olonini kim bostirgan?", "o": ["General Skobelev", "General Ivanov boshchiligidagi jazo ekspeditsiyasi", "Kaufman", "Frunze"], "a": 1, "e": "To‘plar va pulemyotlar bilan." },
+      { "q": "Jizzaxda o‘ldirilgan uyezd boshlig‘i kim?", "o": ["Putintsev", "Mirzayor Xudoyorov", "Polkovnik Rukin", "Duxovskoy"], "a": 2, "e": "Oqsoqol Mirzayor Xudoyorov ham o‘ldirildi." }
+    ],
+    "31": [
+      { "q": "1916-yilgi qo‘zg‘olon qanday xarakterga ega bo‘lgan?", "o": ["Diniy", "Sinfiy", "Saroy to‘ntarishi", "Milliy-ozodlik"], "a": 3, "e": "Asosiy kuch — xalq ommasi." },
+      { "q": "Qo‘zg‘olon oqibatida xorijga qancha aholi qochgan?", "o": ["300 mingdan ziyod", "50 ming", "1 million", "120 ming"], "a": 0, "e": "Asosan qozoq va qirg‘izlar Xitoyga qochgan." },
+      { "q": "1916-yil voqealarining ahamiyati nimada?", "o": ["Turkiston mustaqil bo‘ldi", "Chorizm zaifligini ko‘rsatdi, 1917-yil voqealariga zamin yaratdi", "Mardikorlik bekor qilindi", "Xonliklar tiklandi"], "a": 1, "e": "Baribir 120 mingdan ortiq mardikor jo‘natildi." }
+    ],
+    "32": [
+      { "q": "1885-yilgi Baljuvon qo‘zg‘oloni rahbari kim?", "o": ["Darvishxon", "Matyoqub pishiq", "Vose", "Bobo Go‘klan"], "a": 2, "e": "Qo‘zg‘olon bostirilib, Vose qatl etildi." },
+      { "q": "Buxoroning so‘nggi amiri kim?", "o": ["Muzaffar", "Abdulahad", "Nasrullo", "Sayid Olimxon"], "a": 3, "e": "1910–1920-yillarda hukmronlik qilgan." },
+      { "q": "Buxoroda Rossiya siyosiy agentligi qachon ochilgan?", "o": ["1886-yil", "1868-yil", "1873-yil", "1910-yil"], "a": 0, "e": "Amir faoliyatini nazorat qilgan." }
+    ],
+    "33": [
+      { "q": "Buxoro amirligi qachon tugatilgan?", "o": ["1918-yil mart", "1920-yil 2-sentabr", "1920-yil 27-aprel", "1917-yil 8-aprel"], "a": 1, "e": "Qizil Armiya Buxoroni egalladi." },
+      { "q": "Buxoroga hujum qilgan Qizil Armiya qo‘mondoni kim?", "o": ["Kolesov", "Kaufman", "M. Frunze", "Ivanov"], "a": 2, "e": "Shahar to‘plar va samolyotlardan bombardimon qilindi." },
+      { "q": "BXSR rahbari bo‘lgan yosh buxorolik kim?", "o": ["Fitrat", "Sadriddin Ayniy", "Usmon Xo‘ja", "Fayzulla Xo‘jayev"], "a": 3, "e": "BXSR 1920-yil oktabrda e’lon qilindi." }
+    ],
+    "34": [
+      { "q": "Xiva xoni Muhammad Rahimxon II ning taxallusi qanday?", "o": ["Feruz", "Amiriy", "Ogahiy", "Munis"], "a": 0, "e": "Shoir xon, san’at homiysi." },
+      { "q": "1909-yilda Xivada nechta sanoat korxonasi bo‘lgan?", "o": ["40 ta", "81 ta", "19 ta", "100 ta"], "a": 1, "e": "Asosan paxta tozalash va yog‘ ishlab chiqarish." },
+      { "q": "1873-yildan Xiva qo‘shini qanday vazifani bajargan?", "o": ["Tashqi urushlar olib borgan", "Rossiya armiyasiga qo‘shilgan", "Faqat ichki tartibni saqlagan", "Tarqatib yuborilgan"], "a": 2, "e": "Tashqi siyosat Rossiya nazoratida edi." }
+    ],
+    "35": [
+      { "q": "XXSR qachon e’lon qilingan?", "o": ["1920-yil fevral", "1918-yil yanvar", "1920-yil oktabr", "1920-yil 27-aprel"], "a": 3, "e": "Xorazm Xalq Sovet Respublikasi." },
+      { "q": "1918-yilda Xivada yakkahokimlik o‘rnatgan turkman sardori kim?", "o": ["Junaidxon", "Asfandiyorxon", "Islomxo‘ja", "Polvonniyoz Yusupov"], "a": 0, "e": "1,5 minglik otliq bilan Xivani egalladi." },
+      { "q": "Xivada «Islohotlar loyihasi» tashabbuskori kim bo‘lgan?", "o": ["Junaidxon", "Bosh vazir Islomxo‘ja", "Said Abdullaxon", "Matyoqub pishiq"], "a": 1, "e": "1913-yilda o‘ldirildi." }
+    ],
+    "36": [
+      { "q": "Birinchi o‘zbek milliy gazetasi qaysi?", "o": ["«Turkiston viloyatining gazeti»", "«Xurshid»", "«Taraqqiy»", "«Oyna»"], "a": 2, "e": "1906-yil, muharriri Ismoil Obidov." },
+      { "q": "Birinchi rus-tuzem maktabi qachon va qayerda ochilgan?", "o": ["1870-yil, Samarqand", "1896-yil, Buxoro", "1906-yil, Qo‘qon", "1884-yil, Toshkent"], "a": 3, "e": "Saidg‘ani Saidazimboy uyida." },
+      { "q": "«Oyna» jurnali asoschisi kim?", "o": ["Mahmudxo‘ja Behbudiy", "Munavvarqori", "Avloniy", "Ismoil Obidov"], "a": 0, "e": "1913-yilda chiqa boshlagan." }
+    ],
+    "37": [
+      { "q": "Ulug‘bek rasadxonasi qoldiqlarini kim topgan?", "o": ["A. Fedchenko", "V. Vyatkin", "Semyonov-Tyanshanskiy", "Ostroumov"], "a": 1, "e": "1908-yilda." },
+      { "q": "Turkiston muzeyi qachon tashkil etilgan?", "o": ["1870-yil", "1895-yil", "1876-yil", "1908-yil"], "a": 2, "e": "Hozirgi O‘zbekiston tarixi davlat muzeyi." },
+      { "q": "«Tarixi Farg‘ona» asarining muallifi kim?", "o": ["Muqimiy", "Furqat", "Zavqiy", "Is’hoqxon To‘ra Ibrat"], "a": 3, "e": "Namanganlik ma’rifatparvar." }
+    ],
+    "38": [
+      { "q": "«Turon» teatr truppasi asoschisi kim?", "o": ["Abdulla Avloniy", "Hamza", "Behbudiy", "Fitrat"], "a": 0, "e": "1914-yil boshida Toshkentda." },
+      { "q": "Birinchi o‘zbek dramasi qaysi?", "o": ["«Zaharli hayot»", "«Padarkush»", "«Baxtsiz kuyov»", "«O‘tkan kunlar»"], "a": 1, "e": "Behbudiy, 1911-yil." },
+      { "q": "1916-yilda Qo‘qonda havaskorlar teatrini kim tuzgan?", "o": ["Avloniy", "Qodiriy", "Hamza", "Cho‘lpon"], "a": 2, "e": "Hamza Hakimzoda Niyoziy." }
+    ],
+    "39": [
+      { "q": "Islomxo‘ja minorasi qachon qurilgan?", "o": ["1851–1855", "1871", "1891", "1908–1910"], "a": 3, "e": "Xivadagi eng baland minora (44,6 m)." },
+      { "q": "Turkiston istilosini tasvirlagan rus rassomi kim?", "o": ["V. Vereshchagin", "N. Karazin", "R. Zommer", "V. Vyatkin"], "a": 0, "e": "«Urush apofeozi» asari mashhur." },
+      { "q": "Xudoyorxon o‘rdasi qayerda joylashgan?", "o": ["Xivada", "Qo‘qonda", "Buxoroda", "Toshkentda"], "a": 1, "e": "1871-yilda qurilgan." }
+    ]
+  }
+}
