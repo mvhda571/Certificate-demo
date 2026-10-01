@@ -1,0 +1,204 @@
+{
+  "topics": {
+    "1": [
+      { "q": "«O‘zbek ulusi»ga kim asos solgan?", "o": ["Shayboniyxon", "Abulxayrxon", "Botuxon", "Davlatshayx"], "a": 1, "e": "Abulxayrxon 1428-yilda asos solgan; u Shayboniyxonning bobosi." },
+      { "q": "Abulxayrxon 1446-yilda poytaxtni qaysi shaharga ko‘chirdi?", "o": ["Samarqand", "Urganch", "Sig‘noq", "Turkiston"], "a": 2, "e": "Sirdaryo o‘rta oqimidagi shaharlarni egallab, poytaxtni Sig‘noqqa ko‘chirdi." },
+      { "q": "Abulxayrxon vafotidan so‘ng ajralib chiqqan qabilalar qaysi davlatga asos soldi?", "o": ["Qo‘qon xonligi", "No‘g‘ay xonligi", "Xiva xonligi", "Qozoq xonligi"], "a": 3, "e": "Jonibek va Kerey boshchiligida qozoq xonligi tuzildi (1468-yildan keyin)." }
+    ],
+    "2": [
+      { "q": "1469-yildan Xurosonda kim hukmronlik qildi?", "o": ["Sulton Husayn Boyqaro", "Sulton Ahmad Mirzo", "Abu Said Mirzo", "Umarshayx Mirzo"], "a": 0, "e": "Husayn Boyqaro (1469–1506), poytaxti Hirot." },
+      { "q": "Temuriylar davlatini 1458-yilda bir qadar birlashtirgan hukmdor kim?", "o": ["Shohrux", "Abu Said Mirzo", "Ulug‘bek", "Bobur"], "a": 1, "e": "Abu Said Mirzo Xurosonni ham egalladi." },
+      { "q": "Bobur Samarqandni birinchi bor qachon egalladi?", "o": ["1494-yil", "1500-yil", "1497-yil", "1511-yil"], "a": 2, "e": "1497-yil — birinchi marta; keyin 1500 va 1511-yillarda." }
+    ],
+    "3": [
+      { "q": "Bobur qachon va qayerda tug‘ilgan?", "o": ["1494-yil, Samarqand", "1483-yil, Hirot", "1501-yil, Kobul", "1483-yil 14-fevral, Andijon"], "a": 3, "e": "Otasi — Farg‘ona hokimi Umarshayx Mirzo." },
+      { "q": "1501-yilda Bobur qaysi jangda mag‘lub bo‘ldi?", "o": ["Saripul jangi", "Ko‘li Malik jangi", "Marv jangi", "Panipat jangi"], "a": 0, "e": "Saripul jangidan so‘ng olti oylik qamal bo‘ldi." },
+      { "q": "Bobur Kobulni qachon egalladi?", "o": ["1501-yil", "1504-yil", "1507-yil", "1511-yil"], "a": 1, "e": "Samarqanddan chiqqach, Badaxshon orqali Kobulga yo‘l oldi." }
+    ],
+    "4": [
+      { "q": "Shayboniyxon qaysi jangda halok bo‘ldi?", "o": ["Saripul jangi", "Axsi jangi", "Marv jangi", "Ko‘li Malik jangi"], "a": 2, "e": "1510-yil, Eron shohi Ismoil Safaviyga qarshi." },
+      { "q": "Shayboniyxon Hirotni egallab, temuriylar davlatiga barham bergan yil?", "o": ["1503-yil", "1505-yil", "1510-yil", "1507-yil"], "a": 3, "e": "1507-yilda pul islohoti ham o‘tkazildi." },
+      { "q": "To‘lg‘ama nima?", "o": ["Dushmanni aylanib o‘tib, orqadan zarba berish usuli", "Tosh otuvchi qurol", "Harbiy soliq", "Qamal minorasi"], "a": 0, "e": "Shayboniyxon qo‘llagan jang usuli." }
+    ],
+    "5": [
+      { "q": "Poytaxtni Samarqanddan Buxoroga kim ko‘chirdi?", "o": ["Ko‘chkunchixon", "Ubaydullaxon", "Abdullaxon II", "Abu Said"], "a": 1, "e": "1533-yilda — davlat «Buxoro xonligi» deb atala boshladi." },
+      { "q": "Ko‘li Malik jangi qachon bo‘lgan?", "o": ["1510-yil", "1511-yil", "1512-yil 28-aprel", "1533-yil"], "a": 2, "e": "Shayboniylar Bobur va safaviylarni yengib, taxtni qaytardi." },
+      { "q": "Mir Arab madrasasi qachon qurilgan?", "o": ["1512–1515-yillar", "1556–1560-yillar", "1619–1636-yillar", "1533–1536-yillar"], "a": 3, "e": "Ubaydullaxon g‘alabani ustozi Mir Arabga bag‘ishlagan." }
+    ],
+    "6": [
+      { "q": "Abdullaxon II rasman qachon xon deb e’lon qilindi?", "o": ["1583-yil", "1556-yil", "1557-yil", "1598-yil"], "a": 0, "e": "Otasi Iskandarxon vafotidan so‘ng." },
+      { "q": "Abdullaxon II ni qo‘llab-quvvatlagan diniy kuch qaysi?", "o": ["Naqshbandiylar", "Jo‘ybor shayxlari", "Yassaviylar", "Chodak xo‘jalari"], "a": 1, "e": "Xoja Muhammad Islom va Abubakr Sa’d — shayxulislomlar." },
+      { "q": "Rossiyada Abdullaxon II davlati qanday atalgan?", "o": ["«Oltin O‘rda»", "«Kichik Buxoro»", "«Buyuk Buxoro»", "«Buxoroi sharif»"], "a": 2, "e": "Abdullaxon II davrida xonlik qudrat cho‘qqisiga chiqdi." }
+    ],
+    "7": [
+      { "q": "Ashtarxoniylar sulolasi qachon boshlandi?", "o": ["1598-yil", "1556-yil", "1611-yil", "1601-yil"], "a": 3, "e": "1601–1756-yillar — ashtarxoniylar davri." },
+      { "q": "Ashtarxoniylarning birinchi hukmdori kim?", "o": ["Boqi Muhammad", "Din Muhammad", "Imomqulixon", "Jonibek Sulton"], "a": 0, "e": "Boqi Muhammad (1601–1605) — Jonibek Sultonning ikkinchi o‘g‘li." },
+      { "q": "Ashtarxoniylarning ikkinchi nomi qanday?", "o": ["Mang‘itlar", "Joniylar", "Arabshohiylar", "Minglar"], "a": 1, "e": "Jonibek Sulton nomidan — joniylar." }
+    ],
+    "8": [
+      { "q": "1708-yilgi pul islohotining mohiyati nimada edi?", "o": ["Tilla tanga zarb etildi", "Mis pul bekor qilindi", "Bitta eski tangadan 4 ta yangi tanga zarb qilindi", "Qog‘oz pul joriy etildi"], "a": 2, "e": "Kumush miqdori kamaydi — narxlar oshdi." },
+      { "q": "Farg‘ona vodiysi Buxorodan qachon ajralib chiqdi?", "o": ["1706-yil", "1711-yil", "1740-yil", "1709-yil"], "a": 3, "e": "Farg‘onada Qo‘qon xonligi tashkil topdi." },
+      { "q": "1740-yilda Buxoro xonligini kim bo‘ysundirdi?", "o": ["Eron shohi Nodirshoh", "Ismoil Safaviy", "Abbos I", "Xiva xoni"], "a": 0, "e": "Mang‘it amiri Muhammad Hakimbiy unga yordam berdi." }
+    ],
+    "9": [
+      { "q": "Buxoro xonligida eng quyi boshqaruv birligi qaysi?", "o": ["Viloyat", "Amlok", "Tuman", "Beklik"], "a": 1, "e": "«Viloyat → Tuman → Amlok → Qishloq»." },
+      { "q": "Bosh qozi qanday atalgan?", "o": ["Shayxulislom", "Rais", "Qozikalon", "Devonbegi"], "a": 2, "e": "Qozikalon sud ishlarini boshqargan." },
+      { "q": "Buxoro xonligida xondan keyingi eng yuqori mansab qaysi?", "o": ["Parvonachi", "Ko‘kaldosh", "Mirob", "Otaliq"], "a": 3, "e": "Otaliq — shahzoda murabbiysi, keyin amirlar amiri." }
+    ],
+    "10": [
+      { "q": "Buxoro xonligi qo‘shinining asosiy quroli nima edi?", "o": ["O‘q-yoy", "Miltiq", "To‘p", "Naftandoz"], "a": 0, "e": "O‘q-yoy hujumda ham, mudofaada ham ishlatilgan." },
+      { "q": "Tosh otuvchi qamal quroli qanday atalgan?", "o": ["Naftandoz", "Manjaniq", "Borgoh", "Tug‘"], "a": 1, "e": "«Manjaniq — Tosh, Naftandoz — Neft»." },
+      { "q": "Davlat bayrog‘ini qo‘riqlagan qism qanday atalgan?", "o": ["Katta g‘ul", "Navkariya", "Tug‘chi qism", "Sarbozlar"], "a": 2, "e": "Katta va kichik g‘ullar esa xonni himoya qilgan." }
+    ],
+    "11": [
+      { "q": "Shayboniylar davrida oldingi iqto qanday nom oldi?", "o": ["Vaqf", "Mulki xos", "Suyurg‘ol", "Tanho"], "a": 3, "e": "«Tanho = eski Iqto»." },
+      { "q": "Mulki xolis yerining qaysi qismi soliqdan ozod bo‘lgan?", "o": ["1/3 qismi", "2/3 qismi", "Hammasi", "Yarmi"], "a": 0, "e": "Sotib olgan kishi 2/3 qismini davlatga qoldirgan." },
+      { "q": "Nurota tumanidagi mashhur to‘g‘on qanday ataladi?", "o": ["Shohobod", "Abdullaxon bandi", "Ulug‘nahr", "Toqi Zargaron"], "a": 1, "e": "Ravoqlarini to‘g‘on tepasidan ochib-yopish mumkin bo‘lgan." }
+    ],
+    "12": [
+      { "q": "Buxoro xonligidagi asosiy soliq qaysi?", "o": ["Zakot", "Jizya", "Xiroj", "Zobitona"], "a": 2, "e": "Xiroj — sug‘oriladigan yer daromadining 30–40%." },
+      { "q": "1558-yilda Buxoroga kelgan ingliz savdogari-elchi kim?", "o": ["Aleksandr Byorns", "Stoddart", "Murkroft", "Antoniy Jenkinson"], "a": 3, "e": "U «Moskva kompaniyasi» tomonidan yuborilgan." },
+      { "q": "1586-yilda Abdullaxon II ga maktub yozgan Hindiston hukmdori kim?", "o": ["Akbarshoh", "Bobur", "Humoyun", "Avrangzeb"], "a": 0, "e": "Usmonlilarning Eronni bosib olayotganidan tashvish bildirgan." }
+    ],
+    "13": [
+      { "q": "Sherdor va Tillakori madrasalarini kim qurdirgan?", "o": ["Abdullaxon II", "Yalangto‘sh Bahodir", "Ubaydullaxon", "Nodir devonbegi"], "a": 1, "e": "Samarqand Registonida, Ulug‘bek madrasasi qarshisida." },
+      { "q": "«Abdullanoma» asarining muallifi kim?", "o": ["Muhammad Solih", "Kamoliddin Binoiy", "Hofiz Tanish al-Buxoriy", "Muhammad Haydar"], "a": 2, "e": "Asarning boshqa nomi — «Sharafnomayi shohiy»." },
+      { "q": "Buxorodagi «Dor ush-shifo» shifoxonasi kim davrida qurilgan?", "o": ["Imomqulixon", "Ubaydullaxon", "Abdullaxon II", "Subhonqulixon"], "a": 3, "e": "Xonning o‘zi «Subhoniy tibbiyoti» kitobini yozgan." }
+    ],
+    "14": [
+      { "q": "Mang‘itlar sulolasi qachon hokimiyatga keldi?", "o": ["1756-yil", "1747-yil", "1740-yil", "1785-yil"], "a": 0, "e": "Buxoro xonligi Buxoro amirligi deb atala boshladi." },
+      { "q": "Mang‘itlar nega «xon» emas, «amir» unvonini olgan?", "o": ["Eron shohi taqiqlagani uchun", "Chingiz avlodidan bo‘lmagani uchun", "Ruhoniylar talabi bilan", "Rossiya talabi bilan"], "a": 1, "e": "Xon unvonini faqat chingiziylar olgan." },
+      { "q": "Darveshona hayot kechirgan amir kim?", "o": ["Amir Haydar", "Amir Nasrullo", "Amir Shohmurod", "Doniyolbiy"], "a": 2, "e": "Shohmurod (1785–1800) bozorda yuk tashigan, pichoqqa qin yasagan." }
+    ],
+    "15": [
+      { "q": "Amir Nasrullo hukmronligi yillari qaysi?", "o": ["1800–1826", "1785–1800", "1860–1885", "1826–1860"], "a": 3, "e": "«Nasrullo — 26 dan 60 gacha»." },
+      { "q": "Shahrisabz va Kitob qachon bo‘ysundirildi?", "o": ["1856-yil", "1837-yil", "1842-yil", "1821-yil"], "a": 0, "e": "Uzoq kurashdan so‘ng Amir Nasrullo bo‘ysundirdi." },
+      { "q": "1821-yilda qipchoqlar qo‘zg‘oloni qayerda bo‘lgan?", "o": ["Marvda", "Miyonqolda", "Shahrisabzda", "Qarshida"], "a": 1, "e": "Sabab — soliqlarning muddatidan oldin yig‘ilishi va qora cherikka safarbarlik." }
+    ],
+    "16": [
+      { "q": "Buxoro amirligida bosh vazir qanday atalgan?", "o": ["Otaliq", "Mehtar", "Qo‘shbegi", "Mingboshi"], "a": 2, "e": "Qo‘shbegi — vaziri buzruk." },
+      { "q": "Amirlikda tungi qorovul, politsiya boshlig‘i kim edi?", "o": ["Rais", "Zakotchi", "Mirzaboshi", "Mirshab"], "a": 3, "e": "«Mirshab — mir + shab (tun)»." },
+      { "q": "Buxoro amirligi qanday ma’muriy birliklarga bo‘lingan?", "o": ["Bekliklarga", "Gubernatorliklarga", "Satrapliklarga", "Uluslarga"], "a": 0, "e": "Bekliklar amloklarga, amloklar qishloqlarga bo‘lingan." }
+    ],
+    "17": [
+      { "q": "Buxoro amirligida muntazam piyoda askar qanday atalgan?", "o": ["Navkar", "Sarboz", "To‘pchi", "G‘alcha"], "a": 1, "e": "Dastlab 800 nafar sarboz bo‘lgan." },
+      { "q": "Urush paytida aholidan to‘plangan lashkar qanday atalgan?", "o": ["Navkariya", "Sarboz", "Qora cherik", "Yangichi"], "a": 2, "e": "Tinchlik o‘rnatilgach, ular uyiga qaytgan." },
+      { "q": "Buxoro amirligida harbiy islohot qachon o‘tkazildi?", "o": ["1805-yil", "1826-yil", "1842-yil", "1837-yil"], "a": 3, "e": "Amir Nasrullo 3 turdagi muntazam qo‘shin tuzdi." }
+    ],
+    "18": [
+      { "q": "Mang‘itlar davrida qaysi yer in’om etish shakli kuchaydi?", "o": ["Tanho", "Vaqf", "Mulki xolis", "Suyurg‘ol"], "a": 0, "e": "Tanhodor yerdan olinadigan soliqning bir qismiga ega bo‘lgan." },
+      { "q": "Mang‘itlar davrida dehqon jamoalari o‘rnida qanday qatlam shakllandi?", "o": ["Krepostnoy dehqonlar", "Ijarachi dehqonlar", "Fermerlar", "Qullar"], "a": 1, "e": "Ijarachi dehqon — yerni ijaraga olib ishlovchi." },
+      { "q": "Eng kichik tanho necha gektar bo‘lgan?", "o": ["10–15 gektar", "1 gektar", "3–5 gektar", "50 gektar"], "a": 2, "e": "36–60 tanob (3–5 gektar)." }
+    ],
+    "19": [
+      { "q": "Buxoro qaysi yillar davomida poytaxt bo‘lgan?", "o": ["1500–1868", "1601–1756", "1756–1868", "1533–1920"], "a": 3, "e": "387 yil davomida poytaxt bo‘lgan." },
+      { "q": "Samarqand kim davrida qayta obod qilina boshladi?", "o": ["Amir Shohmurod", "Amir Haydar", "Abdullaxon II", "Amir Nasrullo"], "a": 0, "e": "1780-yildan boshlab." },
+      { "q": "Orenburgda Buxoro savdogarlari qarorgohi qachon qurildi?", "o": ["1797-yil", "1804-yil", "1832-yil", "1858-yil"], "a": 1, "e": "Rossiya amirlikning asosiy savdo hamkori edi." }
+    ],
+    "20": [
+      { "q": "1832-yilda Buxoroga kelgan ingliz kim edi?", "o": ["Antoniy Jenkinson", "N. Ignatyev", "Aleksandr Byorns", "Florio Beneveni"], "a": 2, "e": "U o‘zini arman savdogari deb tanishtirgan." },
+      { "q": "«Katta o‘yin» deb nimaga aytiladi?", "o": ["Buxoro va Xiva urushiga", "Xitoy va Qo‘qon savdosiga", "Eron va Turkiya raqobatiga", "Angliya va Rossiyaning O‘rta Osiyo uchun raqobatiga"], "a": 3, "e": "XIX asrda Buxoro bu raqobat maydoniga aylandi." },
+      { "q": "1858-yilda Buxoroga kelgan Rossiya elchiligi rahbari kim?", "o": ["Polkovnik N. Ignatyev", "V. Perovskiy", "G. Danilevskiy", "M. Tevkelev"], "a": 0, "e": "Savdo imtiyozlari va rus savdogarlari xavfsizligi masalalari." }
+    ],
+    "21": [
+      { "q": "«Husn-u Dil» dostonining muallifi kim?", "o": ["Vola", "Muhammadniyoz Nishotiy", "Ahmad Donish", "Turdi Farog‘iy"], "a": 1, "e": "Doston 1778-yilda yaratilgan." },
+      { "q": "Jadidchilik g‘oyalarining o‘tmishdoshi bo‘lgan buxorolik olim kim?", "o": ["Mujrim Obid", "Hoziq", "Ahmad Donish", "Muhammad Yoqub"], "a": 2, "e": "Ahmad Donish (1827–1897) amirlik tuzumini tanqid qilgan." },
+      { "q": "Ko‘zi ojiz bo‘lgan mashhur buxorolik shoir kim?", "o": ["Nishotiy", "Mashrab", "Gulxaniy", "Vola"], "a": 3, "e": "Vola (1770–1842) — kuchli iroda va xotiraga ega shoir." }
+    ],
+    "22": [
+      { "q": "Xiva xonligi qachon tashkil topgan?", "o": ["1512-yil", "1500-yil", "1510-yil", "1709-yil"], "a": 0, "e": "O‘rta Osiyodagi ikkinchi o‘zbek davlati." },
+      { "q": "Xiva xonligining birinchi xoni kim?", "o": ["Arab Muhammadxon", "Elbarsxon", "Abulg‘ozixon", "Eltuzar"], "a": 1, "e": "Elbarsxon Dashti Qipchoqdan taklif qilingan." },
+      { "q": "Xiva shayboniylari yana qanday nom bilan ataladi?", "o": ["Qo‘ng‘irotlar", "Ashtarxoniylar", "Arabshohiylar", "Mang‘itlar"], "a": 2, "e": "Arabshoh ibn Po‘lod avlodlari; 1770-yilgacha hukmronlik qilgan." }
+    ],
+    "23": [
+      { "q": "Poytaxt Urganchdan Xivaga nima sababdan ko‘chirildi?", "o": ["Urganch yonib ketgan", "Eron bosib olgan", "Zilzila bo‘lgan", "Amudaryo o‘zani o‘zgarib, Urganch suvsiz qolgan"], "a": 3, "e": "Arab Muhammadxon (1602–1623) davrida." },
+      { "q": "«Shajarayi turk» asarining muallifi kim?", "o": ["Abulg‘ozi Bahodirxon", "Munis", "Ogahiy", "Asfandiyorxon"], "a": 0, "e": "Abulg‘ozi xon ham, tarixchi ham bo‘lgan." },
+      { "q": "1717-yilda Xivada yo‘q qilingan Rossiya ekspeditsiyasi kimniki edi?", "o": ["Perovskiy", "Bekovich-Cherkasskiy", "Ignatyev", "Danilevskiy"], "a": 1, "e": "Sherg‘ozixon (1715–1727) davrida." }
+    ],
+    "24": [
+      { "q": "Qo‘ng‘irotlar sulolasining birinchi xoni kim?", "o": ["Muhammad Amin inoq", "Avaz inoq", "Eltuzar", "Olloqulixon"], "a": 2, "e": "Eltuzar 1804-yilda o‘zini xon deb e’lon qildi." },
+      { "q": "Turkmanlarni 1770-yilda Xivadan quvib chiqargan kim?", "o": ["Eltuzar", "Muhammad Rahimxon I", "Abulg‘ozixon", "Muhammad Amin inoq"], "a": 3, "e": "U Buxoro yordamida hokimiyatni oldi." },
+      { "q": "Muhammad Rahimxon I amaldorlar sonini qanchaga qisqartirdi?", "o": ["360 tadan 100 taga", "500 dan 200 ga", "100 dan 30 ga", "200 dan 50 ga"], "a": 0, "e": "Biy, otaliq, inoq mansablarini bekor qilib, 3 devon tuzdi." }
+    ],
+    "25": [
+      { "q": "Xiva xonligida bosh vazir qanday atalgan?", "o": ["Qo‘shbegi", "Mehtar", "Mingboshi", "Otaliq"], "a": 1, "e": "Mehtar Amudaryoning janubiy qismini boshqargan." },
+      { "q": "Muhammad Rahimxon I nechta devon tuzdi?", "o": ["2 ta", "5 ta", "3 ta", "7 ta"], "a": 2, "e": "Xo‘jalik, ijtimoiy-siyosiy va harbiy devonlar." },
+      { "q": "Xivada Amudaryoning shimoliy qismini kim boshqargan?", "o": ["Mehtar", "Devonbegi", "Mirob", "Qushbegi"], "a": 3, "e": "«Mehtar — janub, Qushbegi — shimol»." }
+    ],
+    "26": [
+      { "q": "Xivaning ichki shahri qanday ataladi?", "o": ["Ichan qal’a", "Dishan qal’a", "Ko‘hna ark", "Toshhovli"], "a": 0, "e": "Tashqi shahar — Dishan qal’a." },
+      { "q": "Yangi Urganch shahrini kim qurdirgan?", "o": ["Arab Muhammadxon", "Abulg‘ozi Bahodirxon", "Olloqulixon", "Muhammad Rahimxon I"], "a": 1, "e": "1646-yilda savdo shahri sifatida qurilgan." },
+      { "q": "Qazuv nima?", "o": ["Yer solig‘i", "Harbiy xizmat", "Kanal qazish va tozalash majburiyati", "Savdo boji"], "a": 2, "e": "Aholi har yili qazuv majburiyatini bajargan." }
+    ],
+    "27": [
+      { "q": "Xiva–Rossiya «Majburiyatlar akti» qachon imzolangan?", "o": ["1839-yil", "1845-yil", "1858-yil", "1842-yil 27-dekabr"], "a": 3, "e": "Elchi G. Danilevskiy imzolatgan." },
+      { "q": "1839-yilda Xivaga yurish qilgan rus generali kim?", "o": ["V. Perovskiy", "N. Ignatyev", "Bekovich-Cherkasskiy", "N. Muravyov"], "a": 0, "e": "Ekspeditsiya qattiq qish tufayli muvaffaqiyatsiz tugadi." },
+      { "q": "Xiva Marvni uzil-kesil qachon qo‘shib oldi?", "o": ["1822-yil", "1845-yil", "1806-yil", "1873-yil"], "a": 1, "e": "Buxoro bilan uzoq kurashdan so‘ng." }
+    ],
+    "28": [
+      { "q": "«Firdavs ul-iqbol» asarini kim boshlagan?", "o": ["Ogahiy", "Abulg‘ozi", "Shermuhammad Munis", "Hamadoniy"], "a": 2, "e": "Munis boshlagan, Ogahiy davom ettirgan." },
+      { "q": "Muhammadrizo Ogahiy qachon tug‘ilgan?", "o": ["1800-yil", "1829-yil", "1778-yil", "1809-yil"], "a": 3, "e": "Qiyot qishlog‘ida mirob oilasida tug‘ilgan." },
+      { "q": "Munisning xattotlikka oid risolasi qanday nomlanadi?", "o": ["«Savodi ta’lim»", "«Riyoz ud-davla»", "«Shajarayi turk»", "«Zubdat ut-tavorix»"], "a": 0, "e": "1804-yilda yozilgan." }
+    ],
+    "29": [
+      { "q": "«Firdavs ul-iqbol»da necha yillik tarix bayon etilgan?", "o": ["100 yillik", "300 yillik", "150 yillik", "500 yillik"], "a": 1, "e": "1572–1825-yillar." },
+      { "q": "1725-yilda Xivaga kelgan Rossiya elchisi kim?", "o": ["Ivan Xoxlov", "N. Muravyov", "Florio Beneveni", "G. Danilevskiy"], "a": 2, "e": "«X-B-M-D-I» tartibi." },
+      { "q": "Xiva xon devoni arxivi qachon Peterburgga olib ketilgan?", "o": ["1842-yil", "1858-yil", "1920-yil", "1873-yil"], "a": 3, "e": "Xiva bosib olingach." }
+    ],
+    "30": [
+      { "q": "Qoraqalpoqlar Sirdaryo quyi etagiga qachon ko‘chib keldi?", "o": ["1556-yil", "1598-yil", "1723-yil", "1811-yil"], "a": 0, "e": "No‘g‘ay xonligi parchalangach." },
+      { "q": "1827-yilgi qoraqalpoqlar qo‘zg‘oloni rahbari kim?", "o": ["Ernazar Olako‘z", "Oydo‘stbiy", "Berdaq", "Jiyen Jirov"], "a": 1, "e": "Olloqulixon qo‘shini qo‘zg‘olonni bostirdi." },
+      { "q": "«Qoraqalpoq» nomi birinchi bor qaysi hujjatda qayd etilgan?", "o": ["«Shajarayi turk»", "«Firdavs ul-iqbol»", "Abdullaxon II yorlig‘i", "Majburiyatlar akti"], "a": 2, "e": "1598-yilgi yorliq — alohida xalq ekanining isboti." }
+    ],
+    "31": [
+      { "q": "Qoraqalpoq adabiyotining asoschisi kim?", "o": ["Ajiniyoz", "Kunxo‘ja", "Jiyen Jirov", "Berdaq"], "a": 3, "e": "Berdaq — Berdimurod Qarg‘aboy o‘g‘li (1827–1900)." },
+      { "q": "Qoraqalpoqlarning mashhur qahramonlik dostoni qaysi?", "o": ["«Qirq qiz»", "«Husn-u Dil»", "«Shahzoda Hasan»", "«Zarbulmasal»"], "a": 0, "e": "Guloyim boshchiligidagi qirq qiz qahramonligi." },
+      { "q": "Qo‘biz chalib doston aytuvchi qanday ataladi?", "o": ["Baxshi", "Jirov", "Otinoyi", "Mudarris"], "a": 1, "e": "Baxshilar do‘tor bilan ijro etgan." }
+    ],
+    "32": [
+      { "q": "Qo‘qon xonligi qachon tashkil topgan?", "o": ["1512-yil", "1756-yil", "1709-yil", "1805-yil"], "a": 2, "e": "O‘rta Osiyodagi uchinchi o‘zbek davlati." },
+      { "q": "Qo‘qon xonligi asoschisi kim?", "o": ["Olimxon", "Abdurahimbiy", "Norbo‘tabiy", "Shohruhbiy"], "a": 3, "e": "Shohruhbiy — ming qabilasidan." },
+      { "q": "Qo‘qonni xonlik poytaxtiga aylantirgan hukmdor kim?", "o": ["Abdurahimbiy", "Erdonabiy", "Abdulkarimbiy", "Umarxon"], "a": 0, "e": "Otasi boshlagan obodonchilik ishlarini davom ettirgan." }
+    ],
+    "33": [
+      { "q": "Qo‘qonda birinchi bo‘lib xon unvonini olgan hukmdor kim?", "o": ["Norbo‘tabiy", "Olimxon", "Umarxon", "Madalixon"], "a": 1, "e": "Olimxon 1805-yilda o‘zini xon deb e’lon qildi." },
+      { "q": "Qo‘qonning o‘z puli — fals qachon zarb etilgan?", "o": ["1805-yil", "1709-yil", "1776-yil", "1817-yil"], "a": 2, "e": "Norbo‘tabiy davrida." },
+      { "q": "Toshkent Qo‘qon xonligiga kim davrida qo‘shib olindi?", "o": ["Umarxon", "Madalixon", "Norbo‘tabiy", "Olimxon"], "a": 3, "e": "1809–1810-yillarda." }
+    ],
+    "34": [
+      { "q": "Qo‘qon xonligida bosh qo‘mondon va bosh vazir vazifasini kim bajargan?", "o": ["Mingboshi", "Qushbegi", "Dodxoh", "Mehtar"], "a": 0, "e": "Butun ijroiya hokimiyat mingboshi qo‘lida edi." },
+      { "q": "Arz-dodlarni qabul qiluvchi amaldor qanday atalgan?", "o": ["Rais", "Dodxoh", "Parvonachi", "Mirzaboshi"], "a": 1, "e": "Dodxoh — arz-dod qabul qiluvchi." },
+      { "q": "Uch xonlikning bosh vazirlari to‘g‘ri berilgan javobni toping.", "o": ["Buxoro — Mehtar, Xiva — Mingboshi, Qo‘qon — Qo‘shbegi", "Buxoro — Mingboshi, Xiva — Qo‘shbegi, Qo‘qon — Mehtar", "Buxoro — Qo‘shbegi, Xiva — Mehtar, Qo‘qon — Mingboshi", "Buxoro — Otaliq, Xiva — Qushbegi, Qo‘qon — Dodxoh"], "a": 2, "e": "«Q-M-M»." }
+    ],
+    "35": [
+      { "q": "Qo‘qonda muntazam qo‘shinni kim tuzgan?", "o": ["Umarxon", "Madalixon", "Norbo‘tabiy", "Olimxon"], "a": 3, "e": "1805-yilda 10 ming kishilik muntazam qo‘shin tuzildi." },
+      { "q": "Olimxon qo‘shiniga olingan tog‘li tojiklar qanday atalgan?", "o": ["G‘alchalar", "Sarbozlar", "Navkarlar", "Qora cherik"], "a": 0, "e": "Ularga maosh to‘langan." },
+      { "q": "Qaysi xonlikda muntazam qo‘shin birinchi bo‘lib tuzilgan?", "o": ["Buxoro amirligida", "Qo‘qon xonligida", "Xiva xonligida", "Uchalasida bir vaqtda"], "a": 1, "e": "Qo‘qon (1805) Buxorodan (1837) 32 yil oldin." }
+    ],
+    "36": [
+      { "q": "Toshkentning to‘rt dahasi to‘g‘ri berilgan javobni toping.", "o": ["Chorsu, Eski shahar, Yunusobod, Chilonzor", "Ichan qal’a, Dishan qal’a, Ark, Rabot", "Shayxontohur, Beshyog‘och, Ko‘kcha, Sebzor", "Sig‘noq, Arquq, O‘zgan, Suzoq"], "a": 2, "e": "«Sh-B-K-S»." },
+      { "q": "Yagona Toshkent bekligi qachon tuzildi?", "o": ["1723-yil", "1758-yil", "1810-yil", "1784-yil"], "a": 3, "e": "Yunusxo‘ja boshchiligida." },
+      { "q": "Umarxon davrida qazilgan kanal qaysi?", "o": ["Shahrixonsoy", "Polvon", "Shohobod", "Yarmish"], "a": 0, "e": "Polvon, Shohobod, Yarmish — Xorazm kanallari." }
+    ],
+    "37": [
+      { "q": "Qo‘qon–Xitoy shartnomasi qachon va qayerda imzolangan?", "o": ["1825-yil, Qashqarda", "1832-yil, Pekinda", "1842-yil, Qo‘qonda", "1759-yil, Yorkendda"], "a": 1, "e": "Qo‘qon Sharqiy Turkistonda savdo va boj yig‘ish huquqini oldi." },
+      { "q": "Sharqiy Turkiston ozodlik kurashini qo‘llab-quvvatlagan Qo‘qon xoni kim?", "o": ["Olimxon", "Umarxon", "Madalixon", "Sheralixon"], "a": 2, "e": "1825-yilda (Jahongir xo‘ja)." },
+      { "q": "Xitoy Sharqiy Turkistonni qachon bosib olgan?", "o": ["1709–1710", "1825–1829", "1840–1842", "1755–1759"], "a": 3, "e": "Jung‘orlarni yo‘q qilgach, Qo‘qonga qo‘shni bo‘ldi." }
+    ],
+    "38": [
+      { "q": "Umarxonning adabiy taxallusi qanday edi?", "o": ["Amiriy", "Nodira", "Fazliy", "Maxmur"], "a": 0, "e": "Uning saroyida 70 ga yaqin shoir to‘plangan." },
+      { "q": "«Majmuayi shoiron» to‘plamini kim tuzgan?", "o": ["Gulxaniy", "Fazliy Namangoniy", "Hakimxon to‘ra", "Uvaysiy"], "a": 1, "e": "1821-yilda 63 shoir she’rlaridan." },
+      { "q": "Nodirabegim kimning rafiqasi bo‘lgan?", "o": ["Olimxonning", "Madalixonning", "Umarxonning", "Norbo‘tabiyning"], "a": 2, "e": "Nodira (Mohlaroyim) 1842-yilda qatl etildi." }
+    ],
+    "39": [
+      { "q": "1841-yilda Qo‘qon madrasalarida nechta mulla o‘qigan?", "o": ["100 nafar", "500 nafar", "5000 nafar", "1000 nafar"], "a": 3, "e": "Qo‘qon yirik ta’lim markazi edi." },
+      { "q": "Madrasa o‘qituvchisi qanday atalgan?", "o": ["Mudarris", "Maktabdor", "Otinoyi", "Mirzo"], "a": 0, "e": "Maktabdor (domla) — maktab o‘qituvchisi." },
+      { "q": "Madrasa bosqichlari pastdan yuqoriga to‘g‘ri berilgan javobni toping.", "o": ["A’lo – Avsat – Adno", "Adno – Avsat – A’lo", "Avsat – Adno – A’lo", "Adno – A’lo – Avsat"], "a": 1, "e": "«A-A-A» — quyi, o‘rta, yuqori." }
+    ],
+    "40": [
+      { "q": "Buyuk Ipak yo‘li nima sababdan inqirozga uchradi?", "o": ["Mo‘g‘ullar bosqini tufayli", "Xitoy yo‘lni yopgani uchun", "Jahon savdosi dengiz yo‘llariga ko‘chgani uchun", "Temiryo‘l qurilgani uchun"], "a": 2, "e": "Buyuk geografik kashfiyotlardan so‘ng." },
+      { "q": "O‘zbek xonliklari orqada qolishining asosiy oqibati nima bo‘ldi?", "o": ["Eron tomonidan bosib olinish", "Xitoyga qaram bo‘lish", "Yagona davlatga birlashish", "Rossiya imperiyasi tomonidan bosib olinish"], "a": 3, "e": "1865 — Toshkent, 1868 — Buxoro, 1873 — Xiva, 1876 — Qo‘qon." },
+      { "q": "Qo‘qon xonligi qachon tugatildi?", "o": ["1876-yil", "1865-yil", "1868-yil", "1873-yil"], "a": 0, "e": "Buxoro (1868) va Xiva (1873) esa protektoratga aylandi." }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "topics": {
+    "1": [
+      { "q": "Kolumb Amerikaga qaysi yili yetib keldi?", "o": ["1488-yil", "1492-yil", "1498-yil", "1519-yil"], "a": 1, "e": "Kolumb ispan qirollari xizmatida 1492-yilda Amerikaga yetdi." },
+      { "q": "Hindistonga dengiz yo‘lini kim ochdi?", "o": ["Bartolomeu Diash", "Amerigo Vespuchchi", "Fernan Magellan", "Vasko da Gama"], "a": 3, "e": "Vasko da Gama 1498-yilda Afrika atrofidan Hindistonga suzib bordi." },
+      { "q": "Yevropaliklarning Hindistonga yangi yo‘l izlashiga asosiy sabab nima edi?", "o": ["Usmonlilar Osiyoga savdo yo‘llarini yopib qo‘ygani", "Yevropada ochlik boshlangani", "Rim papasining buyrug‘i", "Xitoyning Yevropaga hujumi"], "a": 0, "e": "Vizantiya qulagach (1453) Usmonlilar O‘rtayer dengizi orqali yo‘llarni yopdi." }
+    ],
+    "2": [
+      { "q": "Manufaktura nima?", "o": ["Mashinalar ishlaydigan fabrika", "Qo‘l mehnatiga asoslangan, mehnat taqsimoti bor yirik korxona", "Savdogarlar uyushmasi", "Qimmatbaho qog‘oz"], "a": 1, "e": "Manufaktura — «qo‘l bilan ishlab chiqarish»." },
+      { "q": "Zamonaviy ko‘rinishdagi ilk bank qayerda paydo bo‘ldi?", "o": ["Londonda", "Parijda", "Genuyada", "Venetsiyada"], "a": 2, "e": "XV asrda Genuyadagi Avliyo Georgiy banki paydo bo‘ldi." },
+      { "q": "Yangi davrda shakllangan tadbirkorlar qatlami qanday ataladi?", "o": ["Dvoryanlar", "Sarroflar", "Yollanma ishchilar", "Burjuaziya"], "a": 3, "e": "Burjuaziya — tadbirkorlar qatlami." }
+    ],
+    "3": [
+      { "q": "Martin Lyuter «95 tezis»ini qachon e’lon qildi?", "o": ["1517-yil", "1453-yil", "1492-yil", "1648-yil"], "a": 0, "e": "1517-yil — Reformatsiya boshlangan yil." },
+      { "q": "Lyuter avvalo nimaga qarshi chiqdi?", "o": ["Qirol hokimiyatiga", "Indulgensiyalar savdosiga", "Ilm-fanga", "Iyezuitlarga"], "a": 1, "e": "Indulgensiya — gunohlar kechirilganlik yorlig‘i." },
+      { "q": "Angliyada anglikan cherkovini kim tuzdi?", "o": ["Yelizaveta I", "Jan Kalvin", "Genrix VIII", "Ignatiy Loyola"], "a": 2, "e": "Genrix VIII papadan ajralib, cherkovga o‘zi boshchilik qildi." }
+    ],
+    "4": [
+      { "q": "«Mona Liza» asari muallifi kim?", "o": ["Rafael Santi", "Mikelanjelo", "Albrext Dyurer", "Leonardo da Vinchi"], "a": 3, "e": "Leonardo da Vinchi — rassom, olim va ixtirochi." },
+      { "q": "Geliotsentrik tizim (Yer Quyosh atrofida aylanadi) muallifi kim?", "o": ["Nikolay Kopernik", "Galileo Galiley", "Jordano Bruno", "Uilyam Shekspir"], "a": 0, "e": "«Kopernik — Quyosh markazda»." },
+      { "q": "«Don Kixot» romanini kim yozgan?", "o": ["Shekspir", "Migel Servantes", "Rable", "Dante"], "a": 1, "e": "Servantes — Ispaniya Uyg‘onish davri yozuvchisi." }
+    ],
+    "5": [
+      { "q": "Angliya burjua inqilobi qachon boshlandi?", "o": ["1603-yil", "1649-yil", "1640-yil", "1688-yil"], "a": 2, "e": "1640-yil — Karl I yangi parlament chaqirdi." },
+      { "q": "Parlament qo‘shiniga kim boshchilik qildi?", "o": ["Karl I", "Vilgelm Oranskiy", "Yelizaveta I", "Oliver Kromvel"], "a": 3, "e": "Kromvel «Yangi namunadagi armiya»ni tuzdi." },
+      { "q": "1688-yilgi «Shonli inqilob» natijasida Angliyada qanday tuzum o‘rnatildi?", "o": ["Konstitutsiyaviy monarxiya", "Mutlaq monarxiya", "Respublika", "Harbiy diktatura"], "a": 0, "e": "1689-yil «Huquqlar to‘g‘risidagi bill» qabul qilindi." }
+    ],
+    "6": [
+      { "q": "O‘ttiz yillik urush qaysi yillarda bo‘lgan?", "o": ["1756–1763", "1618–1648", "1701–1714", "1524–1526"], "a": 1, "e": "«1618 + 30 = 1648»." },
+      { "q": "O‘ttiz yillik urush qaysi sulh bilan yakunlandi?", "o": ["Versal sulhi", "Karlovits sulhi", "Vestfaliya sulhi", "Tilzit sulhi"], "a": 2, "e": "Vestfaliya sulhi (1648) zamonaviy xalqaro munosabatlar tizimini boshladi." },
+      { "q": "Yetti yillik urushda Angliya Fransiyadan qaysi hududlarni tortib oldi?", "o": ["Gollandiya va Belgiya", "Misr va Suriya", "Ispaniya va Portugaliya", "Kanada va Hindiston"], "a": 3, "e": "Yetti yillik urush — 1756–1763-yillar." }
+    ],
+    "7": [
+      { "q": "Bastiliya qachon olindi?", "o": ["1789-yil 14-iyul", "1789-yil 5-may", "1791-yil sentabr", "1792-yil sentabr"], "a": 0, "e": "14-iyul — Fransiyaning milliy bayrami." },
+      { "q": "Fransiyada barcha soliqlarni qaysi tabaqa to‘lagan?", "o": ["Ruhoniylar", "Uchinchi tabaqa", "Dvoryanlar", "Ruhoniylar va dvoryanlar"], "a": 1, "e": "Ruhoniylar va dvoryanlar imtiyozli bo‘lib, soliq to‘lamagan." },
+      { "q": "«Davlat — bu men» degan fransuz qiroli kim?", "o": ["Lyudovik XVI", "Napoleon I", "Lyudovik XIV", "Genrix IV"], "a": 2, "e": "Lyudovik XIV — «Quyosh qirol», Versal saroyi." }
+    ],
+    "8": [
+      { "q": "Yakobinchilar diktaturasining yetakchisi kim edi?", "o": ["Napoleon", "Lyudovik XVI", "Lafayet", "Robespyer"], "a": 3, "e": "Robespyer 1794-yil iyulda qatl etildi." },
+      { "q": "Fransiya qachon respublika deb e’lon qilindi?", "o": ["1792-yil", "1789-yil", "1795-yil", "1799-yil"], "a": 0, "e": "1792-yil sentabrda Konvent respublika e’lon qildi." },
+      { "q": "1795-yil konstitutsiyasiga ko‘ra ijroiya hokimiyat kimga berildi?", "o": ["Konventga", "Direktoriyaga", "Birinchi konsulga", "Qirolga"], "a": 1, "e": "Direktoriya 5 direktordan iborat bo‘lgan." }
+    ],
+    "9": [
+      { "q": "XVIII asrda eng kuchli nemis davlati qaysi bo‘ldi?", "o": ["Bavariya", "Saksoniya", "Prussiya", "Gollandiya"], "a": 2, "e": "Prussiya — Fridrix II Buyuk davrida kuchaydi." },
+      { "q": "Germaniyadagi dehqonlar urushiga kim rahbarlik qilgan?", "o": ["Martin Lyuter", "Fridrix II", "Jan Kalvin", "Tomas Myunser"], "a": 3, "e": "Dehqonlar urushi 1524–1526-yillarda bo‘lgan." },
+      { "q": "Germaniya imperatorini kimlar saylagan?", "o": ["Kurfyurstlar", "Rim papasi", "Shahar kengashlari", "Dehqonlar"], "a": 0, "e": "Imperator hokimiyati zaif edi." }
+    ],
+    "10": [
+      { "q": "Rossiyada birinchi bo‘lib «sar» tojini kiygan hukmdor kim?", "o": ["Pyotr I", "Ivan IV", "Mixail Romanov", "Yekaterina II"], "a": 1, "e": "Ivan IV 1547-yilda podsholik tojini kiydi." },
+      { "q": "Rossiya qachon imperiya deb e’lon qilindi?", "o": ["1547-yil", "1613-yil", "1721-yil", "1783-yil"], "a": 2, "e": "Shimoliy urushdagi g‘alabadan so‘ng Pyotr I imperator bo‘ldi." },
+      { "q": "Yuryev kuni nima?", "o": ["Pyotr I ning tug‘ilgan kuni", "Sankt-Peterburg asos solingan kun", "Opričnina bekor qilingan kun", "Dehqonlar boshqa yer egasiga o‘ta oladigan yagona kun (26-noyabr)"], "a": 3, "e": "Sudebnik dehqonlarning o‘tishini yiliga bir kun bilan chekladi." }
+    ],
+    "11": [
+      { "q": "AQSh Mustaqillik deklaratsiyasi qachon qabul qilingan?", "o": ["1776-yil 4-iyul", "1783-yil", "1787-yil", "1774-yil sentabr"], "a": 0, "e": "4-iyul — AQShning tug‘ilgan kuni." },
+      { "q": "Mustaqillik deklaratsiyasining asosiy muallifi kim?", "o": ["Jorj Vashington", "Tomas Jefferson", "Avraam Linkoln", "Benjamin Franklin"], "a": 1, "e": "Jefferson keyinchalik AQSh prezidenti ham bo‘lgan." },
+      { "q": "Shimoliy Amerikadagi ilk ingliz manzilgohi qaysi?", "o": ["Boston", "Filadelfiya", "Jeymstaun", "Nyu-York"], "a": 2, "e": "Jeymstaun 1607-yilda Virjiniyada tuzilgan." }
+    ],
+    "12": [
+      { "q": "Hokimiyatlar bo‘linishi nazariyasini kim ilgari surgan?", "o": ["Volter", "Russo", "Jon Lokk", "Monteskye"], "a": 3, "e": "Qonun chiqaruvchi, ijro etuvchi va sud hokimiyati." },
+      { "q": "«Ijtimoiy shartnoma» asarining muallifi kim?", "o": ["Jan-Jak Russo", "Didro", "Volter", "Monteskye"], "a": 0, "e": "Russo: hokimiyat manbai — xalq." },
+      { "q": "«Robinzon Kruzo» romanini kim yozgan?", "o": ["Jonatan Svift", "Daniel Defo", "Gyote", "Shiller"], "a": 1, "e": "Defo — Ma’rifat asri ingliz yozuvchisi." }
+    ],
+    "13": [
+      { "q": "Sharq qachongacha Yevropadan oldinda bo‘lgan?", "o": ["XV asr boshigacha", "XIX asr oxirigacha", "XVII asr o‘rtalarigacha", "XIII asrgacha"], "a": 2, "e": "Keyin ekstensiv rivojlanish tufayli orqada qoldi." },
+      { "q": "Ekstensiv rivojlanish nima?", "o": ["Fan inqilobiga asoslangan o‘sish", "Sifat jihatidan o‘sish", "Mashinalashgan ishlab chiqarish", "Faqat miqdoriy o‘sish"], "a": 3, "e": "Ko‘proq yer, ko‘proq odam — sifat o‘zgarishisiz." },
+      { "q": "XVI asrda dunyoning eng aholisi ko‘p va boy qismi qaysi sivilizatsiya edi?", "o": ["Xitoy-konfutsiylik", "Islom", "Hind", "Yapon"], "a": 0, "e": "Xitoy-konfutsiylik sivilizatsiyasi." }
+    ],
+    "14": [
+      { "q": "Manjurlar Pekinni qachon egalladi?", "o": ["1636-yil", "1644-yil", "1757-yil", "1911-yil"], "a": 1, "e": "1644-yil — Chin (Sin) sulolasi hukmronligi boshlandi." },
+      { "q": "Chin (Sin) sulolasi qachongacha hukmronlik qildi?", "o": ["1757-yilgacha", "1842-yilgacha", "1911-yilgacha", "1864-yilgacha"], "a": 2, "e": "Chin — Xitoyning so‘nggi sulolasi." },
+      { "q": "1757-yilda Xitoyda qanday siyosat joriy etildi?", "o": ["Portlarning chet elliklarga ochilishi", "Xristianlikni rasmiy din qilish", "Yerlarni teng bo‘lish", "Bandargohlarni tashqi savdo uchun yopish"], "a": 3, "e": "Faqat Guanchjou porti ochiq qoldi." }
+    ],
+    "15": [
+      { "q": "Panipat jangi qachon bo‘lib o‘tdi?", "o": ["1526-yil 21-aprel", "1530-yil", "1556-yil", "1757-yil"], "a": 0, "e": "Bobur Ibrohim Lodiyni yengib, Boburiylar imperiyasiga asos soldi." },
+      { "q": "Boburiylarning eng buyuk hukmdori, diniy bag‘rikenglik siyosatini yuritgan kim?", "o": ["Humoyun", "Akbar", "Avrangzeb", "Shoh Jahon"], "a": 1, "e": "Akbar (1556–1605) hindlarga jizyani bekor qildi." },
+      { "q": "Toj Mahalni kim qurdirgan?", "o": ["Bobur", "Akbar", "Shoh Jahon", "Jahongir"], "a": 2, "e": "Rafiqasi Mumtoz Mahal xotirasiga." }
+    ],
+    "16": [
+      { "q": "Yaponiyada real hokimiyatga ega harbiy hukmdor qanday atalgan?", "o": ["Daymyo", "Samuray", "Imperator", "Syogun"], "a": 3, "e": "Rasman imperator bo‘lsa-da, real hokimiyat syogunda edi." },
+      { "q": "Tokugava Ieyasu qachon syogun bo‘ldi?", "o": ["1603-yil", "1614-yil", "1592-yil", "1867-yil"], "a": 0, "e": "Poytaxt Edo (hozirgi Tokio) bo‘ldi." },
+      { "q": "Yaponlarni «toshbaqa kemalar» bilan yenggan koreys admirali kim?", "o": ["Kojon", "Li Sunsin", "Toyotomi Xideyosi", "Oda Nobunaga"], "a": 1, "e": "Yaponiya bosqini 1592–1598-yillarda bo‘lgan." }
+    ],
+    "17": [
+      { "q": "Usmonlilar Qohirani qachon egalladi?", "o": ["1453-yil", "1526-yil", "1517-yil", "1683-yil"], "a": 2, "e": "Salim I davrida; «1517 — Qohira va Lyuter»." },
+      { "q": "Usmonlilar imperiyasining «oltin davri» qaysi sulton nomi bilan bog‘liq?", "o": ["Salim I", "Usmon I", "Mahmud II", "Sulaymon Qonuniy"], "a": 3, "e": "Sulaymon Qonuniy (1520–1566)." },
+      { "q": "Usmonlilar imperiyasida bosh vazir qanday atalgan?", "o": ["Sadri a’zam", "Yangichi", "Timar", "Xalifa"], "a": 0, "e": "Yangichilar — qo‘shin tayanchi, timar — yer." }
+    ],
+    "18": [
+      { "q": "Safaviylar davlatiga kim asos solgan?", "o": ["Abbos I", "Ismoil I", "Nodirshoh", "Mir Mahmud"], "a": 1, "e": "Ismoil I 1502-yilda Tabrizni oldi." },
+      { "q": "Safaviylar davlatida qaysi mazhab davlat dini bo‘lgan?", "o": ["Sunniy", "Zardushtiylik", "Shia", "Xristianlik"], "a": 2, "e": "«Safaviy — Shia»." },
+      { "q": "Nodirshoh qachon Eron shohi deb e’lon qilindi?", "o": ["1722-yil", "1747-yil", "1739-yil", "1736-yil"], "a": 3, "e": "«36 da taxt, 47 da taxt ostida»." }
+    ],
+    "19": [
+      { "q": "Napoleon Misrga qachon bostirib kirdi?", "o": ["1798-yil", "1517-yil", "1800-yil", "1574-yil"], "a": 0, "e": "Fransuzlar 1800-yilda Misrni tark etdi." },
+      { "q": "Liviya qachon Usmonlilar tarkibiga qo‘shildi?", "o": ["1517-yil", "1551-yil", "1574-yil", "1510-yil"], "a": 1, "e": "«M-L-T»: Misr (1517), Liviya (1551), Tunis (1574)." },
+      { "q": "Janubiy Afrikada Kap koloniyasini kim tuzdi?", "o": ["Inglizlar", "Portugallar", "Gollandlar", "Fransuzlar"], "a": 2, "e": "Gollandlar 1652-yilda tuzgan; ularning avlodlari — burlar." }
+    ],
+    "20": [
+      { "q": "Dunyodagi ilk temiryo‘l qachon qurildi?", "o": ["1816-yil", "1832-yil", "1836-yil", "1825-yil"], "a": 3, "e": "Stokton–Darlington, Jorj Stefenson parovozi." },
+      { "q": "XIX asrda Buyuk Britaniya qanday nom oldi?", "o": ["«Dunyo ustaxonasi»", "«Dengizlar malikasi»", "«Yevropaning bemor odami»", "«Kunchiqar mamlakat»"], "a": 0, "e": "U dunyo sanoat mahsulotining katta qismini ishlab chiqargan." },
+      { "q": "Chartistlar nima uchun kurashgan?", "o": ["Qullikni bekor qilish uchun", "Umumiy saylov huquqi uchun", "Mustamlakalar uchun", "Monarxiyani tiklash uchun"], "a": 1, "e": "Ular «Xalq xartiyasi»ni ilgari surgan (1836-yildan)." }
+    ],
+    "21": [
+      { "q": "Napoleon qachon imperator deb e’lon qilindi?", "o": ["1799-yil", "1805-yil", "1804-yil", "1815-yil"], "a": 2, "e": "Senat uni «Fransuzlar imperatori Napoleon I» deb e’lon qildi." },
+      { "q": "Napoleonning so‘nggi mag‘lubiyati qaysi jangda bo‘lgan?", "o": ["Austerlis", "Borodino", "Leypsig", "Vaterloo"], "a": 3, "e": "Vaterloo (1815) — so‘ng Muqaddas Yelena oroliga surgun." },
+      { "q": "«Uch imperator jangi» deb qaysi jang ataladi?", "o": ["Austerlis jangi", "Leypsig jangi", "Borodino jangi", "Vaterloo jangi"], "a": 0, "e": "1805-yil — Rossiya va Avstriya birlashgan armiyasi yengildi." }
+    ],
+    "22": [
+      { "q": "Birlashgan Italiya qirolligi qachon tuzildi?", "o": ["1848-yil", "1861-yil", "1870-yil", "1871-yil"], "a": 1, "e": "Qirol — Viktor Emmanuil II." },
+      { "q": "«Temir va qon» siyosati kimga tegishli?", "o": ["Kavur", "Garibaldi", "Otto fon Bismark", "Napoleon III"], "a": 2, "e": "Bismark Germaniyani Prussiya atrofida birlashtirdi (1871)." },
+      { "q": "«Mingta qizil ko‘ylakli» bilan Sitsiliyaga tushgan Italiya qahramoni kim?", "o": ["Kavur", "Viktor Emmanuil II", "Mazzini", "Juzeppe Garibaldi"], "a": 3, "e": "Garibaldi 1860-yilda janubni ozod qildi." }
+    ],
+    "23": [
+      { "q": "Dekabristlar qo‘zg‘oloni qachon bo‘lgan?", "o": ["1825-yil 14-dekabr", "1812-yil 7-sentabr", "1861-yil 19-fevral", "1856-yil"], "a": 0, "e": "Qo‘zg‘olonni Nikolay I qo‘shini bostirdi." },
+      { "q": "Rossiyada krepostnoy huquqni kim bekor qildi?", "o": ["Nikolay I", "Aleksandr II", "Aleksandr I", "Pyotr I"], "a": 1, "e": "1861-yil 19-fevral." },
+      { "q": "Qrim urushi (1853–1856) Rossiya uchun qanday yakunlandi?", "o": ["G‘alaba bilan", "Durang bilan", "Mag‘lubiyat bilan", "Yangi yerlar qo‘shib olish bilan"], "a": 2, "e": "Mag‘lubiyat Rossiyaning qoloqligini ko‘rsatdi va islohotlarni majbur qildi." }
+    ],
+    "24": [
+      { "q": "AQSh fuqarolar urushi qaysi yillarda bo‘lgan?", "o": ["1776–1783", "1853–1856", "1860–1863", "1861–1865"], "a": 3, "e": "Shimol g‘alabasi bilan tugadi." },
+      { "q": "Fuqarolar urushi davridagi AQSh prezidenti kim?", "o": ["Avraam Linkoln", "Jorj Vashington", "Tomas Jefferson", "Garriet Bicher-Stou"], "a": 0, "e": "Linkoln 1860-yilda saylangan, 1865-yilda suiqasdda o‘ldirilgan." },
+      { "q": "Qullikka qarshi harakat qanday ataladi?", "o": ["Chartizm", "Abolitsionizm", "Gumanizm", "Risorjimento"], "a": 1, "e": "Abolitsionizm vakili — Garriet Bicher-Stou." }
+    ],
+    "25": [
+      { "q": "«Ozod qiluvchi» (Libertador) laqabini olgan qahramon kim?", "o": ["Migel Idalgo", "Xose de San-Martin", "Simon Bolivar", "Garibaldi"], "a": 2, "e": "Boliviya davlati uning nomi bilan atalgan." },
+      { "q": "Meksikada mustaqillik uchun qo‘zg‘olonni kim boshladi?", "o": ["Simon Bolivar", "Xose de San-Martin", "Napoleon", "Migel Idalgo"], "a": 3, "e": "1810-yil — «Dolores chaqirig‘i»." },
+      { "q": "Braziliya qachon mustaqil bo‘ldi?", "o": ["1822-yil", "1810-yil", "1811-yil", "1821-yil"], "a": 0, "e": "Braziliya Portugaliyadan imperiya shaklida ajraldi." }
+    ],
+    "26": [
+      { "q": "1857-yilgi qo‘zg‘olonni boshlagan hind askarlari qanday atalgan?", "o": ["Samuraylar", "Sipohiylar", "Yangichilar", "Taypinlar"], "a": 1, "e": "Sipohiylar — ingliz armiyasidagi hind askarlari." },
+      { "q": "Hindiston qachon Buyuk Britaniya mulki deb e’lon qilindi?", "o": ["1757-yil", "1857-yil", "1858-yil", "1877-yil"], "a": 2, "e": "Ost-Indiya kompaniyasi tugatildi, boshqaruv vitse-qirolga o‘tdi." },
+      { "q": "Qo‘zg‘olonchilar qaysi boburiyni hukmdor deb e’lon qildi?", "o": ["Akbar", "Avrangzeb", "Shoh Jahon", "Bahodirshoh II"], "a": 3, "e": "Bahodirshoh II — so‘nggi boburiy." }
+    ],
+    "27": [
+      { "q": "Birinchi afyun urushi qaysi yillarda bo‘lgan?", "o": ["1840–1842", "1856–1860", "1850–1864", "1757–1759"], "a": 0, "e": "Nankin shartnomasi (1842) bilan tugadi." },
+      { "q": "Nankin shartnomasiga ko‘ra Britaniyaga qaysi orol berildi?", "o": ["Tayvan", "Gonkong", "Makao", "Xaynan"], "a": 1, "e": "Shuningdek 5 port ochildi va tovon to‘landi." },
+      { "q": "Taypinlar davlatining poytaxti qaysi shahar edi?", "o": ["Pekin", "Guanchjou", "Nankin", "Shanxay"], "a": 2, "e": "Taypinlar qo‘zg‘oloni 1850–1864-yillarda bo‘lgan." }
+    ],
+    "28": [
+      { "q": "Yaponiyani «ochilishga» majbur qilgan AQSh floti qo‘mondoni kim?", "o": ["Jorj Vashington", "Avraam Linkoln", "Tomas Jefferson", "Kommodor Metyu Perri"], "a": 3, "e": "1854-yilda Yaponiya portlarini ochishga majbur bo‘ldi." },
+      { "q": "Yaponiyada syogunlik qachon tugadi?", "o": ["1867-yil", "1854-yil", "1858-yil", "1603-yil"], "a": 0, "e": "Oxirgi syogun imperator Mutsuxito foydasiga hokimiyatdan voz kechdi." },
+      { "q": "«Meydzi» so‘zi nimani anglatadi?", "o": ["«Kunchiqar mamlakat»", "«Ma’rifatli boshqaruv»", "«Yopiq eshiklar»", "«Buyuk farovonlik»"], "a": 1, "e": "Meydzi islohotlari 1868-yilda boshlandi." }
+    ],
+    "29": [
+      { "q": "1863-yilda Koreya taxtiga chiqqan qirol kim?", "o": ["Li Sunsin", "Li Xa In", "Kojon", "Xon Gen Nre"], "a": 2, "e": "12 yoshli Kojon; hokimiyat otasi tevongun qo‘lida edi." },
+      { "q": "1813-yilda Koreyaning qaysi orolida qo‘zg‘olon bo‘ldi?", "o": ["Xokkaydo", "Tayvan", "Sitsiliya", "Jejudo"], "a": 3, "e": "Dehqonlar va baliqchilar qo‘zg‘oloni." },
+      { "q": "Tevongun Li Xa In qanday tashqi siyosat yuritdi?", "o": ["«Yopiq eshiklar» siyosati", "Ochiq savdo siyosati", "Yaponiya bilan ittifoq", "Xristianlikni qo‘llab-quvvatlash"], "a": 0, "e": "Fransuz (1866) va amerikalik (1871) hujumlar qaytarildi." }
+    ],
+    "30": [
+      { "q": "Usmoniylar imperiyasidagi islohotlar qanday nomlangan?", "o": ["Meydzi", "Tanzimat", "Risorjimento", "Opričnina"], "a": 1, "e": "Tanzimat — «tartibga solish», 1839-yildan." },
+      { "q": "Fransiya Jazoirni qachon bosib oldi?", "o": ["1827-yil", "1840-yil", "1830-yil", "1856-yil"], "a": 2, "e": "«1830 — Gretsiya ketdi, Jazoir ketdi»." },
+      { "q": "XIX asrda Usmoniylar imperiyasi qanday nom bilan atala boshladi?", "o": ["«Dunyo ustaxonasi»", "«Toj marvaridi»", "«Tarki dunyo qirollik»", "«Yevropaning bemor odami»"], "a": 3, "e": "Korrupsiya va qoloqlik tufayli imperiya zaiflashgan edi." }
+    ],
+    "31": [
+      { "q": "Afg‘on davlatiga kim asos solgan?", "o": ["Ahmadshoh Durroniy", "Mir Vaysxon", "Mir Mahmud", "Nodirshoh"], "a": 0, "e": "Nodirshoh o‘limidan keyin, 1747-yilda." },
+      { "q": "Erondagi 1848–1850-yillardagi qo‘zg‘olon qanday ataladi?", "o": ["Sipohiylar qo‘zg‘oloni", "Bobiylar qo‘zg‘oloni", "Taypinlar qo‘zg‘oloni", "Dekabristlar qo‘zg‘oloni"], "a": 1, "e": "Diniy harakat asoschisi — Bob (Sayyid Ali Muhammad)." },
+      { "q": "Eron Kavkazga da’vosidan qaysi shartnoma bilan voz kechdi?", "o": ["Parij shartnomasi", "Nankin shartnomasi", "Turkmanchoy shartnomasi", "Tilzit shartnomasi"], "a": 2, "e": "1826–1828-yillardagi Rossiya bilan urushdan keyin (1828)." }
+    ],
+    "32": [
+      { "q": "Liberiya davlati qachon tuzildi?", "o": ["1816-yil", "1821-yil", "1855-yil", "1847-yil"], "a": 3, "e": "«Liberiya — Liberty (erkinlik)»." },
+      { "q": "Jazoirda fransuzlarga qarshi kurashga kim boshchilik qildi?", "o": ["Amir Abdulqodir", "Muhammad Ali", "Kassa", "Livingston"], "a": 0, "e": "U 15 yildan ortiq kurashib, 1847-yilda yengildi." },
+      { "q": "1855-yilda Efiopiyani birlashtirib, imperator bo‘lgan hukmdor kim?", "o": ["Abdulqodir", "Kassa (Teodros II)", "Menelik", "Muhammad Ali"], "a": 1, "e": "Britaniya aralashuvi bilan 1867–1868-yillarda ag‘darildi." }
+    ]
+  }
+}

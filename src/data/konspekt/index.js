@@ -1,6 +1,8 @@
 import { history6Course } from './tarix6'
 import { worldHistory7Course } from './jahon7'
 import { uzbekHistory7Course } from './ozbekiston7'
+import { worldHistory8Course } from './jahon8'
+import { uzbekHistory8Course } from './ozbekiston8'
 
 // Konspekt asosidagi tarix kurslari. `key` — progress saqlanadigan kalit (useLearningStore).
 // `period` berilsa, dastur sarlavhasi va mavzular ro'yxati kursning o'zidan olinadi.
@@ -9,6 +11,8 @@ export const konspektCourses = {
   // 'tarix-7' kaliti eski darslik darslari bilan bir xil — mavzular tartibi mos, progress saqlanadi.
   'tarix-7': { key: 'tarix-7', grade: '7', track: 'ozbekiston', title: 'O‘zbekiston tarixi', period: 'IV–XV asrlarda O‘zbekiston tarixi', pdf: '/textbooks/tarix-7.pdf', course: uzbekHistory7Course },
   'tarix-7-jahon': { key: 'tarix-7-jahon', grade: '7', track: 'jahon', title: 'Jahon tarixi', period: 'O‘rta asrlar tarixi (V–XV asrlar)', course: worldHistory7Course },
+  'tarix-8': { key: 'tarix-8', grade: '8', track: 'ozbekiston', title: 'O‘zbekiston tarixi', period: 'XV asr oxiri – XIX asr birinchi yarmida O‘zbekiston tarixi', pdf: '/textbooks/tarix-8.pdf', course: uzbekHistory8Course },
+  'tarix-8-jahon': { key: 'tarix-8-jahon', grade: '8', track: 'jahon', title: 'Jahon tarixi', period: 'Yangi davr tarixi (XV asr oxiri – 1870-yil)', course: worldHistory8Course },
 }
 
 // Bir nechta yo'nalishga ega sinflar: sinf bosilganda avval yo'nalish tanlanadi.
@@ -16,6 +20,10 @@ export const historyTracks = {
   7: [
     { id: 'ozbekiston', title: 'O‘zbekiston tarixi', description: 'IV–XV asrlarda O‘zbekiston tarixi: 42 ta konspekt, flashcardlar, oraliq va yakuniy test.' },
     { id: 'jahon', title: 'Jahon tarixi', description: 'O‘rta asrlar jahon tarixi: 44 ta konspekt, flashcardlar, oraliq va yakuniy test.' },
+  ],
+  8: [
+    { id: 'ozbekiston', title: 'O‘zbekiston tarixi', description: 'XV asr oxiri – XIX asr birinchi yarmida O‘zbekiston tarixi: 40 ta konspekt, flashcardlar, oraliq va yakuniy test.' },
+    { id: 'jahon', title: 'Jahon tarixi', description: 'Yangi davr jahon tarixi (XV asr oxiri – 1870-yil): 32 ta konspekt, flashcardlar, oraliq va yakuniy test.' },
   ],
 }
 
