@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Flag, Play, RefreshCcw } from '../components/AppIcons'
 import { useTestStore } from '../store/useTestStore'
 import mathMockData from '../data/mathMockQuestions.json'
@@ -33,6 +33,7 @@ export function MockTestPage() {
   const [previewImage, setPreviewImage] = useState(null)
   const proctor = useExamProctor(() => { setSubmitted(false); setView('catalog'); setAnswers({}); setFlags({}); setRemaining(90 * 60) })
   const completeTest = useTestStore(state => state.completeTest)
+  const finishRef = useRef(null)
   const questions = useMemo(() => verifiedQuestions.filter(question => examKey(question) === selectedVariant).map((question, index) => ({ ...question, number: index + 1 })), [selectedVariant])
   const active = questions[current]
   const examDuration = durationForQuestionCount(questions.length)
@@ -51,10 +52,12 @@ export function MockTestPage() {
     completeTest({ id: Date.now(), testId: `math-uzbmb-${selectedVariant}`, variantId: selectedVariant, type: 'mock', title: `Matematika UZBMB ${selectedVariant}`, score: result.correct, total: questions.length, percent: result.percent, certificateLevel: certificateLevel(result.percent).grade, errors: result.details.filter(item => !item.correct).map(item => ({ ...item, front: item.question, back: item.options[item.correctOption] })) })
   }
 
+  // Taymer tugaganda eng so'nggi javoblar bilan avtomatik yuboriladi.
+  useEffect(() => { finishRef.current = submit })
   useEffect(() => {
     if (submitted || view !== 'exam') return undefined
     const timer = window.setInterval(() => setRemaining(value => {
-      if (value <= 1) { window.clearInterval(timer); window.queueMicrotask(() => setSubmitted(true)); return 0 }
+      if (value <= 1) { window.clearInterval(timer); window.queueMicrotask(() => finishRef.current?.()); return 0 }
       return value - 1
     }), 1000)
     return () => window.clearInterval(timer)
