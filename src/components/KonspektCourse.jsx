@@ -1,5 +1,6 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
 import { HiArrowLeft as FiArrowLeft, HiArrowRight as FiArrowRight, HiArrowsExpand as FiExpand, HiBookOpen as FiBookOpen, HiCheck as FiCheck, HiClock as FiClock, HiCollection as FiLayers, HiLightBulb as FiBulb, HiPencilAlt as FiEdit, HiRefresh as FiRefresh, HiX as FiX } from 'react-icons/hi'
+import { ShareResultButtons } from './ShareResultButtons'
 
 const STEPS = [['read', 'Konspekt', FiBookOpen], ['cards', 'Flashcardlar', FiLayers], ['quiz', 'Mavzu testi', FiEdit]]
 const LETTERS = ['A', 'B', 'C', 'D']
@@ -133,6 +134,7 @@ export function ProctoredExam({ exam, topics, durationSeconds, onComplete, onClo
   const [checked, setChecked] = useState(false)
   const [remaining, setRemaining] = useState(durationSeconds)
   const finishRef = useRef(null)
+  const resultCardRef = useRef(null)
   const { questions } = exam
   const score = questions.filter((question, index) => answers[index] === question.answer).length
   const percent = Math.round(score / questions.length * 100)
@@ -176,7 +178,8 @@ export function ProctoredExam({ exam, topics, durationSeconds, onComplete, onClo
 
     <div className="mx-auto max-w-3xl px-4 pb-16 pt-6">
       {checked && <div className="mb-8 rounded-3xl bg-white p-6 shadow-sm dark:bg-slate-900">
-        <div className="flex flex-wrap items-center gap-5"><span className="grid h-20 w-20 shrink-0 place-items-center rounded-full bg-orange-100 text-xl font-black text-orange-600 dark:bg-orange-500/15">{score}/{questions.length}</span><div><p className={`text-xl font-black ${grade.tone}`}>{percent}% · {grade.label}</p><p className="mt-1 text-sm text-slate-500">{grade.text}</p>{remaining === 0 && <p className="mt-1 text-xs font-bold text-red-500">Vaqt tugadi — javoblar avtomatik yuborildi.</p>}</div></div>
+        <div ref={resultCardRef} className="flex flex-wrap items-center gap-5 bg-white p-1 dark:bg-slate-900"><span className="grid h-20 w-20 shrink-0 place-items-center rounded-full bg-orange-100 text-xl font-black text-orange-600 dark:bg-orange-500/15">{score}/{questions.length}</span><div><p className="text-xs font-bold uppercase tracking-wider text-orange-500">Certificate Academy · {exam.title}</p><p className={`text-xl font-black ${grade.tone}`}>{percent}% · {grade.label}</p><p className="mt-1 text-sm text-slate-500">{grade.text}</p>{remaining === 0 && <p className="mt-1 text-xs font-bold text-red-500">Vaqt tugadi — javoblar avtomatik yuborildi.</p>}</div></div>
+        <ShareResultButtons cardRef={resultCardRef} fileName={`natija-${exam.title}`} shareText={`"${exam.title}" testida ${percent}% (${grade.label}) natija qildim!`} className="mt-5"/>
         {weakTopics.length > 0 && <div className="mt-5"><p className="text-sm font-bold">Qayta o‘qish tavsiya etiladigan mavzular:</p><div className="mt-3 flex flex-wrap gap-2">{weakTopics.map(topic => <button type="button" key={topic.id} onClick={() => onOpenTopic(topic.id)} className="rounded-xl border border-orange-200 bg-white px-3 py-2 text-left text-xs font-semibold text-orange-700 transition hover:bg-orange-50 dark:border-orange-500/30 dark:bg-slate-900 dark:text-orange-300">{topic.id}. {topic.title}</button>)}</div></div>}
         <div className="mt-6 flex flex-wrap gap-3">
           <button type="button" onClick={onRetry} className="btn-secondary"><FiRefresh/> Yangi savollar bilan qayta topshirish</button>
