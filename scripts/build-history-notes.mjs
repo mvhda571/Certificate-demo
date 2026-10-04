@@ -3,7 +3,6 @@ import path from 'node:path'
 
 const sources = [
   ['5', 'Tarixdan_hikoyalar_5sinf_TOLIQ_konspekt.txt'],
-  ['6', 'Tarix_6sinf_TOLIQ_konspekt.txt'],
 ]
 
 const fifthGradeCorrections = {

@@ -43,3 +43,5 @@ Bosqichlar **"47–65, 65–68, 73–79"**. Paxta sababi — **AQSh urushi (1861
 1. Rossiya bosqinining iqtisodiy sababi? — Paxta xomashyosi va bozorga ehtiyoj.
 2. Oqmachit qachon bosib olindi? — 1853-yil.
 3. Bosqinning uchinchi bosqichi? — 1873–1879.
+
+

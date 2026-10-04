@@ -26,15 +26,19 @@ import { UzbekGradePage } from './pages/UzbekGradePage'
 import { LiteratureGradesPage } from './pages/LiteratureGradesPage'
 import { LiteratureGradePage } from './pages/LiteratureGradePage'
 import { MilestoneController } from './components/MilestoneController'
+import { BottomNav } from './components/BottomNav'
+import { MistakesPage } from './pages/MistakesPage'
 
 function App() {
   const { darkMode, language } = useThemeStore()
-  const [menuOpen, setMenuOpen] = useState(false)
   const [examFullscreen, setExamFullscreen] = useState(Boolean(document.fullscreenElement))
   const isAuthenticated = useUserStore((state) => state.isAuthenticated)
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', darkMode)
+    // Brauzer (ayniqsa planshetlarda) sahifani o'z xohishicha qoraytirmasligi uchun tanlangan rejimni aniq bildiramiz.
+    document.querySelector('meta[name="color-scheme"]')?.setAttribute('content', darkMode ? 'only dark' : 'only light')
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', darkMode ? '#020617' : '#F8FAFC')
   }, [darkMode])
   useEffect(() => { i18n.changeLanguage(language) }, [language])
   useEffect(() => { const syncFullscreen = () => setExamFullscreen(Boolean(document.fullscreenElement)); document.addEventListener('fullscreenchange', syncFullscreen); return () => document.removeEventListener('fullscreenchange', syncFullscreen) }, [])
@@ -47,10 +51,11 @@ function App() {
     <BrowserRouter>
       <div className="min-h-screen bg-[#F8FAFC] text-slate-950 transition-colors dark:bg-slate-950 dark:text-slate-100">
         <div className={`mx-auto flex min-h-screen max-w-[1600px] ${examFullscreen ? 'p-0' : 'gap-6 p-3 sm:p-5 lg:p-8'}`}>
-          {!examFullscreen && <Sidebar open={menuOpen} onClose={() => setMenuOpen(false)} />}
+          {!examFullscreen && <Sidebar />}
 
-          <main className="min-w-0 flex-1">
-            {!examFullscreen && <PageHeader onMenu={() => setMenuOpen(true)} />}
+          {/* Pastki menyu ostida kontent qolib ketmasligi uchun mobil ekranda pastdan joy qoldiriladi. */}
+          <main className={`min-w-0 flex-1 ${examFullscreen ? '' : 'pb-[calc(5rem+env(safe-area-inset-bottom))] lg:pb-0'}`}>
+            {!examFullscreen && <PageHeader />}
 
             <AnimatePresence mode="wait">
               <motion.div
@@ -81,6 +86,7 @@ function App() {
                   <Route path="/tutor" element={<TutorPage />} />
                   <Route path="/profile" element={<ProfilePage />} />
                   <Route path="/results" element={<ResultsPage />} />
+                  <Route path="/mistakes" element={<MistakesPage />} />
                   <Route path="/leaderboard" element={<LeaderboardPage />} />
                   <Route path="/login" element={<HomePage />} />
                   <Route path="/analytics" element={<ProfilePage />} />
@@ -90,6 +96,7 @@ function App() {
             </AnimatePresence>
             <MilestoneController />
           </main>
+          {!examFullscreen && <BottomNav />}
         </div>
       </div>
     </BrowserRouter>

@@ -10,15 +10,21 @@ export function shuffle(items) {
   return result
 }
 
-const normalize = (text) => String(text).toLowerCase().replace(/[.«»"“”]/g, '').replace(/\s+/g, ' ').trim()
+// Avtomatik tuziladigan savollar matni (konspekt tiliga qarab).
+const TEMPLATES = {
+  uz: { which: text => `Qaysi tushuncha haqida gap ketmoqda: ${text}?`, find: text => `${text} — to‘g‘ri javobni toping.` },
+  ru: { which: text => `О каком понятии идёт речь: ${text}?`, find: text => `${text} — выберите правильный ответ.` },
+}
+
+const normalize =(text) => String(text).toLowerCase().replace(/[.«»"“”]/g, '').replace(/\s+/g, ' ').trim()
 const trimDot = (text) => String(text).trim().replace(/\.$/, '')
 const wordCount = (text) => String(text).trim().split(/\s+/).length
 
 // Javob turini aniqlash: noto'g'ri variantlar ham shu turdan olinadi.
 function answerKind(text) {
   const value = String(text).trim()
-  if (/^(mil\.\s*avv\.\s*|milodiy\s*)?\d/i.test(value) && /yil|asr|ming yillik|\d\s*[–-]\s*\d/i.test(value) && wordCount(value) <= 8) return 'date'
-  if (/^[IVXL]+(\s*[–-]\s*[IVXL]+)?\s+asr/.test(value)) return 'date'
+  if (/^(mil\.\s*avv\.\s*|milodiy\s*|до н\.\s*э\.\s*|около\s*)?\d/i.test(value) && /yil|asr|ming yillik|год|г\.|век|в\.|тыс|\d\s*[–-]\s*\d/i.test(value) && wordCount(value) <= 8) return 'date'
+  if (/^[IVXL]+(\s*[–-]\s*[IVXL]+)?\s+(asr|век|в\.)/.test(value)) return 'date'
   if (/^\d/.test(value)) return 'number'
   const words = wordCount(value)
   if (words <= 3) return 'short'
@@ -27,9 +33,10 @@ function answerKind(text) {
 }
 
 // Teskari savol ("Qaysi tushuncha...?") faqat haqiqiy atamalar uchun: qisqa, yilsiz.
-const isTermCard = (card) => !card.front.includes('?') && !/[«»"\d]|hiyla/i.test(card.front) && wordCount(card.front) <= 3 && !/\d/.test(card.back)
+const MNEMONIC = /hiyla|при[её]м|запомн/i
+const isTermCard = (card) => !card.front.includes('?') && !/[«»"\d]/.test(card.front) && !MNEMONIC.test(card.front) && wordCount(card.front) <= 3 && !/\d/.test(card.back)
 // Eslab qolish hiylalari kartada qoladi, lekin test savoliga aylantirilmaydi.
-const isMnemonicCard = (card) => /hiyla/i.test(card.front) || /^«.*»$/.test(card.front.trim())
+const isMnemonicCard = (card) => MNEMONIC.test(card.front) || /^«.*»$/.test(card.front.trim())
 
 // Noto'g'ri variantlar ma'noga yaqin bo'lishi uchun avval shu mavzudan, keyin qo'shni mavzulardan,
 // so'ng butun kursdan — va har doim imkon qadar javob bilan bir xil turdan (sana, son, nom...) olinadi.
@@ -57,14 +64,15 @@ function pickDistractors(correct, candidates, kind, topicId) {
   return picked
 }
 
-function questionFromCard(card, pool) {
+function questionFromCard(card, pool, lang) {
+  const template = TEMPLATES[lang] || TEMPLATES.uz
   const reverse = isTermCard(card) && wordCount(card.back) >= 2 && Math.random() < 0.4
   if (reverse) {
     const candidates = pool.filter(item => isTermCard(item)).map(item => ({ value: item.front, topicId: item.topicId }))
     const distractors = pickDistractors(card.front, candidates, answerKind(card.front), card.topicId)
     if (distractors.length < 3) return null
     return {
-      text: `Qaysi tushuncha haqida gap ketmoqda: ${trimDot(card.back).includes('«') ? trimDot(card.back) : `«${trimDot(card.back)}»`}?`,
+      text: template.which(trimDot(card.back).includes('«') ? trimDot(card.back) : `«${trimDot(card.back)}»`),
       options: [trimDot(card.front), ...distractors], answer: 0,
       explanation: `${card.front} — ${trimDot(card.back)}.`, topicId: card.topicId,
     }
@@ -73,7 +81,7 @@ function questionFromCard(card, pool) {
   const distractors = pickDistractors(card.back, pool.map(item => ({ value: item.back, topicId: item.topicId })), kind, card.topicId)
   if (distractors.length < 3) return null
   const front = trimDot(card.front)
-  const text = front.endsWith('?') ? front : front.includes('«') ? `${front} — to‘g‘ri javobni toping.` : `«${front}» — to‘g‘ri javobni toping.`
+  const text = front.endsWith('?') ? front : template.find(front.includes('«') ? front : `«${front}»`)
   return { text, options: [trimDot(card.back), ...distractors], answer: 0, explanation: `${trimDot(card.front)} — ${trimDot(card.back)}.`, topicId: card.topicId }
 }
 
@@ -90,8 +98,9 @@ const factsOf = (topics) => topics.flatMap(topic => topic.flashcards.filter(card
  * @param {Array} params.allTopics   — butun kurs (noto'g'ri variantlar va zaxira savollar uchun)
  * @param {Array} params.authored    — qo'lda yozilgan savollar
  * @param {number} params.size       — kerakli savollar soni
+ * @param {string} params.lang       — konspekt tili (savol shablonlari uchun)
  */
-export function buildQuestionSet({ topics, allTopics = topics, authored = [], size }) {
+export function buildQuestionSet({ topics, allTopics = topics, authored = [], size, lang = 'uz' }) {
   const pool = factsOf(allTopics)
   const result = []
   const seenText = new Set()
@@ -106,7 +115,7 @@ export function buildQuestionSet({ topics, allTopics = topics, authored = [], si
   // Qo'lda yozilgan savollar ko'pi bilan yarmini tashkil qiladi — qolgani har safar yangidan tuziladi.
   const authoredPool = shuffle(authored)
   authoredPool.slice(0, Math.ceil(size / 2)).forEach(add)
-  shuffle(factsOf(topics)).forEach(card => add(questionFromCard(card, pool)))
+  shuffle(factsOf(topics)).forEach(card => add(questionFromCard(card, pool, lang)))
   authoredPool.slice(Math.ceil(size / 2)).forEach(add)
 
   // Mavzu kartalari yetmasa, oldingi mavzulardan takrorlash savollari qo'shiladi.
@@ -114,7 +123,7 @@ export function buildQuestionSet({ topics, allTopics = topics, authored = [], si
     const topicIds = new Set(topics.map(topic => topic.id))
     const lastId = Math.max(...topics.map(topic => topic.id))
     const review = allTopics.filter(topic => !topicIds.has(topic.id) && topic.id < lastId).reverse()
-    for (const card of factsOf(review)) { if (result.length >= size) break; add(questionFromCard(card, pool)) }
+    for (const card of factsOf(review)) { if (result.length >= size) break; add(questionFromCard(card, pool, lang)) }
   }
 
   return shuffle(result).map(shuffleOptions)

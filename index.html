@@ -3,7 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/certificate-favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!-- Sayt o'z dark mode'iga ega: brauzerning majburiy qoraytirishini (Chrome/Samsung Internet) o'chiradi. -->
+    <meta name="color-scheme" content="only light" />
+    <meta name="theme-color" content="#F8FAFC" />
+    <script>
+      try {
+        if (JSON.parse(localStorage.getItem('academy-theme') || '{}')?.state?.darkMode) {
+          document.documentElement.classList.add('dark')
+          document.querySelector('meta[name="color-scheme"]').setAttribute('content', 'only dark')
+        }
+      } catch { /* standart: light */ }
+    </script>
     <meta name="referrer" content="no-referrer-when-downgrade" />
     <title>Certificate</title>
   </head>

@@ -9,6 +9,7 @@ import { curriculum } from '../data/curriculum'
 import { useLearningStore } from '../store/useLearningStore'
 import { useTestStore } from '../store/useTestStore'
 import { MilestoneTests } from './MilestoneTests'
+import { wrongAnswers } from '../store/useMistakesStore'
 
 const configs = {
   tarix: { grades: historyGrades, accent: 'orange' },
@@ -37,8 +38,8 @@ function MilestoneExam({ exam, subjectKey, onClose }) {
   const score = exam.questions.filter((question, index) => answers[index] === question.answer).length
   const submit = () => {
     const percent = Math.round(score / exam.questions.length * 100)
-    const errors = exam.questions.filter((question, index) => answers[index] !== question.answer)
-    completeTest({ id: Date.now(), title: exam.title, testId: subjectKey, type: exam.type, score, total: exam.questions.length, percent, errors })
+    const errors = wrongAnswers(exam.questions, answers)
+    completeTest({ id: Date.now(), title: exam.title, testId: subjectKey, type: exam.type, score, total: exam.questions.length, percent, questions: exam.questions, errors })
     if (exam.type === 'final') completeCourse(subjectKey)
     setResult({ score, percent })
   }

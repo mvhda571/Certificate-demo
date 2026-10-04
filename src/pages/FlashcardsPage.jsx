@@ -4,7 +4,7 @@ import { useAcademyStore } from '../store/academyStore'
 import { isCardDue, useFlashcardDeck } from '../hooks/useFlashcardDeck'
 
 export function FlashcardsPage() {
-  const { allCards, cardSchedule, dueCards, nextDueInDays } = useFlashcardDeck()
+  const { allCards, cardSchedule, dueCards, nextDueInDays } = useFlashcardDeck({ localized: true })
   const {flashcardStatus,setFlashcardStatus}=useAcademyStore(); const [batchIds,setBatchIds]=useState([]); const [round,setRound]=useState({}); const [index,setIndex]=useState(0); const [flipped,setFlipped]=useState(false)
   // "Bilaman" deb belgilangan karta butunlay chetlanmaydi — rejalashtirilgan
   // sanasi (dueAt) kelganda takrorlash to'plamiga qaytadi (spaced repetition).

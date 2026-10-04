@@ -1,7 +1,11 @@
 // Konspekt (.md) fayllari, testlar va flashcardlardan interaktiv kurs yig'adi.
-const QUICK_CHECK = 'Tez tekshiruv'
-const TERMS = 'Atamalar'
-const MAX_FLASHCARDS = 5
+// "Tez tekshiruv" bo'limi kursda ko'rsatilmaydi — uning o'rnini mavzu testi bosadi.
+const QUICK_CHECK = ['Tez tekshiruv', 'Быстрая проверка']
+
+const EXAM_TEXT = {
+  uz: { midterm: 'Oraliq test', final: 'Yakuniy test', midtermScope: last => `1–${last}-mavzular`, finalScope: count => `Barcha ${count} ta mavzu` },
+  ru: { midterm: 'Промежуточный тест', final: 'Итоговый тест', midtermScope: last => `темы 1–${last}`, finalScope: count => `Все темы (${count})` },
+}
 
 function parseFrontmatter(raw) {
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/)
@@ -20,29 +24,10 @@ function parseSections(body) {
   })
 }
 
-const stripBold = (text) => text.replace(/\*\*/g, '').trim()
-
-// Zaxira: metodist kartalari bo'lmasa, "Tez tekshiruv" va "Atamalar"dan kartalar olinadi.
-function makeFlashcards(sections) {
-  const quick = sections.find(section => section.heading === QUICK_CHECK)?.body.split('\n') || []
-  const cards = quick
-    .map(line => line.match(/^\d+\.\s*(.+?)\s+—\s+(.+)$/))
-    .filter(Boolean)
-    .map(([, front, back]) => ({ front: stripBold(front), back: stripBold(back) }))
-  const terms = sections.find(section => section.heading === TERMS)?.body.split('\n') || []
-  for (const line of terms) {
-    if (cards.length >= MAX_FLASHCARDS) break
-    const match = line.match(/^-\s*\*\*(.+?)\*\*\s+—\s+(.+)$/)
-    if (!match) continue
-    const back = stripBold(match[2])
-    cards.push({ front: `«${match[1]}» nima?`, back: back.charAt(0).toUpperCase() + back.slice(1) })
-  }
-  return cards.slice(0, MAX_FLASHCARDS)
-}
-
 const toQuestion = ({ q, o, a, e, t }) => ({ text: q, options: o, answer: a, explanation: e, topicId: t })
 
-export function buildCourse({ files, quiz, exams, flashcards = {}, midtermLastTopic }) {
+export function buildCourse({ files, quiz, exams, flashcards, midtermLastTopic, lang = 'uz' }) {
+  const text = EXAM_TEXT[lang] || EXAM_TEXT.uz
   const topics = Object.entries(files)
     .map(([path, raw]) => {
       const { meta, body } = parseFrontmatter(raw)
@@ -54,8 +39,8 @@ export function buildCourse({ files, quiz, exams, flashcards = {}, midtermLastTo
         title: meta.title,
         section: meta.bolim,
         slug: meta.slug || path.split('/').pop().replace(/\.md$/, ''),
-        sections: sections.filter(section => section.heading !== QUICK_CHECK),
-        flashcards: flashcards[id]?.map(([front, back]) => ({ front, back })) || makeFlashcards(sections),
+        sections: sections.filter(section => !QUICK_CHECK.includes(section.heading)),
+        flashcards: (flashcards[id] || []).map(([front, back]) => ({ front, back })),
         quiz: (quiz.topics[id] || []).map(toQuestion),
       }
     })
@@ -63,7 +48,7 @@ export function buildCourse({ files, quiz, exams, flashcards = {}, midtermLastTo
 
   return {
     topics,
-    midterm: { title: 'Oraliq test', scope: `1–${midtermLastTopic}-mavzular`, lastTopic: midtermLastTopic, questions: exams.midterm.map(toQuestion) },
-    final: { title: 'Yakuniy test', scope: `Barcha ${topics.length} ta mavzu`, lastTopic: topics.length, questions: exams.final.map(toQuestion) },
+    midterm: { title: text.midterm, scope: text.midtermScope(midtermLastTopic), lastTopic: midtermLastTopic, questions: exams.midterm.map(toQuestion) },
+    final: { title: text.final, scope: text.finalScope(topics.length), lastTopic: topics.length, questions: exams.final.map(toQuestion) },
   }
 }

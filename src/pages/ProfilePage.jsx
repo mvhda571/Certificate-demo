@@ -1,13 +1,16 @@
-import { Bell, Send, Trash2, User } from '../components/AppIcons'
+import { AlertCircle, ArrowRight, Bell, Send, User } from '../components/AppIcons'
 import { useForm } from 'react-hook-form'
 import { toast } from 'sonner'
+import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { GoogleAccountCard } from '../components/GoogleAccountCard'
 import { useUserStore } from '../store/useUserStore'
-import { useTestStore } from '../store/useTestStore'
+import { useMistakesStore } from '../store/useMistakesStore'
 
 export function ProfilePage() {
+  const { t } = useTranslation()
   const { profile, points, updateProfile, notifications, toggleNotifications } = useUserStore()
-  const { errorLog, clearErrors } = useTestStore()
+  const mistakeCount = useMistakesStore(state => state.mistakes.length)
   const { register, handleSubmit, formState: { errors } } = useForm({ defaultValues: profile })
   const submit = data => { updateProfile(data); toast.success('Profil saqlandi') }
   return <div className="space-y-6">
@@ -20,7 +23,7 @@ export function ProfilePage() {
     <div className="grid gap-6">
       <form onSubmit={handleSubmit(submit)} className="card-panel p-6"><div className="flex items-center gap-2"><User className="text-blue-600"/><h2 className="font-bold">Profil sozlamalari</h2></div><div className="mt-5 space-y-4"><Field label="Ism" error={errors.name?.message}><input {...register('name',{required:'Ism majburiy',minLength:{value:3,message:'Kamida 3 ta belgi'}})} className="form-input"/></Field><Field label="Telegram username" error={errors.telegram?.message}><input placeholder="@username" {...register('telegram',{pattern:{value:/^$|^@[a-zA-Z0-9_]{5,}$/,message:'@username formatida kiriting'}})} className="form-input"/></Field><Field label="Maqsad daraja"><select {...register('targetGrade')} className="form-input"><option>A+</option><option>A</option><option>B+</option><option>B</option><option>C+</option><option>C</option><option>B1</option><option>B2</option><option>C1</option></select></Field><button className="btn-primary w-full"><Send/> Saqlash va botga ulash</button></div></form>
     </div>
-    <section className="card-panel p-6"><div className="flex items-center justify-between"><div><p className="eyebrow text-orange-500">My Mistakes</p><h2 className="mt-1 text-xl font-bold">Xatolar tahlili</h2></div><button onClick={clearErrors} className="icon-button"><Trash2/></button></div>{errorLog.length ? <div className="mt-5 grid gap-3">{errorLog.map((question,index)=><details key={`${question.id}-${index}`} className="rounded-xl border border-slate-200 p-4 dark:border-slate-700"><summary className="cursor-pointer font-semibold">{question.text}</summary><p className="mt-3 text-sm text-slate-500">{question.explanation}</p><a href="https://www.youtube.com/results?search_query=matematika+darslari" target="_blank" rel="noreferrer" className="mt-3 inline-block text-sm font-bold text-blue-600">Video yechimni ko‘rish →</a></details>)}</div> : <p className="mt-6 text-center text-sm text-slate-500">Test yakunlangach xato savollar tushuntirishlari shu yerda saqlanadi.</p>}</section>
+    <Link to="/mistakes" className="group card-panel flex items-center gap-4 p-5 transition hover:border-red-300 sm:p-6"><span className="icon-box bg-red-50 text-red-500 dark:bg-red-500/10"><AlertCircle/></span><div className="min-w-0 flex-1"><h2 className="font-bold">{t('mistakes.profileLink')}</h2><p className="mt-1 text-sm text-slate-500">{t('mistakes.profileLinkHint', { count: mistakeCount })}</p></div><ArrowRight className="h-5 w-5 shrink-0 text-red-500 transition group-hover:translate-x-1"/></Link>
   </div>
 }
 

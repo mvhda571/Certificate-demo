@@ -1,10 +1,10 @@
-import { historyGrades as history } from '../data/historyCurriculum.js'
+import { konspektCourses } from '../data/konspekt'
 import math from '../data/mathCurriculum.json'
 import uzbek from '../data/uzbekCurriculum.json'
 import literature from '../data/literatureCurriculum.json'
 
 export const examSubjects = [
-  { id: 'tarix', title: 'O‘zbekiston tarixi', color: 'orange' },
+  { id: 'tarix', title: 'Tarix', color: 'orange' },
   { id: 'matematika', title: 'Matematika', color: 'blue' },
   { id: 'ona-tili', title: 'Ona tili', color: 'violet' },
   { id: 'adabiyot', title: 'Adabiyot', color: 'rose' },
@@ -19,11 +19,13 @@ const shuffle = values => {
   return result
 }
 
-const historyLessons = Object.entries(history).flatMap(([grade, data]) => data.lessons.map(lesson => ({ ...lesson, grade })))
 const jsonLessons = data => Object.entries(data).flatMap(([grade, value]) => (value.lessons || []).map(lesson => ({ ...lesson, grade })))
 
+// Tarix testi 6–11-sinf konspekt kurslaridagi tayyor savollardan tuziladi.
+const historyQuestions = Object.values(konspektCourses).flatMap(({ grade, title, course }) =>
+  course.topics.flatMap(topic => topic.quiz.map(question => ({ ...question, grade, topic: `${title}: ${topic.title}` }))))
+
 const pools = {
-  tarix: historyLessons,
   matematika: jsonLessons(math),
   'ona-tili': jsonLessons(uzbek),
   adabiyot: jsonLessons(literature),
@@ -48,15 +50,25 @@ function createQuestion(subject, lessons, lesson, difficulty, index) {
   }
 }
 
+function authoredQuestion(subject, question, difficulty, index) {
+  const options = shuffle(question.options)
+  return {
+    id: `${subject}-${Date.now()}-${index}`,
+    text: question.text, options, answer: options.indexOf(question.options[question.answer]),
+    difficulty, topic: question.topic, grade: question.grade, explanation: question.explanation,
+  }
+}
+
 export function generateExam(subject, total = 20) {
-  const lessons = pools[subject] || []
   const counts = { easy: Math.round(total * .2), medium: Math.round(total * .5) }
   counts.hard = total - counts.easy - counts.medium
-  const selected = shuffle(lessons).slice(0, total)
   const difficulties = shuffle([
     ...Array(counts.easy).fill('easy'),
     ...Array(counts.medium).fill('medium'),
     ...Array(counts.hard).fill('hard'),
   ])
+  if (subject === 'tarix') return shuffle(historyQuestions).slice(0, total).map((question, index) => authoredQuestion(subject, question, difficulties[index], index))
+  const lessons = pools[subject] || []
+  const selected = shuffle(lessons).slice(0, total)
   return selected.map((lesson, index) => createQuestion(subject, lessons, lesson, difficulties[index], index))
 }
