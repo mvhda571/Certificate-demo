@@ -9,8 +9,21 @@ import { uzbekHistory10Course } from './ozbekiston10'
 import { uzbekHistory11Course } from './ozbekiston11'
 import { worldHistory10Course } from './jahon10'
 import { worldHistory11Course } from './jahon11'
+import { literature5Course } from './adabiyot5'
+import { literature6Course } from './adabiyot6'
+import { literature7Course } from './adabiyot7'
+import { literature8Course } from './adabiyot8'
+import { literature9Course } from './adabiyot9'
+import { literature10Course } from './adabiyot10'
+import { literature11Course } from './adabiyot11'
+import { uzbekLanguage5Course } from './onatili5'
+import { uzbekLanguage6Course } from './onatili6'
+import { uzbekLanguage7Course } from './onatili7'
+import { uzbekLanguage8Course } from './onatili8'
+import { uzbekLanguage9Course } from './onatili9'
 
-// Konspekt asosidagi tarix kurslari. `key` — progress saqlanadigan kalit (useLearningStore).
+// Konspekt asosidagi kurslar. `key` — progress saqlanadigan kalit (useLearningStore).
+// `subject` berilmasa — tarix kursi.
 // `period` berilsa, dastur sarlavhasi va mavzular ro'yxati kursning o'zidan olinadi.
 // `dir` — konspekt papkasi (tarjimalar `<dir>/ru/` ichida), `ru` — sarlavhalarning ruscha varianti.
 export const konspektCourses = {
@@ -37,7 +50,38 @@ export const konspektCourses = {
     ru: { title: 'История Узбекистана', period: 'История независимого Узбекистана (с 1991 года)' } },
   'tarix-11-jahon': { key: 'tarix-11-jahon', dir: 'jahon-11', grade: '11', track: 'jahon', title: 'Jahon tarixi', period: 'XX asr oxiri – XXI asr boshlarida jahon tarixi', course: worldHistory11Course,
     ru: { title: 'Всемирная история', period: 'Всемирная история конца XX – начала XXI века' } },
+  'adabiyot-5': { key: 'adabiyot-5', dir: 'adabiyot-5', grade: '5', subject: 'adabiyot', title: 'Adabiyot', period: 'Adabiyot – so‘z san’ati', course: literature5Course,
+    ru: { title: 'Литература', period: 'Литература – искусство слова' } },
+  // Eski 6-sinf darslik darslari 'adabiyot-6' kalitida — konspekt progressi ular bilan aralashmasligi uchun alohida kalit.
+  'adabiyot-6': { key: 'adabiyot-6-konspekt', dir: 'adabiyot-6', grade: '6', subject: 'adabiyot', title: 'Adabiyot', period: 'Adabiyot – ma’naviyat xazinasi', course: literature6Course,
+    ru: { title: 'Литература', period: 'Литература – сокровищница духовности' } },
+  'adabiyot-7': { key: 'adabiyot-7-konspekt', dir: 'adabiyot-7', grade: '7', subject: 'adabiyot', title: 'Adabiyot', period: 'Adabiyot – badiiy so‘z qudrati', course: literature7Course,
+    ru: { title: 'Литература', period: 'Литература – сила художественного слова' } },
+  'adabiyot-8': { key: 'adabiyot-8-konspekt', dir: 'adabiyot-8', grade: '8', subject: 'adabiyot', title: 'Adabiyot', period: 'Adabiyot – xalq ruhining ko‘zgusi', course: literature8Course,
+    ru: { title: 'Литература', period: 'Литература – зеркало души народа' } },
+  // Eski 9-sinf darslik darslari 'adabiyot-9' kalitida — konspekt progressi alohida.
+  'adabiyot-9': { key: 'adabiyot-9-konspekt', dir: 'adabiyot-9', grade: '9', subject: 'adabiyot', title: 'Adabiyot', period: 'Adabiyot – ruhiy kamolot vositasi', course: literature9Course,
+    ru: { title: 'Литература', period: 'Литература – средство духовного совершенства' } },
+  // Eski 10-sinf darslik darslari 'adabiyot-10' kalitida — konspekt progressi alohida.
+  'adabiyot-10': { key: 'adabiyot-10-konspekt', dir: 'adabiyot-10', grade: '10', subject: 'adabiyot', title: 'Adabiyot', period: 'Adabiyot – ma’naviyatni yuksaltirish vositasi', course: literature10Course,
+    ru: { title: 'Литература', period: 'Литература – средство духовного возвышения' } },
+  // Eski 11-sinf darslik darslari 'adabiyot-11' kalitida — konspekt progressi alohida.
+  'adabiyot-11': { key: 'adabiyot-11-konspekt', dir: 'adabiyot-11', grade: '11', subject: 'adabiyot', title: 'Adabiyot', period: 'Adabiyot – qadimdan bugungacha', course: literature11Course,
+    ru: { title: 'Литература', period: 'Литература – от древности до наших дней' } },
+  'ona-tili-5': { key: 'ona-tili-5-konspekt', dir: 'ona-tili-5', grade: '5', subject: 'ona-tili', title: 'Ona tili', period: 'Fonetika, imlo, leksikologiya va punktuatsiya', course: uzbekLanguage5Course,
+    ru: { title: 'Родной язык', period: 'Фонетика, орфография, лексикология и пунктуация' } },
+  // Eski 6-sinf ona tili darslari 'ona-tili-6' kalitida — konspekt progressi alohida.
+  'ona-tili-6': { key: 'ona-tili-6-konspekt', dir: 'ona-tili-6', grade: '6', subject: 'ona-tili', title: 'Ona tili', period: 'Matn, so‘z tarkibi va mustaqil so‘z turkumlari', course: uzbekLanguage6Course,
+    ru: { title: 'Родной язык', period: 'Текст, состав слова и самостоятельные части речи' } },
+  'ona-tili-7': { key: 'ona-tili-7-konspekt', dir: 'ona-tili-7', grade: '7', subject: 'ona-tili', title: 'Ona tili', period: 'Olmosh, kelishiklar va yordamchi so‘zlar', course: uzbekLanguage7Course,
+    ru: { title: 'Родной язык', period: 'Местоимение, падежи и служебные слова' } },
+  'ona-tili-8': { key: 'ona-tili-8-konspekt', dir: 'ona-tili-8', grade: '8', subject: 'ona-tili', title: 'Ona tili', period: 'Sintaksis: so‘z birikmasi va sodda gap', course: uzbekLanguage8Course,
+    ru: { title: 'Родной язык', period: 'Синтаксис: словосочетание и простое предложение' } },
+  'ona-tili-9': { key: 'ona-tili-9-konspekt', dir: 'ona-tili-9', grade: '9', subject: 'ona-tili', title: 'Ona tili', period: 'Qo‘shma gap, ko‘chirma gap va nutq uslublari', course: uzbekLanguage9Course,
+    ru: { title: 'Родной язык', period: 'Сложное предложение, прямая речь и стили речи' } },
 }
+
+export const courseSubject = entry => entry.subject || 'tarix'
 
 // Bir nechta yo'nalishga ega sinflar: sinf bosilganda avval yo'nalish tanlanadi.
 export const historyTracks = {
@@ -79,6 +123,6 @@ export const localize = (item, lang) => (item && lang !== 'uz' && item[lang] ? {
 export const TOPIC_TEST_SIZE = 15
 export const TEST_DURATION_SECONDS = 20 * 60
 
-export function findKonspektCourse(grade, track) {
-  return Object.values(konspektCourses).find(entry => entry.grade === String(grade) && (entry.track || null) === (track || null)) || null
+export function findKonspektCourse(grade, track, subject = 'tarix') {
+  return Object.values(konspektCourses).find(entry => courseSubject(entry) === subject && entry.grade === String(grade) && (entry.track || null) === (track || null)) || null
 }

@@ -1,0 +1,99 @@
+{
+  "topics": {
+    "1": [
+      { "q": "«Qut belgusi — bilig» hikmatining ma’nosi nima?", "o": ["Baxt belgisi — boylik", "Baxt belgisi — bilim", "Bilim belgisi — kitob", "Qut — mehmon"], "a": 1, "e": "Mahmud Koshg‘ariy hikmati." },
+      { "q": "Kitobxonlik haqida qaysi fikr to‘g‘ri?", "o": ["Tug‘ma xususiyat", "Uni har kim o‘zida shakllantirishi mumkin", "Faqat olimlarga xos", "Faqat bolalikda shakllanadi"], "a": 1, "e": "Kitobxonlik tarbiyalanadi." },
+      { "q": "«O‘z vujudingg‘a tafakkur aylagil» kimning misrasi?", "o": ["Bobur", "Alisher Navoiy", "Yusuf Xos Hojib", "Mashrab"], "a": 1, "e": "«Har ne istarsen — o‘zungdin istagil»." }
+    ],
+    "2": [
+      { "q": "Darslikdagi «Go‘ro‘g‘lining tug‘ilishi» qaysi baxshi varianti?", "o": ["Fozil Yo‘ldosh o‘g‘li", "Po‘lkan shoir", "Ergash Jumanbulbul o‘g‘li", "Islom shoir"], "a": 1, "e": "Po‘lkan shoir — Muhammad Jomurot o‘g‘li (1874–1941)." },
+      { "q": "Go‘dak Go‘ro‘g‘lini kim topib tarbiyalaydi?", "o": ["Gajdumbek", "Rustambek", "Ahmadbek", "Odilxon"], "a": 1, "e": "Gajdumbekning xizmatkori." },
+      { "q": "Go‘ro‘g‘lining oti qanday ataladi?", "o": ["Boychibor", "G‘irot", "Qorabayir", "Duldul"], "a": 1, "e": "Boychibor — Alpomishning oti." }
+    ],
+    "3": [
+      { "q": "«Devonu lug‘ot at-turk» qachon yozila boshlangan?", "o": ["1069-yilda", "1072-yilda", "1310-yilda", "1501-yilda"], "a": 1, "e": "Materiallar 15–20 yil to‘plangan." },
+      { "q": "Munozara janrining eng qadimgi namunasi qaysi?", "o": ["«O‘q va Yoy»", "«Qish va Bahor»", "«Bang va Chog‘ir»", "«Boz va Bulbul»"], "a": 1, "e": "Koshg‘ariy «Devon»ida saqlangan." },
+      { "q": "«Qo‘shiq» atamasini ilk bor kim qayd etgan?", "o": ["Yusuf Xos Hojib", "Mahmud Koshg‘ariy", "Rabg‘uziy", "Navoiy"], "a": 1, "e": "«Qo‘shug‘» — she’r, qasida, qo‘shiq." }
+    ],
+    "4": [
+      { "q": "Tojiklar Alp Er To‘ngani qanday atagan?", "o": ["Rustam", "Afrosiyob", "Iskandar", "Bahrom"], "a": 1, "e": "Bu haqda Yusuf Xos Hojib yozgan." },
+      { "q": "Alp Er To‘nga marsiyasining qofiyalanishi qanday?", "o": ["abab", "aaab", "aaba", "abba"], "a": 1, "e": "Murabba’ shakli, band — 4 misra." },
+      { "q": "«Uma kelsa, qut kelar» maqolining ma’nosi nima?", "o": ["Bilim kelsa, baxt kelar", "Mehmon kelsa, baxt kelar", "Bahor kelsa, qut kelar", "Yomg‘ir kelsa, hosil kelar"], "a": 1, "e": "Uma — mehmon, qut — baxt." }
+    ],
+    "5": [
+      { "q": "«Qutadg‘u bilig»da Kuntug‘di nimaning ramzi?", "o": ["Davlat", "Adolat", "Aql", "Qanoat"], "a": 1, "e": "Quyosh hammaga barobar nur sochadi." },
+      { "q": "Yusuf Xos Hojib asarni qaysi hukmdorga taqdim etgan?", "o": ["Mahmud G‘aznaviy", "Tavg‘ach ulug‘ Bug‘roxon", "Sulton Sanjar", "Arslonxon"], "a": 1, "e": "Shundan so‘ng xos hojib lavozimini olgan." },
+      { "q": "O‘zg‘urmishning asosiy fikri qaysi?", "o": ["Davlatni kuch bilan boshqarish", "Tanni emas, ruhni boyitish lozim", "Boylik to‘plash", "Saroyda xizmat qilish"], "a": 1, "e": "U eligning taklifini uch marta rad etadi." }
+    ],
+    "6": [
+      { "q": "«Qisasi Rabg‘uziy»da nechta qissa bor?", "o": ["20", "72", "89", "40"], "a": 1, "e": "Payg‘ambarlar haqida." },
+      { "q": "O‘zbek adabiyotidagi ilk g‘azal qaysi?", "o": ["Lutfiyning «Bu ko‘ngul» g‘azali", "Rabg‘uziyning «Kun hamalga kirdi...» g‘azali", "Atoyining g‘azali", "Navoiyning g‘azali"], "a": 1, "e": "Maqta’da taxallus ham ilk bor qo‘llangan." },
+      { "q": "Luqmon qo‘yning eng yaxshi va eng yomon a’zosi deb nimani ko‘rsatadi?", "o": ["Ko‘z va quloq", "Til va yurak", "Bosh va oyoq", "Jun va go‘sht"], "a": 1, "e": "So‘z mas’uliyati g‘oyasi." }
+    ],
+    "7": [
+      { "q": "«Saddi Iskandariy» «Xamsa»ning nechanchi dostoni?", "o": ["Birinchi", "Uchinchi", "Beshinchi", "To‘rtinchi"], "a": 2, "e": "Eng yirik va yakunlovchi doston — 89 bob." },
+      { "q": "Kashmir shohi Mallu sehrini kim yo‘q qiladi?", "o": ["Iskandar qo‘shini", "Olimlar (Aflotun)", "Doro", "Chin xoqoni"], "a": 1, "e": "Ilm sehr ustidan g‘olib." },
+      { "q": "«Makorim ul-axloq» muallifi kim?", "o": ["Navoiy", "G‘iyosiddin Xondamir", "Husayn Boyqaro", "Jomiy"], "a": 1, "e": "1501-yilda yozilgan." }
+    ],
+    "8": [
+      { "q": "Denison Rossga ko‘ra Bobur turkiy she’riyatda qanday o‘rinda?", "o": ["Birinchi", "Navoiydangina keyingi", "Lutfiydan keyingi", "Mashrabdan keyingi"], "a": 1, "e": "Ingliz sharqshunosi Denison Ross fikri." },
+      { "q": "Boburning «Tuz oh, Zahiriddin Muhammad Bobur...» ruboiysida qaysi san’at bor?", "o": ["Tajnis", "Bosh qofiya", "Talmeh", "Kitobat"], "a": 1, "e": "Tuz — yuz — uz." },
+      { "q": "Bobur g‘azallarida qofiyalar ko‘pincha qaysi so‘z turkumidan?", "o": ["Otlardan", "Fe’llardan", "Sifatlardan", "Ravishlardan"], "a": 1, "e": "Tili sodda, og‘zaki nutqqa yaqin." }
+    ],
+    "9": [
+      { "q": "Mashrab qayerda tug‘ilgan?", "o": ["Qo‘qonda", "Namanganda", "Qashqarda", "Andijonda"], "a": 1, "e": "Bo‘zchi kosib oilasida." },
+      { "q": "Mashrab kimning muridi bo‘lgan?", "o": ["Mullo Bozor Oxund", "Ofoq Xoja", "Bahouddin Naqshband", "Ahmad Yassaviy"], "a": 1, "e": "Qashqarlik eshon." },
+      { "q": "Mashrabga qanday laqab berilgan?", "o": ["«Malik ul-kalom»", "«Otashnafas shoir»", "«Sulton ul-shuaro»", "«Bulbuli zamon»"], "a": 1, "e": "Ishq o‘tining kuchini kuylagan shoir." }
+    ],
+    "10": [
+      { "q": "Anbar Otin kimni «momom» deb atagan?", "o": ["Nodirani", "Uvaysiyni", "Dilshod otinni", "Mahzunani"], "a": 1, "e": "Ustozi esa — Navoiy." },
+      { "q": "«Qarolar falsafasi»da qozon nimaning ramzi?", "o": ["Boylikning", "O‘zi kuyib, odamlarni to‘ydiruvchi mehnatkashning", "Zolimning", "Jaholatning"], "a": 1, "e": "Qora chiroq ham o‘zi kuyib, kulbani yoritadi." },
+      { "q": "«Qarolar falsafasi» qanday asar?", "o": ["Ilk falsafiy-publitsistik asar", "Doston", "G‘azallar devoni", "Tarixiy roman"], "a": 0, "e": "«Risolayi falsafayi siyohon»." }
+    ],
+    "11": [
+      { "q": "«Abulfayzxon» qanday tarixiy voqeaga asoslangan?", "o": ["Temuriylar inqirozi", "Ashtarxoniylar sulolasining barham topishi", "Shayboniylar istilosi", "Qo‘qon xonligining tugatilishi"], "a": 1, "e": "1747-yil, Rahimbiy fitnasi." },
+      { "q": "«Podshohlik – qon bilan sug‘orilaturg‘on bir og‘ochdir» kimning so‘zi?", "o": ["Nodirshoh", "Ulfat", "Ibrohimbiy", "Rahimbiy"], "a": 1, "e": "Xonning yaqini." },
+      { "q": "Fitrat nechta yoshni Germaniyaga o‘qishga yuborishda bosh-qosh bo‘lgan?", "o": ["30", "50", "70", "100"], "a": 2, "e": "Ma’rifatparvarlik faoliyati." }
+    ],
+    "12": [
+      { "q": "«Kecha» qismi qachon nashr etilgan?", "o": ["1926-yilda", "1936-yilda", "1946-yilda", "1991-yilda"], "a": 1, "e": "Keyin uzoq yillar taqiqlangan." },
+      { "q": "Razzoq so‘fi xotinini nima deb ataydi?", "o": ["«Bekach»", "«Fitna»", "«Onasi»", "«Kampir»"], "a": 1, "e": "Tund, mutaassib ota obrazi." },
+      { "q": "Romanning epigrafi qanday?", "o": ["«Hamal keldi, amal keldi»", "«Otning o‘limi — itning bayrami»", "«Kun hamalga kirdi»", "«Qut belgusi — bilig»"], "a": 0, "e": "Roman bahor tasviri bilan ochiladi." }
+    ],
+    "13": [
+      { "q": "«Ruhlar isyoni» dostonining qahramoni kim?", "o": ["Robindranat Thakur", "Nazrul Islom", "Mahatma Gandi", "Muhammad Iqbol"], "a": 1, "e": "Bengal shoiri, ingliz mustamlakasi davri." },
+      { "q": "«Inson» qasidasining radifi qanday?", "o": ["«...bormi?»", "«...o‘zing»", "«...emish»", "«...kerak»"], "a": 1, "e": "Inson ulug‘ligi va mas’uliyati haqida." },
+      { "q": "Dostonning so‘nggi bobi qaysi?", "o": ["«G‘alayon»", "«Ozodlik»", "«Tutqunlikda»", "«Isyon qo‘shig‘i»"], "a": 1, "e": "Ruhlar isyoni — erk uchun kurash ramzi." }
+    ],
+    "14": [
+      { "q": "Rauf Parfining «Tong otmoqda» she’rida quyosh nimaga o‘xshatiladi?", "o": ["Oltin tangaga", "Zambarakka", "Olovga", "Gulga"], "a": 1, "e": "Kutilmagan obraz." },
+      { "q": "Bir tovushni takrorlash orqali ohangdorlik yaratish qaysi san’at?", "o": ["Takrir", "Tavze’", "Tazod", "Tashbih"], "a": 1, "e": "Takrir — so‘z yoki misra takrori." },
+      { "q": "Rauf Parfi Bayronning qaysi asarini tarjima qilgan?", "o": ["«Chayld Garold»", "«Manfred»", "«Don Juan»", "«Kain»"], "a": 1, "e": "Nozim Hikmat she’rlarini ham tarjima qilgan." }
+    ],
+    "15": [
+      { "q": "«Asr bilan vidolashuv» kimning asari?", "o": ["Usmon Azim", "Jamol Kamol", "Mahmud Toir", "Iqbol Mirzo"], "a": 1, "e": "XX asr fojialari haqida." },
+      { "q": "Usmon Azimga ko‘ra shoir qo‘shig‘idan kimlar uyg‘onishi kerak?", "o": ["Bolalar", "Marhumlar", "Qushlar", "Shoirlar"], "a": 1, "e": "«Uxlolmasin tiriklar»." },
+      { "q": "«Momo yer» kimning she’ri?", "o": ["Sirojiddin Sayyid", "Mahmud Toir", "Xurshid Davron", "Oydin Hojiyeva"], "a": 1, "e": "Sirojiddin Sayyid — «Vatan»." }
+    ],
+    "16": [
+      { "q": "«Sohibqiron o‘ylari» qaysi epopeyadan?", "o": ["«Ufq»", "«Ulug‘ saltanat»", "«Qullar»", "«Sohibqiron»"], "a": 1, "e": "Epopeyaning 4-kitobidan." },
+      { "q": "Parchada Temurning valiahdi kim?", "o": ["Shohrux", "Muhammad Sulton", "Ulug‘bek", "Mironshoh"], "a": 1, "e": "Qurultoy va vasiyat masalasi." },
+      { "q": "Nihol ekayotgan chol hamyonni olib nima deydi?", "o": ["«Rahmat, shohim»", "«Mevasini totib turibman»", "«Bu menga kerak emas»", "«Nevaramga beraman»"], "a": 1, "e": "Ezgulik samarasi darhol keladi." }
+    ],
+    "17": [
+      { "q": "«Tanho qayiq»ning mavzusi nima?", "o": ["Urush", "Orol fojiasi", "Qatag‘on", "Muhabbat"], "a": 1, "e": "Ekologik mavzu." },
+      { "q": "Orol bobo jon berayotib nima deydi?", "o": ["«Xayr, dengiz!»", "«Orolimiz suvga to‘ldi!»", "«Amet qaytdi!»", "«Qayig‘im tayyor!»"], "a": 1, "e": "Shogirdlar «suv keldi» deb suyuntirgan edi." },
+      { "q": "Fojiaviy va kulgili unsurlar uyg‘un drama qanday ataladi?", "o": ["Komediya", "Tragikomediya", "Fojia", "Melodrama"], "a": 1, "e": "Masalan, «Temir xotin»." }
+    ],
+    "18": [
+      { "q": "«Garov»da huquqshunos necha yil qamoqda o‘tirishga rozi bo‘ladi?", "o": ["5", "10", "15", "25"], "a": 2, "e": "2 million evaziga." },
+      { "q": "Mahbus pulni nega rad etadi?", "o": ["Bankir qashshoqlashgani uchun", "Kitoblardan donolik topib, dunyo ne’matlarini qadrsiz deb bilgani uchun", "Kasal bo‘lgani uchun", "Garovni yutqazgani uchun"], "a": 1, "e": "Muddatdan 5 soat oldin qochib ketadi." },
+      { "q": "Chexovning kasbi nima edi?", "o": ["Huquqshunos", "Shifokor", "O‘qituvchi", "Bankir"], "a": 1, "e": "Taganrogda tug‘ilgan." }
+    ],
+    "19": [
+      { "q": "«Choliqushi»da hikoya kim tilidan olib boriladi?", "o": ["Komron", "Farida", "Muallif", "Aleksi opa"], "a": 1, "e": "Bosh qahramonning o‘z tilidan." },
+      { "q": "«Choliqushi»ni o‘zbekchaga kim tarjima qilgan?", "o": ["Asil Rashidov", "Mirzakalon Ismoiliy", "Jamol Kamol", "Erkin Vohidov"], "a": 1, "e": "1959-yilda." },
+      { "q": "Komron Faridaga kim bo‘ladi?", "o": ["Akasi", "Bo‘lasi", "Qo‘shnisi", "O‘qituvchisi"], "a": 1, "e": "Basima xolaning o‘g‘li." }
+    ]
+  }
+}

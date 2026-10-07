@@ -1,0 +1,114 @@
+{
+  "topics": {
+    "1": [
+      { "q": "Adabiyotning asosiy quroli nima?", "o": ["Rang va bo‘yoq", "Badiiy so‘z", "Ohang va kuy", "Harakat va imo-ishora"], "a": 1, "e": "Adabiyot insonning orzu-xayoli, umid va armonlarini badiiy so‘z yordamida ifoda etadi." },
+      { "q": "Qaysi qatorda faqat nasr (epos) janrlari berilgan?", "o": ["She’r, masal, g‘azal", "Komediya, tragediya, drama", "Ertak, hikoya, qissa, roman", "Intermediya, ruboiy, doston"], "a": 2, "e": "Nasr janrlari: ertak, hikoya, ocherk, qissa, roman." },
+      { "q": "Dramatik asar ijodkori qanday ataladi?", "o": ["Shoir", "Nosir", "Dramaturg", "Baxshi"], "a": 2, "e": "She’riyat – shoir, nasr – yozuvchi (nosir), dramaturgiya – dramaturg." }
+    ],
+    "2": [
+      { "q": "«Maqol» so‘zi arab tilida qanday ma’noni bildiradi?", "o": ["Hikmat", "So‘z", "Xulosa", "Ibrat"], "a": 1, "e": "«Maqol» – arabcha «so‘z» demakdir; uni «otalar so‘zi» ham deyishadi." },
+      { "q": "Maqolni topishmoqdan farqlaydigan asosiy belgi nima?", "o": ["Qofiyasi borligi", "Qisqaligi", "Unda xulosa, hukm berilishi", "Xalq ijodi ekani"], "a": 2, "e": "Topishmoqda ham qofiya bor, lekin xulosa yo‘q – sirlilik bor; maqolda esa hukm beriladi." },
+      { "q": "400 dan ortiq maqol keltirilgan «Zarbulmasal» asari muallifi kim?", "o": ["Muqimiy", "Gulxaniy", "Avloniy", "Navoiy"], "a": 1, "e": "Gulxaniyning «Zarbulmasal»ida Yapaloqqush va Boyo‘g‘li tilidan 400 dan ortiq maqol keltirilgan." }
+    ],
+    "3": [
+      { "q": "Mumtoz adabiyotda topishmoq qanday nomlanadi?", "o": ["Chiston", "Ruboiy", "Masal", "Qit’a"], "a": 0, "e": "Chiston (forscha – topishmoq) – mumtoz adabiyotning savol-javob shaklidagi kichik lirik janri." },
+      { "q": "«Bir daraxtda o‘n ikki shox...» topishmog‘i tuzilishiga ko‘ra qaysi turga kiradi?", "o": ["Bir predmetli", "Ko‘p predmetli", "Zamonaviy", "Nasriy chiston"], "a": 1, "e": "Javobi – yil, oylar, kunlar: bir nechta predmet haqida, shuning uchun ko‘p predmetli." },
+      { "q": "«Shahari bor, odami yo‘q, daryosi bor, suvi yo‘q» topishmog‘ining javobi nima?", "o": ["Rasm", "Xarita", "Kitob", "Tush"], "a": 1, "e": "Xaritada shahar va daryolar bor, lekin odam ham, suv ham yo‘q." }
+    ],
+    "4": [
+      { "q": "«Al-jome’ as-sahih»ga nechta hadis kiritilgan?", "o": ["600 ming", "7397", "1000", "16 ming"], "a": 1, "e": "Imom Buxoriy 16 yil davomida 600 ming hadis ichidan 7397 tasini saralab kiritgan." },
+      { "q": "Hadisning «hujjati» – kim, qachon, qanday sharoitda aytgani qanday ataladi?", "o": ["Matn", "Sanad", "Roviy", "Sunnat"], "a": 1, "e": "Hadis tuzilishi: sanad (hujjat) + matn (mazmun)." },
+      { "q": "Imom Buxoriy qayerda vafot etgan?", "o": ["Buxoroda", "Makkada", "Samarqand yaqinidagi Xartang qishlog‘ida", "Bag‘dodda"], "a": 2, "e": "U 870-yil 31-avgustda Xartang qishlog‘ida (Payariq tumani) vafot etgan." }
+    ],
+    "5": [
+      { "q": "«Ezop tili» iborasi nimani anglatadi?", "o": ["Qadimgi yunon tilini", "Fikrni majoziy, kinoyali ifoda etishni", "Qullar shevasini", "She’riy nutqni"], "a": 1, "e": "Ezopona til – fikrni to‘g‘ridan-to‘g‘ri emas, majoziy, kinoyali ifoda etish usuli." },
+      { "q": "«Kiyik bilan tokzor» masalining g‘oyasi qaysi?", "o": ["Ko‘rpangga qarab oyoq uzat", "Yaxshilikka yaxshilik bilan javob qaytar", "Do‘st tanlashda shoshilma", "Hiyla o‘z boshiga yetadi"], "a": 1, "e": "Kiyik o‘zini yashirgan tokzorning barglarini yeydi va jazosini oladi – «Qilmish – qidirmish»." },
+      { "q": "Ezopning izdoshlari qaysi javobda to‘g‘ri ko‘rsatilgan?", "o": ["Gyote va Volter", "Lafonten va Krilov", "Homer va Dante", "Pushkin va Lermontov"], "a": 1, "e": "Ezop an’anasini fransuz J. Lafonten va rus I. Krilov davom ettirgan." }
+    ],
+    "6": [
+      { "q": "Buxoroda ertak qanday ataladi?", "o": ["Varsaki", "Cho‘pchak", "Ushuk", "Matal"], "a": 2, "e": "Ushuk – Buxoro, varsaki – Xorazm, cho‘pchak – Toshkent, matal – Surxondaryo, Samarqand, Farg‘ona." },
+      { "q": "Ziyofatda botirlar go‘sht haqida nima deydi?", "o": ["Go‘shtga zahar qo‘shilgan", "It emizgan qo‘zining go‘shti", "Ovlangan kiyik go‘shti", "Eskirgan go‘sht"], "a": 1, "e": "Botirlar go‘sht it emizgan qo‘zinikini topadi va bu tasdiqlanadi." },
+      { "q": "Kenja botirni zindonga soldirgan kim?", "o": ["Podshohning qizi", "Hasadgo‘y vazir", "Bog‘bon", "To‘ng‘ich akasi"], "a": 1, "e": "Kenja botir podshohni ilondan qutqaradi, lekin podshoh hasadgo‘y vazir gapiga kirib uni zindonga soladi." }
+    ],
+    "7": [
+      { "q": "«Oygul bilan Baxtiyor» qanday janrdagi asar?", "o": ["Roman", "Ertak-doston", "Tarixiy drama", "Qissa"], "a": 1, "e": "Hamid Olimjon xalq ertagi asosida 1937-yilda ertak-doston yozgan." },
+      { "q": "Oygulni sandiqqa solib daryoga oqizgan kim?", "o": ["Darxon", "Baxtiyor", "Saroy quli Tarlon", "Jurjon podshohi"], "a": 2, "e": "Saroy quli Tarlon Oygulni qutqarish uchun uni sandiqqa solib daryoga oqizadi." },
+      { "q": "«Xirs» va «hirs» so‘zlari orqali shoir nimani ifodalaydi?", "o": ["Baxtiyorning kuchini", "Xonni hayvonga qiyoslab, uning nafsini", "Oygulning go‘zalligini", "Tabiat manzarasini"], "a": 1, "e": "Xirs – ayiq, hirs – nafs: zolim xon yovvoyi hayvonga qiyoslanadi." }
+    ],
+    "8": [
+      { "q": "Aka-uka Grimmlar ertaklarining qahramonlari kimlar?", "o": ["Shoh va shahzodalar", "Oddiy odamlar: kambag‘allar, cho‘ponlar, askarlar", "Faqat hayvonlar", "Afsonaviy pahlavonlar"], "a": 1, "e": "Grimmlar ertaklarida asosan oddiy odamlar qahramon bo‘ladi." },
+      { "q": "Tosh siqib suv chiqarish bellashuvida Gans nimani siqadi?", "o": ["Toshni", "Pishloqni", "Qushchani", "Nonni"], "a": 1, "e": "Gans tosh o‘rniga pishloqni siqib, undan suv chiqaradi." },
+      { "q": "«Botir tikuvchi» ertagi boshqa ertaklardan nimasi bilan farq qiladi?", "o": ["Qahramon podshoh bo‘ladi", "Qahramon tinch, halol mehnat bilan yashashni davom ettiradi", "Qahramon halok bo‘ladi", "Ertak sehrli narsalar bilan tugaydi"], "a": 1, "e": "Gans toj-taxt olmaydi, oddiy hunarmand bo‘lib tikuvchiligini davom ettiradi." }
+    ],
+    "9": [
+      { "q": "«Zulmat ichra nur» qissasi kimning bolaligi haqida?", "o": ["Boburning", "Alisher Navoiyning", "Ulug‘bekning", "Husayn Boyqaroning"], "a": 1, "e": "Mirkarim Osimning qissasi Navoiy tavalludining 525 yilligi arafasida yozilgan." },
+      { "q": "Alisher Taft qishlog‘ida kim bilan uchrashadi?", "o": ["Mavlono Lutfiy bilan", "Sharafiddin Ali Yazdiy bilan", "Qosim Anvor bilan", "Shohrux bilan"], "a": 1, "e": "6 yoshli Alisher «Zafarnoma» muallifi Sharafiddin Ali Yazdiy bilan dadil suhbatlashadi va uning duosini oladi." },
+      { "q": "Qissa sarlavhasidagi «nur» kim?", "o": ["Shohrux", "Yosh Alisher", "Sharafiddin Ali Yazdiy", "Husayn"], "a": 1, "e": "Zulmat – urush va taxt talashlari, nur – ana shu davrda porlagan Navoiy." }
+    ],
+    "10": [
+      { "q": "Fanorni butunlay sindirgan bolalarga kim boshchilik qilgan?", "o": ["Ahmad", "Qosim cho‘loq", "Tursunqul aka", "Muso"], "a": 1, "e": "Battol Qosim cho‘loq boshchiligida fanor butunlay sindiriladi." },
+      { "q": "Bolalar nima sababdan fanorni sindirishni to‘xtatdi?", "o": ["Fanorchi ota ularni urdi", "Ota-onalari jazoladi", "Otaning mayin so‘zlari va chiroq qariyalarga kerakligini anglab", "Fanor olib ketildi"], "a": 2, "e": "Fanorchi ota hech kimni urmay, mehr bilan gapiradi – bolalar insofga keladi." },
+      { "q": "Oybekning romanlari qaysi qatorda berilgan?", "o": ["«Qutlug‘ qon», «Navoiy», «Quyosh qoraymas»", "«Ikki eshik orasi», «Navoiy», «Bolalik»", "«O‘tkan kunlar», «Mehrobdan chayon»", "«Nur borki, soya bor», «Qutlug‘ qon»"], "a": 0, "e": "Oybek romanlari: «Qutlug‘ qon» (1940), «Navoiy» (1944), «Quyosh qoraymas» (1958)." }
+    ],
+    "11": [
+      { "q": "«Bolaning ko‘ngli poshsho» parchasi qaysi asardan olingan?", "o": ["«Fanorchi ota»", "«Bolalik»", "«Navoiy»", "«Dunyoning ishlari»"], "a": 1, "e": "Bu parcha Oybekning o‘z bolaligi haqidagi «Bolalik» qissasidan." },
+      { "q": "«Bolaning ko‘ngli tilla» iborasi nimani bildiradi?", "o": ["Bolaga tilla kerakligini", "Bola qalbi pok va qimmatli ekanini", "Handalak qimmatligini", "Bola injiq ekanini"], "a": 1, "e": "Bobo bola qalbini tilladek qimmatli deb biladi." },
+      { "q": "Muso bobosidan nima so‘raydi?", "o": ["Qovun", "Handalak", "O‘yinchoq", "Non"], "a": 1, "e": "O‘rtog‘i A’zamning handalagini ko‘rgan Muso: «Buva, handalak...» deydi." }
+    ],
+    "12": [
+      { "q": "Mirtemirning birinchi she’ri qanday nomlanadi?", "o": ["«Shu’lalar qo‘ynida»", "«Tanburim ovozi»", "«Bulut»", "«Tong»"], "a": 1, "e": "«Tanburim ovozi» 1926-yilda, shoir 16 yoshida yozilgan; ilk to‘plami esa «Shu’lalar qo‘ynida» (1928)." },
+      { "q": "«Shudring» she’rining o‘ziga xosligi nimada?", "o": ["U ruboiy shaklida", "«Shudring» so‘zi bironta misrada yo‘q", "U nasriy she’r", "Unda faqat savollar bor"], "a": 1, "e": "Shudring faqat o‘xshatishlar orqali tasvirlanadi – so‘zning o‘zi qo‘llanmaydi." },
+      { "q": "Mirtemir qaysi qirg‘iz eposini tarjima qilgan?", "o": ["«Alpomish»", "«Manas»", "«Qirq qiz»", "«Go‘ro‘g‘li»"], "a": 1, "e": "«Manas» – qirg‘iz eposi; «Qirq qiz» esa qoraqalpoq dostoni." }
+    ],
+    "13": [
+      { "q": "«Dunyoning ishlari» qissasidagi hikoyalarni nima birlashtiradi?", "o": ["Bitta shahar", "Ona obrazi", "Urush mavzusi", "Bitta voqea"], "a": 1, "e": "Mustaqil syujetli hikoyalarni Ona obrazi – Hakima aya birlashtiradi." },
+      { "q": "«Gilam paypoq»da onaning fidoyiligi nimada ko‘rinadi?", "o": ["Pensiyasini sovg‘alarga sarflaydi", "Qorli kechada kalishda, yalangoyoq o‘g‘lini Hoji buviga olib yuguradi", "Alla aytadi", "Qabr toshiga yozuv yozdiradi"], "a": 1, "e": "Ona o‘g‘lini qutqarish uchun oyoqlarini sovuq urdiradi va umrbod og‘riq tortadi." },
+      { "q": "O‘tkir Hoshimovning «Cho‘l havosi» qissasini kim yuqori baholab maktub yozgan?", "o": ["Oybek", "Abdulla Qahhor", "Said Ahmad", "G‘afur G‘ulom"], "a": 1, "e": "Abdulla Qahhor yosh yozuvchining qissasini yuqori baholagan." }
+    ],
+    "14": [
+      { "q": "«Sher bilan durroj» hikoyati qaysi dostondan?", "o": ["«Lison ut-tayr»", "«Hayrat ul-abror»", "«Farhod va Shirin»", "«Saddi Iskandariy»"], "a": 1, "e": "Hikoyat «Xamsa»ning birinchi dostoni «Hayrat ul-abror»ning 10-maqolatidan." },
+      { "q": "Durroj nima sababdan halok bo‘ldi?", "o": ["Sher uni yeb qo‘ydi", "Yolg‘onni odat qilgani uchun chin qichqirganda ham sher ishonmadi", "Qishda sovuq urdi", "Bolasini himoya qildi"], "a": 1, "e": "Doim yolg‘on qichqirgan durroj tuzoqqa tushganda ham sher uni yana yolg‘on deb o‘yladi." },
+      { "q": "Navoiyning forsiy taxallusi va uning ma’nosi qaysi?", "o": ["Navoiy – kuy", "Foniy – o‘tkinchi", "Lutfiy – nozik", "Zullisonayn – ikki tilli"], "a": 1, "e": "Turkiyda «Navoiy» (navo – kuy), forsiyda «Foniy» (vaqtincha, o‘tkinchi)." }
+    ],
+    "15": [
+      { "q": "Ruboiy nima?", "o": ["Besh misrali she’r", "Sharq she’riyatidagi to‘rtlik", "Nasriy hikoya", "Uzun doston"], "a": 1, "e": "Ruboiy – aruzning maxsus vaznida yoziladigan to‘rtlik." },
+      { "q": "Bobur qayerda vafot etgan?", "o": ["Kobulda", "Andijonda", "Agrada", "Samarqandda"], "a": 2, "e": "Bobur 1530-yil 26-dekabrda Agrada vafot etgan, xoki vasiyatiga ko‘ra Kobulga ko‘chirilgan." },
+      { "q": "Bobur ruboiylarining asosiy mavzusi nima?", "o": ["Ov va jang", "Vatan sog‘inchi, g‘urbat", "Tabiat fasllari", "Hajv va kulgi"], "a": 1, "e": "Bobur ruboiylarida Vatan sog‘inchi, g‘ariblik azobi, hayot sinovlari kuylanadi." }
+    ],
+    "16": [
+      { "q": "O‘zbek adabiyotida sayohatnoma janrining asoschisi kim?", "o": ["Furqat", "Zavqiy", "Muqimiy", "Tajalliy"], "a": 2, "e": "Muqimiy – sayohatnoma janrining asoschisi; undan keyin Zavqiy, Furqat, Tajalliy ham yozgan." },
+      { "q": "Sayohatnomaning tuzilishi qaysi javobda to‘g‘ri?", "o": ["Tugun – kulminatsiya – yechim", "Kirish – yo‘l xotiralari – xulosa", "Savol – javob", "Bag‘ishlov – naqarat"], "a": 1, "e": "Sayohatnoma: 1) kirish (sayohat sababi), 2) yo‘l xotiralari, 3) xulosa." },
+      { "q": "Muqimiyning asosiy kasbi nima bo‘lgan?", "o": ["Novvoylik", "Xattotlik", "Dehqonchilik", "Savdogarlik"], "a": 1, "e": "Muqimiy novvoy oilasida tug‘ilgan, lekin asosiy kasbi xattotlik edi." }
+    ],
+    "17": [
+      { "q": "«Daryo ko‘rmagan qul» hikoyatining xulosasi qaysi?", "o": ["Hunar – oqar chashma", "Ofiyat qadrini musibat ko‘rgan biladi", "Nodon farzanddan ilon yaxshi", "Jangdan sulh afzal"], "a": 1, "e": "Suvga tashlab olingan qul kemadagi tinchlik qadriga yetdi." },
+      { "q": "«Tovus oyog‘idan boshqasin ko‘rmas» satri qanday odam haqida?", "o": ["Saxiy odam", "Faqat aybni ko‘radigan aybjo‘y odam", "Mehnatkash odam", "Sayohatchi"], "a": 1, "e": "Aybjo‘y kishi tovusning go‘zalligini emas, faqat xunuk oyog‘ini ko‘radi." },
+      { "q": "Sa’diyning «Bo‘ston» va «Guliston» asarlari qachon yozilgan?", "o": ["1189 va 1292", "1257 va 1258", "1441 va 1501", "1209 va 1210"], "a": 1, "e": "«Bo‘ston» – 1257, «Guliston» – 1258-yilda yozilgan." }
+    ],
+    "18": [
+      { "q": "«Hubbul-vatani minal-imoni» hadisi qanday tarjima qilinadi?", "o": ["Ilm – imondandur", "Vatanni suymak imondandur", "Tarbiya – hayot", "Do‘stlik – imondandur"], "a": 1, "e": "Avloniy «Vatanni suymak» maqolasida shu hadisni keltiradi." },
+      { "q": "Avloniy 1907-yilda o‘z uyida chop etgan gazeta qaysi?", "o": ["«Taraqqiy»", "«Xurshid»", "«Shuhrat»", "«Turon»"], "a": 2, "e": "«Shuhrat» gazetasi 1907-yil 4-dekabrda chiqqan; «Turon» – jamiyat va teatr nomi." },
+      { "q": "«Yolg‘on do‘st» hikoyasida yo‘lbars qulog‘iga nima degan deb aytiladi?", "o": ["Daraxtga chiqib ol", "G‘am vaqtingda tashlab qochadigan nomard bilan yo‘ldosh bo‘lma", "Yo‘lbarsdan qo‘rqma", "Do‘stingni qutqar"], "a": 1, "e": "Hikoya nomard do‘stdan saqlanishga chaqiradi." }
+    ],
+    "19": [
+      { "q": "«Nido» dostoni kimga bag‘ishlangan?", "o": ["Shoirning onasiga", "Shoirning otasiga", "Ustoziga", "Tog‘asiga"], "a": 1, "e": "«Yurak qonim bilan bitgan dostonim Sizga bag‘ishladim, Otajon!»" },
+      { "q": "«Nido» dostoni qaysi voqea haqida?", "o": ["Chingiz bosqini", "Ikkinchi jahon urushi", "Qo‘qon xonligi urushlari", "Paxta terimi"], "a": 1, "e": "Doston Ikkinchi jahon urushi kulfatlari haqida, qisman avtobiografik." },
+      { "q": "Erkin Vohidov Gyotening qaysi asarini tarjima qilgan?", "o": ["«Ilohiy komediya»", "«Faust»", "«Manas»", "«Yevgeniy Onegin»"], "a": 1, "e": "«Faust»ni Erkin Vohidov, «Ilohiy komediya»ni Abdulla Oripov tarjima qilgan." }
+    ],
+    "20": [
+      { "q": "«O‘zbekiston» qasidasi qachon yozilgan?", "o": ["1941-yilda", "1965-yilda", "1968-yilda", "1991-yilda"], "a": 2, "e": "Qasida 1968-yilda – «SSSR – yagona Vatanimiz» shiori hukmron davrda yozilgan." },
+      { "q": "«Temur tig‘i yetmagan joyni Qalam bilan oldi ...» satri kim haqida?", "o": ["Ulug‘bek", "Beruniy", "Alisher Navoiy", "Bobur"], "a": 2, "e": "Navoiy – so‘z mulkining jahongiri sifatida ulug‘lanadi." },
+      { "q": "«Kolumbda bor alamim manim» satri qaysi olim bilan bog‘liq?", "o": ["Ulug‘bek", "Beruniy", "Ibn Sino", "Xorazmiy"], "a": 1, "e": "Beruniy Kolumbdan ~500 yil oldin Amerikani bashorat qilgan." }
+    ],
+    "21": [
+      { "q": "Vatanni birinchi bo‘lib «Vatanjon» deb atagan shoir kim?", "o": ["Erkin Vohidov", "Anvar Obidjon", "Abdulla Oripov", "Mirtemir"], "a": 1, "e": "Anvar Obidjonning «Vatanjon» (2011) she’rida Vatan shunday mehr bilan ataladi." },
+      { "q": "«Tinch kunlar» she’rining asosiy xulosasi nima?", "o": ["Tarix faqat urushlardan iborat", "Yurtning tinch o‘tgan har kuni – mislsiz tarixiy voqea", "Tinchlik o‘z-o‘zidan saqlanadi", "Urush muqarrar"], "a": 1, "e": "Shoir tinchlikni mo‘rt shishaga qiyoslab, uni asrashga chaqiradi." },
+      { "q": "Quyidagilardan qaysi biri Anvar Obidjonning asari?", "o": ["«Dahshatli Meshpolvon»", "«Mitti yulduz»", "«Tong nafasi»", "«Shu’lalar qo‘ynida»"], "a": 0, "e": "«Mitti yulduz» – A. Oripov, «Tong nafasi» – E. Vohidov, «Shu’lalar qo‘ynida» – Mirtemir." }
+    ],
+    "22": [
+      { "q": "«Hellados» so‘zi nimani anglatadi?", "o": ["Dengiz", "Ellada – Gretsiya", "Do‘stlik", "Kema nomi"], "a": 1, "e": "Yunoncha «Hellados» – Ellada, ya’ni Gretsiya; bu yozuv Yangulining ko‘kragida edi." },
+      { "q": "Yanguli Jamolni qanday qilib ma’naviy yengdi?", "o": ["Uni urib yiqitdi", "Jamolning onasi o‘lganini bilib, so‘kishga javob qaytarmadi", "Skripkasini sindirdi", "Bolalarga yomonladi"], "a": 1, "e": "Koka: «U seni yengdi, Jamol!» – Yanguli olijanoblik ko‘rsatdi." },
+      { "q": "Yanguli uchun Vatan nima?", "o": ["Faqat Gretsiya", "Suxumi, do‘stlari – Vatan yurakda", "Otasining uyi", "«Poseydon» kemasi"], "a": 1, "e": "«Vatan – ichkariroqda, naq yurakning o‘zida!»" }
+    ]
+  }
+}

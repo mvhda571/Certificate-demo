@@ -8,9 +8,9 @@ import { useUserStore } from '../store/useUserStore'
 import { useTranslation } from 'react-i18next'
 
 function getProgramTitle(pathname, profileGrade, t) {
-  const selectedGrade = pathname.match(/\/subjects\/(?:tarix|matematika|ona-tili|adabiyot)\/grade\/(\d+)/)?.[1]
+  const selectedGrade = pathname.match(/\/subjects\/(?:tarix|matematika|ona-tili-adabiyot|ona-tili|adabiyot)\/grade\/(\d+)/)?.[1]
   if (selectedGrade) return t('selectedProgram', { grade: selectedGrade })
-  if (pathname === '/subjects/tarix' || pathname === '/subjects/ona-tili' || pathname === '/subjects/adabiyot') return t('chooseGrade')
+  if (pathname === '/subjects/tarix' || pathname === '/subjects/ona-tili-adabiyot') return t('chooseGrade')
   if (pathname === '/subjects' || pathname === '/fanlar') return t('chooseSubjectGrade')
   if (pathname.startsWith('/subjects/')) return profileGrade ? t('selectedProgram', { grade: profileGrade }) : t('chooseGrade')
   return t('platform')

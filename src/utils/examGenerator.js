@@ -1,4 +1,4 @@
-import { konspektCourses } from '../data/konspekt'
+import { courseSubject, konspektCourses } from '../data/konspekt'
 import math from '../data/mathCurriculum.json'
 import uzbek from '../data/uzbekCurriculum.json'
 import literature from '../data/literatureCurriculum.json'
@@ -22,7 +22,7 @@ const shuffle = values => {
 const jsonLessons = data => Object.entries(data).flatMap(([grade, value]) => (value.lessons || []).map(lesson => ({ ...lesson, grade })))
 
 // Tarix testi 6–11-sinf konspekt kurslaridagi tayyor savollardan tuziladi.
-const historyQuestions = Object.values(konspektCourses).flatMap(({ grade, title, course }) =>
+const historyQuestions = Object.values(konspektCourses).filter(entry => courseSubject(entry) === 'tarix').flatMap(({ grade, title, course }) =>
   course.topics.flatMap(topic => topic.quiz.map(question => ({ ...question, grade, topic: `${title}: ${topic.title}` }))))
 
 const pools = {

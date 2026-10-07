@@ -21,10 +21,9 @@ import { MockTestPage } from './pages/MockTestPage'
 import { HistoryGradesPage } from './pages/HistoryGradesPage'
 import { HistoryGradePage } from './pages/HistoryGradePage'
 import { MathGradesPage, MathTrackPage } from './pages/MathGradesPage'
-import { UzbekGradesPage } from './pages/UzbekGradesPage'
 import { UzbekGradePage } from './pages/UzbekGradePage'
-import { LiteratureGradesPage } from './pages/LiteratureGradesPage'
 import { LiteratureGradePage } from './pages/LiteratureGradePage'
+import { LanguageLiteratureGradePage, LanguageLiteratureGradesPage } from './pages/LanguageLiteraturePage'
 import { MilestoneController } from './components/MilestoneController'
 import { BottomNav } from './components/BottomNav'
 import { MistakesPage } from './pages/MistakesPage'
@@ -70,9 +69,12 @@ function App() {
                   <Route path="/subjects/tarix" element={<HistoryGradesPage />} />
                   <Route path="/subjects/tarix/grade/:gradeId" element={<HistoryGradePage />} />
                   <Route path="/subjects/tarix/grade/:gradeId/:track" element={<HistoryGradePage />} />
-                  <Route path="/subjects/ona-tili" element={<UzbekGradesPage />} />
+                  <Route path="/subjects/ona-tili-adabiyot" element={<LanguageLiteratureGradesPage />} />
+                  <Route path="/subjects/ona-tili-adabiyot/grade/:gradeId" element={<LanguageLiteratureGradePage />} />
+                  <Route path="/subjects/ona-tili-adabiyot/grade/:gradeId/:section" element={<LanguageLiteratureGradePage />} />
+                  <Route path="/subjects/ona-tili" element={<Navigate to="/subjects/ona-tili-adabiyot" replace />} />
                   <Route path="/subjects/ona-tili/grade/:gradeId" element={<UzbekGradePage />} />
-                  <Route path="/subjects/adabiyot" element={<LiteratureGradesPage />} />
+                  <Route path="/subjects/adabiyot" element={<Navigate to="/subjects/ona-tili-adabiyot" replace />} />
                   <Route path="/subjects/adabiyot/grade/:gradeId" element={<LiteratureGradePage />} />
                   <Route path="/subjects/matematika/grades" element={<MathGradesPage />} />
                   <Route path="/subjects/matematika/grade/:gradeId" element={<MathTrackPage />} />

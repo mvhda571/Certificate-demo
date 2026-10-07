@@ -1,0 +1,154 @@
+{
+  "topics": {
+    "1": [
+      { "q": "Badiiy adabiyot ilmiy adabiyotdan asosan nimasi bilan farq qiladi?", "o": ["Hajmi bilan", "Ko‘proq his-tuyg‘uga ta’sir qilib, ma’naviy haqiqatni ifodalashi bilan", "Faqat she’rda yozilishi bilan", "Raqamlarga boyligi bilan"], "a": 1, "e": "Ilmiy adabiyot aqlga ta’sir qiladi va xolis bo‘ladi; badiiy adabiyot olamni ko‘ngil bilan tuydiradi." },
+      { "q": "«Tong otmoqda. Tong o‘qlar otar...» satrlari muallifi kim?", "o": ["Cho‘lpon", "Rauf Parfi", "Hamza", "Mirtemir"], "a": 1, "e": "Rauf Parfi tong manzarasini shoir tuyg‘usi bilan chizgan." },
+      { "q": "Badiiy adabiyotning asosiy ish quroli nima?", "o": ["Rang", "So‘z", "Ohang", "Harakat"], "a": 1, "e": "Badiiy adabiyot — so‘z san’ati." }
+    ],
+    "2": [
+      { "q": "Hamzaga «Hakimzoda» deyilishining sababi nima?", "o": ["Hokim avlodidan bo‘lgani", "Otasi tabib bo‘lgani — «tabibning o‘g‘li»", "Donishmand bo‘lgani", "Taxallusi bo‘lgani"], "a": 1, "e": "Otasi Buxoroda tabiblikni o‘rgangan; Niyoziy esa taxallusi." },
+      { "q": "«Dardiga darmon istamas» she’ridagi naqorat qaysi?", "o": ["«Vatanim kurrai arz»", "«Uxlama ko‘p, o‘zbek eli, asri taraqqiy vaqtida»", "«Xalq dengizdir»", "«Millatim nasli bashardur»"], "a": 1, "e": "Naqorat millatni uyg‘onishga chorlaydi." },
+      { "q": "Hamza qaysi safarda jadid gazetalari bilan tanishgan?", "o": ["Makkaga safarda", "1907-yil otasini hajga Qashqargacha kuzatganda", "Moskvada o‘qiganda", "Buxoroda"], "a": 1, "e": "«Vaqt», «Bog‘chasaroy» gazetalari uning dunyoqarashini o‘zgartirgan." }
+    ],
+    "3": [
+      { "q": "«Adabiyot» so‘zi qaysi so‘zdan olingan?", "o": ["Arabcha «adab»", "Forscha «adib»", "Turkiy «ota»", "Lotincha «litera»"], "a": 0, "e": "Adabiyot — arabcha «adab» so‘zidan." },
+      { "q": "Badiiy asar o‘quvchining ruhiy tozarishiga qanday xizmat qiladi?", "o": ["Ko‘ngil ochib", "Yaxshilik va yomonlik oqibatlarini ko‘rsatib, gunohdan tiyilishga undab", "Bilim berib", "Tarixni o‘rgatib"], "a": 1, "e": "Bu adabiyotning tarbiyaviy vazifalaridan biri." },
+      { "q": "Adabiyot nimaning shakli sifatida ta’riflanadi?", "o": ["Vaqt o‘tkazish", "Olamni va odamni anglash", "Tarix yozish", "Til o‘rganish"], "a": 1, "e": "Adabiyot faqat ko‘ngil ochish uchun o‘qilmaydi." }
+    ],
+    "4": [
+      { "q": "«Boshi toshdan bo‘lsin...» she’ridagi tilakning mazmuni nima?", "o": ["Qattiqqo‘l bo‘lsin", "Chidamli bo‘lsin, lekin mehrsiz bo‘lmasin", "Boy bo‘lsin", "Kuchli bo‘lsin"], "a": 1, "e": "«Ammo tosh bo‘lmasin ko‘ksida yurak»." },
+      { "q": "Saida Zunnunovaning ilk she’ri qaysi?", "o": ["«Qizimga»", "«Salom senga»", "«Mening Vatanim»", "«Yer uzra qo‘ndi oqshom»"], "a": 1, "e": "«Salom senga» 1945-yilda chiqqan." },
+      { "q": "«Yer uzra qo‘ndi oqshom» she’ri qanday janrda?", "o": ["Qasida", "Alla", "Ballada", "Masal"], "a": 1, "e": "«Kel, oppog‘im, kel, erkam, men seni allalayin»." }
+    ],
+    "5": [
+      { "q": "«Mardlik afsonasi»da «qon yig‘ladi» birikmasi necha marta takrorlanadi?", "o": ["3", "7", "9", "12"], "a": 2, "e": "9 marta takror xalq iztirobining kuchini ko‘rsatadi." },
+      { "q": "To‘maris Kayxusravni qanday yengadi?", "o": ["Hiyla bilan zaharlab", "Yakkama-yakka olishib, o‘z qo‘li bilan o‘ldiradi", "Qo‘shini bilan qamal qilib", "Sulh tuzib"], "a": 1, "e": "To‘maris — mard hukmdor." },
+      { "q": "Shuhratning qatag‘on haqidagi romani qaysi?", "o": ["«Orzu va qasos»", "«Oltin zanglamas»", "«Mehrol»", "«Farzand»"], "a": 1, "e": "Shuhrat keyinchalik qatag‘onga uchragan." }
+    ],
+    "6": [
+      { "q": "«Ballada» so‘zi qanday ma’noni anglatadi?", "o": ["Qahramonlik qo‘shig‘i", "Raqs qo‘shig‘i", "Qayg‘uli qo‘shiq", "Bayram qo‘shig‘i"], "a": 1, "e": "Fransuzcha «balada» — raqs qo‘shig‘i." },
+      { "q": "Balladada qaysi xususiyatlar uyg‘un?", "o": ["Dramatik va hajviy", "Lirik va epik", "Ilmiy va badiiy", "Nasriy va she’riy"], "a": 1, "e": "Shoir tuyg‘ularini va ularga sabab bo‘lgan voqealarni tasvirlaydi." },
+      { "q": "O‘zbek adabiyotida ballada ko‘proq qaysi yo‘nalishda yoziladi?", "o": ["Muhabbat", "Tarixiy-fantastik va qahramonlik", "Hajviy", "Falsafiy"], "a": 1, "e": "Fidoyilik ko‘rsatgan kishilar jasorati tasvirlanadi." }
+    ],
+    "7": [
+      { "q": "«Ona tilim» she’rida lirik qahramonni nima tiriltiradi?", "o": ["Dori", "Avar tilidagi so‘zlar", "Onasining ovozi", "Tog‘ shamoli"], "a": 1, "e": "Ona tili — hayot manbai." },
+      { "q": "Rasul Hamzatov qaysi xalq shoiri?", "o": ["Qozoq", "Avar (Dog‘iston)", "Gruzin", "Qirg‘iz"], "a": 1, "e": "Otasi — mashhur shoir Hamzat Sadasa." },
+      { "q": "«Erta ona tilim agar yo‘qolsa, ...» satrining davomi qaysi?", "o": ["«Men bugun o‘lishga bo‘lurman rizo»", "«Tog‘larim yig‘lar»", "«Xalqim yo‘qolar»", "«Qo‘shiqlarim so‘nar»"], "a": 0, "e": "Shoir uchun tilsiz hayot ma’nosiz." }
+    ],
+    "8": [
+      { "q": "«Bir tup o‘rik» she’rida soya nimaning majozi?", "o": ["Chin do‘st", "Soxta do‘st", "Ota-ona", "Vatan"], "a": 1, "e": "Bulutli kunda soya yo‘q — qiyin kunda yo‘q bo‘ladigan do‘st." },
+      { "q": "«O‘zimniki emas bu umr...» she’rining asosiy fikri nima?", "o": ["Umrning qisqaligi", "Urushda halok bo‘lganlar oldidagi mas’uliyat", "Sevgi iztiroblari", "Tabiat go‘zalligi"], "a": 1, "e": "«Men uning uchun ham yashab yuribman»." },
+      { "q": "Asqad Muxtor qayerda tarbiyalangan?", "o": ["Bobosining uyida", "Yetimxonada", "Madrasada", "Harbiy maktabda"], "a": 1, "e": "11 yoshida otasi vafot etgan." }
+    ],
+    "9": [
+      { "q": "Barmoq vazni nimaga asoslanadi?", "o": ["Hijolar sifatiga", "Misralardagi bo‘g‘inlar soniga", "Qofiyaga", "Radifga"], "a": 1, "e": "Bo‘g‘inlar soni bir xil takrorlanadi va turoqlarga bo‘linadi." },
+      { "q": "Aruz vazni qaysi she’riyatlardan kirgan?", "o": ["Rus va ingliz", "Arab va fors", "Turk va mo‘g‘ul", "Yunon va lotin"], "a": 1, "e": "Aruz — mumtoz adabiyot vazni." },
+      { "q": "O‘zbek she’riyatida eng ko‘p tarqalgan vazn qaysi?", "o": ["Aruz", "Barmoq", "Erkin vazn", "Sillabo-tonik"], "a": 1, "e": "Barmoq — xalq she’riyatining asosiy vazni." }
+    ],
+    "10": [
+      { "q": "«Me’mor» romanining bosh qahramoni kim?", "o": ["Amir Temur", "Me’mor Najmiddin Buxoriy", "G‘avvos Muhammad", "Badia"], "a": 1, "e": "Roman Temur davri bunyodkorligi haqida." },
+      { "q": "O‘zbek adabiyotidagi ilk she’riy roman qaysi?", "o": ["«Me’mor»", "«Ziyod va Adiba»", "«Temur Malik»", "«Degrez o‘g‘li»"], "a": 1, "e": "Mirmuhsinning «Ziyod va Adiba» (1954)." },
+      { "q": "Bo‘ron avjida Me’mor nima bilan band bo‘ladi?", "o": ["Yig‘laydi", "Xayolida bo‘lajak qasr tarhini chizadi", "Qochib ketadi", "Duo qiladi"], "a": 1, "e": "Kasbiga cheksiz sadoqat." }
+    ],
+    "11": [
+      { "q": "Uch kitobli roman qanday ataladi?", "o": ["Dilogiya", "Trilogiya", "Tetralogiya", "Epopeya"], "a": 1, "e": "Masalan, Said Ahmadning «Ufq» trilogiyasi." },
+      { "q": "Muhammad Alining «Ulug‘ saltanat» asari qaysi turga kiradi?", "o": ["Dilogiya", "Trilogiya", "Tetralogiya", "Qissa"], "a": 2, "e": "To‘rt kitob: Jahongir, Umarshayx, Mironshoh, Shohrux Mirzo." },
+      { "q": "Ko‘p kitobli roman qismlari o‘rtasida nima bo‘lishi shart?", "o": ["Bir xil sarlavha", "Ichki birlik (umumiy qahramon)", "Bir xil hajm", "Bir yilda yozilishi"], "a": 1, "e": "Masalan, «Ufq»da Ikromjon barcha kitoblarda qatnashadi." }
+    ],
+    "12": [
+      { "q": "Sarsonboy ota kimning qo‘ylarini boqadi?", "o": ["O‘z o‘g‘lining", "Urushda bedarak ketgan Haydaralining", "Kolxozning", "Madumar akaning"], "a": 1, "e": "20 yildan beri omonat sifatida boqadi." },
+      { "q": "Ota nega qo‘ylarni kolxozga bermaydi?", "o": ["Qo‘ylar unga yoqadi", "Omonatni o‘z qo‘li bilan egasiga qaytarmoqchi", "Kolxoz rozi emas", "Sotmoqchi"], "a": 1, "e": "«O‘zim olib qolganman, o‘zim, o‘z qo‘lim bilan qaytarishim kerak»." },
+      { "q": "O‘lmas Umarbekovning ilk hikoyasi qaysi?", "o": ["«Qiyomat qarz»", "«Xatingni kutaman»", "«Charos»", "«Ko‘prik»"], "a": 1, "e": "1956-yilda «Yilning eng yaxshi hikoyasi» deb topilgan." }
+    ],
+    "13": [
+      { "q": "«Oq kema»da bolaning o‘z ertagi qanday?", "o": ["Qushga aylanib uchish", "Baliqqa aylanib oq kemaga suzib borish", "Bug‘u bilan do‘stlashish", "Tog‘ga chiqish"], "a": 1, "e": "Bola oq kemada otasi matros deb o‘ylaydi." },
+      { "q": "Ona bug‘uni otishga Mo‘min cholni kim majburlaydi?", "o": ["Bo‘key", "O‘rozqul", "Bola", "Qo‘riqxona boshlig‘i Seydahmad"], "a": 1, "e": "Chol qizi Bo‘keyni deb rozi bo‘ladi." },
+      { "q": "Chingiz Aytmatovning otasi bilan nima bo‘lgan?", "o": ["Urushda halok bo‘lgan", "1937-yilda qatag‘on qilingan", "Chet elga ketgan", "Kasallikdan vafot etgan"], "a": 1, "e": "Otasi To‘raqul — davlat arbobi." }
+    ],
+    "14": [
+      { "q": "«Ramz» so‘zining grekcha asli qaysi?", "o": ["Metafora", "Symbolon", "Allegoria", "Ironia"], "a": 1, "e": "Qadimgi greklarda maxfiy tashkilot a’zolarining shartli belgisi." },
+      { "q": "«Oq kema»da oq kema nimaning ramzi?", "o": ["Boylik", "To‘kislik, diydor, mehr-oqibat", "Urush", "Sayohat"], "a": 1, "e": "Baliq — erk, Shoxdor ona bug‘u — ezgulik." },
+      { "q": "Tulki adabiyotda odatda nimaning ramzi?", "o": ["Kuch", "Ayyorlik", "Sadoqat", "Oshiq"], "a": 1, "e": "Arslon — kuch, bulbul — oshiq." }
+    ],
+    "15": [
+      { "q": "Ravshan Zulxumor suratini qayerda ko‘rib oshiq bo‘ladi?", "o": ["Tushida", "Sehrli uzuk ko‘zida", "Oynada", "Bozorda"], "a": 1, "e": "Ishqiy-sarguzasht dostonlarga xos motiv." },
+      { "q": "«Ravshan»ni kim, kimdan yozib olgan?", "o": ["Fozil Yo‘ldosh Hodi Zarifdan", "Hodi Zarif Ergash Jumanbulbul o‘g‘lidan", "Ergash Kichik Bo‘rondan", "Mirtemir Ergashdan"], "a": 1, "e": "1928-yilda yozib olingan, 1941-yilda nashr etilgan." },
+      { "q": "Ravshan dinini o‘zgartirish taklifiga qanday javob beradi?", "o": ["Rozi bo‘ladi", "E’tiqodidan voz kechmaydi", "Qochib ketadi", "O‘ylab ko‘raman deydi"], "a": 1, "e": "Iymon yo‘lida sobitlik — dostonning g‘oyalaridan biri." }
+    ],
+    "16": [
+      { "q": "Aqlga sig‘maydigan darajadagi mubolag‘a qanday ataladi?", "o": ["Tablig‘", "Ig‘roq", "G‘ulu", "Tashbih"], "a": 2, "e": "Tablig‘ — mumkin, ig‘roq — aqlan mumkin, amalda emas." },
+      { "q": "Asarda bir-ikki o‘rinda qatnashadigan qahramon qanday ataladi?", "o": ["Bosh qahramon", "Epizodik qahramon", "Lirik qahramon", "Antiqahramon"], "a": 1, "e": "«Ravshan»da kampir ena, aka-uka kallar, Oqqiz." },
+      { "q": "Tor ma’nodagi obraz nima?", "o": ["Hayot manzarasi", "Asardagi inson siymosi", "Tabiat tasviri", "Muallif fikri"], "a": 1, "e": "Keng ma’noda — ijodkor tuyg‘ulari singdirilgan hayot manzarasi." }
+    ],
+    "17": [
+      { "q": "Navoiy turkiy tildagi birinchi «Xamsa»ni necha yilda yozgan?", "o": ["10 yilda", "2 yilda", "5 yilda", "20 yilda"], "a": 1, "e": "1483–1485-yillarda." },
+      { "q": "«Muhokamat ul-lug‘atayn» nimaga bag‘ishlangan?", "o": ["Aruz vazniga", "Turkiy va forsiy tillar qiyosiga", "Shoirlar tazkirasiga", "Tarixga"], "a": 1, "e": "«Mezon ul-avzon» — aruz, «Majolis un-nafois» — tazkira." },
+      { "q": "«Xazoyin ul-maoniy» necha devondan iborat?", "o": ["2", "4", "5", "7"], "a": 1, "e": "G‘aroyib us-sig‘ar, Navodir ush-shabob, Badoye ul-vasat, Favoyid ul-kibar." }
+    ],
+    "18": [
+      { "q": "«Sab’ai sayyor» «Xamsa»ning nechanchi dostoni?", "o": ["Birinchi", "Uchinchi", "To‘rtinchi", "Beshinchi"], "a": 2, "e": "1484-yilda yozilgan." },
+      { "q": "«Jobir» ismi qanday ma’noni anglatadi?", "o": ["Quyosh", "Jabr qiluvchi, zolim", "Yorqin yulduz", "Dengizchi"], "a": 1, "e": "Mehr — quyosh, Suhayl — yorqin yulduz." },
+      { "q": "Jobir asirlarni qayerda saqlaydi?", "o": ["Kemada", "Chuqur quduq (choh)da", "Qal’a minorasida", "Orolda"], "a": 1, "e": "«Non ikita edi, su bir ibriq»." }
+    ],
+    "19": [
+      { "q": "«Yuzing go‘zallikda gul kabidir» tashbihida «kabi» qaysi unsur?", "o": ["O‘xshamish", "O‘xshatilmish", "Vosita", "Asos"], "a": 2, "e": "Yuz — o‘xshamish, gul — o‘xshatilmish, go‘zallikda — asos." },
+      { "q": "Fikr isboti uchun xalq maqolini keltirish qanday san’at?", "o": ["Tanosub", "Irsoli masal", "Tashbih", "Istiora"], "a": 1, "e": "Masalan, «Har kishikim birovga qozg‘oy choh...»." },
+      { "q": "Faqat o‘xshatilmish qolgan tashbih qanday ataladi?", "o": ["Mutlaq tashbih", "Kinoya tashbih", "Tanosub", "Mubolag‘a"], "a": 1, "e": "«Bo‘rini dag‘i galadin dur qil» — bo‘ri zolimlar ma’nosida." }
+    ],
+    "20": [
+      { "q": "Uvaysiy taxallusi kimning nomi bilan bog‘liq?", "o": ["Uvays Qaraniy", "Uvaysxon", "Imom Uvays", "Shayx Uvays Buxoriy"], "a": 0, "e": "Payg‘ambarni ko‘rmay g‘oyibona sevgan valiy; uvaysiylik — g‘oyibona muhabbat." },
+      { "q": "«Sog‘indim» g‘azalida ona kimni sog‘inadi?", "o": ["Qizini", "Askarlikka ketgan yolg‘iz o‘g‘lini", "Erini", "Ota-onasini"], "a": 1, "e": "O‘g‘lini «davlatli sultonim» deb ataydi." },
+      { "q": "«Chiston» so‘zining ma’nosi nima?", "o": ["Sir", "U nima?", "Topishmoq javobi", "She’r"], "a": 1, "e": "Forscha «chist» — nima, «on» — u." }
+    ],
+    "21": [
+      { "q": "Qofiyadosh so‘zlardagi tirgak tovush qanday ataladi?", "o": ["Radif", "Raviy", "Turoq", "Hija"], "a": 1, "e": "Masalan, nishon — makon — qon (raviy n)." },
+      { "q": "Raviydan keyin harflar davom etadigan qofiya qanday ataladi?", "o": ["Muqayyad", "Mutlaq", "Ichki", "Erkin"], "a": 1, "e": "Muqayyad qofiya raviy bilan tugaydi." },
+      { "q": "«...jononimni sog‘indim, ...davronimni sog‘indim»da radif qaysi?", "o": ["jononimni", "davronimni", "sog‘indim", "ni"], "a": 2, "e": "Radif — qofiyadan keyin takrorlanadigan so‘z." }
+    ],
+    "22": [
+      { "q": "«Ajab ermas»da shoir istibdod kunlarini nimaga o‘xshatadi?", "o": ["Qishga", "Tarqaluvchi bulutga", "Tunga", "Dengizga"], "a": 1, "e": "Mustamlakachi davlatni esa suv yuzidagi pufakchaga o‘xshatadi." },
+      { "q": "«Humo yetkur» misrasi bugungi kun bilan qanday bog‘lanadi?", "o": ["Madhiyamizni eslatadi", "O‘zbekiston gerbidagi Humo qushini eslatadi", "Bayrog‘imizni eslatadi", "Hech bog‘lanmaydi"], "a": 1, "e": "Shoirona bashorat sifatida baholanadi." },
+      { "q": "Zavqiyning «Ajab ermas» she’ri qanday shaklda?", "o": ["G‘azal", "Muxammas", "Ruboiy", "Qasida"], "a": 1, "e": "Asli 7 band, to‘la matnni 1997-yil R. Tojiboyev tiklagan." }
+    ],
+    "23": [
+      { "q": "«Bekka — saxo, shohga — ... yaxshi» misrasini to‘ldiring.", "o": ["Boylik", "Adolat", "Kuch", "Ilm"], "a": 1, "e": "Maxtumquli «Adolat yaxshi» she’ridan." },
+      { "q": "Maxtumqulining taxallusi qaysi?", "o": ["Ozodiy", "Firog‘iy", "Nodim", "Mashrab"], "a": 1, "e": "Otasi Davlatmamad Ozodiy." },
+      { "q": "«Shoir bo‘lsang, xabar ber» qanday janrda?", "o": ["Masal", "Aytishuv (savol-javob)", "Doston", "Marsiya"], "a": 1, "e": "Maxtumquli Turdi shoir bilan aytishgan." }
+    ],
+    "24": [
+      { "q": "«Mehrobdan chayon» nomi kimlarga ishora?", "o": ["Xon qo‘shiniga", "Din niqobidagi munofiq ruhoniylarga", "Savdogarlarga", "Sahro hayvonlariga"], "a": 1, "e": "Mehrob — masjiddagi muqaddas joy, chayon — zaharli munofiq." },
+      { "q": "Anvarni yoshligida kim tarbiyalagan?", "o": ["Nigor oyim", "Opasi Nodira", "Solih maxdum", "Ra’no"], "a": 1, "e": "Anvar yoshligida yetim qolgan." },
+      { "q": "Abdulla Qodiriy qaysi felyetoni uchun 1926-yilda qamalgan?", "o": ["«Mushtum»", "«Yig‘indi gaplar»", "«Juvonboz»", "«Uloqda»"], "a": 1, "e": "Samarqandda sud bo‘lgan." }
+    ],
+    "25": [
+      { "q": "Cho‘lponning «Binafsha» she’ridagi binafsha nimaning ramzi?", "o": ["Bahor", "Xo‘rlangan yurt, ezilgan millat", "Sevgili", "Bolalik"], "a": 1, "e": "«Ko‘chada aqchaga sotilgan» binafsha — erksiz hayot ramzi." },
+      { "q": "«Cho‘lpon» so‘zining ma’nosi nima?", "o": ["Oy", "Tong yulduzi (Venera)", "Cho‘l", "Shamol"], "a": 1, "e": "Abdulhamid Sulaymon o‘g‘lining taxallusi." },
+      { "q": "Cho‘lponning ilk she’riy to‘plami qaysi?", "o": ["«Buloqlar»", "«Uyg‘onish»", "«Soz»", "«Tong sirlari»"], "a": 1, "e": "«Uyg‘onish» (1922), «Buloqlar» (1923), «Tong sirlari» (1926), «Soz» (1935)." }
+    ],
+    "26": [
+      { "q": "Ko‘chim o‘xshatishdan nimasi bilan farq qiladi?", "o": ["Uzunroq bo‘ladi", "Faqat bir narsa ifodalanib, ikkinchisining ma’nosi unga ko‘chiriladi", "Faqat she’rda ishlatiladi", "Vosita qo‘shiladi"], "a": 1, "e": "O‘xshatishda ikkala narsa ham ifodalanadi." },
+      { "q": "Qisqargan o‘xshatish qanday ataladi?", "o": ["Majoz", "Istiora", "Ramz", "Tanosub"], "a": 1, "e": "Masalan, «ko‘kragim erk yeri»." },
+      { "q": "Gulxaniy masallarida inson xususiyatlarini hayvonlarga ko‘chirish qaysi ko‘chim turi?", "o": ["Majoz", "Istiora", "Mubolag‘a", "Irsoli masal"], "a": 0, "e": "Majoz noaniq tushunchani ma’lum narsalar belgilari bilan ifodalaydi." }
+    ],
+    "27": [
+      { "q": "«O‘g‘ri» hikoyasida haqiqiy o‘g‘rilar kimlar?", "o": ["Ho‘kizni olib ketgan kishi", "Poraxo‘r amaldorlar", "Kampir", "Azayimxon"], "a": 1, "e": "Ellikboshi, amin, mingboshi — chor mustamlakasi davri poraxo‘rligi." },
+      { "q": "«Dahshat»da Unsin go‘ristonga nima uchun boradi?", "o": ["Qo‘y olish uchun", "Ota-onasi yoniga ketish sharti bilan", "Dodxoni rozi qilish uchun", "Jasoratini ko‘rsatish uchun"], "a": 1, "e": "Erkka intilish qo‘rquvdan kuchliroq edi." },
+      { "q": "«O‘g‘ri» hikoyasining epigrafi qaysi?", "o": ["«Otning o‘limi — itning bayrami»", "«Bo‘ri yer, ayiq yer»", "«Yetti o‘lchab, bir kes»", "«Dehqonning uyi kuysa kuysin»"], "a": 0, "e": "Birovning boshiga tushgan kulfat boshqalarga foyda keltiradi." }
+    ],
+    "28": [
+      { "q": "«Onaginam» she’ridagi «botguvchi, sizlatguvchi, g‘ajiguvchi» sifatlari nimaga tegishli?", "o": ["Ona mehriga", "G‘ashlikka", "Tabiatga", "Yo‘lga"], "a": 1, "e": "Onasini ko‘rolmagan farzandning armoni." },
+      { "q": "«Sensiz O‘zbekiston — O‘zbekistonmas» satri kimga qaratilgan?", "o": ["Onaga", "Toshbuga — o‘zbek ayoliga", "Vatanga", "Do‘stga"], "a": 1, "e": "«Toshbu» she’rida o‘zbek ayolining sadoqati ulug‘lanadi." },
+      { "q": "1920-yillarda Mirtemirning qaysi asarlari mashhur bo‘lgan?", "o": ["Dostonlari", "Sochmalari", "Romanlari", "Dramalari"], "a": 1, "e": "Keyin dostonlar, dramatik va nasriy asarlar ham yozgan." }
+    ],
+    "29": [
+      { "q": "«Yulduzlar afsonasi»da Hulkarning qizini kim o‘g‘irlaydi?", "o": ["Dev", "Yetti qaroqchi", "Shoh", "Bo‘ri"], "a": 1, "e": "Hulkar va Yetti og‘ayni yulduzlari haqidagi afsona." },
+      { "q": "«Nonday aziz bo‘lmasdi inson, ...» satrining davomi?", "o": ["«Yerga manglay terin bermasa»", "«Ilm o‘rganmasa»", "«Vatan sevmasa»", "«Do‘st topmasa»"], "a": 0, "e": "«Yer va ter» she’rida mehnat ulug‘lanadi." },
+      { "q": "Xayriddin Saloh qaysi to‘garakda ijod sirlarini o‘rgangan?", "o": ["G‘afur G‘ulom", "G‘ayratiy", "Oybek", "Mirtemir"], "a": 1, "e": "Erkin Vohidov, Yusuf Shomansur, Sayyor bilan birga." }
+    ],
+    "30": [
+      { "q": "Yovvoyi yo‘rg‘aning o‘ziga xosligi nima?", "o": ["Juda tez chopadi", "Hech qachon chopmaydi, faqat yo‘rg‘alaydi, lekin unga hech kim yetolmaydi", "Odamlarga o‘rgangan", "Faqat kechasi yuradi"], "a": 1, "e": "Shuning uchun u mashhur bo‘lgan." },
+      { "q": "Tabiat ishqibozi yigit nega yo‘rg‘ani otmadi?", "o": ["O‘qi qolmagan", "Go‘zalligiga qoyil qoldi", "Qo‘rqdi", "Tuzoq qo‘ymoqchi edi"], "a": 1, "e": "1893-yil dekabrda." },
+      { "q": "Yo‘rg‘ani tuzoq bilan tutgan kim?", "o": ["Jo Kalon", "Qari Tom", "Tabiat ishqibozi", "Fermer"], "a": 1, "e": "Yo‘rg‘a qoyadan sakrab, halok bo‘lsa-da ozod qoladi." }
+    ]
+  }
+}

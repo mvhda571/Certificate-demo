@@ -1,8 +1,7 @@
 const q = (text, options, answer) => ({ text, options, answer })
 
 export const subjects = [
-  { id: 'ona-tili', title: 'Ona tili', short: 'Grammatika, matn va so‘z turkumlari', active: true, color: 'from-violet-500 to-fuchsia-600', pdfs: [{ title: 'Ona tili darsligi', url: '/textbooks/ona-tili-6.pdf' }] },
-  { id: 'adabiyot', title: 'Adabiyot', short: 'Adiblar, asarlar va badiiy tahlil', active: true, color: 'from-rose-500 to-orange-500', pdfs: [{ title: 'Adabiyot I qism', url: '/textbooks/adabiyot-6-1.pdf' }, { title: 'Adabiyot II qism', url: '/textbooks/adabiyot-6-2.pdf' }] },
+  { id: 'ona-tili-adabiyot', title: 'Ona tili va adabiyot', short: 'Grammatika, adiblar, asarlar va badiiy tahlil', active: true, color: 'from-violet-500 to-rose-500', pdfs: [] },
   { id: 'matematika', title: 'Matematika', short: 'Sonlar, kasrlar va proporsiya', active: true, color: 'from-blue-500 to-cyan-500', pdfs: [{ title: 'Matematika darsligi', url: '/textbooks/matematika-6.pdf' }] },
   { id: 'tarix', title: 'Tarix', short: '6-11-sinf O‘zbekiston va jahon tarixi', active: true, color: 'from-orange-600 to-rose-700', pdfs: [] },
   ...['7-sinf fanlari', '8-sinf fanlari', '9-sinf fanlari', 'Fizika', 'Kimyo', 'Biologiya'].map((title, i) => ({ id: `soon-${i}`, title, short: 'Yangi darslik va testlar tayyorlanmoqda', active: false, color: 'from-slate-400 to-slate-600', pdfs: [] })),

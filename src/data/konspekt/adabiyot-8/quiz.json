@@ -1,0 +1,99 @@
+{
+  "topics": {
+    "1": [
+      { "q": "Xolbeka sovchilarga qanday shart qo‘ygan?", "o": ["Ajdarni o‘ldirishni", "Nardda o‘zini yutishni", "Kamondan nishonga urishni", "Qirq kun ro‘za tutishni"], "a": 1, "e": "«Nardda yutsa tegaman, yutqazsa so‘yaman»." },
+      { "q": "Kuntug‘mishning egizak o‘g‘illari kimlar?", "o": ["Xolmo‘min va Tohir", "Gurkiboy va Mohiboy", "Alpomish va Qorajon", "Ravshan va Avaz"], "a": 1, "e": "Gurkiboy — bosiq, Mohiboy — shaddod." },
+      { "q": "«Kuntug‘mish» dostoni qaysi turga kiradi?", "o": ["Tarixiy doston", "Ishqiy-qahramonlik dostoni", "Kitobiy doston", "Jangnoma"], "a": 1, "e": "Muhabbat yo‘lida qahramonliklar ko‘rsatiladi." }
+    ],
+    "2": [
+      { "q": "Lutfiyni qanday sharaflaganlar?", "o": ["«Sulton ul-ulamo»", "«Malik ul-kalom»", "«Shayx ul-islom»", "«Amir ul-umaro»"], "a": 1, "e": "«Malik ul-kalom» — so‘z podshosi." },
+      { "q": "Lutfiy necha yoshida vafot etgan?", "o": ["60", "75", "99", "84"], "a": 2, "e": "1366–1465; Hirot yaqinidagi Dehikanorda dafn etilgan." },
+      { "q": "Har baytida xalq maqoli keltirilgan Lutfiy g‘azali qaysi san’atga qurilgan?", "o": ["Tajnis", "Irsoli masal", "Tazod", "Tashxis"], "a": 1, "e": "«Charog‘ tubi — qorong‘u», «Oqqan ariqqa oqar suv»." }
+    ],
+    "3": [
+      { "q": "Aruzning o‘lchov birligi nima?", "o": ["Turoq", "Hijo", "Band", "Qofiya"], "a": 1, "e": "Hijo qisqa, cho‘ziq va o‘ta cho‘ziq bo‘ladi." },
+      { "q": "Hazaj bahrining bosh rukni qaysi?", "o": ["Foilotun", "Mafoiylun", "Faulun", "Mustaf’ilun"], "a": 1, "e": "Mafoiylun: V — — —." },
+      { "q": "Tuyuqning majburiy sharti qaysi?", "o": ["Qofiyada tajnis bo‘lishi", "Radif bo‘lishi", "8 misradan iborat bo‘lishi", "Barmoqda yozilishi"], "a": 0, "e": "Tuyuq — 4 misrali, qofiyasi tajnisli she’r." }
+    ],
+    "4": [
+      { "q": "Fard necha baytdan iborat?", "o": ["Bir baytdan", "Ikki baytdan", "To‘rt baytdan", "Besh baytdan"], "a": 0, "e": "Fard (arabcha «yakka») — bir baytli mustaqil she’r." },
+      { "q": "Navoiy tuyuqlarini qaysi devoniga kiritgan?", "o": ["«Favoyid ul-kibar»", "«Badoye ul-vasat»", "«G‘aroyib us-sig‘ar»", "«Navodir ush-shabob»"], "a": 1, "e": "Jami 13 ta tuyuq." },
+      { "q": "«Bo‘lmas emish» radifli ruboiyning g‘oyasi nima?", "o": ["Yoshlikni qadrlash", "Vatanparvarlik, musofirlik fojiasi", "Saxovat", "Hasbi hol"], "a": 1, "e": "«G‘urbatda g‘arib shodmon bo‘lmas emish»." }
+    ],
+    "5": [
+      { "q": "Nodiraning forsiy taxallusi qaysi?", "o": ["Komila", "Maknuna", "Uvaysiy", "Mahzuna"], "a": 1, "e": "O‘zbekcha taxalluslari — Nodira va Komila." },
+      { "q": "Nodira kimga turmushga chiqqan?", "o": ["Muhammad Alixonga", "Umarxonga", "Nasrulloxonga", "Rahmonqul otaliqqa"], "a": 1, "e": "Qo‘qon xoni Umarxon — shoir Amiriy." },
+      { "q": "Zid ma’noli so‘zlarni qarshilantirish qaysi san’at?", "o": ["Talmeh", "Tazod", "Tajnis", "Irsoli masal"], "a": 1, "e": "Masalan, obod — vayron." }
+    ],
+    "6": [
+      { "q": "«Sog‘inish» she’ri kimga bag‘ishlangan?", "o": ["Shoirning onasiga", "Frontdagi o‘g‘li Jo‘raxonga", "Qo‘shni qizga", "Maktab o‘quvchisiga"], "a": 1, "e": "1942-yilda yozilgan." },
+      { "q": "«Vaqt» she’rida g‘uncha ochilguncha o‘tgan fursat nimaga qiyoslanadi?", "o": ["Asr umriga", "Kapalak umriga", "Bulbul nag‘masiga", "Yulduz so‘nishiga"], "a": 1, "e": "Lahzaning qadri ulug‘lanadi." },
+      { "q": "«Shum bola» qissasi muallifi kim?", "o": ["Oybek", "G‘afur G‘ulom", "Abdulla Qahhor", "Said Ahmad"], "a": 1, "e": "G‘afur G‘ulom she’riyatda ham, nasrda ham ijod qilgan." }
+    ],
+    "7": [
+      { "q": "«Na’matak» she’ri qachon yozilgan?", "o": ["1927-yilda", "1937-yilda", "1943-yilda", "1951-yilda"], "a": 1, "e": "Qatag‘on yilida — na’matak so‘nmagan ijodiy ruh ramzi." },
+      { "q": "Oybekning «O‘zbekiston» she’ri qaysi janrda?", "o": ["Doston", "Qasida", "Ruboiy", "Ballada"], "a": 1, "e": "Urush yillarida (1943) yozilgan qasida." },
+      { "q": "Oybek qaysi risolasi bilan Qodiriyni himoya qilgan?", "o": ["«Navoiy»", "«Abdulla Qodiriyning ijodiy yo‘li»", "«Bolalik»", "«Qutlug‘ qon»"], "a": 1, "e": "1930-yillarda — xavfli davrda jasorat." }
+    ],
+    "8": [
+      { "q": "Maqsud Shayxzoda qayerda tug‘ilgan?", "o": ["Toshkentda", "Ozarbayjonning Agdash shahrida", "Bokuda", "Samarqandda"], "a": 1, "e": "1928-yil Toshkentga surgun qilingan." },
+      { "q": "«Jaloliddin Manguberdi»da darvozani ochgan sotqin kim?", "o": ["Temur Malik", "Badriddin", "Elbors pahlavon", "Nasaviy"], "a": 1, "e": "Shundan so‘ng Temur Malik asir tushadi." },
+      { "q": "«Tragediya» so‘zi qanday ma’noni bildiradi?", "o": ["«Kulgili tomosha»", "«Echki qo‘shig‘i»", "«Raqs qo‘shig‘i»", "«Qahramon nidosi»"], "a": 1, "e": "Yunoncha «tragos» — echki, «ode» — qo‘shiq." }
+    ],
+    "9": [
+      { "q": "Usmon Nosir necha yoshida qamalgan?", "o": ["18", "24", "30", "32"], "a": 1, "e": "1937-yilda, 1944-yil Sibirdagi lagerda vafot etgan." },
+      { "q": "«Nil va Rim»da ehromlar va obidalar kimlar mehnati evaziga qurilgan?", "o": ["Me’morlar", "Qullar", "Askarlar", "Savdogarlar"], "a": 1, "e": "She’r inson qadri va erkni ulug‘laydi." },
+      { "q": "«Yana she’rimga»da shoir kim bilan o‘rtoq tutinadi?", "o": ["Pushkin", "Geyne", "Navoiy", "Bayron"], "a": 1, "e": "Lermontovdan ko‘mak so‘raydi." }
+    ],
+    "10": [
+      { "q": "«Ufq» trilogiyasining birinchi kitobi qaysi?", "o": ["«Hijron kunlarida»", "«Qirq besh kun»", "«Ufq bo‘sag‘asida»", "«Jimjitlik»"], "a": 1, "e": "Katta Farg‘ona kanali qurilishi haqida." },
+      { "q": "Ikromjon o‘g‘lini qayerda topadi?", "o": ["Choyxonada", "To‘qayzorda", "Frontda", "Kanal bo‘yida"], "a": 1, "e": "Tursunboy to‘rt oydan beri to‘qayda yashiringan edi." },
+      { "q": "Said Ahmadning mashhur komediyasi qaysi?", "o": ["«Shohi so‘zana»", "«Kelinlar qo‘zg‘oloni»", "«Temir xotin»", "«Tobutdan tovush»"], "a": 1, "e": "1976-yilda yozilgan." }
+    ],
+    "11": [
+      { "q": "Uch kitobdan iborat roman qanday ataladi?", "o": ["Dilogiya", "Trilogiya", "Tetralogiya", "Epopeya"], "a": 1, "e": "Masalan, Said Ahmad «Ufq»." },
+      { "q": "Roman-epopeyada nima muhim?", "o": ["Kitoblar soni", "Voqealar ko‘lami", "Muallifning yoshi", "She’riy shakl"], "a": 1, "e": "Bir necha avlod taqdiri tasvirlanadi (Balzak, S. Ayniy)." },
+      { "q": "V. Katayevning «Qora dengiz to‘lqinlari» qaysi shaklda?", "o": ["Dilogiya", "Trilogiya", "Tetralogiya", "Romanlar turkumi"], "a": 2, "e": "Tetralogiya — 4 kitob." }
+    ],
+    "12": [
+      { "q": "«Chinor» romanida voqealar kimga bog‘lanadi?", "o": ["Akbaraliga", "93 yoshli Ochil boboga", "Bektemirga", "Sharofat xolaga"], "a": 1, "e": "Ochil bobo qarindoshlarini yo‘qlab safarga chiqadi." },
+      { "q": "Ochil bobo Akbaralini qanday ataydi?", "o": ["«Qo‘rqoq bola»", "«Mo‘rt barg»", "«Chinor shoxi»", "«Yetim qush»"], "a": 1, "e": "Bir lahzalik qo‘rquv uning hayotini sindirdi." },
+      { "q": "Asqad Muxtor romanchiligimizga nimani olib kirgan?", "o": ["Fantastikani", "«Shafqatsiz realizm»ni", "Hajvni", "Tarixiy romanni"], "a": 1, "e": "Hayot haqiqatini ayovsiz ko‘rsatish." }
+    ],
+    "13": [
+      { "q": "Ozod Sharafiddinov qaysi jurnalning asoschisi?", "o": ["«Sharq yulduzi»", "«Jahon adabiyoti»", "«Mushtum»", "«Yoshlik»"], "a": 1, "e": "U jurnalning bosh muharriri ham bo‘lgan." },
+      { "q": "Maqolada Vatanni sevishning qaysi ikki xili qarshi qo‘yilgan?", "o": ["Yoshlikda va keksalikda", "Og‘izda va amalda", "Shaharda va qishloqda", "Yozda va qishda"], "a": 1, "e": "Haqiqiy vatanparvarlik — amal bilan." },
+      { "q": "Ozod Sharafiddinovning so‘nggi vasiyati nima haqida?", "o": ["Uyini asrash", "Kitoblarini asrash", "Bog‘ini asrash", "Jurnalini davom ettirish"], "a": 1, "e": "«Mening eng katta boyligim mana shu kitoblar edi»." }
+    ],
+    "14": [
+      { "q": "To‘ra Sulaymon she’riyatga nimani qaytarishga uringan?", "o": ["Aruz vaznini", "Qadimiy xalqona ohanglarni (o‘lan)", "Sarbast she’rni", "Sonet janrini"], "a": 1, "e": "«O‘langa oshiqligim — o‘lmaslikka ishora»." },
+      { "q": "«Tavallo» she’rida kimning yig‘isi samimiy?", "o": ["Yorning", "Mushtipar Onaning", "Do‘stlarning", "Qo‘shnilarning"], "a": 1, "e": "«Qolganlari yolg‘on yig‘laydir»." },
+      { "q": "To‘ra Sulaymon qayerda tug‘ilgan?", "o": ["Boysunda", "Baxmal tumanidagi Aldashmon qishlog‘ida", "Marhamatda", "Oxunqaynarda"], "a": 1, "e": "Jizzax viloyati." }
+    ],
+    "15": [
+      { "q": "Inodning uch boyligi qaysilar?", "o": ["Uy, bog‘, sigir", "Qishlog‘i, maktabi, qorabayir oti", "Xotini, bolalari, oti", "Miltig‘i, oti, iti"], "a": 1, "e": "Otni u nomardga bermay, o‘zi otadi." },
+      { "q": "«Otning egasi»dagi poraxo‘r militsioner kim?", "o": ["Rahmon polvon", "Egamberdi", "Ulton piyon", "Omon"], "a": 1, "e": "Avval sigir, so‘ng qo‘ylarni undiradi." },
+      { "q": "Omon ovchining o‘g‘li nima deydi?", "o": ["«Men ham ovchi bo‘laman»", "«Menga miltiq kerak emas»", "«Otamning qasosini olaman»", "«Tog‘dan ketamiz»"], "a": 1, "e": "Tabiatga zulm jazosiz qolmasligini anglaydi." }
+    ],
+    "16": [
+      { "q": "Muhammad Yusuf qayerda tug‘ilgan?", "o": ["Andijon viloyati Marhamat tumanida", "Namanganda", "Boysunda", "Qo‘qonda"], "a": 0, "e": "Qovunchi qishlog‘ida, 1954-yilda." },
+      { "q": "«Biz hali hammadan o‘tamiz, qizim!» qaysi she’rdan?", "o": ["«Mehr qolur»", "«Madina»", "«Vatanim»", "«Onajon»"], "a": 1, "e": "Shoirning qiziga murojaati." },
+      { "q": "Muhammad Yusuf she’rlarida qaysi rus shoiri ta’siri seziladi?", "o": ["Pushkin", "Yesenin", "Lermontov", "Mayakovskiy"], "a": 1, "e": "Yesenin ham qishloq, Vatan sog‘inchi kuychisi." }
+    ],
+    "17": [
+      { "q": "Fuzuliy qayerda tug‘ilgan?", "o": ["Bokuda", "Iroqning Karbalo shahrida", "Tabrizda", "Hirotda"], "a": 1, "e": "Ozarbayjonlarning bayot urug‘idan." },
+      { "q": "Fuzuliy qaysi o‘zbek shoiriga katta ta’sir ko‘rsatgan?", "o": ["Mashrabga", "Lutfiyga", "Navoiyga", "Atoyiga"], "a": 0, "e": "Lutfiy va Navoiy Fuzuliydan oldin yashagan." },
+      { "q": "«...kerakmazmi sanga?» g‘azalining vazni qanday?", "o": ["Hazaji musaddasi mahzuf", "Ramali musammani mahzuf (maqsur)", "Mutaqoribi musammani maqsur", "Barmoq vazni"], "a": 1, "e": "Ramal — foilotun ruknidan." }
+    ],
+    "18": [
+      { "q": "Thakur qachon Nobel mukofotini olgan?", "o": ["1901-yilda", "1913-yilda", "1925-yilda", "1941-yilda"], "a": 1, "e": "Hind adibi, bengal tilida yozgan." },
+      { "q": "Shubxaning tili o‘rnini nima bosadi?", "o": ["Qo‘shiqlari", "Ko‘zlari", "Qo‘l ishoralari", "Yozuvi"], "a": 1, "e": "Qora, shahlo ko‘zlari." },
+      { "q": "Thakurning qo‘shig‘i qaysi davlatning madhiyasi?", "o": ["Pokiston", "Bangladesh", "Shri-Lanka", "Nepal"], "a": 1, "e": "Hindiston madhiyasi muallifi ham." }
+    ],
+    "19": [
+      { "q": "Yesenin «Fors taronalari»ni qayerda yozgan?", "o": ["Tehronda", "Bokuda", "Toshkentda", "Ryazanda"], "a": 1, "e": "Eronga borishni orzu qilgan, lekin Bokuga yuborilgan." },
+      { "q": "Yesenin she’rlarini o‘zbek tiliga kim tarjima qilgan?", "o": ["Abdulla Oripov", "Erkin Vohidov", "Muhammad Yusuf", "Usmon Nosir"], "a": 1, "e": "Erkin Vohidov ko‘p she’rlarini tarjima qilgan." },
+      { "q": "«It haqida doston»ning g‘oyasi nima?", "o": ["Vatan sog‘inchi", "Rahmdillik, ona mehri", "Muhabbat izhori", "Qahramonlik"], "a": 1, "e": "Ona it yetti kuchugidan ayriladi." }
+    ]
+  }
+}

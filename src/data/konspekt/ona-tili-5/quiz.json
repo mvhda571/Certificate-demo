@@ -1,0 +1,404 @@
+{
+  "topics": {
+    "1": [
+      { "q": "Nima uchun til ijtimoiy hodisa sanaladi?", "o": ["Tabiatda mavjud bo‘lgani uchun", "Kishilar o‘rtasidagi aloqa quroli bo‘lgani uchun", "Faqat yozuvda bo‘lgani uchun", "Faqat olimlar yaratgani uchun"], "a": 1, "e": "Til — aloqa-aralashuv quroli." },
+      { "q": "«Tilga e’tibor — elga e’tibor» hikmati kimga tegishli?", "o": ["Bobur", "Alisher Navoiy", "To‘ra Sulaymon", "Fitrat"], "a": 1, "e": "Navoiy hikmati." },
+      { "q": "Tilni kim yaratadi?", "o": ["Shoirlar", "Xalq", "Olimlar", "Davlat"], "a": 1, "e": "Tilni xalq yaratadi va unga sayqal beradi." }
+    ],
+    "2": [
+      { "q": "O‘zbek tiliga Davlat tili maqomi qachon berilgan?", "o": ["1991-yil 1-sentabr", "1989-yil 21-oktabr", "1993-yil 2-sentabr", "1995-yil 24-avgust"], "a": 1, "e": "21-oktabr — O‘zbek tili bayrami." },
+      { "q": "«Davlat tili haqida»gi Qonunning 15-moddasi nima haqida?", "o": ["Teleradio eshittirishlari", "Ism-familiyani milliy an’anaga muvofiq yozish huquqi", "Maktab ta’limi", "Alifbo"], "a": 1, "e": "6-modda — teleradio eshittirishlari." },
+      { "q": "«Nufuz» so‘zining ma’nosi nima?", "o": ["Aholi", "Obro‘-e’tibor, ta’sir", "Qonun", "Boylik"], "a": 1, "e": "Nufus — aholi (paronim)." }
+    ],
+    "3": [
+      { "q": "Ot qaysi so‘roqlarga javob bo‘ladi?", "o": ["Qanday? qaysi?", "Kim? nima? qayer?", "Qancha? nechta?", "Nima qilmoq?"], "a": 1, "e": "Ot — shaxs, narsa, joy nomi." },
+      { "q": "Qaysi so‘z turkumi ot, sifat, son o‘rnida keladi?", "o": ["Ravish", "Olmosh", "Fe’l", "Son"], "a": 1, "e": "Olmosh — o‘rinbosar so‘z." },
+      { "q": "Jaloliddin Manguberdini «shijoatli, adolatli» deb ta’riflagan tarixchi kim?", "o": ["Beruniy", "Shahobiddin Nasaviy", "Mahmud Koshg‘ariy", "Rashididdin"], "a": 1, "e": "Shahobiddin Nasaviy." }
+    ],
+    "4": [
+      { "q": "Sifat nimani bildiradi?", "o": ["Harakatni", "Belgini", "Miqdorni", "Narsa nomini"], "a": 1, "e": "Qanday? qanaqa? qaysi?" },
+      { "q": "Qaysi sifat salbiy ma’noli?", "o": ["Kamtar", "Kaltafahm", "Kitobsevar", "Adolatli"], "a": 1, "e": "Kaltafahm — tushunchasi past." },
+      { "q": "«Insonning eng sharafli darajasi — uning aqlidir» kimning fikri?", "o": ["Forobiy", "Fitrat", "Ibn Sino", "Navoiy"], "a": 1, "e": "Fitrat fikri." }
+    ],
+    "5": [
+      { "q": "-ov, -ovlon qo‘shimchalari qaysi songa qo‘shila oladi?", "o": ["O‘ttiz besh", "Uch", "Bir yuz olti", "Ming"], "a": 1, "e": "Faqat kichik sonlarga: uchov." },
+      { "q": "Qaysi so‘z olmosh?", "o": ["Yetti", "O‘sha", "Besh", "Yuzlab"], "a": 1, "e": "O‘sha — ko‘rsatish olmoshi." },
+      { "q": "Son qaysi so‘roqlarga javob bo‘ladi?", "o": ["Kim? nima?", "Qancha? nechta? nechanchi?", "Qanday?", "Qachon?"], "a": 1, "e": "Miqdor, sanoq, tartib." }
+    ],
+    "6": [
+      { "q": "Fe’l nimani bildiradi?", "o": ["Belgini", "Harakat va holatni", "Miqdorni", "Joyni"], "a": 1, "e": "Nima qildi? nima qilyapti?" },
+      { "q": "Qayiqchi hikoyasida eshkaklarga nimalar yozilgan?", "o": ["«Sabr» va «Mehnat»", "«Ishon» va «Harakat qil»", "«Ilm» va «Odob»", "«Vatan» va «Burch»"], "a": 1, "e": "Ishonch va harakat birga bo‘lishi kerak." },
+      { "q": "Navoiy mehnatni nimaning kaliti deb biladi?", "o": ["Boylikning", "Saodatning", "Ilmning", "Davlatning"], "a": 1, "e": "«Mehnatni saodatning kaliti bil!»" }
+    ],
+    "7": [
+      { "q": "To‘g‘ri talaffuz qoidalarini qaysi bo‘lim o‘rganadi?", "o": ["Orfografiya", "Orfoepiya", "Grafika", "Punktuatsiya"], "a": 1, "e": "Orfografiya — to‘g‘ri yozish." },
+      { "q": "Qaysi bo‘lim tinish belgilarini o‘rganadi?", "o": ["Sintaksis", "Punktuatsiya", "Morfologiya", "Fonetika"], "a": 1, "e": "Sintaksis bilan chambarchas bog‘liq." },
+      { "q": "Fonetika nimani o‘rganadi?", "o": ["Harflar tizimini", "Og‘zaki nutqning tovush tizimini", "So‘z ma’nolarini", "Gap qurilishini"], "a": 1, "e": "Grafika — harflar tizimi." }
+    ],
+    "8": [
+      { "q": "Harf nima?", "o": ["Aytiladigan birlik", "Tovushning yozuvdagi shartli belgisi", "Bo‘g‘in", "So‘z"], "a": 1, "e": "Harf yoziladi va ko‘riladi." },
+      { "q": "«Ato» so‘zining ma’nosi nima?", "o": ["Ota", "In’om", "Bobo", "Uka"], "a": 1, "e": "Ota — farzandli er kishi." },
+      { "q": "«Kitob» so‘zi qanday aytiladi?", "o": ["Kitob", "Kitop", "Kitav", "Kitab"], "a": 1, "e": "Jarangli undosh so‘z oxirida jarangsiz aytiladi." }
+    ],
+    "9": [
+      { "q": "O‘zbek tilida nechta unli bor?", "o": ["5", "6", "8", "24"], "a": 1, "e": "a, o, e, o‘, u, i." },
+      { "q": "Unli tovush qanday hosil bo‘ladi?", "o": ["Havo to‘siqqa uchrasa", "Havo to‘siqqa uchramasa", "Burun orqali", "Faqat lab bilan"], "a": 1, "e": "Undosh — havo to‘siqqa uchraydi." },
+      { "q": "«Internet» so‘zi qanday ma’noni bildiradi?", "o": ["«Kompyuter»", "«Tarmoqlararo»", "«Xabar»", "«Dastur»"], "a": 1, "e": "Inglizcha so‘z." }
+    ],
+    "10": [
+      { "q": "O‘zbek tilida nechta undosh bor?", "o": ["6", "24", "26", "30"], "a": 1, "e": "6 unli + 24 undosh." },
+      { "q": "Qaysi harf ikki xil tovushni ifodalaydi?", "o": ["Sh", "J", "Ng", "X"], "a": 1, "e": "j (jurnal) va dj (jo‘ja)." },
+      { "q": "Toshkent kuranti qachon qurilgan?", "o": ["1930-yilda", "1947-yilda", "1966-yilda", "1991-yilda"], "a": 1, "e": "Usta Shirin ishtirokida." }
+    ],
+    "11": [
+      { "q": "Lab undoshlari qaysilar?", "o": ["q, g‘, x", "b, p, m, v, f", "t, d, s, z", "g, k, ng"], "a": 1, "e": "Lablar ishtirokida hosil bo‘ladi." },
+      { "q": "Bo‘g‘iz undoshi qaysi?", "o": ["x", "h", "q", "y"], "a": 1, "e": "x — chuqur til orqa." },
+      { "q": "Nutq a’zolari nechta?", "o": ["5", "9", "12", "6"], "a": 1, "e": "O‘pkadan tishlargacha." }
+    ],
+    "12": [
+      { "q": "To‘g‘ri yozish uchun nimaga amal qilinadi?", "o": ["Talaffuzga", "Imlo qoidalariga", "Shevaga", "Ohangga"], "a": 1, "e": "To‘g‘ri aytish uchun — orfoepiya me’yorlariga." },
+      { "q": "«Kasb» so‘zi qanday aytiladi?", "o": ["Kasb", "Kasp", "Kazb", "Kasf"], "a": 1, "e": "Lekin kasb deb yoziladi." },
+      { "q": "«Birikkan kuch — kuch, birikmagan kuch — ...»", "o": ["kam", "puch", "yo‘q", "zaif"], "a": 1, "e": "Birlik haqidagi maqol." }
+    ],
+    "13": [
+      { "q": "Nutq tovushlarining asosiy vazifasi nima?", "o": ["So‘z yasash", "So‘z ma’nolarini farqlash", "Gap tuzish", "Urg‘u berish"], "a": 1, "e": "To‘n — to‘p — to‘y." },
+      { "q": "«Borliq» so‘zining ma’nosi nima?", "o": ["Mavjudlik", "Butun olam", "Boylik", "Hayot"], "a": 1, "e": "Borlik — mavjudlik." },
+      { "q": "Birinchi robotni kim ixtiro qilgan?", "o": ["Al-Xorazmiy", "Al-Jazariy", "Beruniy", "Ibn Sino"], "a": 1, "e": "Suv quyib, sochiq tutadigan bola-robot." }
+    ],
+    "14": [
+      { "q": "«Bu» so‘ziga -ga qo‘shilganda qaysi tovush ortadi?", "o": ["y", "n", "g", "a"], "a": 1, "e": "Bunga." },
+      { "q": "Qaysi so‘z to‘g‘ri yozilgan?", "o": ["Orzuyim", "Orzum", "Orzuim", "Orzium"], "a": 1, "e": "y faqat talaffuzda ortadi." },
+      { "q": "«Kardiolog» kim?", "o": ["Tish shifokori", "Yurak shifokori", "Ko‘z shifokori", "Bolalar shifokori"], "a": 1, "e": "Kardio — yurak." }
+    ],
+    "15": [
+      { "q": "«Singil» + «-im» qanday yoziladi?", "o": ["Singilim", "Singlim", "Singilm", "Siglim"], "a": 1, "e": "2-bo‘g‘indagi unli tushadi." },
+      { "q": "«Sen» + «-ning» qanday yoziladi?", "o": ["Senning", "Sening", "Senig", "Seninng"], "a": 1, "e": "n tushadi." },
+      { "q": "Bahouddin Naqshbandning shiori qaysi?", "o": ["«Yo Vatan, yo o‘lim!»", "«Dast ba kor-u dil ba yor»", "«Kuch adolatdadir»", "«Tilga e’tibor — elga e’tibor»"], "a": 1, "e": "«Qo‘ling ishda, diling Allohda bo‘lsin»." }
+    ],
+    "16": [
+      { "q": "«Tomoq» + «-i» qanday yoziladi?", "o": ["Tomoqi", "Tomog‘i", "Tomogi", "Tomoqqi"], "a": 1, "e": "q → g‘." },
+      { "q": "Qaysi so‘zda egalik qo‘shilganda k/q almashmaydi?", "o": ["Tilak", "Huquq", "Buloq", "Tirgak"], "a": 1, "e": "Huquqi, idroki, axloqi." },
+      { "q": "«Shanba» so‘zi qanday aytiladi?", "o": ["Shanba", "Shamba", "Shapba", "Shaba"], "a": 1, "e": "b dan oldin n — m kabi aytiladi." }
+    ],
+    "17": [
+      { "q": "So‘zdagi bo‘g‘inlar soni nimaga bog‘liq?", "o": ["Undoshlar soniga", "Unlilar soniga", "Harflar soniga", "Urg‘uga"], "a": 1, "e": "Nechta unli — shuncha bo‘g‘in." },
+      { "q": "Undosh bilan tugagan bo‘g‘in qanday ataladi?", "o": ["Ochiq", "Yopiq", "Urg‘uli", "Qisqa"], "a": 1, "e": "Unli bilan tugasa — ochiq." },
+      { "q": "«Yo‘limizdagi to‘siqlar» matnida toshni kim olib tashladi?", "o": ["Savdogar", "Dehqon", "Podshoh", "Bola"], "a": 1, "e": "Boshqalar faqat shikoyat qildi." }
+    ],
+    "18": [
+      { "q": "O‘zbek tilida so‘z urg‘usi asosan qaysi bo‘g‘inga tushadi?", "o": ["Birinchi", "Oxirgi", "O‘rta", "Ikkinchi"], "a": 1, "e": "Qo‘shimcha qo‘shilsa, ko‘chib boradi." },
+      { "q": "Qaysi so‘zda urg‘u oxirgi bo‘g‘inga tushmaydi?", "o": ["Kitob", "Traktor", "Maktab", "Qalam"], "a": 1, "e": "O‘zlashgan so‘z: tráktor." },
+      { "q": "Urg‘u oxirida bo‘lsa «suzma» nimani bildiradi?", "o": ["Fe’l (suzmoq)", "Quyuq qatiq (ot)", "Sifat", "Ravish"], "a": 1, "e": "Súzma — fe’l." }
+    ],
+    "19": [
+      { "q": "Gap urg‘usi nimaga xizmat qiladi?", "o": ["So‘z yasashga", "So‘zga mantiqiy e’tibor qaratishga", "Bo‘g‘inga ajratishga", "Imloga"], "a": 1, "e": "Urg‘u o‘zgarsa, mazmun o‘zgaradi." },
+      { "q": "«G‘urub» so‘zining ma’nosi nima?", "o": ["Tong otishi", "Quyoshning botish payti", "Yarim tun", "Peshin"], "a": 1, "e": "Oybek «Dengizda oqshom»." },
+      { "q": "Og‘zaki nutqni charxlashda nima yordam beradi?", "o": ["Imlo lug‘ati", "Tez aytishlar", "Jadval", "Diktant"], "a": 1, "e": "«Qishda kishmish pishmasmish»." }
+    ],
+    "20": [
+      { "q": "Arab yozuviga asoslangan o‘zbek yozuvidan qachongacha foydalanilgan?", "o": ["1940-yilgacha", "1929-yilgacha", "1993-yilgacha", "1900-yilgacha"], "a": 1, "e": "1930-yildan lotin yozuvi." },
+      { "q": "Kirill yozuvi qachondan qo‘llangan?", "o": ["1930-yildan", "1940-yildan", "1929-yildan", "1993-yildan"], "a": 1, "e": "1993-yilda yangi lotin alifbosi qabul qilindi." },
+      { "q": "Navoiy asarlari qaysi yozuvda bitilgan?", "o": ["Lotin", "Arab", "Kirill", "Sug‘d"], "a": 1, "e": "Bobur asarlari, Temur «Tuzuklar»i ham." }
+    ],
+    "21": [
+      { "q": "Lotin alifbosi to‘g‘risidagi Qonun qachon qabul qilingan?", "o": ["1989-yil 21-oktabr", "1993-yil 2-sentabr", "1995-yil 24-avgust", "1991-yil 31-avgust"], "a": 1, "e": "Imlo qoidalari — 1995-yil 24-avgust." },
+      { "q": "Yangi o‘zbek alifbosida nechta harf bor?", "o": ["24", "26", "29", "33"], "a": 1, "e": "26 harf + 3 birikma + tutuq belgisi." },
+      { "q": "«SMS» qanday ma’noni bildiradi?", "o": ["«Ijtimoiy tarmoq»", "«Qisqa xabarlar xizmati»", "«Elektron pochta»", "«Telefon raqami»"], "a": 1, "e": "Short message service." }
+    ],
+    "22": [
+      { "q": "Qaysi so‘zda a tovushi o kabi aytiladi, lekin a yoziladi?", "o": ["Tonna", "Jahongir", "Okean", "Direktor"], "a": 1, "e": "Zamon, baho, jahongir." },
+      { "q": "«Direktor» so‘zining oxirgi bo‘g‘ini qanday yoziladi?", "o": ["i bilan", "o bilan", "u bilan", "a bilan"], "a": 1, "e": "i ga moyil aytilsa ham o yoziladi." },
+      { "q": "Najmiddin Kubroning shiori qaysi?", "o": ["«Kuch adolatdadir»", "«Yo Vatan, yo o‘lim!»", "«Haq berilmas, olinur»", "«Dast ba kor-u dil ba yor»"], "a": 1, "e": "Urganchni himoya qilgan." }
+    ],
+    "23": [
+      { "q": "Qaysi so‘z to‘g‘ri yozilgan?", "o": ["Qoviin", "Qovun", "Qovin", "Qovn"], "a": 1, "e": "u i kabi aytilsa ham u yoziladi." },
+      { "q": "«E’tiqod» so‘zining ma’nosi nima?", "o": ["Shubha", "Qattiq ishonch, iymon", "Bilim", "Odob"], "a": 1, "e": "«Vatanni sevmoq iymondandir»." },
+      { "q": "Qaysi so‘zda i qisqa talaffuz etiladi?", "o": ["Ixlos", "Bilan", "Shoir", "Umid"], "a": 1, "e": "Bilan, bir, kir, qirg‘oq." }
+    ],
+    "24": [
+      { "q": "«Telefon» so‘zida e qanday aytiladi?", "o": ["To‘liq", "i ga monand", "a kabi", "Aytilmaydi"], "a": 1, "e": "Lekin e yoziladi." },
+      { "q": "Qaysi so‘zda tutuq belgisi yozuvda tushiriladi?", "o": ["Ne’mat", "Mo‘jiza", "Ma’no", "E’tiqod"], "a": 1, "e": "Mo‘jiza, mo‘tadil, mo‘tabar." },
+      { "q": "«Og‘ziga kelganni demoq — nodonning ishi» kimning so‘zi?", "o": ["Bobur", "Navoiy", "Ibn Sino", "Arastu"], "a": 1, "e": "Navoiy hikmati." }
+    ],
+    "25": [
+      { "q": "Yonma-yon kelgan unlilar yozuvda qanday beriladi?", "o": ["Bittasi yoziladi", "Ikkalasi ham yoziladi", "Orasiga y yoziladi", "Tutuq qo‘yiladi"], "a": 1, "e": "Muallim, soat, oila." },
+      { "q": "«Soat» so‘zi og‘zaki nutqda qanday aytiladi?", "o": ["Sot", "Sog‘at (sohat)", "Saat", "Suat"], "a": 1, "e": "Orasiga undosh qo‘shiladi." },
+      { "q": "Yonma-yon kelgan unlilar asosan qanday so‘zlarda uchraydi?", "o": ["Sof o‘zbekcha", "O‘zlashma", "Sheva", "Qadimgi turkiy"], "a": 1, "e": "Boshqa tillardan kirgan so‘zlarda." }
+    ],
+    "26": [
+      { "q": "«Tilak» + «-ga» qanday yoziladi?", "o": ["Tilakga", "Tilakka", "Tilagga", "Tilaqqa"], "a": 1, "e": "k + -ga → -ka." },
+      { "q": "«Barg» + «-ga» qanday yoziladi?", "o": ["Barkka", "Bargga", "Barga", "Barkga"], "a": 1, "e": "g bilan tugasa, o‘zgarmaydi." },
+      { "q": "Jufti bo‘lmagan jarangli undoshlar qaysilar?", "o": ["b, d, g", "y, l, m, n, ng, r", "x, h", "p, t, k"], "a": 1, "e": "x, h — jufti yo‘q jarangsizlar." }
+    ],
+    "27": [
+      { "q": "«Qishloq» + «-i» qanday yoziladi?", "o": ["Qishloqi", "Qishlog‘i", "Qishlogi", "Qishloqqi"], "a": 1, "e": "q → g‘." },
+      { "q": "«Bog‘» + «-ga» qanday yoziladi?", "o": ["Boqqa", "Bog‘ga", "Bog‘qa", "Boga"], "a": 1, "e": "Asos va qo‘shimcha o‘zgarmaydi." },
+      { "q": "«Xasis va uning oltini» masalining g‘oyasi nima?", "o": ["Oltin qimmat", "Foydalanilmagan boylik — yo‘q boylik bilan barobar", "Xasislik foydali", "Oltinni yashirish kerak"], "a": 1, "e": "Ezop masali." }
+    ],
+    "28": [
+      { "q": "Qaysi so‘z to‘g‘ri yozilgan?", "o": ["Obot", "Obod", "Abod", "Obodd"], "a": 1, "e": "d t kabi aytilsa ham d yoziladi." },
+      { "q": "Greta Tunberg kim?", "o": ["Shved yozuvchisi", "Iqlim isishiga qarshi kurashgan shved qizi", "Olima", "Sportchi"], "a": 1, "e": "2019-yil BMT minbarida nutq so‘zlagan." },
+      { "q": "Orol tubida nima barpo etilmoqda?", "o": ["Paxtazorlar", "Saksovulzorlar", "Bog‘lar", "Uzumzorlar"], "a": 1, "e": "Changni kamaytirish uchun." }
+    ],
+    "29": [
+      { "q": "«Jurnal» so‘zidagi j tovushining jarangsiz jufti qaysi?", "o": ["ch", "sh", "s", "k"], "a": 1, "e": "dj ning jufti — ch." },
+      { "q": "Qaysi so‘zda dj tovushi bor?", "o": ["Jirafa", "Jo‘ja", "Jurnal", "Sajda"], "a": 1, "e": "Jo‘ja, jahon, juda." },
+      { "q": "«Bojxona» so‘zida j qanday aytiladi?", "o": ["ch ga moyil", "sh ga moyil", "dj", "z kabi"], "a": 1, "e": "Jarangsiz undosh oldida." }
+    ],
+    "30": [
+      { "q": "«Avtomat» so‘zida v qanday o‘qiladi?", "o": ["v", "f", "p", "b"], "a": 1, "e": "Lekin v yoziladi." },
+      { "q": "«Fil» so‘zida f qanday o‘qiladi?", "o": ["v", "p", "f", "b"], "a": 1, "e": "Lekin f yoziladi." },
+      { "q": "Kitob o‘qish asabni necha daqiqada tinchlantiradi?", "o": ["1", "6", "30", "60"], "a": 1, "e": "Atigi 6 daqiqada." }
+    ],
+    "31": [
+      { "q": "Yopiq bo‘g‘inda e dan keyin qaysi harf yoziladi?", "o": ["x", "h", "q", "k"], "a": 1, "e": "Mehmon, mehnat, ehtiyoj." },
+      { "q": "Yopiq bo‘g‘inda i dan keyin qaysi harf yoziladi?", "o": ["h", "x", "q", "g‘"], "a": 1, "e": "Ixcham, ixtiro, ixlos." },
+      { "q": "X qanday undosh?", "o": ["Bo‘g‘iz undoshi", "Chuqur til orqa undoshi", "Lab undoshi", "Til oldi undoshi"], "a": 1, "e": "H — bo‘g‘iz undoshi." }
+    ],
+    "32": [
+      { "q": "Qaysi so‘z to‘g‘ri yozilgan?", "o": ["Ischil", "Izchil", "Isjil", "Izjil"], "a": 1, "e": "z s ga moyil aytilsa ham z yoziladi." },
+      { "q": "Konstitutsiyaning 4-moddasi nima haqida?", "o": ["Prezident", "Davlat tili — o‘zbek tili", "Parlament", "Sud"], "a": 1, "e": "«O‘zbekiston Respublikasining davlat tili o‘zbek tilidir»." },
+      { "q": "«Tamaddun» so‘zining ma’nosi nima?", "o": ["Tarozi", "Madaniyat", "G‘amgin", "Nizom"], "a": 1, "e": "Mezon — tarozi, tuzuk — nizom." }
+    ],
+    "33": [
+      { "q": "Qachon s va h orasiga tutuq belgisi qo‘yiladi?", "o": ["Doim", "Ular alohida tovushlarni bildirsa", "So‘z oxirida", "Hech qachon"], "a": 1, "e": "Is’hoq, mus’haf." },
+      { "q": "Qaysi so‘z to‘g‘ri yozilgan?", "o": ["Chorshamba", "Chorshanba", "Chorshanbe", "Chorchanba"], "a": 1, "e": "Shamba deb aytilsa ham shanba yoziladi." },
+      { "q": "Toshkent o‘tmishda qanday atalgan?", "o": ["Marokand, Afrosiyob", "Shosh, Choch", "Gurganj, Jurjoniya", "Parkana"], "a": 1, "e": "Shosh, Choch." }
+    ],
+    "34": [
+      { "q": "Qaysi so‘zda ng bitta tovushni bildiradi?", "o": ["Menga", "Tong", "Singan", "Kongress"], "a": 1, "e": "Bir bo‘g‘in ichida." },
+      { "q": "«Menga» so‘zida n va g qanday?", "o": ["Bitta tovush", "Alohida tovushlar", "Tushib qolgan", "Qo‘sh undosh"], "a": 1, "e": "Men-ga — boshqa-boshqa bo‘g‘inlarda." },
+      { "q": "Ng qanday undosh?", "o": ["Lab undoshi", "Til orqa undoshi", "Bo‘g‘iz undoshi", "Til oldi undoshi"], "a": 1, "e": "g, k, ng — til orqa." }
+    ],
+    "35": [
+      { "q": "«Metall» + «-lar» qanday yoziladi?", "o": ["Metalllar", "Metallar", "Metalar", "Metall-lar"], "a": 1, "e": "Qo‘sh undoshning biri yozilmaydi." },
+      { "q": "«Ushshoq» so‘zining ma’nosi nima?", "o": ["Non urvog‘i", "Oshiqlar", "Mayda", "Bolalar"], "a": 1, "e": "Ushoq — non urvog‘i." },
+      { "q": "Qo‘sh undoshli so‘zni toping.", "o": ["Mehr", "Chaqqon", "Sabr", "Do‘st"], "a": 1, "e": "Bir xil undoshlar: qq." }
+    ],
+    "36": [
+      { "q": "Qator undoshli so‘zni toping.", "o": ["Izzat", "Farzand", "Qassob", "Chaqqon"], "a": 1, "e": "Har xil undoshlar: nd." },
+      { "q": "So‘z boshida qator undosh qanday so‘zlarda keladi?", "o": ["Sof o‘zbek", "Faqat o‘zlashma", "Shevada", "Hech qachon"], "a": 1, "e": "Stol, transport, bloger." },
+      { "q": "«Go‘sht» so‘zining oxirgi undoshi qanday?", "o": ["Yozilmaydi", "Aytilmasa ham yoziladi", "d bilan yoziladi", "Qo‘sh yoziladi"], "a": 1, "e": "Do‘st, xursand ham shunday." }
+    ],
+    "37": [
+      { "q": "«Sayla» + «-v» qanday yoziladi?", "o": ["Saylav", "Saylov", "Saylaov", "Saylvo"], "a": 1, "e": "a → o." },
+      { "q": "«O‘qi» + «-v» qanday yoziladi?", "o": ["O‘qiv", "O‘quv", "O‘qov", "O‘qiyv"], "a": 1, "e": "i → u." },
+      { "q": "«Chiq» + «-gach» qanday yoziladi?", "o": ["Chiqgach", "Chiqqach", "Chiqkach", "Chiggach"], "a": 1, "e": "q dan keyin -qach." }
+    ],
+    "38": [
+      { "q": "«Obro‘» + «-im» qanday yoziladi?", "o": ["Obro‘im", "Obro‘yim", "Obroyim", "Obro‘m"], "a": 1, "e": "y ortadi va yoziladi." },
+      { "q": "Qaysi so‘z to‘g‘ri yozilgan?", "o": ["Ketti", "Ketdi", "Ketd", "Kettdi"], "a": 1, "e": "-di asliday yoziladi." },
+      { "q": "-boz qo‘shimchasi qanday yoziladi?", "o": ["-voz", "-boz", "-poz", "-baz"], "a": 1, "e": "Kaptarboz, dorboz." }
+    ],
+    "39": [
+      { "q": "Qaysi joy nomi ajratib yoziladi?", "o": ["Oqtepa", "Markaziy Osiyo", "Davlatobod", "Uchqo‘rg‘on"], "a": 1, "e": "Ko‘hna Urganch, G‘arbiy Yevropa ham." },
+      { "q": "Qaysi so‘z qo‘shib yoziladi?", "o": ["Har kim", "Shifobaxsh", "Bu yerda", "Hech narsa"], "a": 1, "e": "-baxsh bilan yasalgan." },
+      { "q": "-ar, -mas qo‘shimchali qo‘shma so‘zlar qanday yoziladi?", "o": ["Ajratib", "Qo‘shib", "Chiziqcha bilan", "Qo‘shtirnoqda"], "a": 1, "e": "O‘rinbosar, ishyoqmas." }
+    ],
+    "40": [
+      { "q": "Qaysi so‘z qo‘shib yoziladi?", "o": ["Bir zum", "Biroz", "Har vaqt", "Shu yerda"], "a": 1, "e": "Biroz, birpas, birvarakayiga." },
+      { "q": "«Yildan yilga» qanday yoziladi?", "o": ["Qo‘shib", "Ajratib", "Chiziqcha bilan", "Qo‘shtirnoqda"], "a": 1, "e": "Kundan kunga ham." },
+      { "q": "«Har kim» qanday yoziladi?", "o": ["Harkim", "Har kim", "Har-kim", "Harr kim"], "a": 1, "e": "har, hech, bir, bu, shu — ajratib." }
+    ],
+    "41": [
+      { "q": "Bayram nomida qaysi so‘z bosh harf bilan yoziladi?", "o": ["Barcha so‘zlar", "Birinchi so‘z", "Oxirgi so‘z", "Hech biri"], "a": 1, "e": "Mustaqillik kuni." },
+      { "q": "Gazeta nomi qanday yoziladi?", "o": ["Kichik harf bilan", "Qo‘shtirnoqda, bosh harf bilan", "Qavsda", "Faqat bosh harflar bilan"], "a": 1, "e": "«Tong yulduzi» gazetasi." },
+      { "q": "Adiblar xiyoboni qayerda joylashgan?", "o": ["Samarqandda", "Alisher Navoiy nomidagi Milliy bog‘da", "Buxoroda", "Andijonda"], "a": 1, "e": "Toshkentda." }
+    ],
+    "42": [
+      { "q": "Qaysi yuklama qo‘shib yoziladi?", "o": ["-chi", "-mi", "-ku", "-da"], "a": 1, "e": "-mi, -oq, -gina, -ki — qo‘shib." },
+      { "q": "«Oy-u quyosh» nega chiziqcha bilan yoziladi?", "o": ["Qo‘shma so‘z", "-u bog‘lovchili juft so‘z", "Takror so‘z", "Joy nomi"], "a": 1, "e": "Birinchi so‘zdan chiziqcha bilan." },
+      { "q": "«Ro‘baro» qanday yoziladi?", "o": ["Ro‘-baro", "Ro‘baro", "Ro‘ baro", "Ro‘ba-ro"], "a": 1, "e": "Mustaqil ishlatilmaydigan qismli — qo‘shib." }
+    ],
+    "43": [
+      { "q": "«Dengiz» so‘zini qanday ko‘chirish to‘g‘ri?", "o": ["Den-giz", "De-ngiz", "D-engiz", "Deng-iz"], "a": 1, "e": "ng ajratilmaydi." },
+      { "q": "«Ma’lum» so‘zini qanday ko‘chirish to‘g‘ri?", "o": ["Ma-’lum", "Ma’-lum", "M-a’lum", "Ma’l-um"], "a": 1, "e": "Tutuq birinchi bo‘g‘inda qoladi." },
+      { "q": "Qaysi birikma ko‘chirishda ajratilmaydi?", "o": ["Kitob-xona", "5-«B» sinf", "Mak-tab", "Tad-bir"], "a": 1, "e": "100 gr, 26-uy, BMT ham." }
+    ],
+    "44": [
+      { "q": "Leksikologiya nimani o‘rganadi?", "o": ["Tovushlarni", "So‘z va uning ma’nolarini", "Gapni", "Tinish belgilarini"], "a": 1, "e": "Lexikos — so‘z, logos — ta’limot." },
+      { "q": "Fitratning fikri qaysi asarida bayon etilgan?", "o": ["«Sayha»", "«Adabiyot qoidalari»", "«Abulfayzxon»", "«Munozara»"], "a": 1, "e": "Yangi so‘zlar 3 yo‘l bilan kiradi." },
+      { "q": "«Qurultoy» so‘zi tilga qaysi yo‘l bilan qaytgan?", "o": ["Yangidan yasash", "Eski so‘zni tiriltirish", "Chet tildan olish", "Shevadan olish"], "a": 1, "e": "Fitrat ko‘rsatgan uchinchi yo‘l." }
+    ],
+    "45": [
+      { "q": "Ma’nosi qarama-qarshi so‘zlar qanday ataladi?", "o": ["Sinonim", "Antonim", "Omonim", "Paronim"], "a": 1, "e": "Uzun — qisqa." },
+      { "q": "«Top — tob» juftligi qanday so‘zlar?", "o": ["Sinonim", "Paronim", "Antonim", "Omonim"], "a": 1, "e": "Talaffuzi yaqin, ma’nosi farqli." },
+      { "q": "O‘zbekiston oltin zaxirasi bo‘yicha dunyoda nechanchi o‘rinda?", "o": ["1-o‘rin", "4-o‘rin", "10-o‘rin", "2-o‘rin"], "a": 1, "e": "2700 ga yaqin kon bor." }
+    ],
+    "46": [
+      { "q": "«Yuz, bet, chehra, aft» qatorida bosh so‘z qaysi?", "o": ["Chehra", "Yuz", "Aft", "Bet"], "a": 1, "e": "Hammaga tushunarli, faol, adabiy so‘z." },
+      { "q": "Qaysi so‘z salbiy munosabat bildiradi?", "o": ["Jilmaymoq", "Tirjaymoq", "Kulmoq", "Iljaymoq"], "a": 1, "e": "Jilmaymoq — ijobiy." },
+      { "q": "Sinonimlar nutqda nimani yo‘qotadi?", "o": ["Ma’noni", "Takrorni", "Urg‘uni", "Ohangni"], "a": 1, "e": "Nutqni boy, ta’sirchan qiladi." }
+    ],
+    "47": [
+      { "q": "Omonim bilan ko‘p ma’noli so‘zning farqi nimada?", "o": ["Yozilishida", "Ma’nolar o‘rtasida bog‘liqlik bor-yo‘qligida", "Talaffuzida", "Urg‘usida"], "a": 1, "e": "Omonimda bog‘liqlik yo‘q." },
+      { "q": "«Choynakning burni» qanday hodisa?", "o": ["Omonimiya", "Ko‘p ma’nolilik (ko‘chma ma’no)", "Antonimiya", "Paronimiya"], "a": 1, "e": "Yuz qismi bilan ma’no bog‘liq." },
+      { "q": "«Un» so‘zining ma’nolaridan biri qaysi?", "o": ["Suv", "Tovush", "Daraxt", "Shamol"], "a": 1, "e": "Un — tovush, mahsulot, o‘smoq." }
+    ],
+    "48": [
+      { "q": "«Yosh-u qari» birikmasining ma’nosi nima?", "o": ["Faqat yoshlar", "Barcha", "Keksalar", "Bolalar"], "a": 1, "e": "Antonimlardan yasalgan juft so‘z." },
+      { "q": "«Ilg‘or» so‘zining antonimi qaysi?", "o": ["Oldingi", "Qoloq", "Tez", "Yangi"], "a": 1, "e": "Ilg‘or — qoloq." },
+      { "q": "«Yomon kelsa — buzar, yaxshi kelsa — tuzar» maqolida qanday so‘zlar bor?", "o": ["Sinonimlar", "Antonimlar", "Omonimlar", "Paronimlar"], "a": 1, "e": "Maqollarda antonimlar ko‘p." }
+    ],
+    "49": [
+      { "q": "«Burch» so‘zining ma’nosi nima?", "o": ["Yulduz turkumi", "Majburiyat", "Qal’a", "Burchak"], "a": 1, "e": "Burj — yulduz turkumi." },
+      { "q": "«Xol» so‘zining ma’nosi nima?", "o": ["Ahvol", "Yuzdagi dog‘", "Xola", "Bo‘sh"], "a": 1, "e": "Hol — ahvol." },
+      { "q": "12 burjning birinchisi qaysi?", "o": ["Hut", "Hamal", "Asad", "Mezon"], "a": 1, "e": "Hamal ... Hut." }
+    ],
+    "50": [
+      { "q": "«Algoritm» so‘zi kimning nomidan kelib chiqqan?", "o": ["Beruniy", "Al-Xorazmiy", "Al-Farg‘oniy", "Ibn Sino"], "a": 1, "e": "Algebra asoschisi." },
+      { "q": "«Bahor» so‘zi qaysi tildan kirgan?", "o": ["Arab", "Fors", "Rus", "Ingliz"], "a": 1, "e": "Do‘st ham forscha." },
+      { "q": "Qaysi so‘z o‘z qatlamga mansub?", "o": ["Qalam", "Bosh", "Telefon", "Maktab"], "a": 1, "e": "Ish, bosh, biz, ulug‘." }
+    ],
+    "51": [
+      { "q": "Yangi paydo bo‘lgan so‘zlar ilmda qanday ataladi?", "o": ["Arxaizmlar", "Neologizmlar", "Dialektizmlar", "Frazeologizmlar"], "a": 1, "e": "Neo — yangi." },
+      { "q": "«Chat» so‘zi inglizcha qaysi so‘zdan?", "o": ["Chair", "Chatter («valdiramoq»)", "Chart", "Cheat"], "a": 1, "e": "Internetda yozishib aloqa." },
+      { "q": "«Vunderkind» kim?", "o": ["Sportchi", "O‘ta iste’dodli bola", "Olim", "Bloger"], "a": 1, "e": "Olinma so‘z." }
+    ],
+    "52": [
+      { "q": "«Handasa» so‘zining hozirgi nomi nima?", "o": ["Matematika", "Geometriya", "Fizika", "Kimyo"], "a": 1, "e": "Arxaik so‘z." },
+      { "q": "Tarixiy so‘zni toping.", "o": ["Gisu", "Hojib", "Payg‘om", "Riyoziyot"], "a": 1, "e": "Tushunchasi ham yo‘qolgan." },
+      { "q": "«Valiahd» kim?", "o": ["Shahar hokimi", "Taxt vorisi", "Askar", "Qozi"], "a": 1, "e": "Dorug‘a — shahar hokimi." }
+    ],
+    "53": [
+      { "q": "Farg‘ona qadimda qanday atalgan?", "o": ["Marokand", "Parkana", "Gurganj", "Shosh"], "a": 1, "e": "Atrofi tog‘lar bilan o‘ralgan joy." },
+      { "q": "Xorazm nomining ma’nosi nima?", "o": ["Yashil shahar", "Quyoshli yurt", "Toshli shahar", "Boy shahar"], "a": 1, "e": "Shahrisabz — yashil shahar." },
+      { "q": "Samarqand qachon YUNESKO ro‘yxatiga kiritilgan?", "o": ["1967-yilda", "2001-yilda", "1991-yilda", "2010-yilda"], "a": 1, "e": "Xiva — 1967-yil qo‘riqxona-shahar." }
+    ],
+    "54": [
+      { "q": "Kishi ismlarini o‘rganuvchi soha qanday ataladi?", "o": ["Toponimika", "Antroponimika", "Leksikografiya", "Orfoepiya"], "a": 1, "e": "Toponimika — joy nomlari." },
+      { "q": "Bobur taxallusining ma’nosi nima?", "o": ["Tong yulduzi", "Sher", "Kuy", "Qudratli"], "a": 1, "e": "Cho‘lpon — tong yulduzi." },
+      { "q": "10 yoshdan katta bolaning ismi qanday o‘zgartiriladi?", "o": ["Ota-ona xohishi bilan", "Faqat bolaning roziligi bilan", "O‘zgartirilmaydi", "Maktab qarori bilan"], "a": 1, "e": "Oila kodeksi 70-modda." }
+    ],
+    "55": [
+      { "q": "«Andoza, qolip, naqsh» qanday terminlar?", "o": ["Ilmiy", "Kasbiy (naqqoshlik)", "Iqtisodiy", "Internet"], "a": 1, "e": "Kasb-hunarga oid." },
+      { "q": "«Litosfera» qaysi fanga oid?", "o": ["Ona tili", "Geografiya", "Matematika", "Tarix"], "a": 1, "e": "Ilmiy termin." },
+      { "q": "«Yuz hunarni chala bilgandan ko‘ra ...»", "o": ["ikkitasini bil", "bir hunarni to‘la bil", "hech birini bilma", "ustoz top"], "a": 1, "e": "Hunar haqidagi maqol." }
+    ],
+    "56": [
+      { "q": "Narx nima?", "o": ["Sotiladigan mahsulot", "Tovar qiymatining puldagi ifodasi", "Oila tushumi", "Do‘kon"], "a": 1, "e": "Tovar — sotish uchun chiqarilgan mahsulot." },
+      { "q": "Chiqindi qog‘ozni topshirish nima beradi?", "o": ["Faqat daromad", "Daromad va o‘rmonni muhofaza qilish", "Faqat ball", "Hech narsa"], "a": 1, "e": "Ham foyda, ham tabiat muhofazasi." },
+      { "q": "«Tadbir bilan mushkul ...»", "o": ["qiyin bo‘lar", "oson bo‘lar", "yo‘q bo‘lar", "ko‘p bo‘lar"], "a": 1, "e": "Iqtisodiy tejamkorlik haqida maqol." }
+    ],
+    "57": [
+      { "q": "Xeshteg nima?", "o": ["Foydalanuvchi rasmi", "Mavzu bo‘yicha xabarlarni tarqatish yorlig‘i", "Onlayn dars", "Fayl"], "a": 1, "e": "Avatarka — rasm, vebinar — onlayn dars." },
+      { "q": "Kompyuterning «miyasi» nima?", "o": ["Monitor", "Markaziy protsessor", "Klaviatura", "Sichqoncha"], "a": 1, "e": "Markaziy protsessor." },
+      { "q": "Internet terminlarining aksariyati qaysi tildan kirgan?", "o": ["Rus", "Ingliz", "Arab", "Fors"], "a": 1, "e": "Akkaunt, bloger, fayl." }
+    ],
+    "58": [
+      { "q": "«Ildiz» termini qanday hosil bo‘lgan?", "o": ["Chet tildan olingan", "Umumxalq so‘zi ma’nosi maxsuslashgan", "Yangidan yasalgan", "Qisqartma"], "a": 1, "e": "Qo‘shish, ayirish, tekislik ham." },
+      { "q": "Qaysi termin boshqa tildan o‘zlashtirilgan?", "o": ["Qo‘shish", "Virus", "Ildiz", "Tekislik"], "a": 1, "e": "Fonetika, biznes, virus." },
+      { "q": "«Tenglama» qaysi fanga oid?", "o": ["Kimyo", "Matematika", "Biologiya", "Tarix"], "a": 1, "e": "Aniq fan termini." }
+    ],
+    "59": [
+      { "q": "Qaysi fan ijtimoiy-gumanitar fanga kiradi?", "o": ["Matematika", "Tarix", "Kimyo", "Fizika"], "a": 1, "e": "Tarix, adabiyot, tarbiya." },
+      { "q": "«Sardoba» qaysi fanga oid termin?", "o": ["Adabiyot", "Tarix", "Biologiya", "Geometriya"], "a": 1, "e": "Karvon, rabot, sardoba." },
+      { "q": "Navoiy Buxoroga borishda qayerda to‘xtagan?", "o": ["Shohizinda", "Malik rabot va Sardoba", "Registon", "Afrosiyob"], "a": 1, "e": "Sahrolarni obod qilishni orzu qilgan." }
+    ],
+    "60": [
+      { "q": "«Shajara» so‘zi arabchada qanday ma’noni bildiradi?", "o": ["Oila", "Daraxt", "Avlod", "Ildiz"], "a": 1, "e": "Qarindoshlik aloqalari majmuyi." },
+      { "q": "Onaning aka-ukasi kim bo‘ladi?", "o": ["Amaki", "Tog‘a", "Amma", "Bobo"], "a": 1, "e": "Ona tomondan — xola, tog‘a." },
+      { "q": "Maqolda «ikkinchi ona» deb kim ataladi?", "o": ["Amma", "Xola", "Buvi", "Opa"], "a": 1, "e": "«Xola — ikkinchi ona»." }
+    ],
+    "61": [
+      { "q": "«Kapalagi uchmoq» iborasining ma’nosi nima?", "o": ["Xursand bo‘lmoq", "Qo‘rqmoq", "Uchmoq", "Shoshilmoq"], "a": 1, "e": "Ibora — bir so‘zga teng ma’no." },
+      { "q": "«Misi chiqmoq» iborasining ma’nosi nima?", "o": ["Boyimoq", "Siri fosh bo‘lmoq", "Charchamoq", "Kasal bo‘lmoq"], "a": 1, "e": "Haqiqat yuzaga chiqdi." },
+      { "q": "«Qo‘y og‘zidan cho‘p olmagan» kim haqida aytiladi?", "o": ["Ochko‘z", "Juda yuvosh odam", "Cho‘pon", "Dangasa"], "a": 1, "e": "Juda yuvosh." }
+    ],
+    "62": [
+      { "q": "«Laqqa tushmoq» iborasining bir so‘zli ifodasi?", "o": ["Aldamoq", "Aldanmoq", "Yiqilmoq", "Qo‘rqmoq"], "a": 1, "e": "Ko‘zini bo‘yamoq — aldamoq." },
+      { "q": "«Yeng uchida ish qilmoq» iborasining ma’nosi?", "o": ["Tez ishlamoq", "Yuzaki ishlamoq", "Yaxshi ishlamoq", "Yashirin ishlamoq"], "a": 1, "e": "Chala, yuzaki." },
+      { "q": "«Qosh qo‘yaman deb ko‘z chiqarmoq» iborasining ma’nosi?", "o": ["Chiroyli qilmoq", "Yaxshilik qilaman deb ziyon yetkazmoq", "Pardoz qilmoq", "Qaramoq"], "a": 1, "e": "«Ko‘z» bilan bog‘liq ibora." }
+    ],
+    "63": [
+      { "q": "Maqollarda qaysi so‘zlardan keng foydalaniladi?", "o": ["Sinonimlardan", "Antonimlardan", "Terminlardan", "Arxaizmlardan"], "a": 1, "e": "Yaxshi — yomon, buzar — tuzar." },
+      { "q": "«Aks sado» matnining g‘oyasi nima?", "o": ["Tog‘da baqirmaslik", "Hayot berganingni qaytaradi", "Do‘st topish", "Ovozni asrash"], "a": 1, "e": "Birovga kesak otsang — u tosh otadi." },
+      { "q": "«Ilmli uy charog‘on, ilmsiz uy ...»", "o": ["qorong‘i", "zimiston", "vayron", "bo‘sh"], "a": 1, "e": "Ilm haqidagi maqol." }
+    ],
+    "64": [
+      { "q": "Anvar keyinchalik qanday fermaga ega bo‘ladi?", "o": ["50 gektarli", "200 gektarli", "10 gektarli", "1000 gektarli"], "a": 1, "e": "Orzusiga erishdi." },
+      { "q": "«Baxtni izlamaydilar, uni mehnatda topadilar» qaysi xalq maqoli?", "o": ["Fransuz", "Udmurt", "Portugal", "O‘zbek"], "a": 1, "e": "Udmurt maqoli." },
+      { "q": "«Muhimi tez yugurish emas, ertaroq yugurishdir» qaysi xalq maqoli?", "o": ["Udmurt", "Fransuz", "Portugal", "Ingliz"], "a": 1, "e": "Fransuz maqoli." }
+    ],
+    "65": [
+      { "q": "Hikmatli so‘z maqoldan nimasi bilan farq qiladi?", "o": ["Uzunligi", "Muallifi ma’lumligi", "She’riyligi", "Qadimiyligi"], "a": 1, "e": "Maqol — xalqniki." },
+      { "q": "«Teran fikrlar aqlga o‘rnashgan po‘lat mixdek» kimning so‘zi?", "o": ["Sitseron", "Didro", "Arastu", "Navoiy"], "a": 1, "e": "Fransuz faylasufi Didro." },
+      { "q": "«Osh tuzi bilan sinalar, odam — ...»", "o": ["ishi bilan", "so‘zi bilan", "kiyimi bilan", "boyligi bilan"], "a": 1, "e": "So‘z haqidagi maqol." }
+    ],
+    "66": [
+      { "q": "«Kuch adolatdadir» kimning hikmati?", "o": ["Bobur", "Amir Temur", "Navoiy", "Arastu"], "a": 1, "e": "Amir Temur." },
+      { "q": "Arastuga ko‘ra qadr tilasang qanday bo‘lish kerak?", "o": ["Muloyim", "Rostgo‘y", "Iffatli", "Sabrli"], "a": 1, "e": "Izzat — iffat, ulug‘lik — muloyimlik." },
+      { "q": "«Ishda oshiqqan ko‘p toyilur» kimning hikmati?", "o": ["Ibn Sino", "Bobur", "Gandi", "Aflotun"], "a": 1, "e": "Shoshqaloqlikdan ogohlantiradi." }
+    ],
+    "67": [
+      { "q": "Lug‘at va uning turlarini o‘rganuvchi bo‘lim qanday ataladi?", "o": ["Leksikologiya", "Leksikografiya", "Morfologiya", "Grafika"], "a": 1, "e": "Lug‘atshunoslik." },
+      { "q": "So‘zning to‘g‘ri yozilishini qaysi lug‘atdan bilamiz?", "o": ["Izohli", "Imlo", "Tarjima", "Ensiklopedik"], "a": 1, "e": "Imlo (orfografik) lug‘ati." },
+      { "q": "Izohli lug‘atga ko‘ra kitob hajmi necha betdan kam bo‘lmaydi?", "o": ["24", "48", "100", "12"], "a": 1, "e": "48 betdan." }
+    ],
+    "68": [
+      { "q": "«Hasad» so‘zining ma’nosi nima?", "o": ["Qiziqish", "Birovning fazilatini ko‘rolmaslik", "Intilish", "Zavq"], "a": 1, "e": "Havas — ijobiy intilish." },
+      { "q": "Izohli lug‘atda so‘z haqida nimalar beriladi?", "o": ["Faqat yozilishi", "Kelib chiqishi, ma’nolari, misollar", "Faqat tarjimasi", "Faqat urg‘usi"], "a": 1, "e": "Ma’nolar raqamlab beriladi." },
+      { "q": "«Baxilning bog‘i ...»", "o": ["gullar", "ko‘karmas", "kengayar", "qurir"], "a": 1, "e": "Izohli lug‘at mavzusidagi maqol." }
+    ],
+    "69": [
+      { "q": "Qaqnus nima?", "o": ["Gul", "Olovda tug‘ilib, olovda kuyadigan afsonaviy qush", "Daryo", "Yulduz"], "a": 1, "e": "Navoiy asarlari tili lug‘atidan." },
+      { "q": "Karvonsaroyning boshqa nomi nima?", "o": ["Sardoba", "Rabot", "Madrasa", "Masjid"], "a": 1, "e": "Savdo yo‘llaridagi qo‘nish joyi." },
+      { "q": "«Lahza» so‘zining ma’nosi nima?", "o": ["Bir soat", "Ko‘z ochib-yumguncha vaqt", "Bir kun", "Bir yil"], "a": 1, "e": "«Ming bir so‘zni bilaman» lug‘atidan." }
+    ],
+    "70": [
+      { "q": "Oxirgi imlo lug‘ati qachon chop etilgan?", "o": ["1995-yilda", "2013-yilda", "2020-yilda", "2001-yilda"], "a": 1, "e": "85 000 dan ortiq so‘z." },
+      { "q": "Qaysi so‘z to‘g‘ri yozilgan?", "o": ["Muomila", "Muomala", "Muamala", "Mo‘amala"], "a": 1, "e": "Imlo lug‘atidan." },
+      { "q": "Savodxonlik nimaning belgisi?", "o": ["Boylikning", "Madaniyatlilikning", "Kuchning", "Yoshlikning"], "a": 1, "e": "To‘g‘ri yozish — savodxonlik." }
+    ],
+    "71": [
+      { "q": "Pandemiya nima?", "o": ["Kasallikning bir shaharda tarqalishi", "Kasallikning bir necha mamlakat, qit’ada yoppasiga tarqalishi", "Davolanish usuli", "Dori turi"], "a": 1, "e": "Epidemiya — ma’lum hududda." },
+      { "q": "«Taxminan» so‘zi qaysi harf bilan yoziladi?", "o": ["h", "x", "q", "k"], "a": 1, "e": "Taxminan." },
+      { "q": "Qaysi so‘z to‘g‘ri yozilgan?", "o": ["Tabiyiy", "Tabiiy", "Tabii", "Tabiy"], "a": 1, "e": "Ikki i bilan." }
+    ],
+    "72": [
+      { "q": "O‘zbek tilida nechta tinish belgisi bor?", "o": ["6", "10", "12", "8"], "a": 1, "e": "Nuqtadan qo‘shtirnoqqacha." },
+      { "q": "Tire qanday belgi?", "o": ["Imlo belgisi", "Tinish belgisi", "Harf", "Raqam"], "a": 1, "e": "Chiziqcha — imlo belgisi." },
+      { "q": "Punktuatsiya qaysi bo‘lim bilan chambarchas bog‘liq?", "o": ["Fonetika", "Sintaksis", "Leksikologiya", "Grafika"], "a": 1, "e": "Gap tuzilishi bilan." }
+    ],
+    "73": [
+      { "q": "Undalmadan keyin qaysi belgi qo‘yiladi?", "o": ["Nuqta", "Vergul", "Tire", "Ikki nuqta"], "a": 1, "e": "O‘g‘rigina bolam, ..." },
+      { "q": "Tartib bildiruvchi arab raqamidan keyin nima qo‘yiladi?", "o": ["Vergul", "Nuqta", "Tire", "Qavs"], "a": 1, "e": "1. Unli tovushlar." },
+      { "q": "Kirish so‘zlar qanday ajratiladi?", "o": ["Qavs bilan", "Vergul bilan", "Tire bilan", "Ajratilmaydi"], "a": 1, "e": "Ha, mayli; ehtimol." }
+    ],
+    "74": [
+      { "q": "So‘roq gap qaysi yuklama bilan hosil bo‘lishi mumkin?", "o": ["-gina", "-mi", "-oq", "-ki"], "a": 1, "e": "-mi, -chi, -a, -ya." },
+      { "q": "Gap ichida keltirilgan so‘roq so‘zlaridan keyin nima qo‘yiladi?", "o": ["Vergul", "So‘roq belgisi", "Nuqta", "Hech narsa"], "a": 1, "e": "Sifat qanday?, qaysi? so‘roqlariga javob bo‘ladi." },
+      { "q": "«Aqlli bolaning javobi» matnida kim javob beradi?", "o": ["Podshoh", "Vazirning o‘g‘li", "Vazir", "Muallim"], "a": 1, "e": "Odobli va hozirjavob javob." }
+    ],
+    "75": [
+      { "q": "«?!» belgisi qachon qo‘yiladi?", "o": ["Oddiy savolda", "Hayajonli, javob talab qilmaydigan so‘roqda", "Darak gapda", "Buyruq gapda"], "a": 1, "e": "Nima qildik vatan uchun?!" },
+      { "q": "Undov gap qanday gap?", "o": ["Savol gap", "His-hayajon bilan aytilgan gap", "Darak gap", "Nomlash gapi"], "a": 1, "e": "Oxirida undov belgisi." },
+      { "q": "Qaysi so‘z «osmon»ning sinonimi?", "o": ["Shams", "Gardun", "Xurshid", "Oftob"], "a": 1, "e": "Shams, xurshid — quyosh." }
+    ],
+    "76": [
+      { "q": "Qaysi o‘rinda qo‘shtirnoq qo‘yiladi?", "o": ["Undalmada", "Ko‘chirma gapda", "Uyushiq bo‘laklarda", "Kirish so‘zda"], "a": 1, "e": "Asar, tashkilot nomi, baho ham." },
+      { "q": "«XI asr Beruniy asridir» kimning so‘zi?", "o": ["Kolumb", "Jorj Sarton", "Didro", "Sitseron"], "a": 1, "e": "Fan tarixchisi." },
+      { "q": "Beruniy qayerda tug‘ilgan?", "o": ["Buxoroda", "Xorazmning Kat shahrida", "Samarqandda", "Termizda"], "a": 1, "e": "«Hindiston» asari muallifi." }
+    ],
+    "77": [
+      { "q": "«E’lon» so‘zi arabchada qanday ma’noni bildiradi?", "o": ["Xat", "Bildirish, xabarnoma", "Taklif", "Tabrik"], "a": 1, "e": "Ko‘pchilikka yetkaziladigan xabar." },
+      { "q": "Ish qog‘ozlarida nimalar ishlatilmaydi?", "o": ["Adabiy so‘zlar", "Sheva so‘zlar, qisqartmalar", "Sanalar", "Imzo"], "a": 1, "e": "Saralangan, adabiy so‘zlar ishlatiladi." },
+      { "q": "Xat e’londan nimasi bilan farq qiladi?", "o": ["Hajmi bilan", "Aniq manzilga yuborilishi bilan", "Sarlavhasi bilan", "Sanasi bilan"], "a": 1, "e": "E’lon — ko‘pchilikka." }
+    ],
+    "78": [
+      { "q": "Tabriknoma qanday tugaydi?", "o": ["Sana bilan", "Imzo bilan", "Savol bilan", "Manzil bilan"], "a": 1, "e": "Murojaat → sabab → tilak → imzo." },
+      { "q": "Tabriknomada qaysi so‘z ishlatiladi?", "o": ["Majbursiz", "Muborakbod etaman", "Kech qolmang", "Shart"], "a": 1, "e": "Qutlayman, ezgu tilaklar." },
+      { "q": "Tabriknoma qachon yoziladi?", "o": ["Shikoyat qilganda", "Bayram, yutuq, tug‘ilgan kun munosabati bilan", "Ishga kirganda", "Kitob olganda"], "a": 1, "e": "Tabrik xati." }
+    ],
+    "79": [
+      { "q": "Taklifnomada nimalar albatta ko‘rsatiladi?", "o": ["Sovg‘a", "Sana, vaqt, joy", "Narx", "Ism-familiya ro‘yxati"], "a": 1, "e": "Tadbirga chaqirish uchun." },
+      { "q": "Taklifnomada qaysi ibora noo‘rin?", "o": ["Taklif etamiz", "Kelishga majbursiz", "Marhamat qilib", "Lutfan"], "a": 1, "e": "Muloyim, hurmatli ohang kerak." },
+      { "q": "Tabriknoma va taklifnomaning farqi nima?", "o": ["Farqi yo‘q", "Tabriknoma qutlaydi, taklifnoma tadbirga chaqiradi", "Taklifnoma uzunroq", "Tabriknomada sana bor"], "a": 1, "e": "Taklifnomada sana, vaqt, joy shart." }
+    ],
+    "80": [
+      { "q": "Grafika nimani o‘rganadi?", "o": ["Tovush tizimini", "Yozma nutqning harflar tizimini", "So‘z turkumlarini", "Tinish belgilarini"], "a": 1, "e": "Fonetika — tovush tizimi." },
+      { "q": "Leksikografiya nimani o‘rganadi?", "o": ["So‘z ma’nolarini", "Lug‘at va uning turlarini", "Gapni", "Bo‘g‘inni"], "a": 1, "e": "Leksikologiya — so‘z va xususiyatlari." },
+      { "q": "Shakli har xil, ma’nosi yaqin so‘zlar qanday ataladi?", "o": ["Omonimlar", "Sinonimlar", "Antonimlar", "Paronimlar"], "a": 1, "e": "Ma’nodosh so‘zlar." }
+    ]
+  }
+}

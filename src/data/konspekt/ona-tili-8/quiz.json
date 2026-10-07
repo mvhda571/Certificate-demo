@@ -1,0 +1,209 @@
+{
+  "topics": {
+    "1": [
+      { "q": "«Kibr» so‘zining ma’nosi qaysi?", "o": ["O‘z qadrini bilish", "O‘zini boshqalardan ustun qo‘yish", "Kamtarlik", "Saxiylik"], "a": 1, "e": "Kibr salbiy, g‘urur ijobiy." },
+      { "q": "«So‘zdan so‘zning farqi bor, ...»", "o": ["mingta narxi bor", "o‘ttiz ikki narxi bor", "aytgan so‘zing bor", "aqldan bo‘lak bor"], "a": 1, "e": "Xalq maqoli." },
+      { "q": "«Kamtar» so‘zining zidi qaysi?", "o": ["Odobli", "Manman", "Saxiy", "Mehnatkash"], "a": 1, "e": "Manman — kibrli." }
+    ],
+    "2": [
+      { "q": "Qaysi nutq yozma shaklga ega?", "o": ["Sheva nutqi", "Adabiy nutq", "Har ikkisi", "Hech biri"], "a": 1, "e": "Shevaning qat’iy me’yori yo‘q." },
+      { "q": "Qonun va farmonlar qaysi uslubda yoziladi?", "o": ["Badiiy", "Rasmiy-idoraviy", "So‘zlashuv", "Publitsistik"], "a": 1, "e": "Ixcham va aniq." },
+      { "q": "Gazeta, radio va TV qaysi uslubdan foydalanadi?", "o": ["Ilmiy", "Publitsistik", "Rasmiy", "So‘zlashuv"], "a": 1, "e": "Ijtimoiy-siyosiy masalalar." }
+    ],
+    "3": [
+      { "q": "Qaysi biri yordamchi so‘z turkumi?", "o": ["Ravish", "Ko‘makchi", "Olmosh", "Son"], "a": 1, "e": "Ko‘makchi, bog‘lovchi, yuklama." },
+      { "q": "Teng bog‘lovchilar qaysi turlarga bo‘linadi?", "o": ["Sabab, shart, aniqlov", "Biriktiruv, zidlov, ayiruv, inkor", "Sof va vazifadosh", "Kuchaytiruv va ayiruv"], "a": 1, "e": "Ergashtiruvchilar — sabab, aniqlov, shart." },
+      { "q": "Alohida so‘zlar guruhiga qaysilar kiradi?", "o": ["Ot, sifat, son", "Undov, taqlid, modal so‘zlar", "Ko‘makchi, yuklama", "Fe’l, ravish"], "a": 1, "e": "So‘roqqa javob bermaydi." }
+    ],
+    "4": [
+      { "q": "Qaysi matnda muallif pozitsiyasi xolis?", "o": ["Insho", "Ma’lumotnoma matni", "Badiiy matn", "Publitsistik maqola"], "a": 1, "e": "Badiiy vositalarsiz." },
+      { "q": "Ijodiy-tavsifiy matn nimaga yo‘naltirilgan?", "o": ["Faqat aqlga", "Hissiyotga", "Raqamlarga", "Qonunlarga"], "a": 1, "e": "Muallifning shaxsiy munosabati bor." },
+      { "q": "Insho qaysi matn turiga kiradi?", "o": ["Ma’lumotnoma", "Ijodiy-tavsifiy", "Rasmiy", "Hujjat"], "a": 1, "e": "Sub’ektiv, bo‘yoqdor." }
+    ],
+    "5": [
+      { "q": "Inshoga tayyorgarlikning birinchi bosqichi qaysi?", "o": ["Reja tuzish", "Mavzuni chuqur o‘rganish", "Yozish", "Epigraf tanlash"], "a": 1, "e": "Keyin ko‘chirmalar, reja, yozish." },
+      { "q": "Sinov inshosida manbalardan foydalanish mumkinmi?", "o": ["Ha, istalgancha", "Yo‘q", "Faqat darslikdan", "Faqat lug‘atdan"], "a": 1, "e": "O‘qituvchi nazoratida yoziladi." },
+      { "q": "8-sinf o‘quvchisi necha sahifali insho yozishi mumkin?", "o": ["1–2", "5–6", "10–12", "20"], "a": 1, "e": "Konspektdagi me’yor." }
+    ],
+    "6": [
+      { "q": "Dasturda bo‘lmagan mavzudagi insho qanday ataladi?", "o": ["Adabiy", "Erkin mavzudagi", "Ilmiy", "Sinov"], "a": 1, "e": "O‘quvchi dunyoqarashi aks etadi." },
+      { "q": "«O‘zbek tilining imlo qoidalari» qanday insho?", "o": ["Adabiy", "Ilmiy", "Erkin", "Badiiy"], "a": 1, "e": "Ilmiy dalillarga asoslanadi." },
+      { "q": "Insho mazmuniga ko‘ra necha turli?", "o": ["Ikki", "Uch", "To‘rt", "Besh"], "a": 1, "e": "Adabiy, erkin, ilmiy." }
+    ],
+    "7": [
+      { "q": "«Rejasiz ish — ...»", "o": ["yarim ish", "qolipsiz g‘isht", "bo‘sh ish", "tugamas ish"], "a": 1, "e": "Maqol." },
+      { "q": "Insho rejasi qaysi qismlardan iborat?", "o": ["Sarlavha va matn", "Kirish, asosiy qism, xulosa", "Epigraf va xulosa", "Faqat asosiy qism"], "a": 1, "e": "Uch qism." },
+      { "q": "Qismlarni yana ichki qismlarga bo‘lgan reja qanday ataladi?", "o": ["Sodda", "Murakkab", "Oddiy", "Qisqa"], "a": 1, "e": "Sodda reja — bir bosqichli." }
+    ],
+    "8": [
+      { "q": "Qaysi biri insho hisoblanmaydi?", "o": ["Adabiy insho", "Maktub", "Erkin insho", "Ilmiy insho"], "a": 1, "e": "Maxsus reja va tayyorgarlik talab qilmaydi." },
+      { "q": "Erkin mavzudagi insho qanday uslubda yoziladi?", "o": ["Rasmiy", "Ommabop", "Ilmiy", "Arxaik"], "a": 1, "e": "Ko‘pchilikka tushunarli." },
+      { "q": "Adabiy inshoda tahlil nimaga tayanadi?", "o": ["Taxminga", "Manbalarga", "Mish-mishga", "Faqat tasavvurga"], "a": 1, "e": "Adib mahorati bilan bog‘lanadi." }
+    ],
+    "9": [
+      { "q": "Epigraf qayerda yoziladi?", "o": ["Rejadan oldin, chapda", "Rejadan keyin, matndan oldin, o‘ng chekkada", "Matn oxirida", "Sarlavha o‘rnida"], "a": 1, "e": "Muallifi qavsda beriladi." },
+      { "q": "Epigraf muallifi qanday ko‘rsatiladi?", "o": ["Qo‘shtirnoqda", "Qavs ichida", "Tire bilan", "Ko‘rsatilmaydi"], "a": 1, "e": "Epigrafdan keyin." },
+      { "q": "Epigraf majburiymi?", "o": ["Ha, doim", "Yo‘q, ixtiyoriy", "Faqat ilmiy inshoda", "Faqat sinov inshosida"], "a": 1, "e": "Mos epigraf badiiylikni oshiradi." }
+    ],
+    "10": [
+      { "q": "Ilmiy insho tili qanday bo‘ladi?", "o": ["Obrazli, bo‘yoqdor", "Bo‘yoqdorlik va ta’sirchanlikdan xoli", "So‘zlashuvga xos", "She’riy"], "a": 1, "e": "Termin va dalillar ko‘p." },
+      { "q": "Ilmiy insho nimani aniqlashga xizmat qiladi?", "o": ["Husnixatni", "Ilmiy fikrlash darajasini", "Tezlikni", "Xotirani"], "a": 1, "e": "O‘quvchi bilimini." },
+      { "q": "Qaysi vosita badiiy bayonga xos?", "o": ["Termin", "O‘xshatish", "Ta’rif", "Formula"], "a": 1, "e": "Ilmiy bayonda tasviriy vositalar deyarli yo‘q." }
+    ],
+    "11": [
+      { "q": "So‘z birikmasida kamida nechta mustaqil so‘z bo‘ladi?", "o": ["Bitta", "Ikkita", "Uchta", "To‘rtta"], "a": 1, "e": "Tobe bog‘lanish." },
+      { "q": "«Vatan uchun o‘lmoq» birikmasida hokim so‘z qaysi?", "o": ["Vatan", "O‘lmoq", "Uchun", "Hokim yo‘q"], "a": 1, "e": "Hokim so‘z keyin keladi." },
+      { "q": "«Olma va anor» nima?", "o": ["So‘z birikmasi", "Teng bog‘langan so‘zlar", "Qo‘shma so‘z", "Gap"], "a": 1, "e": "Birikma emas." }
+    ],
+    "12": [
+      { "q": "«Daftarga yozmoq» qanday birikma?", "o": ["Otli", "Fe’lli", "Teng bog‘langan", "Qo‘shma so‘z"], "a": 1, "e": "Hokim so‘z fe’l." },
+      { "q": "Teng bog‘lanish natijasida nima hosil bo‘ladi?", "o": ["So‘z birikmasi", "So‘z qo‘shilmasi", "Qo‘shma so‘z", "Ibora"], "a": 1, "e": "So‘zlar teng huquqli." },
+      { "q": "«Shaharning ko‘chalari» qanday birikma?", "o": ["Fe’lli", "Otli", "Teng", "Ibora"], "a": 1, "e": "Hokim so‘z ot." }
+    ],
+    "13": [
+      { "q": "Qaysi birlik lug‘atda aks etadi?", "o": ["So‘z birikmasi", "Qo‘shma so‘z", "So‘z qo‘shilmasi", "Gap"], "a": 1, "e": "Nutqdan oldin mavjud." },
+      { "q": "«Kungaboqar» qanday birlik?", "o": ["So‘z birikmasi", "Qo‘shma so‘z", "So‘z qo‘shilmasi", "Ibora"], "a": 1, "e": "Yaxlit leksik birlik." },
+      { "q": "«Qizil olma» qanday birlik?", "o": ["Qo‘shma so‘z", "So‘z birikmasi", "So‘z qo‘shilmasi", "Gap"], "a": 1, "e": "Nutqda tobe bog‘lanish." }
+    ],
+    "14": [
+      { "q": "Gapning belgilari qaysilar?", "o": ["Faqat ega va kesim", "Tugal fikr, ohang, kesimlik", "Bosh harf va nuqta", "Faqat ohang"], "a": 1, "e": "Birikmada kesimlik yo‘q." },
+      { "q": "Kesimlik qaysi ma’nolarni o‘z ichiga oladi?", "o": ["Kelishik va egalik", "Zamon, shaxs-son, mayl, tasdiq-inkor", "Ko‘plik va kichraytirish", "Daraja"], "a": 1, "e": "Kesim orqali ifodalanadi." },
+      { "q": "Qaysi biri gap?", "o": ["Kitob o‘qish", "Kitob o‘qidim", "Yangi kitob", "Kitobning varag‘i"], "a": 1, "e": "Kesimlikka ega." }
+    ],
+    "15": [
+      { "q": "«Qani endi, ko‘p kitob o‘qisam!» qanday gap?", "o": ["Darak", "Istak", "So‘roq", "Buyruq"], "a": 1, "e": "Istak ma’nosi." },
+      { "q": "Darak gap oxirida qanday belgi qo‘yiladi?", "o": ["So‘roq", "Nuqta", "Ikki nuqta", "Tire"], "a": 1, "e": "Xabar beradi." },
+      { "q": "Kuchli his-hayajon bilan aytilgan gap qanday ataladi?", "o": ["Darak gap", "Undov gap", "So‘roq gap", "Atov gap"], "a": 1, "e": "Oxirida undov belgisi." }
+    ],
+    "16": [
+      { "q": "Sodda gapda nechta shakllangan kesim bo‘ladi?", "o": ["Ikkita", "Bitta", "Uchta", "Kesim bo‘lmaydi"], "a": 1, "e": "Qo‘shma gapda birdan ortiq." },
+      { "q": "«Bahor keldi, daraxtlar gulladi.» qanday gap?", "o": ["Sodda", "Qo‘shma", "Atov", "So‘z-gap"], "a": 1, "e": "Ikki shakllangan kesim." },
+      { "q": "«Yomg‘ir yog‘ib, havo salqinladi» qanday gap?", "o": ["Qo‘shma", "Sodda", "Atov", "To‘liqsiz"], "a": 1, "e": "Ravishdosh shakllangan kesim emas." }
+    ],
+    "17": [
+      { "q": "Gapning bosh bo‘laklari qaysilar?", "o": ["To‘ldiruvchi va hol", "Ega va kesim", "Aniqlovchi va ega", "Hol va kesim"], "a": 1, "e": "Qolganlari ikkinchi darajali." },
+      { "q": "Aniqlovchi qaysi bo‘laklarga bog‘lanadi?", "o": ["Faqat kesimga", "Ot bilan ifodalangan bo‘lakka", "Faqat fe’lga", "Hech qaysisiga"], "a": 1, "e": "Ega, to‘ldiruvchi va b." },
+      { "q": "Gapning markaziy bo‘lagi qaysi?", "o": ["Ega", "Kesim", "Hol", "Aniqlovchi"], "a": 1, "e": "Egasiz gap bo‘ladi, kesimsiz — yo‘q." }
+    ],
+    "18": [
+      { "q": "«Burchimiz — a’lo o‘qish» gapida kesim nima bilan ifodalangan?", "o": ["Sof fe’l", "Harakat nomi", "Sifat", "Son"], "a": 1, "e": "Ot kesim." },
+      { "q": "Fe’l kesim nima bilan ifodalanadi?", "o": ["Ot bilan", "Sof fe’l, ba’zan -guncha li ravishdosh", "Sifat bilan", "Son bilan"], "a": 1, "e": "Ish-harakatni bildiradi." },
+      { "q": "«Ikki o‘n besh — bir o‘ttiz» gapida kesim qaysi turkum?", "o": ["Ot", "Son", "Olmosh", "Ravish"], "a": 1, "e": "Ot kesim." }
+    ],
+    "19": [
+      { "q": "«O‘zbekiston — kelajagi buyuk davlat» gapida kesim qanday?", "o": ["Sodda", "Murakkab", "Kesim yo‘q", "Fe’l kesim"], "a": 1, "e": "Birdan ortiq so‘z." },
+      { "q": "«Rost gapir» gapida kesim qanday?", "o": ["Murakkab", "Sodda", "Ot kesim", "Ibora"], "a": 1, "e": "Bir so‘z." },
+      { "q": "Murakkab kesimni qaysi so‘zlar shakllantiradi?", "o": ["Undovlar", "Ko‘makchi fe’l, bog‘lama, nisbiy so‘z", "Yuklamalar", "Taqlid so‘zlar"], "a": 1, "e": "O‘qib chiqdi, talaba edi." }
+    ],
+    "20": [
+      { "q": "Qaysi so‘z bog‘lama vazifasida kelmaydi?", "o": ["Edi", "Tez", "Kerak", "Hisoblanmoq"], "a": 1, "e": "Tez — ravish." },
+      { "q": "«Talaba edi» ning qisqa shakli qanday?", "o": ["Talabadi", "Talabaydi", "Talabaedi", "Talabaydir"], "a": 1, "e": "Edi qo‘shib yozilishi mumkin." },
+      { "q": "Bog‘lama qaysi kesim tarkibida keladi?", "o": ["Fe’l kesim", "Ot kesim", "Har qanday", "Hech qaysi"], "a": 1, "e": "Egani ot kesim bilan bog‘laydi." }
+    ],
+    "21": [
+      { "q": "«Dadam qo‘li ochiq edilar» gapida kesim qanday?", "o": ["Sodda", "Murakkab (ibora bilan)", "Fe’l kesim", "Kesim yo‘q"], "a": 1, "e": "Ibora bir bo‘lak bo‘ladi." },
+      { "q": "Ibora gapda nechta bo‘lak bo‘ladi?", "o": ["Har bir so‘zi alohida", "Bitta", "Ikkita", "Bo‘lak bo‘lmaydi"], "a": 1, "e": "Yaxlit bo‘lak." },
+      { "q": "«Og‘zi qulog‘ida» iborasining ma’nosi?", "o": ["G‘amgin", "Juda xursand", "Kar", "Gapdon"], "a": 1, "e": "Ibora-kesim." }
+    ],
+    "22": [
+      { "q": "Qaysi gapda ega va kesim orasiga tire qo‘yiladi?", "o": ["Vatanimiz go‘zal", "Toshkent — poytaxt", "Bular ham a’lochi", "Sinfimiz sakkizinchi"], "a": 1, "e": "Ot kesim bog‘lamasiz." },
+      { "q": "Ot kesim sifat bilan ifodalansa tire qo‘yiladimi?", "o": ["Ha", "Yo‘q", "Faqat she’rda", "Faqat so‘roq gapda"], "a": 1, "e": "Vatanimiz go‘zal." },
+      { "q": "Ega va kesim orasida «ham» bo‘lsa?", "o": ["Tire qo‘yiladi", "Tire qo‘yilmaydi", "Vergul qo‘yiladi", "Ikki nuqta qo‘yiladi"], "a": 1, "e": "Bular ham a’lochi." }
+    ],
+    "23": [
+      { "q": "Ega qaysi kelishikda bo‘ladi?", "o": ["Tushum", "Bosh", "Qaratqich", "Jo‘nalish"], "a": 1, "e": "Doimo bosh kelishikda." },
+      { "q": "«O‘qish jafoli, oqibati vafoli» gapida ega nima bilan ifodalangan?", "o": ["Ot", "Harakat nomi", "Sifat", "Olmosh"], "a": 1, "e": "O‘qish." },
+      { "q": "«Qars ikki qo‘ldan chiqadi» gapida ega qaysi turkum?", "o": ["Undov", "Taqlid so‘z", "Fe’l", "Ravish"], "a": 1, "e": "Qars." }
+    ],
+    "24": [
+      { "q": "«Hurmat qilsang, hurmat ko‘rasan» qanday gap?", "o": ["Shaxsi ma’lum", "Shaxsi umumlashgan", "Shaxsi noma’lum", "Atov"], "a": 1, "e": "Barcha shaxslarga aloqador." },
+      { "q": "«Oyni etak bilan yopib bo‘lmaydi» qanday gap?", "o": ["Shaxsi ma’lum", "Shaxsi noma’lum", "Egali", "Atov"], "a": 1, "e": "Kesimda shaxs qo‘shimchasi yo‘q." },
+      { "q": "Shaxsi ma’lum gapda ega qayerdan bilinadi?", "o": ["Aniqlovchidan", "Kesimning shaxs-son qo‘shimchasidan", "Holdan", "Bilinmaydi"], "a": 1, "e": "Jo‘naymiz — biz." }
+    ],
+    "25": [
+      { "q": "Qaysi biri atov gap?", "o": ["Qish keldi.", "Erta bahor.", "Kel!", "Ha."], "a": 1, "e": "Narsa-holatni ko‘z oldiga keltiradi." },
+      { "q": "Atov gap qaysi bo‘lak bilan kengayishi mumkin?", "o": ["Kesim", "Aniqlovchi", "To‘ldiruvchi", "Hol"], "a": 1, "e": "Erta bahor." },
+      { "q": "Atov gap asosan qaysi zamon ma’nosida?", "o": ["O‘tgan", "Hozirgi", "Kelasi", "Zamonsiz"], "a": 1, "e": "Badiiy matn, sahna izohlarida." }
+    ],
+    "26": [
+      { "q": "So‘z-gapning asosiy belgisi qaysi?", "o": ["Kengayadi", "Kengayolmaydi", "Kesimi bor", "Egasi bor"], "a": 1, "e": "Bir so‘z yoki qotgan birikma." },
+      { "q": "Qaysi biri so‘z-gap?", "o": ["Erta bahor.", "Marhamat.", "Bahor keldi.", "Kitob o‘qi."], "a": 1, "e": "Muomala so‘zi." },
+      { "q": "So‘z-gap qaysi nutqqa xos?", "o": ["Ilmiy", "Dialogik", "Rasmiy", "Monologik ilmiy"], "a": 1, "e": "Tasdiq, inkor, so‘roq." }
+    ],
+    "27": [
+      { "q": "Faqat bosh bo‘laklardan iborat gap qanday ataladi?", "o": ["Yoyiq", "Yig‘iq", "To‘liqsiz", "Atov"], "a": 1, "e": "Bahor keldi." },
+      { "q": "«Kecha qalin qor yog‘di» qanday gap?", "o": ["Yig‘iq", "Yoyiq", "Atov", "So‘z-gap"], "a": 1, "e": "Ikkinchi darajali bo‘laklar bor." },
+      { "q": "«O‘qituvchiman» qanday gap?", "o": ["Yoyiq", "Yig‘iq", "Qo‘shma", "Atov"], "a": 1, "e": "Faqat kesimdan iborat." }
+    ],
+    "28": [
+      { "q": "«Sovuqdan qaltiradi» gapida hol turi?", "o": ["O‘rin", "Sabab", "Payt", "Maqsad"], "a": 1, "e": "Nega? — sovuqdan." },
+      { "q": "Payt holi qaysi so‘roqqa javob beradi?", "o": ["Qayerda?", "Qachon?", "Qanday?", "Qancha?"], "a": 1, "e": "Ertalab turdi." },
+      { "q": "«O‘qish uchun keldi» gapida hol turi?", "o": ["Sabab", "Maqsad", "Ravish", "O‘rin"], "a": 1, "e": "Nima uchun?" }
+    ],
+    "29": [
+      { "q": "Vositasiz to‘ldiruvchi qaysi kelishikda?", "o": ["Jo‘nalish", "Tushum", "Chiqish", "O‘rin-payt"], "a": 1, "e": "Kitob(ni) o‘qidi." },
+      { "q": "To‘ldiruvchi fe’lga qanday bog‘lanadi?", "o": ["Bitishuv", "Boshqaruv", "Moslashuv", "Teng bog‘lanish"], "a": 1, "e": "Kelishik yoki ko‘makchi orqali." },
+      { "q": "«Akam bilan gaplashdim» da «akam bilan» qanday bo‘lak?", "o": ["Vositasiz to‘ldiruvchi", "Vositali to‘ldiruvchi", "Hol", "Aniqlovchi"], "a": 1, "e": "Ko‘makchi bilan." }
+    ],
+    "30": [
+      { "q": "«Kapitan Mansurov» birikmasida aniqlovchi turi?", "o": ["Sifatlovchi", "Izohlovchi", "Qaratqich", "Uyushiq"], "a": 1, "e": "Kasb, mansab, laqab." },
+      { "q": "Qaratqich aniqlovchi qanday bog‘lanadi?", "o": ["Bitishuv", "Moslashuv", "Boshqaruv", "Bog‘lanmaydi"], "a": 1, "e": "-ning + egalik." },
+      { "q": "«Yangi binolar» da aniqlovchi turi?", "o": ["Qaratqich", "Sifatlovchi", "Izohlovchi", "Ajratilgan"], "a": 1, "e": "Bitishuv yo‘li bilan." }
+    ],
+    "31": [
+      { "q": "Me’yoriy tartibda kesim qayerda keladi?", "o": ["Gap boshida", "Gap oxirida", "O‘rtada", "Egadan oldin"], "a": 1, "e": "Ega — boshida." },
+      { "q": "Ma’noni kuchaytirish uchun muhim bo‘lak qayerga o‘tkaziladi?", "o": ["Gap boshiga", "Kesim oldiga", "Gap oxiriga", "Egadan oldin"], "a": 1, "e": "Ta’kid o‘rni." },
+      { "q": "O‘zgargan tartib qanday ataladi?", "o": ["Gradatsiya", "Inversiya", "Takror", "Ellipsis"], "a": 1, "e": "Og‘zaki va she’riy nutqqa xos." }
+    ],
+    "32": [
+      { "q": "«Biz muzeyga KECHA bordik» gapida nima ta’kidlangan?", "o": ["Biz", "Kecha", "Muzeyga", "Bordik"], "a": 1, "e": "Boshqa vaqtda emas." },
+      { "q": "Gap urg‘usining boshqa nomi?", "o": ["So‘z urg‘usi", "Mantiqiy urg‘u", "Bo‘g‘in urg‘usi", "Ohang"], "a": 1, "e": "Ixtiyoriy ko‘chadi." },
+      { "q": "Kesim mantiqiy urg‘u olganda gapdagi o‘rni?", "o": ["Oxirida qoladi", "Gap boshiga chiqadi", "Tushib qoladi", "O‘rtaga o‘tadi"], "a": 1, "e": "Bordik biz kecha muzeyga." }
+    ],
+    "33": [
+      { "q": "To‘liqsiz gap qayerda ko‘p uchraydi?", "o": ["Qonunlarda", "Dialogda", "Ilmiy maqolada", "Lug‘atda"], "a": 1, "e": "Nutqni ixcham qiladi." },
+      { "q": "To‘liqsiz gapda tushirilgan bo‘lak qanday bilinadi?", "o": ["Bilinmaydi", "Kontekstdan", "Qavsdan", "Tiredan"], "a": 1, "e": "Oldingi gap yoki vaziyatdan." },
+      { "q": "«— Qachon kelasan? — Ertaga.» da to‘liqsiz gap qaysi?", "o": ["Qachon kelasan?", "Ertaga.", "Ikkalasi", "Hech biri"], "a": 1, "e": "Ega va kesim tushgan." }
+    ],
+    "34": [
+      { "q": "Uyushiq kesimda zamon qo‘shimchasi qayerga qo‘shiladi?", "o": ["Har biriga", "Oxirgi bo‘lakka", "Birinchisiga", "Qo‘shilmaydi"], "a": 1, "e": "Har biriga qo‘shilsa — qo‘shma gap." },
+      { "q": "Guruh-guruh uyushiq bo‘laklar qanday ajratiladi?", "o": ["Vergul", "Nuqtali vergul", "Tire", "Qavs"], "a": 1, "e": "Guruhlar ichida vergul." },
+      { "q": "«Tez va puxta bajardik» gapida qaysi bo‘lak uyushgan?", "o": ["Ega", "Hol", "To‘ldiruvchi", "Kesim"], "a": 1, "e": "Qanday? — tez va puxta." }
+    ],
+    "35": [
+      { "q": "Umumlashtiruvchi so‘z uyushiq bo‘laklardan oldin kelsa?", "o": ["Undan keyin tire", "Undan keyin ikki nuqta", "Vergul", "Hech narsa"], "a": 1, "e": "Ikki o‘rtoq: Ilhom va Rustam." },
+      { "q": "Umumlashtiruvchi so‘z uyushiq bo‘laklardan keyin kelsa?", "o": ["Ikki nuqta", "Undan oldin tire", "Nuqtali vergul", "Qavs"], "a": 1, "e": "... — hammasi." },
+      { "q": "«Qop-qora shirin uzum» da qanday aniqlovchilar?", "o": ["Uyushiq", "Uyushmagan", "Ajratilgan", "Izohlovchi"], "a": 1, "e": "Sanash ohangi yo‘q, vergul qo‘yilmaydi." }
+    ],
+    "36": [
+      { "q": "«Hasan aka, fizika o‘qituvchisi, kirib keldi» da ajratilgan bo‘lak turi?", "o": ["Ajratilgan hol", "Ajratilgan izohlovchi", "Ajratilgan to‘ldiruvchi", "Undalma"], "a": 1, "e": "Kasbni bildiradi." },
+      { "q": "Ajratilgan bo‘lak ko‘pincha qayerda keladi?", "o": ["Izohlanmishdan oldin", "Izohlanmishdan keyin", "Gap boshida", "Kesimdan keyin"], "a": 1, "e": "Izohlaydi." },
+      { "q": "«Ichkariga, mehmonxonaga, boshladi» da ajratilgan bo‘lak?", "o": ["To‘ldiruvchi", "Hol", "Aniqlovchi", "Ega"], "a": 1, "e": "Qayerga?" }
+    ],
+    "37": [
+      { "q": "Ajratilgan bo‘lak ichida vergul bo‘lsa, u qanday ajratiladi?", "o": ["Vergul bilan", "Ikki tomondan tire bilan", "Qavs bilan", "Ajratilmaydi"], "a": 1, "e": "Chalkashlik bo‘lmasligi uchun." },
+      { "q": "Odatda ajratilgan bo‘lak qanday ajratiladi?", "o": ["Bir tomondan tire", "Ikki tomondan vergul", "Ikki nuqta", "Nuqtali vergul"], "a": 1, "e": "Choyxonada, gavjum joyda, ..." },
+      { "q": "Uyushiq bo‘laklar qanday ohang bilan aytiladi?", "o": ["Izoh ohangi", "Sanash ohangi", "So‘roq ohangi", "Undov ohangi"], "a": 1, "e": "Ajratilgan bo‘lak — izoh ohangi." }
+    ],
+    "38": [
+      { "q": "«Birinchidan» kiritmasi nimani bildiradi?", "o": ["Gumon", "Fikr tartibi", "Fikr manbai", "Xulosa"], "a": 1, "e": "Ikkinchidan, avvalo." },
+      { "q": "Kiritma gap bo‘lagi bo‘ladimi?", "o": ["Ha", "Yo‘q", "Faqat ega", "Faqat hol"], "a": 1, "e": "Gap bo‘laklari bilan aloqaga kirishmaydi." },
+      { "q": "Qo‘shimcha axborot beruvchi kiritma ko‘pincha nima bilan ajratiladi?", "o": ["Ikki nuqta", "Qavs", "Nuqta", "So‘roq"], "a": 1, "e": "(Men harbiy kiyimda edim)." }
+    ],
+    "39": [
+      { "q": "Ega va undalmaning farqi nimada?", "o": ["Farqi yo‘q", "Ega kesimga bog‘lanadi, undalma bog‘lanmaydi", "Undalma kesimga bog‘lanadi", "Ega gap bo‘lagi emas"], "a": 1, "e": "Undalma gap bo‘lagi emas." },
+      { "q": "Gap o‘rtasidagi undalma qanday ajratiladi?", "o": ["Bir tomondan vergul", "Ikki tomondan vergul", "Tire", "Ajratilmaydi"], "a": 1, "e": "Bilasanmi, do‘stim, ..." },
+      { "q": "«Ey do‘st» da «ey» dan keyin vergul qo‘yiladimi?", "o": ["Ha", "Yo‘q", "Undov qo‘yiladi", "Tire qo‘yiladi"], "a": 1, "e": "Ey, hoy dan keyin vergul qo‘yilmaydi." }
+    ],
+    "40": [
+      { "q": "Tushuntirish xati kimga yoziladi?", "o": ["Do‘stga", "Rahbarga", "Gazetaga", "Ota-onaga"], "a": 1, "e": "Holat sababini izohlaydi." },
+      { "q": "Qaysi hujjatni tashkilot beradi?", "o": ["Ariza", "Ma’lumotnoma", "Tushuntirish xati", "Taklifnoma"], "a": 1, "e": "Muhr bilan tasdiqlanadi." },
+      { "q": "Taklifnomada nimalar ko‘rsatiladi?", "o": ["Baho", "Sana, vaqt, joy", "Maosh", "Tug‘ilgan yil"], "a": 1, "e": "«Hurmatli ...!» murojaati." }
+    ],
+    "41": [
+      { "q": "«Mening kitobim» qaysi bog‘lanish turi?", "o": ["Bitishuv", "Moslashuv", "Boshqaruv", "Teng bog‘lanish"], "a": 1, "e": "Shaxs-sonda moslashadi." },
+      { "q": "«Kitobni o‘qidi» qaysi bog‘lanish turi?", "o": ["Moslashuv", "Boshqaruv", "Bitishuv", "Teng"], "a": 1, "e": "Kelishik orqali." },
+      { "q": "«Yangi bino» qaysi bog‘lanish turi?", "o": ["Boshqaruv", "Bitishuv", "Moslashuv", "Teng"], "a": 1, "e": "Qo‘shimchasiz, tartib bilan." }
+    ]
+  }
+}

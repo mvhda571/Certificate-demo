@@ -1,0 +1,3644 @@
+{
+ "topics": {
+  "1": [
+   {
+    "q": "«Davlat tili haqida»gi Qonunning 24-moddasi nimani taqiqlaydi?",
+    "o": [
+     "Boshqa tillarni o‘rganishni",
+     "Tillarga mensimay yoki xusumat bilan qarashni",
+     "Rus tilida gapirishni",
+     "Sheva so‘zlarini"
+    ],
+    "a": 1,
+    "e": "Davlat tiliga ham, boshqa tillarga ham hurmat."
+   },
+   {
+    "q": "Qaysi til o‘zbek tiliga qarindosh?",
+    "o": [
+     "Tojik",
+     "Qirg‘iz",
+     "Rus",
+     "Arab"
+    ],
+    "a": 1,
+    "e": "Turkiy tillar: qozoq, qirg‘iz, uyg‘ur, turkman..."
+   },
+   {
+    "q": "Konstitutsiya qachon qabul qilingan?",
+    "o": [
+     "1989-yil 21-oktabr",
+     "1992-yil 8-dekabr",
+     "1991-yil 1-sentabr",
+     "1993-yil 2-sentabr"
+    ],
+    "a": 1,
+    "e": "Davlat tili maqomi mustahkamlangan."
+   }
+  ],
+  "2": [
+   {
+    "q": "«Qashqir» sheva so‘zining ma’nosi nima?",
+    "o": [
+     "Tulki",
+     "Bo‘ri",
+     "Ayiq",
+     "It"
+    ],
+    "a": 1,
+    "e": "Pakki — pichoq, chakki — tomchi."
+   },
+   {
+    "q": "«Ko‘klarga ko‘tarmoq» iborasining ma’nosi?",
+    "o": [
+     "Uchmoq",
+     "Maqtamoq",
+     "Qo‘rqmoq",
+     "Haydamoq"
+    ],
+    "a": 1,
+    "e": "Ibora — bir so‘zga teng ma’no."
+   },
+   {
+    "q": "Undosh tovushlar soni nechta?",
+    "o": [
+     "6",
+     "24",
+     "26",
+     "29"
+    ],
+    "a": 1,
+    "e": "Unlilar — 6 ta."
+   }
+  ],
+  "3": [
+   {
+    "q": "Matn nima?",
+    "o": [
+     "Bitta gap",
+     "Mazmun va grammatik bog‘langan, bir mavzuni ifodalovchi gaplar yig‘indisi",
+     "So‘zlar ro‘yxati",
+     "Sarlavha"
+    ],
+    "a": 1,
+    "e": "Mavzu birligi va bog‘liqlik."
+   },
+   {
+    "q": "Matnga sarlavha nimaga qarab qo‘yiladi?",
+    "o": [
+     "Uzunligiga",
+     "Mavzusiga",
+     "Muallifiga",
+     "Gaplar soniga"
+    ],
+    "a": 1,
+    "e": "Mavzu — matn nima haqida."
+   },
+   {
+    "q": "«Ota hayot beradi. Ustoz esa yashashga o‘rgatadi» gaplari qaysi vosita bilan bog‘langan?",
+    "o": [
+     "Olmosh",
+     "«Esa» bog‘lovchisi",
+     "Takror",
+     "Undov"
+    ],
+    "a": 1,
+    "e": "O‘. Hoshimov matni."
+   }
+  ],
+  "4": [
+   {
+    "q": "Matnlar maqsadga ko‘ra necha turga bo‘linadi?",
+    "o": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "a": 1,
+    "e": "Hikoya, tasviriy, muhokama."
+   },
+   {
+    "q": "Voqealar ketma-ket bayon qilinadigan matn qaysi?",
+    "o": [
+     "Tasviriy",
+     "Hikoya",
+     "Muhokama",
+     "Rasmiy"
+    ],
+    "a": 1,
+    "e": "Kim? nima qildi? keyin nima bo‘ldi?"
+   },
+   {
+    "q": "O‘. Hoshimovning «Iftixor» matni qaysi turga kiradi?",
+    "o": [
+     "Tasviriy",
+     "Hikoya",
+     "Muhokama",
+     "She’riy"
+    ],
+    "a": 1,
+    "e": "Samolyotdagi voqea hikoya qilinadi."
+   }
+  ],
+  "5": [
+   {
+    "q": "Tasviriy matn ko‘proq qayerda qo‘llanadi?",
+    "o": [
+     "Darsliklarda",
+     "Badiiy adabiyotda",
+     "Hujjatlarda",
+     "Lug‘atlarda"
+    ],
+    "a": 1,
+    "e": "Sifat va o‘xshatishlarga boy."
+   },
+   {
+    "q": "«Chiroylidir go‘yo yosh kelin» misrasi muallifi kim?",
+    "o": [
+     "O‘. Umarbekov",
+     "Hamid Olimjon",
+     "O‘. Hoshimov",
+     "Said Ahmad"
+    ],
+    "a": 1,
+    "e": "Tasviriy matn namunasi."
+   },
+   {
+    "q": "Tasviriy matnning maqsadi nima?",
+    "o": [
+     "Fikr isbotlash",
+     "Ta’riflash, tasvirlash",
+     "Voqea bayoni",
+     "Buyruq berish"
+    ],
+    "a": 1,
+    "e": "Predmet yoki hodisa tavsifi."
+   }
+  ],
+  "6": [
+   {
+    "q": "Muhokama matni qayerda ko‘proq qo‘llanadi?",
+    "o": [
+     "Ertaklarda",
+     "Darsliklar va ilmiy kitoblarda",
+     "She’rlarda",
+     "Qo‘shiqlarda"
+    ],
+    "a": 1,
+    "e": "Dalil va xulosa bo‘ladi."
+   },
+   {
+    "q": "Eng ko‘p ovqat yeydigan jonivor qaysi?",
+    "o": [
+     "Chumoli",
+     "Ninachi",
+     "Qirqbo‘g‘im",
+     "Chigirtka"
+    ],
+    "a": 1,
+    "e": "2 soatda 40 ta pashsha."
+   },
+   {
+    "q": "Hoshimovga ko‘ra odamni nima abgor qiladi?",
+    "o": [
+     "Ish ko‘pligi",
+     "Bekorchilik",
+     "Vaqt yo‘qligi",
+     "Charchoq"
+    ],
+    "a": 1,
+    "e": "Muhokama matni namunasi."
+   }
+  ],
+  "7": [
+   {
+    "q": "Morfologiya nimani o‘rganadi?",
+    "o": [
+     "So‘zning lug‘aviy ma’nosini",
+     "Grammatik ma’no va shakllarni",
+     "Tovushlarni",
+     "Tinish belgilarini"
+    ],
+    "a": 1,
+    "e": "Morphe — shakl."
+   },
+   {
+    "q": "«Olmalarni» so‘zidagi grammatik ma’nolar qaysilar?",
+    "o": [
+     "Rang va ta’m",
+     "Ko‘plik va kelishik",
+     "Zamon va shaxs",
+     "Daraja"
+    ],
+    "a": 1,
+    "e": "-lar, -ni."
+   },
+   {
+    "q": "Atash (lug‘aviy) ma’noni qaysi bo‘lim o‘rganadi?",
+    "o": [
+     "Morfologiya",
+     "Leksikologiya",
+     "Sintaksis",
+     "Fonetika"
+    ],
+    "a": 1,
+    "e": "Leksikologiya va morfologiya uzviy bog‘liq."
+   }
+  ],
+  "8": [
+   {
+    "q": "So‘z tarkibi nimalardan iborat?",
+    "o": [
+     "Harflardan",
+     "Asos va qo‘shimchalardan",
+     "Bo‘g‘inlardan",
+     "Tovushlardan"
+    ],
+    "a": 1,
+    "e": "Ish-chi, ish-siz."
+   },
+   {
+    "q": "«Do‘stlarimizni» so‘zining asosi qaysi?",
+    "o": [
+     "Do‘stlar",
+     "Do‘st",
+     "Do‘stlarimiz",
+     "Imiz"
+    ],
+    "a": 1,
+    "e": "Do‘st + lar + imiz + ni."
+   },
+   {
+    "q": "«Suvchi, ishchi, omborchi» so‘zlarida umumiy qism nima?",
+    "o": [
+     "Asos",
+     "-chi qo‘shimchasi",
+     "Bo‘g‘in",
+     "Urg‘u"
+    ],
+    "a": 1,
+    "e": "Umumiy qo‘shimcha."
+   }
+  ],
+  "9": [
+   {
+    "q": "Asos va qo‘shimchaning asosiy farqi nimada?",
+    "o": [
+     "Uzunligida",
+     "Asos mustaqil qo‘llanadi, qo‘shimcha — yo‘q",
+     "Urg‘usida",
+     "Farqi yo‘q"
+    ],
+    "a": 1,
+    "e": "Qo‘shimcha asosga qo‘shilib keladi."
+   },
+   {
+    "q": "«Mevazor» so‘zining asosi qaysi?",
+    "o": [
+     "Zor",
+     "Meva",
+     "Mevaz",
+     "Mevazor"
+    ],
+    "a": 1,
+    "e": "-zor — so‘z yasovchi."
+   },
+   {
+    "q": "Qo‘shimchaning vazifasi nima?",
+    "o": [
+     "Mustaqil ma’no berish",
+     "Yangi yoki qo‘shimcha ma’no yuklash, so‘zlarni bog‘lash",
+     "Gapni tugatish",
+     "Urg‘u berish"
+    ],
+    "a": 1,
+    "e": "Asos — asosiy ma’no."
+   }
+  ],
+  "10": [
+   {
+    "q": "Qo‘shimchalar vazifasiga ko‘ra necha turga bo‘linadi?",
+    "o": [
+     "Uch",
+     "Ikki",
+     "To‘rt",
+     "Besh"
+    ],
+    "a": 1,
+    "e": "So‘z yasovchi va shakl yasovchi."
+   },
+   {
+    "q": "Qaysi qo‘shimcha so‘z yasovchi?",
+    "o": [
+     "-lar",
+     "-bon",
+     "-ni",
+     "-imiz"
+    ],
+    "a": 1,
+    "e": "-bon, -shunos, -paz, be-."
+   },
+   {
+    "q": "«Gullar» so‘zidagi -lar qanday qo‘shimcha?",
+    "o": [
+     "So‘z yasovchi",
+     "Shakl yasovchi",
+     "Fe’l yasovchi",
+     "Ravish yasovchi"
+    ],
+    "a": 1,
+    "e": "Ko‘plik — grammatik ma’no."
+   }
+  ],
+  "11": [
+   {
+    "q": "Qaysi so‘z yasovchi qo‘shimcha asos oldidan keladi?",
+    "o": [
+     "-chi",
+     "Ser-",
+     "-zor",
+     "-li"
+    ],
+    "a": 1,
+    "e": "Ser-, be-, no-."
+   },
+   {
+    "q": "«O‘chirg‘ich» so‘zidagi so‘z yasovchi qo‘shimcha?",
+    "o": [
+     "-chir",
+     "-g‘ich",
+     "-ich",
+     "O‘-"
+    ],
+    "a": 1,
+    "e": "Qurol nomi yasaydi."
+   },
+   {
+    "q": "«Bilimdon» so‘zidagi qo‘shimcha?",
+    "o": [
+     "-im",
+     "-don",
+     "-on",
+     "-dim"
+    ],
+    "a": 1,
+    "e": "Bilim + -don."
+   }
+  ],
+  "12": [
+   {
+    "q": "Qaysi so‘z tub so‘z?",
+    "o": [
+     "Toshloq",
+     "Quyoshimiz",
+     "Temirchi",
+     "Serquyosh"
+    ],
+    "a": 1,
+    "e": "Shakl yasovchi qo‘shimcha tublikni o‘zgartirmaydi."
+   },
+   {
+    "q": "Asosdosh so‘zlar qaysilar?",
+    "o": [
+     "Kitob, daftar",
+     "Tashvishli, sertashvish, tashvishlanmoq",
+     "Oq, qora",
+     "Bor, kel"
+    ],
+    "a": 1,
+    "e": "Umumiy asos — tashvish."
+   },
+   {
+    "q": "«Boshliq, boshla, bebosh» so‘zlarining asosi?",
+    "o": [
+     "Boshl",
+     "Bosh",
+     "Boshliq",
+     "Be"
+    ],
+    "a": 1,
+    "e": "Asosdosh so‘zlar."
+   }
+  ],
+  "13": [
+   {
+    "q": "Shakl yasovchi qo‘shimchalar necha turli?",
+    "o": [
+     "Bir",
+     "Ikki",
+     "Uch",
+     "To‘rt"
+    ],
+    "a": 1,
+    "e": "Lug‘aviy va sintaktik."
+   },
+   {
+    "q": "Qaysi qo‘shimcha sintaktik shakl yasovchi?",
+    "o": [
+     "-lar",
+     "-ning",
+     "-cha",
+     "-roq"
+    ],
+    "a": 1,
+    "e": "Kelishik — so‘zni bog‘laydi."
+   },
+   {
+    "q": "Qarashlilik qo‘shimchasi qaysi?",
+    "o": [
+     "-dagi",
+     "-niki",
+     "-cha",
+     "-ta"
+    ],
+    "a": 1,
+    "e": "Lug‘aviy shakl yasovchi."
+   }
+  ],
+  "14": [
+   {
+    "q": "So‘z tarkibida to‘g‘ri tartib qaysi?",
+    "o": [
+     "Asos + sintaktik + so‘z yasovchi",
+     "Asos + so‘z yasovchi + lug‘aviy + sintaktik",
+     "Asos + lug‘aviy + so‘z yasovchi",
+     "Sintaktik + asos"
+    ],
+    "a": 1,
+    "e": "Ish + chi + lar + imiz."
+   },
+   {
+    "q": "«Ipakchilikdan» so‘zida nechta so‘z yasovchi qo‘shimcha bor?",
+    "o": [
+     "Bitta",
+     "Ikkita",
+     "Uchta",
+     "Yo‘q"
+    ],
+    "a": 1,
+    "e": "-chi va -lik."
+   },
+   {
+    "q": "Sintaktik shakl yasovchi lug‘aviydan oldin kela oladimi?",
+    "o": [
+     "Ha",
+     "Yo‘q",
+     "Ba’zan",
+     "Faqat fe’lda"
+    ],
+    "a": 1,
+    "e": "U doim keyin keladi."
+   }
+  ],
+  "15": [
+   {
+    "q": "Tasnif nima?",
+    "o": [
+     "Narsalarni sanash",
+     "To‘plamni o‘xshash va farqli belgilar asosida guruhlarga bo‘lish",
+     "Ro‘yxat tuzish",
+     "Rasm chizish"
+    ],
+    "a": 1,
+    "e": "To‘plam — narsalar yig‘indisi."
+   },
+   {
+    "q": "«Gulobi, obinovvot, shakarpalak» nima?",
+    "o": [
+     "Olma navlari",
+     "Qovun navlari",
+     "Uzum navlari",
+     "Gul navlari"
+    ],
+    "a": 1,
+    "e": "Qovun to‘plami."
+   },
+   {
+    "q": "«Tog‘, qir, adir, jarlik» qaysi guruhga kiradi?",
+    "o": [
+     "Qushlar",
+     "Relyef",
+     "Ekinlar",
+     "Daryolar"
+    ],
+    "a": 1,
+    "e": "So‘zlarni guruhlash."
+   }
+  ],
+  "16": [
+   {
+    "q": "Qaysi so‘z turkumi yordamchi so‘z?",
+    "o": [
+     "Ravish",
+     "Bog‘lovchi",
+     "Olmosh",
+     "Son"
+    ],
+    "a": 1,
+    "e": "Ko‘makchi, bog‘lovchi, yuklama."
+   },
+   {
+    "q": "Alohida olingan so‘zlarga qaysilar kiradi?",
+    "o": [
+     "Ot, sifat",
+     "Undov, taqlid, modal so‘zlar",
+     "Fe’l, ravish",
+     "Ko‘makchi, yuklama"
+    ],
+    "a": 1,
+    "e": "Ular gap bo‘lagi bo‘lmaydi."
+   },
+   {
+    "q": "Nechta mustaqil so‘z turkumi bor?",
+    "o": [
+     "3",
+     "6",
+     "9",
+     "12"
+    ],
+    "a": 1,
+    "e": "Fe’l, ot, sifat, son, olmosh, ravish."
+   }
+  ],
+  "17": [
+   {
+    "q": "Fe’l qaysi so‘roqlarga javob beradi?",
+    "o": [
+     "Kim? nima?",
+     "Nima qilmoq? nima bo‘lmoq?",
+     "Qanday?",
+     "Qancha?"
+    ],
+    "a": 1,
+    "e": "Harakat va holat."
+   },
+   {
+    "q": "-ma qo‘shimchasi fe’lning qaysi shaklini yasaydi?",
+    "o": [
+     "Buyruq",
+     "Bo‘lishsiz",
+     "Ko‘plik",
+     "Zamon"
+    ],
+    "a": 1,
+    "e": "O‘qima, kelmadi."
+   },
+   {
+    "q": "Harakatning bajaruvchisi nima?",
+    "o": [
+     "Fe’l qo‘shimchasi",
+     "Harakatni bajaruvchi shaxs yoki narsa",
+     "Zamon",
+     "Mayl"
+    ],
+    "a": 1,
+    "e": "Odatda ega."
+   }
+  ],
+  "18": [
+   {
+    "q": "Qaysi fe’l holat fe’li?",
+    "o": [
+     "Chopdi",
+     "Sarg‘aydi",
+     "Sug‘ordi",
+     "Tashladi"
+    ],
+    "a": 1,
+    "e": "Bir holatdan ikkinchisiga o‘tish."
+   },
+   {
+    "q": "Harakat fe’llari nimani bildiradi?",
+    "o": [
+     "Ichki kechinmani",
+     "Jismoniy faoliyat natijasidagi harakatni",
+     "Rangni",
+     "Hidni"
+    ],
+    "a": 1,
+    "e": "Chopdi, gapirdi."
+   },
+   {
+    "q": "«Qizarmoq» nega holat fe’li?",
+    "o": [
+     "Rang bildirgani uchun",
+     "Narsaning bir holatdan ikkinchisiga o‘tishini bildirgani uchun",
+     "Qo‘shimchasi uchun",
+     "Harakat bo‘lgani uchun"
+    ],
+    "a": 1,
+    "e": "Ulg‘aymoq, ko‘karmoq ham."
+   }
+  ],
+  "19": [
+   {
+    "q": "O‘timli fe’l qaysi kelishikdagi so‘z bilan bog‘lanadi?",
+    "o": [
+     "Jo‘nalish",
+     "Tushum",
+     "Chiqish",
+     "O‘rin-payt"
+    ],
+    "a": 1,
+    "e": "Kitobni o‘qidi."
+   },
+   {
+    "q": "Qaysi fe’l o‘timsiz?",
+    "o": [
+     "O‘qimoq",
+     "Uxlamoq",
+     "Yozmoq",
+     "Ko‘rmoq"
+    ],
+    "a": 1,
+    "e": "Uxladi, qaradi, jilmaydi."
+   },
+   {
+    "q": "O‘timsiz fe’l qanday qilib o‘timliga aylanadi?",
+    "o": [
+     "-ma bilan",
+     "Orttirma nisbat bilan",
+     "Majhul nisbat bilan",
+     "-lar bilan"
+    ],
+    "a": 1,
+    "e": "Quvonmoq → quvontirmoq."
+   }
+  ],
+  "20": [
+   {
+    "q": "Fe’lning nechta nisbati bor?",
+    "o": [
+     "3",
+     "5",
+     "4",
+     "6"
+    ],
+    "a": 1,
+    "e": "Aniq, o‘zlik, majhul, orttirma, birgalik."
+   },
+   {
+    "q": "«Supurtirdi» qaysi nisbatda?",
+    "o": [
+     "Majhul",
+     "Orttirma",
+     "Birgalik",
+     "O‘zlik"
+    ],
+    "a": 1,
+    "e": "Boshqaga supurtirdi."
+   },
+   {
+    "q": "«O‘qishdi» qaysi nisbatda?",
+    "o": [
+     "Aniq",
+     "Birgalik",
+     "Majhul",
+     "Orttirma"
+    ],
+    "a": 1,
+    "e": "Bajaruvchi birdan ortiq."
+   }
+  ],
+  "21": [
+   {
+    "q": "Aniq nisbatning maxsus qo‘shimchasi bormi?",
+    "o": [
+     "Ha, -n",
+     "Yo‘q",
+     "Ha, -t",
+     "Ha, -sh"
+    ],
+    "a": 1,
+    "e": "Fe’l asosining o‘zi."
+   },
+   {
+    "q": "Aniq nisbatda bajaruvchi qanday?",
+    "o": [
+     "Noma’lum",
+     "Aniq",
+     "Ko‘p",
+     "Yo‘q"
+    ],
+    "a": 1,
+    "e": "O‘qidi, keldi."
+   },
+   {
+    "q": "«Kampir ho‘kizidan xabar oldi» gapidagi fe’l nisbati?",
+    "o": [
+     "Majhul",
+     "Aniq",
+     "Orttirma",
+     "O‘zlik"
+    ],
+    "a": 1,
+    "e": "Bajaruvchi — kampir."
+   }
+  ],
+  "22": [
+   {
+    "q": "O‘zlik nisbatida harakat kim ustida bajariladi?",
+    "o": [
+     "Boshqa shaxs",
+     "Bajaruvchining o‘zi",
+     "Noma’lum shaxs",
+     "Ko‘pchilik"
+    ],
+    "a": 1,
+    "e": "Yuvindi, tarandi."
+   },
+   {
+    "q": "Undosh bilan tugagan asosga o‘zlik qo‘shimchasi qaysi?",
+    "o": [
+     "-t",
+     "-in, -il",
+     "-sh",
+     "-dir"
+    ],
+    "a": 1,
+    "e": "Unlidan keyin -n, -l."
+   },
+   {
+    "q": "«Maqtandi» qaysi nisbatda?",
+    "o": [
+     "Majhul",
+     "O‘zlik",
+     "Aniq",
+     "Birgalik"
+    ],
+    "a": 1,
+    "e": "O‘zini maqtadi."
+   }
+  ],
+  "23": [
+   {
+    "q": "Majhul nisbatda bajaruvchi qanday?",
+    "o": [
+     "Aniq",
+     "Noma’lum",
+     "Ko‘p",
+     "O‘zi"
+    ],
+    "a": 1,
+    "e": "Xat yozildi."
+   },
+   {
+    "q": "«Taraldi» qaysi nisbatda?",
+    "o": [
+     "O‘zlik",
+     "Majhul",
+     "Aniq",
+     "Orttirma"
+    ],
+    "a": 1,
+    "e": "Tarandi — o‘zlik."
+   },
+   {
+    "q": "Bir fe’lga ikkala qo‘shimcha qo‘shilsa, -l nimani bildiradi?",
+    "o": [
+     "O‘zlikni",
+     "Majhulni",
+     "Orttirmani",
+     "Birgalikni"
+    ],
+    "a": 1,
+    "e": "-n — o‘zlikni."
+   }
+  ],
+  "24": [
+   {
+    "q": "«Ko‘r» fe’lining orttirma nisbati qaysi?",
+    "o": [
+     "Ko‘rin",
+     "Ko‘rsat",
+     "Ko‘rish",
+     "Ko‘ril"
+    ],
+    "a": 1,
+    "e": "Ko‘r → ko‘rsat."
+   },
+   {
+    "q": "«Yot» fe’lining orttirma nisbati qaysi?",
+    "o": [
+     "Yotdir",
+     "Yotqiz",
+     "Yotish",
+     "Yotil"
+    ],
+    "a": 1,
+    "e": "-qiz qo‘shimchasi."
+   },
+   {
+    "q": "Orttirma nisbatda harakatni kim bajaradi?",
+    "o": [
+     "Bajaruvchining o‘zi",
+     "Bajaruvchi ta’sirida boshqa shaxs",
+     "Noma’lum shaxs",
+     "Hech kim"
+    ],
+    "a": 1,
+    "e": "Yozdirdi — boshqaga yozdirdi."
+   }
+  ],
+  "25": [
+   {
+    "q": "Unli bilan tugagan asosga qaysi orttirma qo‘shimchasi qo‘shiladi?",
+    "o": [
+     "-dir",
+     "-t",
+     "-giz",
+     "-ar"
+    ],
+    "a": 1,
+    "e": "O‘qit, ishlat."
+   },
+   {
+    "q": "«Kel» fe’lining orttirma shakli qaysi?",
+    "o": [
+     "Keldir",
+     "Keltir",
+     "Kelt",
+     "Kelgiz"
+    ],
+    "a": 1,
+    "e": "Istisno."
+   },
+   {
+    "q": "Fe’lga ikki orttirma qo‘shimchasi qo‘shilsa nima bo‘ladi?",
+    "o": [
+     "Ma’no yo‘qoladi",
+     "Ma’no kuchayadi",
+     "Majhul bo‘ladi",
+     "Xato bo‘ladi"
+    ],
+    "a": 1,
+    "e": "O‘qit → o‘qittir."
+   }
+  ],
+  "26": [
+   {
+    "q": "Birgalik nisbati qo‘shimchasi undoshdan keyin qanday?",
+    "o": [
+     "-sh",
+     "-ish",
+     "-in",
+     "-t"
+    ],
+    "a": 1,
+    "e": "Kelishdi; unlidan keyin -sh."
+   },
+   {
+    "q": "Birgalik nisbati yana qanday ma’noda qo‘llanadi?",
+    "o": [
+     "Buyruq",
+     "Hurmat",
+     "Inkor",
+     "Taxmin"
+    ],
+    "a": 1,
+    "e": "Mehmonlar kirishmadi."
+   },
+   {
+    "q": "«Ishlashdi» qaysi nisbatda?",
+    "o": [
+     "Orttirma",
+     "Birgalik",
+     "Majhul",
+     "O‘zlik"
+    ],
+    "a": 1,
+    "e": "Ishla + sh."
+   }
+  ],
+  "27": [
+   {
+    "q": "Fe’lning nechta vazifa shakli bor?",
+    "o": [
+     "3",
+     "4",
+     "5",
+     "2"
+    ],
+    "a": 1,
+    "e": "Sof fe’l, harakat nomi, sifatdosh, ravishdosh."
+   },
+   {
+    "q": "Sifatdosh qaysi turkumga xoslangan?",
+    "o": [
+     "Otga",
+     "Sifatga",
+     "Ravishga",
+     "Songa"
+    ],
+    "a": 1,
+    "e": "O‘qigan, oqar."
+   },
+   {
+    "q": "«O‘qib, kelgach» qaysi vazifa shakli?",
+    "o": [
+     "Sifatdosh",
+     "Ravishdosh",
+     "Harakat nomi",
+     "Sof fe’l"
+    ],
+    "a": 1,
+    "e": "Ravishga xoslangan."
+   }
+  ],
+  "28": [
+   {
+    "q": "Harakat nomi qo‘shimchalari qaysilar?",
+    "o": [
+     "-gan, -ar",
+     "-(i)sh, -(u)v, -moq",
+     "-ib, -gach",
+     "-la, -a"
+    ],
+    "a": 1,
+    "e": "Yozmoq, yozish, yozuv."
+   },
+   {
+    "q": "Harakat nomi qaysi so‘roqqa javob beradi?",
+    "o": [
+     "Qanday?",
+     "Nima?",
+     "Qachon?",
+     "Qancha?"
+    ],
+    "a": 1,
+    "e": "Otga xoslangan."
+   },
+   {
+    "q": "«Vatanni sevmoq imondandir» gapidagi harakat nomi?",
+    "o": [
+     "Vatan",
+     "Sevmoq",
+     "Imon",
+     "Imondandir"
+    ],
+    "a": 1,
+    "e": "-moq qo‘shimchasi."
+   }
+  ],
+  "29": [
+   {
+    "q": "«Ishla» + -v qanday yoziladi?",
+    "o": [
+     "Ishlav",
+     "Ishlov",
+     "Ishluv",
+     "Ishlv"
+    ],
+    "a": 1,
+    "e": "a → o."
+   },
+   {
+    "q": "«Tani» + -v qanday yoziladi?",
+    "o": [
+     "Taniv",
+     "Tanuv",
+     "Tanov",
+     "Tanv"
+    ],
+    "a": 1,
+    "e": "i → u."
+   },
+   {
+    "q": "Harakat nomi qanday qo‘shimchalarni oladi?",
+    "o": [
+     "Zamon",
+     "Egalik, kelishik, ko‘plik",
+     "Daraja",
+     "Nisbat"
+    ],
+    "a": 1,
+    "e": "Otlar kabi."
+   }
+  ],
+  "30": [
+   {
+    "q": "Sifatdosh sifatdan nimasi bilan farq qiladi?",
+    "o": [
+     "Rangni bildiradi",
+     "Harakat, o‘zgarish belgisini bildiradi",
+     "Faqat otga bog‘lanmaydi",
+     "Farqi yo‘q"
+    ],
+    "a": 1,
+    "e": "Katta daryo — oqar daryo."
+   },
+   {
+    "q": "«Chiqqan» so‘zida qaysi qo‘shimcha bor?",
+    "o": [
+     "-gan",
+     "-qan",
+     "-kan",
+     "-an"
+    ],
+    "a": 1,
+    "e": "q dan keyin -qan."
+   },
+   {
+    "q": "«Eshitgan» so‘zi qanday yoziladi?",
+    "o": [
+     "Eshitkan",
+     "Eshitgan",
+     "Eshitqan",
+     "Eshitan"
+    ],
+    "a": 1,
+    "e": "-kan aytilsa ham -gan yoziladi."
+   }
+  ],
+  "31": [
+   {
+    "q": "O‘tgan zamon sifatdoshi qaysi qo‘shimcha bilan yasaladi?",
+    "o": [
+     "-ydigan",
+     "-gan (-kan, -qan)",
+     "-ayotgan",
+     "-ar"
+    ],
+    "a": 1,
+    "e": "Ishlagan kishi."
+   },
+   {
+    "q": "«Ek» fe’liga -gan qanday qo‘shiladi?",
+    "o": [
+     "Ekgan",
+     "Ekkan",
+     "Ekqan",
+     "Ekan"
+    ],
+    "a": 1,
+    "e": "k dan keyin -kan."
+   },
+   {
+    "q": "«Tug‘» fe’liga -gan qanday qo‘shiladi?",
+    "o": [
+     "Tug‘qan",
+     "Tug‘gan",
+     "Tugkan",
+     "Tuqqan"
+    ],
+    "a": 1,
+    "e": "g‘ dan keyin -gan yoziladi."
+   }
+  ],
+  "32": [
+   {
+    "q": "Hozirgi zamon sifatdoshi qo‘shimchasi?",
+    "o": [
+     "-gan",
+     "-(a)yotgan",
+     "-ydigan",
+     "-ar"
+    ],
+    "a": 1,
+    "e": "Kelayotgan mashina."
+   },
+   {
+    "q": "«Oqar suv» dagi sifatdosh qaysi zamonda?",
+    "o": [
+     "O‘tgan",
+     "Kelasi",
+     "Hozirgi",
+     "Zamonsiz"
+    ],
+    "a": 1,
+    "e": "-(a)r — kelasi zamon."
+   },
+   {
+    "q": "-adigan qanday asosga qo‘shiladi?",
+    "o": [
+     "Unli bilan tugagan",
+     "Undosh bilan tugagan",
+     "Har qanday",
+     "Faqat sifatga"
+    ],
+    "a": 1,
+    "e": "Unlidan keyin -ydigan."
+   }
+  ],
+  "33": [
+   {
+    "q": "Sifatdoshning bo‘lishsiz shakli qanday yasaladi?",
+    "o": [
+     "Qo‘shimchadan keyin -ma bilan",
+     "Qo‘shimchadan oldin -ma bilan",
+     "-siz bilan",
+     "be- bilan"
+    ],
+    "a": 1,
+    "e": "Aytgan → aytmagan."
+   },
+   {
+    "q": "«Oqar» ning bo‘lishsiz shakli?",
+    "o": [
+     "Oqmagan",
+     "Oqmas",
+     "Oqmar",
+     "Oqsiz"
+    ],
+    "a": 1,
+    "e": "-(a)r → -mas."
+   },
+   {
+    "q": "«O‘qiydigan» ning bo‘lishsiz shakli?",
+    "o": [
+     "O‘qimas",
+     "O‘qimaydigan",
+     "O‘qigansiz",
+     "O‘qimagan"
+    ],
+    "a": 1,
+    "e": "-ma qo‘shimchadan oldin."
+   }
+  ],
+  "34": [
+   {
+    "q": "Ravishdosh fe’lning qaysi turkumga xoslangan shakli?",
+    "o": [
+     "Otga",
+     "Ravishga",
+     "Sifatga",
+     "Songa"
+    ],
+    "a": 1,
+    "e": "Harakat belgisini bildiradi."
+   },
+   {
+    "q": "Ravishdosh gapda ko‘pincha qanday bo‘lak bo‘ladi?",
+    "o": [
+     "Ega",
+     "Hol",
+     "Aniqlovchi",
+     "To‘ldiruvchi"
+    ],
+    "a": 1,
+    "e": "Shoshilib keldi."
+   },
+   {
+    "q": "Qaysi qo‘shimcha ravishdosh yasaydi?",
+    "o": [
+     "-gan",
+     "-gach",
+     "-moq",
+     "-lar"
+    ],
+    "a": 1,
+    "e": "-(i)b, -a, -gach, -guncha, -gani."
+   }
+  ],
+  "35": [
+   {
+    "q": "«Ko‘rgani bormoq» dagi ravishdosh qanday ma’noda?",
+    "o": [
+     "Payt",
+     "Maqsad",
+     "Sabab",
+     "Holat"
+    ],
+    "a": 1,
+    "e": "-gani — maqsad."
+   },
+   {
+    "q": "«Qorong‘i tushguncha» dagi ravishdosh ma’nosi?",
+    "o": [
+     "Maqsad",
+     "Payt",
+     "Holat",
+     "Sabab"
+    ],
+    "a": 1,
+    "e": "Qachongacha?"
+   },
+   {
+    "q": "«Qo‘rqib kirmadi» dagi ravishdosh ma’nosi?",
+    "o": [
+     "Payt",
+     "Sabab",
+     "Maqsad",
+     "O‘rin"
+    ],
+    "a": 1,
+    "e": "Nima sababli?"
+   }
+  ],
+  "36": [
+   {
+    "q": "«Chiq» fe’liga -gach qanday qo‘shiladi?",
+    "o": [
+     "Chiqgach",
+     "Chiqqach",
+     "Chiqkach",
+     "Chigach"
+    ],
+    "a": 1,
+    "e": "q dan keyin -qach."
+   },
+   {
+    "q": "«Ayt» fe’liga -gach qanday yoziladi?",
+    "o": [
+     "Aytkach",
+     "Aytgach",
+     "Aytqach",
+     "Ayttach"
+    ],
+    "a": 1,
+    "e": "Jarangsizdan keyin ham -gach yoziladi."
+   },
+   {
+    "q": "«Ek» fe’liga -guncha qanday qo‘shiladi?",
+    "o": [
+     "Ekguncha",
+     "Ekkuncha",
+     "Ekquncha",
+     "Ekuncha"
+    ],
+    "a": 1,
+    "e": "k dan keyin -kuncha."
+   }
+  ],
+  "37": [
+   {
+    "q": "Ko‘makchi fe’lni qabul qiluvchi ravishdosh qanday ataladi?",
+    "o": [
+     "Asosiy fe’l",
+     "Yetakchi fe’l",
+     "Sof fe’l",
+     "Qo‘shma fe’l"
+    ],
+    "a": 1,
+    "e": "O‘qiy (boshladi)."
+   },
+   {
+    "q": "«Xatni oldi» dagi «oldi» qanday fe’l?",
+    "o": [
+     "Ko‘makchi",
+     "Mustaqil",
+     "Yetakchi",
+     "To‘liqsiz"
+    ],
+    "a": 1,
+    "e": "«O‘qiy oldi» da — ko‘makchi."
+   },
+   {
+    "q": "Ko‘makchi fe’l qaysi ravishdosh shakllariga qo‘shiladi?",
+    "o": [
+     "-gach, -guncha",
+     "-a/-y, -(i)b",
+     "-gani",
+     "-gancha"
+    ],
+    "a": 1,
+    "e": "O‘qiy boshladi, o‘qib chiqdi."
+   }
+  ],
+  "38": [
+   {
+    "q": "Harakatning boshlanishini bildiruvchi ko‘makchi fe’l?",
+    "o": [
+     "Olmoq",
+     "Boshlamoq",
+     "Chiqmoq",
+     "Turmoq"
+    ],
+    "a": 1,
+    "e": "Yog‘a boshladi."
+   },
+   {
+    "q": "«Yozib tashladi» qanday ma’no beradi?",
+    "o": [
+     "Boshlanish",
+     "Tez va oson bajarilish",
+     "Imkoniyat",
+     "Davomiylik"
+    ],
+    "a": 1,
+    "e": "Yubormoq, qo‘ymoq ham."
+   },
+   {
+    "q": "Zamon qo‘shimchasi qaysi fe’lga qo‘shiladi?",
+    "o": [
+     "Yetakchi fe’lga",
+     "Ko‘makchi fe’lga",
+     "Ikkalasiga",
+     "Hech biriga"
+    ],
+    "a": 1,
+    "e": "Shaxs-son ham."
+   }
+  ],
+  "39": [
+   {
+    "q": "-sira qo‘shimchasi qaysi olmoshlardan fe’l yasaydi?",
+    "o": [
+     "Men, biz",
+     "Sen, siz",
+     "U, ular",
+     "Bu, shu"
+    ],
+    "a": 1,
+    "e": "Sensira, sizsira."
+   },
+   {
+    "q": "Taqlid so‘zlardan fe’l yasovchi qo‘shimchalar?",
+    "o": [
+     "-la, -a",
+     "-illa, -ira",
+     "-lan, -lash",
+     "-ar"
+    ],
+    "a": 1,
+    "e": "Chirqilla, yaltira."
+   },
+   {
+    "q": "«Qoray» qaysi qo‘shimcha bilan yasalgan?",
+    "o": [
+     "-a",
+     "-(a)y",
+     "-la",
+     "-sira"
+    ],
+    "a": 1,
+    "e": "Qora + -y."
+   }
+  ],
+  "40": [
+   {
+    "q": "«Past» so‘zidan fe’l qanday yasaladi?",
+    "o": [
+     "Pastay",
+     "Pasay",
+     "Pastla",
+     "Pasla"
+    ],
+    "a": 1,
+    "e": "t tushadi."
+   },
+   {
+    "q": "Qachon -illa o‘rniga -ulla yoziladi?",
+    "o": [
+     "Doim",
+     "u yoki v li bir bo‘g‘inli so‘zga qo‘shilsa",
+     "Ko‘p bo‘g‘inli so‘zda",
+     "Hech qachon"
+    ],
+    "a": 1,
+    "e": "Gurulla, shovulla."
+   },
+   {
+    "q": "«O‘yin» + -a qanday yoziladi?",
+    "o": [
+     "O‘yina",
+     "O‘yna",
+     "O‘yinla",
+     "O‘yan"
+    ],
+    "a": 1,
+    "e": "2-bo‘g‘indagi i tushadi."
+   }
+  ],
+  "41": [
+   {
+    "q": "Fe’llar tuzilishiga ko‘ra necha xil?",
+    "o": [
+     "2",
+     "4",
+     "3",
+     "5"
+    ],
+    "a": 1,
+    "e": "Sodda, qo‘shma, juft, takroriy."
+   },
+   {
+    "q": "«Shodlanmoq» qanday fe’l?",
+    "o": [
+     "Sodda tub",
+     "Sodda yasama",
+     "Qo‘shma",
+     "Juft"
+    ],
+    "a": 1,
+    "e": "Shod + -lan."
+   },
+   {
+    "q": "Qaysi fe’l sodda tub?",
+    "o": [
+     "Yangilamoq",
+     "Qurmoq",
+     "Gapirmoq",
+     "Tezlamoq"
+    ],
+    "a": 1,
+    "e": "So‘z yasovchi qo‘shimchasi yo‘q."
+   }
+  ],
+  "42": [
+   {
+    "q": "Qo‘shma fe’l qismlari qanday yoziladi?",
+    "o": [
+     "Qo‘shib",
+     "Ajratib",
+     "Chiziqcha bilan",
+     "Qo‘shtirnoqda"
+    ],
+    "a": 1,
+    "e": "Parvarish qilmoq."
+   },
+   {
+    "q": "«Borib keldi» va «o‘qib chiqdi» farqi nima?",
+    "o": [
+     "Farqi yo‘q",
+     "Birinchisida ikkala qism ma’noli (qo‘shma), ikkinchisida ko‘makchi",
+     "Ikkalasi qo‘shma",
+     "Ikkalasi juft"
+    ],
+    "a": 1,
+    "e": "O‘qib chiqdi — o‘qishni tugatdi."
+   },
+   {
+    "q": "Qaysi biri qo‘shma fe’l?",
+    "o": [
+     "Yozdi-qo‘ydi",
+     "Sayr etmoq",
+     "O‘qiy boshladi",
+     "Qurmoq"
+    ],
+    "a": 1,
+    "e": "Ot + et."
+   }
+  ],
+  "43": [
+   {
+    "q": "Juft fe’llar qanday ma’no beradi?",
+    "o": [
+     "Sekinlik",
+     "Harakatning tez va kutilmaganda ro‘y berishi",
+     "Imkoniyat",
+     "Inkor"
+    ],
+    "a": 1,
+    "e": "Ketdi-qoldi."
+   },
+   {
+    "q": "Juft fe’llar qanday yoziladi?",
+    "o": [
+     "Qo‘shib",
+     "Chiziqcha bilan",
+     "Ajratib",
+     "Vergul bilan"
+    ],
+    "a": 1,
+    "e": "Oldi-qo‘ydi."
+   },
+   {
+    "q": "«Oldi-berdi» qaysi turkumga o‘tgan?",
+    "o": [
+     "Fe’l",
+     "Ot",
+     "Ravish",
+     "Sifat"
+    ],
+    "a": 1,
+    "e": "Bordi-keldi ham."
+   }
+  ],
+  "44": [
+   {
+    "q": "«Fahmlamoq» qaysi guruh fe’li?",
+    "o": [
+     "Nutqiy faoliyat",
+     "Aqliy faoliyat",
+     "Jismoniy faoliyat",
+     "Holat"
+    ],
+    "a": 1,
+    "e": "Fikrlash, idrok."
+   },
+   {
+    "q": "«Pichirlamoq» qaysi guruh fe’li?",
+    "o": [
+     "Aqliy",
+     "Nutqiy faoliyat",
+     "Holat",
+     "Jismoniy"
+    ],
+    "a": 1,
+    "e": "Gapirish bilan bog‘liq."
+   },
+   {
+    "q": "«Xo‘rsinmoq» qaysi guruh fe’li?",
+    "o": [
+     "Jismoniy",
+     "Holat",
+     "Nutqiy",
+     "Aqliy"
+    ],
+    "a": 1,
+    "e": "Holat, kayfiyat."
+   }
+  ],
+  "45": [
+   {
+    "q": "Fe’lning munosabat shakllari qaysilar?",
+    "o": [
+     "Nisbat, vazifa shakli",
+     "Zamon, mayl, shaxs-son",
+     "Ko‘plik, egalik",
+     "Daraja"
+    ],
+    "a": 1,
+    "e": "Fe’lni kesimga xoslaydi."
+   },
+   {
+    "q": "Fe’lning noaniq shakli qaysi qo‘shimcha bilan?",
+    "o": [
+     "-di",
+     "-moq",
+     "-sin",
+     "-sa"
+    ],
+    "a": 1,
+    "e": "O‘lchamoq, kesmoq."
+   },
+   {
+    "q": "«O‘yladim» dagi -m qanday qo‘shimcha?",
+    "o": [
+     "Zamon",
+     "Shaxs-son",
+     "Nisbat",
+     "Mayl"
+    ],
+    "a": 1,
+    "e": "I shaxs birlik."
+   }
+  ],
+  "46": [
+   {
+    "q": "-moqchi qo‘shimchasi qaysi zamonni yasaydi?",
+    "o": [
+     "O‘tgan",
+     "Kelasi",
+     "Hozirgi",
+     "Zamonsiz"
+    ],
+    "a": 1,
+    "e": "Kelmoqchi."
+   },
+   {
+    "q": "«Kelmoqda» qaysi zamonda?",
+    "o": [
+     "O‘tgan",
+     "Hozirgi",
+     "Kelasi",
+     "Noaniq"
+    ],
+    "a": 1,
+    "e": "-moqda — hozirgi zamon."
+   },
+   {
+    "q": "Fe’l zamonlari necha xil?",
+    "o": [
+     "Ikki",
+     "Uch",
+     "To‘rt",
+     "Besh"
+    ],
+    "a": 1,
+    "e": "O‘tgan, hozirgi, kelasi."
+   }
+  ],
+  "47": [
+   {
+    "q": "O‘tgan zamon qaysi qo‘shimchalar bilan yasaladi?",
+    "o": [
+     "-yap, -moqda",
+     "-di, -(i)b, -gan",
+     "-a, -y, -ar",
+     "-sa"
+    ],
+    "a": 1,
+    "e": "Aytdi, aytibdi, aytgan."
+   },
+   {
+    "q": "O‘tgan zamon harakati qachon bo‘lgan?",
+    "o": [
+     "Hozir",
+     "Gap aytilayotgan vaqtdan oldin",
+     "Keyin",
+     "Doimo"
+    ],
+    "a": 1,
+    "e": "Harakat tugagan."
+   },
+   {
+    "q": "«Shotutni bobosi ekkan ekan» gapi qaysi zamonda?",
+    "o": [
+     "Hozirgi",
+     "O‘tgan",
+     "Kelasi",
+     "Noaniq"
+    ],
+    "a": 1,
+    "e": "-kan + ekan."
+   }
+  ],
+  "48": [
+   {
+    "q": "-di bilan yasalgan o‘tgan zamon nimani bildiradi?",
+    "o": [
+     "Eshitgan harakatni",
+     "So‘zlovchi bevosita ko‘rgan harakatni",
+     "Kelajakni",
+     "Taxminni"
+    ],
+    "a": 1,
+    "e": "Qoldim, ko‘rdim."
+   },
+   {
+    "q": "-(i)b bilan yasalgan o‘tgan zamon nimani bildiradi?",
+    "o": [
+     "Ko‘rgan harakatni",
+     "Eshitib ma’lum bo‘lgan harakatni",
+     "Hozirgi harakatni",
+     "Buyruqni"
+    ],
+    "a": 1,
+    "e": "Kelibdi."
+   },
+   {
+    "q": "-di dan keyin qaysi shaxs-son qo‘shimchalari keladi?",
+    "o": [
+     "-man, -san",
+     "-m, -k, -ng, -ngiz",
+     "-miz, -siz",
+     "-lar"
+    ],
+    "a": 1,
+    "e": "Qoldim, qoldik."
+   }
+  ],
+  "49": [
+   {
+    "q": "To‘liqsiz fe’llar qaysilar?",
+    "o": [
+     "Bor, yo‘q",
+     "Edi, emish, ekan",
+     "Kerak, shart",
+     "Bo‘l, qil"
+    ],
+    "a": 1,
+    "e": "Yetakchi fe’ldan keyin keladi."
+   },
+   {
+    "q": "«Kelgan ekansan» da shaxs-son qo‘shimchasi qaysi fe’lda?",
+    "o": [
+     "Kelgan",
+     "Ekansan",
+     "Ikkalasida",
+     "Hech birida"
+    ],
+    "a": 1,
+    "e": "To‘liqsiz fe’lga qo‘shiladi."
+   },
+   {
+    "q": "«Borgandi» qanday hosil bo‘lgan?",
+    "o": [
+     "Borgan + di (o‘tgan zamon)",
+     "Borgan edi → borgandi",
+     "Bor + gandi",
+     "Borgan + ekan"
+    ],
+    "a": 1,
+    "e": "Edi ning qisqa shakli -di."
+   }
+  ],
+  "50": [
+   {
+    "q": "Hozirgi zamon harakati qachon yuz beradi?",
+    "o": [
+     "Oldin",
+     "Gap aytilayotgan vaqtda",
+     "Keyin",
+     "Doimo"
+    ],
+    "a": 1,
+    "e": "So‘zlayapti, kelmoqda."
+   },
+   {
+    "q": "«Sochmoqda» dagi qo‘shimcha?",
+    "o": [
+     "-yap",
+     "-moqda",
+     "-ayotir",
+     "-di"
+    ],
+    "a": 1,
+    "e": "Tog‘ay Murod jumlasi."
+   },
+   {
+    "q": "Hozirgi zamonda shaxs-son qo‘shimchasi qayerda keladi?",
+    "o": [
+     "Zamon qo‘shimchasidan oldin",
+     "Zamon qo‘shimchasidan keyin",
+     "Asosdan oldin",
+     "Kelmaydi"
+    ],
+    "a": 1,
+    "e": "Borayotibman."
+   }
+  ],
+  "51": [
+   {
+    "q": "Qaysi so‘z to‘g‘ri yozilgan?",
+    "o": [
+     "Yurayapti",
+     "Yuryapti",
+     "Yuriyapti",
+     "Yuryapdi"
+    ],
+    "a": 1,
+    "e": "-yap undoshdan keyin «-ayap» aytilsa ham -yap yoziladi."
+   },
+   {
+    "q": "Unli bilan tugagan asosga qaysi qo‘shimcha qo‘shiladi?",
+    "o": [
+     "-ayotir",
+     "-yotir",
+     "-moqda emas",
+     "-ar"
+    ],
+    "a": 1,
+    "e": "Tinglayotir."
+   },
+   {
+    "q": "Undosh bilan tugagan asosga qaysi qo‘shimcha qo‘shiladi?",
+    "o": [
+     "-yotir",
+     "-ayotir",
+     "-r",
+     "-y"
+    ],
+    "a": 1,
+    "e": "Yurayotir."
+   }
+  ],
+  "52": [
+   {
+    "q": "Kelasi zamon shakli yana qanday ma’noni bildirishi mumkin?",
+    "o": [
+     "O‘tgan voqeani",
+     "Doimiy harakatni",
+     "Buyruqni",
+     "Inkorni"
+    ],
+    "a": 1,
+    "e": "Akam kollejda o‘qiydi."
+   },
+   {
+    "q": "-(a)r shakli kelasi zamonni qanday ifodalaydi?",
+    "o": [
+     "Aniq",
+     "Gumon, taxmin yo‘li bilan",
+     "Buyruq bilan",
+     "Shart bilan"
+    ],
+    "a": 1,
+    "e": "Ertaga mashina kelar."
+   },
+   {
+    "q": "Kelasi zamonning bo‘lishsiz shakli qaysi qo‘shimcha bilan?",
+    "o": [
+     "-ma",
+     "-s (kelmas)",
+     "-siz",
+     "-mi"
+    ],
+    "a": 1,
+    "e": "Bormasman."
+   }
+  ],
+  "53": [
+   {
+    "q": "Fe’lning nechta mayli bor?",
+    "o": [
+     "Ikki",
+     "Uch",
+     "To‘rt",
+     "Besh"
+    ],
+    "a": 1,
+    "e": "Xabar, buyruq-istak, shart."
+   },
+   {
+    "q": "«O‘ynasam» qaysi maylda?",
+    "o": [
+     "Xabar",
+     "Shart",
+     "Buyruq-istak",
+     "Noaniq"
+    ],
+    "a": 1,
+    "e": "-sa — shart mayli."
+   },
+   {
+    "q": "«Qarilikdan qo‘rqma» gapidagi fe’l qaysi maylda?",
+    "o": [
+     "Xabar",
+     "Buyruq-istak",
+     "Shart",
+     "Noaniq"
+    ],
+    "a": 1,
+    "e": "Bo‘lishsiz buyruq."
+   }
+  ],
+  "54": [
+   {
+    "q": "Xabar maylining maxsus qo‘shimchasi bormi?",
+    "o": [
+     "Ha, -sa",
+     "Yo‘q",
+     "Ha, -sin",
+     "Ha, -gin"
+    ],
+    "a": 1,
+    "e": "Zamon + shaxs-son qo‘shimchalari."
+   },
+   {
+    "q": "«O‘ynamayman» dagi -y qanday qo‘shimcha?",
+    "o": [
+     "Shaxs-son",
+     "Kelasi zamon",
+     "Bo‘lishsizlik",
+     "Nisbat"
+    ],
+    "a": 1,
+    "e": "O‘yna + ma + y + man."
+   },
+   {
+    "q": "«O‘ylashdi» dagi -sh qanday qo‘shimcha?",
+    "o": [
+     "Zamon",
+     "Birgalik nisbati",
+     "Shaxs-son",
+     "Mayl"
+    ],
+    "a": 1,
+    "e": "Fe’l nisbati."
+   }
+  ],
+  "55": [
+   {
+    "q": "III shaxs buyruq-istak qo‘shimchasi qaysi?",
+    "o": [
+     "-gin",
+     "-sin",
+     "-ay",
+     "-ylik"
+    ],
+    "a": 1,
+    "e": "Aytsin, kelsinlar."
+   },
+   {
+    "q": "«Boringiz» qanday ma’no beradi?",
+    "o": [
+     "Ko‘plik",
+     "Yuqori hurmat",
+     "Inkor",
+     "Shart"
+    ],
+    "a": 1,
+    "e": "-(i)ngiz — yuqori hurmat."
+   },
+   {
+    "q": "I shaxs ko‘plik buyruq-istak qo‘shimchasi?",
+    "o": [
+     "-(a)y",
+     "-(a)ylik",
+     "-sin",
+     "-ng"
+    ],
+    "a": 1,
+    "e": "Uxlaylik, chiqaylik."
+   }
+  ],
+  "56": [
+   {
+    "q": "Shart mayli qaysi qo‘shimcha bilan yasaladi?",
+    "o": [
+     "-sin",
+     "-sa",
+     "-gin",
+     "-moq"
+    ],
+    "a": 1,
+    "e": "-sam, -sang, -sa, -sak."
+   },
+   {
+    "q": "«Kelgan bo‘lsa kerak» qanday ma’no beradi?",
+    "o": [
+     "Orzu",
+     "Taxmin-gumon",
+     "Buyruq",
+     "Inkor"
+    ],
+    "a": 1,
+    "e": "-sa + kerak."
+   },
+   {
+    "q": "«-sa edi» ning qisqa shakli qaysi?",
+    "o": [
+     "-sadi",
+     "-saydi",
+     "-sedi",
+     "-sa-di"
+    ],
+    "a": 1,
+    "e": "Bo‘lsaydi, tinsaydi."
+   }
+  ],
+  "57": [
+   {
+    "q": "III shaxsda shaxs ma’nosi qanday ifodalanadi?",
+    "o": [
+     "-man bilan",
+     "Zamon qo‘shimchasi orqali",
+     "-ng bilan",
+     "-k bilan"
+    ],
+    "a": 1,
+    "e": "Keldi, keladi."
+   },
+   {
+    "q": "-di va -sa dan keyin qaysi shaxs-son qo‘shimchalari keladi?",
+    "o": [
+     "-man, -san, -miz, -siz",
+     "-m, -ng, -k, -ngiz",
+     "-lar",
+     "-sin"
+    ],
+    "a": 1,
+    "e": "Keldim, kelsam."
+   },
+   {
+    "q": "«Kelaman» dagi shaxs-son qo‘shimchasi?",
+    "o": [
+     "-m",
+     "-man",
+     "-a",
+     "-aman"
+    ],
+    "a": 1,
+    "e": "Kelasi zamondan keyin -man."
+   }
+  ],
+  "58": [
+   {
+    "q": "Ot qaysi so‘roqlarga javob beradi?",
+    "o": [
+     "Qanday?",
+     "Kim? nima? qayer?",
+     "Qancha?",
+     "Nima qilmoq?"
+    ],
+    "a": 1,
+    "e": "Nom bildiruvchi turkum."
+   },
+   {
+    "q": "«Terim, ko‘rik» qaysi ma’no guruhiga kiradi?",
+    "o": [
+     "Shaxs otlari",
+     "Faoliyat-jarayon otlari",
+     "O‘rin-joy otlari",
+     "Narsa otlari"
+    ],
+    "a": 1,
+    "e": "Nima? so‘rog‘iga javob beradi."
+   },
+   {
+    "q": "«Paxtazor» qaysi so‘roqqa javob beradi?",
+    "o": [
+     "Kim?",
+     "Qayer?",
+     "Qanday?",
+     "Qachon?"
+    ],
+    "a": 1,
+    "e": "O‘rin-joy oti."
+   }
+  ],
+  "59": [
+   {
+    "q": "«Qo‘lqop» tuzilishiga ko‘ra qanday ot?",
+    "o": [
+     "Sodda",
+     "Qo‘shma",
+     "Juft",
+     "Takroriy"
+    ],
+    "a": 1,
+    "e": "Qo‘l + qop."
+   },
+   {
+    "q": "«Tovoq-povoq» qanday ot?",
+    "o": [
+     "Juft",
+     "Takroriy",
+     "Qo‘shma",
+     "Sodda"
+    ],
+    "a": 1,
+    "e": "Tovush o‘zgarishli takror."
+   },
+   {
+    "q": "«Idish-tovoq» qanday ot?",
+    "o": [
+     "Takroriy",
+     "Juft",
+     "Qo‘shma",
+     "Sodda"
+    ],
+    "a": 1,
+    "e": "Yaqin ma’noli asoslar."
+   }
+  ],
+  "60": [
+   {
+    "q": "Qaysi qo‘shma ot ajratib yoziladi?",
+    "o": [
+     "Qashqadaryo",
+     "Quyi Chirchiq",
+     "Beshariq",
+     "Kungaboqar"
+    ],
+    "a": 1,
+    "e": "Ikkinchi qismi atoqli ot."
+   },
+   {
+    "q": "«Qizilishton» qanday yoziladi?",
+    "o": [
+     "Ajratib",
+     "Qo‘shib",
+     "Chiziqcha bilan",
+     "Qo‘shtirnoqda"
+    ],
+    "a": 1,
+    "e": "Turdosh qo‘shma ot."
+   },
+   {
+    "q": "«Beshariq» nega qo‘shib yoziladi?",
+    "o": [
+     "Shahar nomi",
+     "Ikkinchi qismi turdosh ot (ariq)",
+     "Uzun so‘z",
+     "Qisqartma"
+    ],
+    "a": 1,
+    "e": "Qorqiz, Qashqadaryo ham."
+   }
+  ],
+  "61": [
+   {
+    "q": "Juft otlar qanday yoziladi?",
+    "o": [
+     "Qo‘shib",
+     "Chiziqcha bilan",
+     "Ajratib",
+     "Vergul bilan"
+    ],
+    "a": 1,
+    "e": "Ota-ona, mehr-oqibat."
+   },
+   {
+    "q": "«Yomg‘ir chelak-chelak quydi» gapida «chelak-chelak» qaysi turkum?",
+    "o": [
+     "Ot",
+     "Ravish",
+     "Sifat",
+     "Fe’l"
+    ],
+    "a": 1,
+    "e": "Takror ot ravishga o‘tgan."
+   },
+   {
+    "q": "«Non-pon» qanday ot?",
+    "o": [
+     "Juft",
+     "Takroriy",
+     "Qo‘shma",
+     "Sodda"
+    ],
+    "a": 1,
+    "e": "Tovush o‘zgarishli takror."
+   }
+  ],
+  "62": [
+   {
+    "q": "Atoqli otlar qanday harf bilan yoziladi?",
+    "o": [
+     "Kichik",
+     "Bosh",
+     "Qo‘shtirnoqda",
+     "Qavsda"
+    ],
+    "a": 1,
+    "e": "Shaxs, joy, narsa nomlari."
+   },
+   {
+    "q": "«Erkin Vohidov» familiyasi qanday yasalgan?",
+    "o": [
+     "Ota ismini qoldirib",
+     "Ota ismiga -ov qo‘shib",
+     "Taxallusdan",
+     "Joy nomidan"
+    ],
+    "a": 1,
+    "e": "Vohid + -ov."
+   },
+   {
+    "q": "«Usmon Nosir» da familiya qanday hosil bo‘lgan?",
+    "o": [
+     "-ov bilan",
+     "Ota ismini qoldirish bilan",
+     "Taxallus",
+     "-yev bilan"
+    ],
+    "a": 1,
+    "e": "Nosir — ota ismi."
+   }
+  ],
+  "63": [
+   {
+    "q": "«Volgabo‘yi» qanday yoziladi?",
+    "o": [
+     "Ajratib",
+     "Qo‘shib",
+     "Chiziqcha bilan",
+     "Qo‘shtirnoqda"
+    ],
+    "a": 1,
+    "e": "-bo‘yi, -orti, -oldi li nomlar."
+   },
+   {
+    "q": "Qo‘shma mamlakat nomlari qanday yoziladi?",
+    "o": [
+     "Faqat birinchi so‘z katta",
+     "Har bir so‘z bosh harf bilan",
+     "Hammasi kichik",
+     "Qo‘shtirnoqda"
+    ],
+    "a": 1,
+    "e": "Birlashgan Arab Amirliklari."
+   },
+   {
+    "q": "Joy nomlarining ilmiy nomi?",
+    "o": [
+     "Antroponim",
+     "Toponim",
+     "Etnonim",
+     "Termin"
+    ],
+    "a": 1,
+    "e": "Toponimika o‘rganadi."
+   }
+  ],
+  "64": [
+   {
+    "q": "«Xalq ta’limi vazirligi» qanday yoziladi?",
+    "o": [
+     "Har bir so‘z katta",
+     "Faqat birinchi so‘z bosh harf bilan",
+     "Qo‘shtirnoqda",
+     "Hammasi kichik"
+    ],
+    "a": 1,
+    "e": "Vazirlik, idoralar."
+   },
+   {
+    "q": "«Birlashgan Millatlar Tashkiloti» qanday yoziladi?",
+    "o": [
+     "Faqat birinchi so‘z katta",
+     "Har bir so‘z bosh harf bilan",
+     "Qo‘shtirnoqda",
+     "Kichik harf bilan"
+    ],
+    "a": 1,
+    "e": "Xalqaro tashkilot."
+   },
+   {
+    "q": "Korxonaning shartli nomi qanday yoziladi?",
+    "o": [
+     "Qavsda",
+     "Qo‘shtirnoqda, bosh harf bilan",
+     "Kichik harf bilan",
+     "Chiziqcha bilan"
+    ],
+    "a": 1,
+    "e": "«Turkiston» saroyi."
+   }
+  ],
+  "65": [
+   {
+    "q": "Bayram nomlarida qaysi so‘z bosh harf bilan yoziladi?",
+    "o": [
+     "Hammasi",
+     "Birinchi so‘z",
+     "Oxirgi so‘z",
+     "Hech biri"
+    ],
+    "a": 1,
+    "e": "Navro‘z bayrami."
+   },
+   {
+    "q": "Qaysi yozuv to‘g‘ri?",
+    "o": [
+     "Mustaqillik Kuni",
+     "Mustaqillik kuni",
+     "mustaqillik kuni",
+     "«Mustaqillik kuni»"
+    ],
+    "a": 1,
+    "e": "Faqat birinchi so‘z katta."
+   },
+   {
+    "q": "«Xotira va qadrlash kuni» da nechta so‘z bosh harf bilan?",
+    "o": [
+     "Uchta",
+     "Bitta",
+     "Ikkita",
+     "To‘rtta"
+    ],
+    "a": 1,
+    "e": "Faqat «Xotira»."
+   }
+  ],
+  "66": [
+   {
+    "q": "«Orol dengizi» qanday yoziladi?",
+    "o": [
+     "Orol Dengizi",
+     "Orol dengizi",
+     "orol dengizi",
+     "«Orol» dengizi"
+    ],
+    "a": 1,
+    "e": "Birinchi so‘z bosh harf bilan."
+   },
+   {
+    "q": "Suv havzalariga nima kirmaydi?",
+    "o": [
+     "Daryo",
+     "Tog‘",
+     "Ko‘l",
+     "Kanal"
+    ],
+    "a": 1,
+    "e": "Daryo, ko‘l, dengiz, kanal, suv ombori."
+   },
+   {
+    "q": "Respublikamiz hududidagi dengiz qaysi?",
+    "o": [
+     "Kaspiy dengizi",
+     "Orol dengizi",
+     "Qora dengiz",
+     "O‘rta dengiz"
+    ],
+    "a": 1,
+    "e": "Orol dengizi."
+   }
+  ],
+  "67": [
+   {
+    "q": "Turdosh otlar qanday harf bilan yoziladi?",
+    "o": [
+     "Bosh",
+     "Kichik",
+     "Qo‘shtirnoqda",
+     "Har xil"
+    ],
+    "a": 1,
+    "e": "Ota, ketmon, paxtazor."
+   },
+   {
+    "q": "Qaysi so‘z atoqli ot?",
+    "o": [
+     "Tog‘a",
+     "Termiz",
+     "Tikanzor",
+     "Terim"
+    ],
+    "a": 1,
+    "e": "Yakka nom."
+   },
+   {
+    "q": "«Tinchlik» qaysi ma’no guruhiga kiradi?",
+    "o": [
+     "Shaxs",
+     "Faoliyat-jarayon",
+     "Narsa",
+     "O‘rin-joy"
+    ],
+    "a": 1,
+    "e": "Terim, o‘rim, ko‘rik ham."
+   }
+  ],
+  "68": [
+   {
+    "q": "«Nafaqaxo‘r» shaxsni qaysi belgiga ko‘ra nomlaydi?",
+    "o": [
+     "Yoshiga",
+     "Ijtimoiy holatiga",
+     "Kasbiga",
+     "Nasl-nasabiga"
+    ],
+    "a": 1,
+    "e": "Talaba ham."
+   },
+   {
+    "q": "«Toshkentlik» shaxsni qaysi belgiga ko‘ra nomlaydi?",
+    "o": [
+     "Kasbiga",
+     "Yashash joyiga",
+     "Yoshiga",
+     "Mansabiga"
+    ],
+    "a": 1,
+    "e": "-lik qo‘shimchasi."
+   },
+   {
+    "q": "Shaxs otlari qaysi so‘roqqa javob beradi?",
+    "o": [
+     "Nima?",
+     "Kim?",
+     "Qayer?",
+     "Qanday?"
+    ],
+    "a": 1,
+    "e": "Bola, rais, shifokor."
+   }
+  ],
+  "69": [
+   {
+    "q": "«Tingla» + -vchi qanday yoziladi?",
+    "o": [
+     "Tinglavchi",
+     "Tinglovchi",
+     "Tingluvchi",
+     "Tinglayvchi"
+    ],
+    "a": 1,
+    "e": "a → o."
+   },
+   {
+    "q": "«O‘qi» + -vchi qanday yoziladi?",
+    "o": [
+     "O‘qivchi",
+     "O‘quvchi",
+     "O‘qovchi",
+     "O‘qiyvchi"
+    ],
+    "a": 1,
+    "e": "i → u."
+   },
+   {
+    "q": "«Samarqandlik» qanday harf bilan yoziladi?",
+    "o": [
+     "Bosh harf bilan",
+     "Kichik harf bilan",
+     "Qo‘shtirnoqda",
+     "Har xil"
+    ],
+    "a": 1,
+    "e": "-lik atoqli otni turdoshga aylantiradi."
+   }
+  ],
+  "70": [
+   {
+    "q": "Narsa otlari qaysi so‘roqqa javob beradi?",
+    "o": [
+     "Kim?",
+     "Nima?",
+     "Qayer?",
+     "Qachon?"
+    ],
+    "a": 1,
+    "e": "Jonli va jonsiz narsalar."
+   },
+   {
+    "q": "Hayvon nomlari qaysi so‘roqqa javob beradi?",
+    "o": [
+     "Kim?",
+     "Nima?",
+     "Qanday?",
+     "Qancha?"
+    ],
+    "a": 1,
+    "e": "Qush, ot, baliq — narsa otlari."
+   },
+   {
+    "q": "Qaysi so‘z jonsiz narsa oti?",
+    "o": [
+     "Ari",
+     "Stol",
+     "Baliq",
+     "Qush"
+    ],
+    "a": 1,
+    "e": "Kitob, tosh ham."
+   }
+  ],
+  "71": [
+   {
+    "q": "«Bo‘ya» + -q qanday yoziladi?",
+    "o": [
+     "Bo‘yaq",
+     "Bo‘yoq",
+     "Bo‘yuq",
+     "Bo‘yq"
+    ],
+    "a": 1,
+    "e": "a → o."
+   },
+   {
+    "q": "«Guldon» dagi qo‘shimcha?",
+    "o": [
+     "-on",
+     "-don",
+     "-dan",
+     "-gul"
+    ],
+    "a": 1,
+    "e": "Qalamdon, choydon."
+   },
+   {
+    "q": "«Chiqindi» dagi qo‘shimcha?",
+    "o": [
+     "-di",
+     "-indi",
+     "-ndi",
+     "-qin"
+    ],
+    "a": 1,
+    "e": "Supurindi, qirindi."
+   }
+  ],
+  "72": [
+   {
+    "q": "O‘rin-joy otlari qaysi so‘roqqa javob beradi?",
+    "o": [
+     "Kim?",
+     "Qayer?",
+     "Qanday?",
+     "Qachon?"
+    ],
+    "a": 1,
+    "e": "Nima? so‘rog‘ini ham olishi mumkin."
+   },
+   {
+    "q": "Qaysi qo‘shimcha o‘rin-joy oti yasaydi?",
+    "o": [
+     "-chi",
+     "-goh",
+     "-li",
+     "-cha"
+    ],
+    "a": 1,
+    "e": "Sayilgoh, o‘yingoh."
+   },
+   {
+    "q": "«O‘tloq» dagi qo‘shimcha?",
+    "o": [
+     "-oq",
+     "-loq",
+     "-tloq",
+     "-q"
+    ],
+    "a": 1,
+    "e": "Toshloq, qumloq."
+   }
+  ],
+  "73": [
+   {
+    "q": "«Terim» qanday ot?",
+    "o": [
+     "Narsa oti",
+     "Faoliyat-jarayon oti",
+     "Shaxs oti",
+     "O‘rin-joy oti"
+    ],
+    "a": 1,
+    "e": "Ter + -im."
+   },
+   {
+    "q": "«Namgarchilik» dagi qo‘shimcha?",
+    "o": [
+     "-chilik",
+     "-garchilik",
+     "-lik",
+     "-gar"
+    ],
+    "a": 1,
+    "e": "Serobgarchilik ham."
+   },
+   {
+    "q": "«Ko‘rik» dagi qo‘shimcha?",
+    "o": [
+     "-k",
+     "-ik",
+     "-rik",
+     "-ko‘"
+    ],
+    "a": 1,
+    "e": "Ko‘r + -ik."
+   }
+  ],
+  "74": [
+   {
+    "q": "Mavhum otlar qanday idrok qilinadi?",
+    "o": [
+     "Ko‘z bilan",
+     "Tafakkur va tasavvur orqali",
+     "Qo‘l bilan",
+     "Quloq bilan"
+    ],
+    "a": 1,
+    "e": "Xayol, aql, go‘zallik."
+   },
+   {
+    "q": "«Xayollar» so‘zida -lar qanday ma’no beradi?",
+    "o": [
+     "Ko‘plik",
+     "Ta’kidlash, kuchaytirish",
+     "Hurmat",
+     "Kamsitish"
+    ],
+    "a": 1,
+    "e": "Mavhum otlarda."
+   },
+   {
+    "q": "Qaysi so‘z aniq ot?",
+    "o": [
+     "Sevinch",
+     "Dutor",
+     "Aql",
+     "O‘y"
+    ],
+    "a": 1,
+    "e": "Sezgi a’zolari bilan biladigan."
+   }
+  ],
+  "75": [
+   {
+    "q": "Mavhum ot yasovchi qo‘shimchalar?",
+    "o": [
+     "-chi, -kor",
+     "-lik, -ch, -inch",
+     "-zor, -loq",
+     "-cha, -choq"
+    ],
+    "a": 1,
+    "e": "Yaxshilik, sevinch, o‘kinch."
+   },
+   {
+    "q": "«Qo‘rqinch» dagi qo‘shimcha?",
+    "o": [
+     "-ch",
+     "-inch",
+     "-qinch",
+     "-nch"
+    ],
+    "a": 1,
+    "e": "O‘kinch ham."
+   },
+   {
+    "q": "«Ishonch» qaysi so‘zdan yasalgan?",
+    "o": [
+     "Ish",
+     "Ishon",
+     "Ishonchli",
+     "Ishla"
+    ],
+    "a": 1,
+    "e": "Ishon + -ch."
+   }
+  ],
+  "76": [
+   {
+    "q": "«Dadamlar keldilar» da -lar qanday ma’no beradi?",
+    "o": [
+     "Ko‘plik",
+     "Hurmat",
+     "Umumlashtirish",
+     "Kuchaytirish"
+    ],
+    "a": 1,
+    "e": "Bir kishiga hurmat."
+   },
+   {
+    "q": "«Toshkentlarda bo‘ldim» da -lar qanday ma’no beradi?",
+    "o": [
+     "Ko‘plik",
+     "Umumlashtirish",
+     "Hurmat",
+     "Erkalash"
+    ],
+    "a": 1,
+    "e": "Atoqli otga qo‘shilgan."
+   },
+   {
+    "q": "Birlik shakli qanday qo‘shimchaga ega?",
+    "o": [
+     "-lar",
+     "Maxsus qo‘shimchasi yo‘q",
+     "-cha",
+     "-ni"
+    ],
+    "a": 1,
+    "e": "-lar olmagan shakl."
+   }
+  ],
+  "77": [
+   {
+    "q": "Qaysi qo‘shimcha erkalash shakli yasaydi?",
+    "o": [
+     "-cha",
+     "-jon",
+     "-choq",
+     "-chak"
+    ],
+    "a": 1,
+    "e": "Ukajon, Anvarxon."
+   },
+   {
+    "q": "«Qo‘zichoq» qanday shakl?",
+    "o": [
+     "Erkalash",
+     "Kichraytirish",
+     "Ko‘plik",
+     "Hurmat"
+    ],
+    "a": 1,
+    "e": "-choq."
+   },
+   {
+    "q": "Kichraytirish shakli nimani bildiradi?",
+    "o": [
+     "Mehrni",
+     "Narsaning kichikligini",
+     "Ko‘plikni",
+     "Hurmatni"
+    ],
+    "a": 1,
+    "e": "Kitobcha."
+   }
+  ],
+  "78": [
+   {
+    "q": "Sifat gapda ko‘pincha qanday bo‘lak bo‘ladi?",
+    "o": [
+     "Ega",
+     "Aniqlovchi",
+     "Hol",
+     "To‘ldiruvchi"
+    ],
+    "a": 1,
+    "e": "Ba’zan kesim."
+   },
+   {
+    "q": "Sifat qaysi turkumga bog‘lanadi?",
+    "o": [
+     "Fe’lga",
+     "Otga",
+     "Ravishga",
+     "Songa"
+    ],
+    "a": 1,
+    "e": "Belgini bildiradi."
+   },
+   {
+    "q": "«Gul chiroyli» gapida sifat qanday bo‘lak?",
+    "o": [
+     "Aniqlovchi",
+     "Kesim",
+     "Ega",
+     "Hol"
+    ],
+    "a": 1,
+    "e": "Chiroyli gul — aniqlovchi."
+   }
+  ],
+  "79": [
+   {
+    "q": "«Havorang» qanday yasalgan?",
+    "o": [
+     "Qo‘shimcha qo‘shish",
+     "So‘z qo‘shish",
+     "Takrorlash",
+     "Juftlash"
+    ],
+    "a": 1,
+    "e": "Havo + rang."
+   },
+   {
+    "q": "Qaysi sifat tub?",
+    "o": [
+     "Aqlli",
+     "Katta",
+     "Bahorgi",
+     "Kuchsiz"
+    ],
+    "a": 1,
+    "e": "So‘z yasovchi qo‘shimchasi yo‘q."
+   },
+   {
+    "q": "Yasama sifatlar necha yo‘l bilan hosil qilinadi?",
+    "o": [
+     "Bir",
+     "Ikki",
+     "Uch",
+     "To‘rt"
+    ],
+    "a": 1,
+    "e": "Qo‘shimcha yoki so‘z qo‘shish."
+   }
+  ],
+  "80": [
+   {
+    "q": "Qaysi qo‘shimcha ega emaslikni bildiradi?",
+    "o": [
+     "-li",
+     "-siz",
+     "-dor",
+     "ser-"
+    ],
+    "a": 1,
+    "e": "No-, be- ham."
+   },
+   {
+    "q": "«Odamsimon» dagi -simon qanday ma’no beradi?",
+    "o": [
+     "Egalik",
+     "O‘xshashlik",
+     "Moyillik",
+     "Xoslik"
+    ],
+    "a": 1,
+    "e": "Tuxumsimon ham."
+   },
+   {
+    "q": "Qaysi egalik qo‘shimchasining zid jufti yo‘q?",
+    "o": [
+     "-li",
+     "-mand",
+     "ser-",
+     "-dor"
+    ],
+    "a": 1,
+    "e": "Hunarmand — zid jufti berilmagan."
+   }
+  ],
+  "81": [
+   {
+    "q": "Sodda sifat nima?",
+    "o": [
+     "Ikki asosli",
+     "Bir asosdan iborat",
+     "Takrorlangan",
+     "Juft"
+    ],
+    "a": 1,
+    "e": "Tub yoki yasama bo‘lishi mumkin."
+   },
+   {
+    "q": "«Kuchsiz» tuzilishiga ko‘ra qanday sifat?",
+    "o": [
+     "Qo‘shma",
+     "Sodda",
+     "Juft",
+     "Takroriy"
+    ],
+    "a": 1,
+    "e": "Sodda yasama."
+   },
+   {
+    "q": "Sifatlar tuzilishiga ko‘ra necha xil?",
+    "o": [
+     "Ikki",
+     "To‘rt",
+     "Uch",
+     "Besh"
+    ],
+    "a": 1,
+    "e": "Sodda, qo‘shma, juft, takroriy."
+   }
+  ],
+  "82": [
+   {
+    "q": "Qo‘shma sifatlar asosan qanday yoziladi?",
+    "o": [
+     "Ajratib",
+     "Qo‘shib",
+     "Chiziqcha bilan",
+     "Qo‘shtirnoqda"
+    ],
+    "a": 1,
+    "e": "Toshyurak, kamgap."
+   },
+   {
+    "q": "«To‘q qizil» qanday yoziladi?",
+    "o": [
+     "Qo‘shib",
+     "Ajratib",
+     "Chiziqcha bilan",
+     "Qo‘shtirnoqda"
+    ],
+    "a": 1,
+    "e": "Rang ma’nosidagi ayrim qo‘shma sifatlar."
+   },
+   {
+    "q": "Qaysi biri qo‘shma sifat?",
+    "o": [
+     "Aqlli",
+     "Xushmuomala",
+     "Katta-kichik",
+     "Shirin-shirin"
+    ],
+    "a": 1,
+    "e": "Ikki asosli."
+   }
+  ],
+  "83": [
+   {
+    "q": "Juft sifat qismlari qanday yoziladi?",
+    "o": [
+     "Qo‘shib",
+     "Chiziqcha bilan",
+     "Ajratib",
+     "Vergul bilan"
+    ],
+    "a": 1,
+    "e": "Katta-kichik."
+   },
+   {
+    "q": "Qismlar -u, -yu bilan bog‘lansa qanday yoziladi?",
+    "o": [
+     "Qo‘shib",
+     "Katta-yu kichik",
+     "Katta yu kichik",
+     "Kattayu-kichik"
+    ],
+    "a": 1,
+    "e": "Yakka-yu yagona."
+   },
+   {
+    "q": "Juft sifat qismlari qanday ma’noli?",
+    "o": [
+     "Faqat bir xil",
+     "Yaqin yoki zid",
+     "Faqat zid",
+     "Bog‘liq emas"
+    ],
+    "a": 1,
+    "e": "Oq-qora, achchiq-chuchuk."
+   }
+  ],
+  "84": [
+   {
+    "q": "Takroriy sifat qanday ma’no beradi?",
+    "o": [
+     "Belgini kamaytiradi",
+     "Belgini ta’kidlab kuchaytiradi",
+     "Inkor",
+     "Ko‘plik"
+    ],
+    "a": 1,
+    "e": "Shirin-shirin."
+   },
+   {
+    "q": "Takroriy sifat qanday hosil bo‘ladi?",
+    "o": [
+     "Ikki xil asosdan",
+     "Bir asosning aynan takrorlanishidan",
+     "Qo‘shimcha bilan",
+     "So‘z qo‘shish bilan"
+    ],
+    "a": 1,
+    "e": "Katta-katta."
+   },
+   {
+    "q": "Takroriy sifat qanday yoziladi?",
+    "o": [
+     "Qo‘shib",
+     "Chiziqcha bilan",
+     "Ajratib",
+     "Qo‘shtirnoqda"
+    ],
+    "a": 1,
+    "e": "Oppoq-oppoq."
+   }
+  ],
+  "85": [
+   {
+    "q": "Nisbiy sifat -roq qabul qiladimi?",
+    "o": [
+     "Ha",
+     "Yo‘q",
+     "Ba’zan",
+     "Faqat ko‘plikda"
+    ],
+    "a": 1,
+    "e": "Qishkiroq — mumkin emas."
+   },
+   {
+    "q": "Qaysi sifat asliy?",
+    "o": [
+     "Qishki",
+     "Shirin",
+     "Devoriy",
+     "Derazali"
+    ],
+    "a": 1,
+    "e": "Belgini to‘g‘ridan to‘g‘ri bildiradi."
+   },
+   {
+    "q": "Nisbiy sifat belgini qanday ifodalaydi?",
+    "o": [
+     "To‘g‘ridan to‘g‘ri",
+     "Boshqa tushunchaga nisbatlab",
+     "Daraja bilan",
+     "Takror bilan"
+    ],
+    "a": 1,
+    "e": "Qishki — qishga nisbatan."
+   }
+  ],
+  "86": [
+   {
+    "q": "Qiyosiy daraja qaysi qo‘shimcha bilan yasaladi?",
+    "o": [
+     "-mtir",
+     "-roq",
+     "-ish",
+     "-cha"
+    ],
+    "a": 1,
+    "e": "Kattaroq."
+   },
+   {
+    "q": "«Qip-qizil» qaysi darajada?",
+    "o": [
+     "Oddiy",
+     "Orttirma",
+     "Qiyosiy",
+     "Ozaytirma"
+    ],
+    "a": 1,
+    "e": "Birinchi bo‘g‘in takrori."
+   },
+   {
+    "q": "«Sarg‘ish» qaysi darajada?",
+    "o": [
+     "Orttirma",
+     "Ozaytirma",
+     "Qiyosiy",
+     "Oddiy"
+    ],
+    "a": 1,
+    "e": "-ish, -(i)mtir — rang-tusda."
+   }
+  ],
+  "87": [
+   {
+    "q": "«Nordon» qaysi ma’no guruhiga kiradi?",
+    "o": [
+     "Rang-tus",
+     "Maza-ta’m",
+     "Hid",
+     "Hajm"
+    ],
+    "a": 1,
+    "e": "Shirin, achchiq, sho‘r."
+   },
+   {
+    "q": "«Qo‘lansa» qaysi ma’no guruhiga kiradi?",
+    "o": [
+     "Maza-ta’m",
+     "Hid",
+     "Rang",
+     "Xususiyat"
+    ],
+    "a": 1,
+    "e": "Xushbo‘y, badbo‘y."
+   },
+   {
+    "q": "«Tog‘li» qaysi ma’no guruhiga kiradi?",
+    "o": [
+     "Hajm-o‘lchov",
+     "Makon-zamon",
+     "Xususiyat",
+     "Hid"
+    ],
+    "a": 1,
+    "e": "Qishki, ichki, tashqi."
+   }
+  ],
+  "88": [
+   {
+    "q": "Sifat qachon otlashadi?",
+    "o": [
+     "Ko‘plik olganda",
+     "Bog‘langan ot tushib qolganda",
+     "Kesim bo‘lganda",
+     "Daraja olganda"
+    ],
+    "a": 1,
+    "e": "Ma’no sifatga yuklanadi."
+   },
+   {
+    "q": "«Yaxshidan ot qoladi» da qaysi so‘z otlashgan?",
+    "o": [
+     "Ot",
+     "Yaxshi",
+     "Qoladi",
+     "Hech biri"
+    ],
+    "a": 1,
+    "e": "Yaxshi (odam) → yaxshi."
+   },
+   {
+    "q": "Otlashgan sifat qanday qo‘shimchalar oladi?",
+    "o": [
+     "Daraja",
+     "Egalik, kelishik, ko‘plik",
+     "Zamon",
+     "Nisbat"
+    ],
+    "a": 1,
+    "e": "Ot vazifasida keladi."
+   }
+  ],
+  "89": [
+   {
+    "q": "Son qaysi so‘roqlarga javob beradi?",
+    "o": [
+     "Qanday?",
+     "Qancha? necha? nechanchi?",
+     "Kim?",
+     "Qachon?"
+    ],
+    "a": 1,
+    "e": "Sanoq va tartib."
+   },
+   {
+    "q": "«V» qanday raqam?",
+    "o": [
+     "Arab",
+     "Rim",
+     "Lotin harfi",
+     "Kasr"
+    ],
+    "a": 1,
+    "e": "Besh = 5 = V."
+   },
+   {
+    "q": "Sonlar yozuvda qanday ifodalanadi?",
+    "o": [
+     "Faqat so‘z bilan",
+     "So‘z, arab yoki rim raqami bilan",
+     "Faqat raqam bilan",
+     "Harflar bilan"
+    ],
+    "a": 1,
+    "e": "Besh, 5, V."
+   }
+  ],
+  "90": [
+   {
+    "q": "Sonlar ma’nosiga ko‘ra qanday guruhlarga bo‘linadi?",
+    "o": [
+     "Sodda va murakkab",
+     "Miqdor va tartib",
+     "Arab va rim",
+     "Butun va kasr"
+    ],
+    "a": 1,
+    "e": "Miqdor sonlar oltita turga bo‘linadi."
+   },
+   {
+    "q": "«Ikkitadan» qanday son?",
+    "o": [
+     "Dona",
+     "Taqsim",
+     "Jamlovchi",
+     "Chama"
+    ],
+    "a": 1,
+    "e": "-tadan."
+   },
+   {
+    "q": "«Uchdan bir» qanday son?",
+    "o": [
+     "Taqsim",
+     "Kasr",
+     "Chama",
+     "Tartib"
+    ],
+    "a": 1,
+    "e": "Chiqish kelishigi bilan."
+   }
+  ],
+  "91": [
+   {
+    "q": "Sanoq son tuzilishiga ko‘ra qanday turlarga bo‘linadi?",
+    "o": [
+     "Butun va kasr",
+     "Sodda va murakkab",
+     "Arab va rim",
+     "Juft va toq"
+    ],
+    "a": 1,
+    "e": "Bir — sodda, o‘n besh — murakkab."
+   },
+   {
+    "q": "Yuzlik sonlar qanday hosil qilinadi?",
+    "o": [
+     "O‘nlik + yuz",
+     "Birlik son + yuz",
+     "Yuz + -ta",
+     "Yuz + -inchi"
+    ],
+    "a": 1,
+    "e": "Ikki yuz, besh yuz."
+   },
+   {
+    "q": "«Yuz yigirma» qanday sanoq son?",
+    "o": [
+     "Sodda",
+     "Murakkab",
+     "Kasr",
+     "Tartib"
+    ],
+    "a": 1,
+    "e": "Bir necha so‘zdan."
+   }
+  ],
+  "92": [
+   {
+    "q": "Dona son qaysi qo‘shimcha bilan yasaladi?",
+    "o": [
+     "-tadan",
+     "-ta",
+     "-tacha",
+     "-ov"
+    ],
+    "a": 1,
+    "e": "Beshta."
+   },
+   {
+    "q": "«Nafar» so‘zi qachon ishlatiladi?",
+    "o": [
+     "Hayvonlar uchun",
+     "Shaxslar uchun",
+     "O‘simliklar uchun",
+     "Suyuqlik uchun"
+    ],
+    "a": 1,
+    "e": "Besh nafar o‘quvchi."
+   },
+   {
+    "q": "«Tup» so‘zi qachon ishlatiladi?",
+    "o": [
+     "Shaxslar uchun",
+     "O‘simliklar uchun",
+     "Hayvonlar uchun",
+     "Og‘irlik uchun"
+    ],
+    "a": 1,
+    "e": "Uch tup olma."
+   }
+  ],
+  "93": [
+   {
+    "q": "Chama son nimani ko‘rsatadi?",
+    "o": [
+     "Aniq miqdorni",
+     "Taxminiy miqdorni",
+     "Tartibni",
+     "Qismni"
+    ],
+    "a": 1,
+    "e": "O‘ntacha, o‘nlab."
+   },
+   {
+    "q": "«Ikki-uch» qanday son?",
+    "o": [
+     "Juft son",
+     "Chama son",
+     "Taqsim son",
+     "Kasr son"
+    ],
+    "a": 1,
+    "e": "Sonlarni juftlash."
+   },
+   {
+    "q": "«Yuzlarcha» dagi qo‘shimcha?",
+    "o": [
+     "-lab",
+     "-larcha",
+     "-tacha",
+     "-cha"
+    ],
+    "a": 1,
+    "e": "Minglarcha ham."
+   }
+  ],
+  "94": [
+   {
+    "q": "«Ikki» + -ala qanday yoziladi?",
+    "o": [
+     "Ikkiala",
+     "Ikkala",
+     "Ikkila",
+     "Ikala"
+    ],
+    "a": 1,
+    "e": "i tushadi."
+   },
+   {
+    "q": "-ov, -ala qaysi sonlarga qo‘shiladi?",
+    "o": [
+     "Hammasiga",
+     "Ikkidan o‘ngacha",
+     "Faqat yuzlikka",
+     "Faqat mingga"
+    ],
+    "a": 1,
+    "e": "Uchov, beshala."
+   },
+   {
+    "q": "«Yetti» + -ov qanday yoziladi?",
+    "o": [
+     "Yettiov",
+     "Yettov",
+     "Yetov",
+     "Yettiyov"
+    ],
+    "a": 1,
+    "e": "i tushadi."
+   }
+  ],
+  "95": [
+   {
+    "q": "Taqsim son qaysi qo‘shimcha bilan yasaladi?",
+    "o": [
+     "-ta",
+     "-tadan",
+     "-tacha",
+     "-ala"
+    ],
+    "a": 1,
+    "e": "Ikkitadan."
+   },
+   {
+    "q": "Taqsim son gapda ko‘pincha qanday bo‘lak bo‘ladi?",
+    "o": [
+     "Ega",
+     "Hol yoki aniqlovchi",
+     "Kesim",
+     "Undalma"
+    ],
+    "a": 1,
+    "e": "Ikkitadan olma berildi."
+   },
+   {
+    "q": "«Nechtadan?» so‘rog‘i qaysi songa xos?",
+    "o": [
+     "Dona",
+     "Taqsim",
+     "Chama",
+     "Tartib"
+    ],
+    "a": 1,
+    "e": "Har biriga teng bo‘lish."
+   }
+  ],
+  "96": [
+   {
+    "q": "«Chorak» qaysi kasrni bildiradi?",
+    "o": [
+     "1/2",
+     "1/4",
+     "1/8",
+     "1/3"
+    ],
+    "a": 1,
+    "e": "To‘rtdan bir."
+   },
+   {
+    "q": "«Nimchorak» qaysi kasrni bildiradi?",
+    "o": [
+     "1/4",
+     "1/8",
+     "1/2",
+     "1/16"
+    ],
+    "a": 1,
+    "e": "Sakkizdan bir."
+   },
+   {
+    "q": "Kasr sonda butun qism qaysi kelishikda keladi?",
+    "o": [
+     "Jo‘nalish",
+     "Chiqish",
+     "Tushum",
+     "Qaratqich"
+    ],
+    "a": 1,
+    "e": "O‘ndan bir."
+   }
+  ],
+  "97": [
+   {
+    "q": "«Ikki metr mato» da hisob so‘zi qaysi?",
+    "o": [
+     "Ikki",
+     "Metr",
+     "Mato",
+     "Hech biri"
+    ],
+    "a": 1,
+    "e": "O‘lchovni bildiradi."
+   },
+   {
+    "q": "«Sotix» qanday o‘lchovni bildiradi?",
+    "o": [
+     "Og‘irlik",
+     "Sath (yuza)",
+     "Vaqt",
+     "Hajm"
+    ],
+    "a": 1,
+    "e": "Gektar, kvadrat metr ham."
+   },
+   {
+    "q": "Hisob so‘zi qayerda keladi?",
+    "o": [
+     "Gap boshida",
+     "Sanoq son va narsa nomi o‘rtasida",
+     "Gap oxirida",
+     "Fe’ldan keyin"
+    ],
+    "a": 1,
+    "e": "Besh kilo olma."
+   }
+  ],
+  "98": [
+   {
+    "q": "Tartib sonlar qaysi qo‘shimcha bilan yasaladi?",
+    "o": [
+     "-ta",
+     "-(i)nchi",
+     "-tadan",
+     "-ov"
+    ],
+    "a": 1,
+    "e": "Birinchi, ikkinchi."
+   },
+   {
+    "q": "Rim raqami bilan yozilgan tartib sondan keyin chiziqcha qo‘yiladimi?",
+    "o": [
+     "Ha",
+     "Yo‘q",
+     "Ba’zan",
+     "Faqat asrda"
+    ],
+    "a": 1,
+    "e": "XXI asr."
+   },
+   {
+    "q": "Qaysi yozuv to‘g‘ri?",
+    "o": [
+     "9 sinf",
+     "9-sinf",
+     "9sinf",
+     "IX-sinf"
+    ],
+    "a": 1,
+    "e": "Arab raqamida chiziqcha."
+   }
+  ],
+  "99": [
+   {
+    "q": "Ravish qaysi turkumga bog‘lanadi?",
+    "o": [
+     "Otga",
+     "Fe’lga",
+     "Songa",
+     "Olmoshga"
+    ],
+    "a": 1,
+    "e": "Harakat belgisini bildiradi."
+   },
+   {
+    "q": "«Tez yurdi» da «tez» qaysi turkum?",
+    "o": [
+     "Sifat",
+     "Ravish",
+     "Fe’l",
+     "Ot"
+    ],
+    "a": 1,
+    "e": "Tez poyezd — sifat."
+   },
+   {
+    "q": "«Olg‘a» qanday ravish?",
+    "o": [
+     "Payt",
+     "O‘rin",
+     "Holat",
+     "Miqdor"
+    ],
+    "a": 1,
+    "e": "Qayerga?"
+   }
+  ],
+  "100": [
+   {
+    "q": "«Bugun» qanday hosil bo‘lgan?",
+    "o": [
+     "Qo‘shimcha qo‘shish",
+     "Ikki asosni biriktirish",
+     "Takrorlash",
+     "Juftlash"
+    ],
+    "a": 1,
+    "e": "Bu + kun."
+   },
+   {
+    "q": "«Yonma-yon» qanday hosil bo‘lgan?",
+    "o": [
+     "Juftlash",
+     "Takror qo‘llash",
+     "Qo‘shimcha",
+     "Biriktirish"
+    ],
+    "a": 1,
+    "e": "Birma-bir ham."
+   },
+   {
+    "q": "Qaysi biri tub ravish?",
+    "o": [
+     "Do‘stona",
+     "Tez",
+     "Yangicha",
+     "Erta-indin"
+    ],
+    "a": 1,
+    "e": "Kecha, hozir ham."
+   }
+  ],
+  "101": [
+   {
+    "q": "«Tasodifan» dagi qo‘shimcha?",
+    "o": [
+     "-fan",
+     "-an",
+     "-dan",
+     "-ifan"
+    ],
+    "a": 1,
+    "e": "Majburan ham."
+   },
+   {
+    "q": "«To‘satdan» ni qismlarga ajratish mumkinmi?",
+    "o": [
+     "Ha",
+     "Yo‘q, -dan asos bilan birikib ketgan",
+     "Faqat yozuvda",
+     "Faqat talaffuzda"
+    ],
+    "a": 1,
+    "e": "Tubdan, rostdan ham."
+   },
+   {
+    "q": "«Mardlarcha» dagi qo‘shimcha?",
+    "o": [
+     "-lar",
+     "-larcha",
+     "-cha",
+     "-archa"
+    ],
+    "a": 1,
+    "e": "Do‘stlarcha ham."
+   }
+  ],
+  "102": [
+   {
+    "q": "«Jo‘rttaga» qanday ravish?",
+    "o": [
+     "Holat",
+     "Maqsad-sabab",
+     "Payt",
+     "O‘rin"
+    ],
+    "a": 1,
+    "e": "Ataylab, qasddan."
+   },
+   {
+    "q": "«Hamisha» qanday ravish?",
+    "o": [
+     "O‘rin",
+     "Payt",
+     "Miqdor",
+     "Holat"
+    ],
+    "a": 1,
+    "e": "Qachon?"
+   },
+   {
+    "q": "Qaysi ravishlar soni u qadar ko‘p emas?",
+    "o": [
+     "Holat",
+     "Maqsad-sabab",
+     "Payt",
+     "O‘rin"
+    ],
+    "a": 1,
+    "e": "Ataylab, noiloj..."
+   }
+  ],
+  "103": [
+   {
+    "q": "Tarjimayi hol qaysi shaxs tilidan yoziladi?",
+    "o": [
+     "Uchinchi",
+     "Birinchi",
+     "Ikkinchi",
+     "Ko‘plik"
+    ],
+    "a": 1,
+    "e": "O‘z hayoti haqida."
+   },
+   {
+    "q": "Arizada kimga yozilishi qayerda ko‘rsatiladi?",
+    "o": [
+     "Pastda",
+     "Yuqori o‘ng burchakda",
+     "O‘rtada",
+     "Chap tomonda"
+    ],
+    "a": 1,
+    "e": "Keyin kimdan."
+   },
+   {
+    "q": "«Ariza» so‘zining ma’nosi nima?",
+    "o": [
+     "Xabar",
+     "Iltimos, murojaat",
+     "Tabrik",
+     "Taklif"
+    ],
+    "a": 1,
+    "e": "Eng keng tarqalgan ish qog‘ozi."
+   }
+  ],
+  "104": [
+   {
+    "q": "Sintaktik shakl yasovchi qo‘shimcha nima qiladi?",
+    "o": [
+     "Yangi so‘z yasaydi",
+     "So‘zni boshqa so‘zga bog‘laydi",
+     "Daraja beradi",
+     "Kichraytiradi"
+    ],
+    "a": 1,
+    "e": "Egalik, kelishik, shaxs-son."
+   },
+   {
+    "q": "Yetakchi fe’l nima?",
+    "o": [
+     "Asosiy so‘z turkumi",
+     "Ko‘makchi fe’lni qabul qiluvchi ravishdosh",
+     "Kesim",
+     "Noaniq shakl"
+    ],
+    "a": 1,
+    "e": "O‘qiy (boshladi)."
+   },
+   {
+    "q": "Hisob so‘zlari nima?",
+    "o": [
+     "Sonlar",
+     "Son va narsa orasida kelib o‘lchovni bildiruvchi so‘zlar",
+     "Kasr sonlar",
+     "Tartib sonlar"
+    ],
+    "a": 1,
+    "e": "Kilo, metr, tup."
+   }
+  ]
+ }
+}

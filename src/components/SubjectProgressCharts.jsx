@@ -3,15 +3,17 @@ import mathCurriculum from '../data/mathCurriculum.json'
 import uzbekCurriculum from '../data/uzbekCurriculum.json'
 import literatureCurriculum from '../data/literatureCurriculum.json'
 import { historyGrades } from '../data/historyCurriculum'
-import { konspektCourses } from '../data/konspekt'
+import { courseSubject, findKonspektCourse, konspektCourses } from '../data/konspekt'
 
-const countLessons = data => Object.values(data).reduce((sum, grade) => sum + (grade.available === false ? 0 : (grade.lessons?.length || 0)), 0)
+const konspektTotal = subject => Object.values(konspektCourses).filter(entry => courseSubject(entry) === subject).reduce((sum, entry) => sum + entry.course.topics.length, 0)
+// `skip(grade)` — o'rniga konspekt kursi ochiladigan eski darslik sinflari hisobga olinmaydi.
+const countLessons = (data, skip = () => false) => Object.entries(data).reduce((sum, [key, grade]) => sum + (grade.available === false || skip(key) ? 0 : (grade.lessons?.length || 0)), 0)
 // Tarix: 5-sinf eski darslari + 6–11-sinf konspekt kurslarining mavzulari.
-const historyTotal = countLessons(historyGrades) + Object.values(konspektCourses).reduce((sum, entry) => sum + entry.course.topics.length, 0)
+const historyTotal = countLessons(historyGrades) + konspektTotal('tarix')
 const subjects = [
   { id: 'matematika', title: 'Matematika', color: '#3b82f6', total: countLessons(mathCurriculum) },
-  { id: 'ona-tili', title: 'Ona tili', color: '#8b5cf6', total: countLessons(uzbekCurriculum) },
-  { id: 'adabiyot', title: 'Adabiyot', color: '#f43f5e', total: countLessons(literatureCurriculum) },
+  { id: 'ona-tili', title: 'Ona tili', color: '#8b5cf6', total: countLessons(uzbekCurriculum, grade => findKonspektCourse(grade, null, 'ona-tili')) + konspektTotal('ona-tili') },
+  { id: 'adabiyot', title: 'Adabiyot', color: '#f43f5e', total: countLessons(literatureCurriculum, grade => findKonspektCourse(grade, null, 'adabiyot')) + konspektTotal('adabiyot') },
   { id: 'tarix', title: 'Tarix', color: '#f97316', total: historyTotal },
 ]
 

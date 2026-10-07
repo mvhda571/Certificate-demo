@@ -1,0 +1,89 @@
+{
+  "topics": {
+    "1": [
+      { "q": "Adabiyot boshqa san’at turlaridan nimasi bilan farq qiladi?", "o": ["Faqat so‘z bilan yaratilishi bilan", "Bo‘yoqdan foydalanishi bilan", "Faqat she’riy shaklda bo‘lishi bilan", "Faqat og‘zaki bo‘lishi bilan"], "a": 0, "e": "Haykaltaroshlik — tosh, rassomlik — bo‘yoq, musiqa — soz; adabiyot — so‘z." },
+      { "q": "Adabiyotning eng qadimiy shakli qaysi?", "o": ["Roman", "Xalq og‘zaki ijodi", "G‘azal", "Drama"], "a": 1, "e": "Folklor: doston, ertak, qo‘shiq, maqol, topishmoq." },
+      { "q": "Badiiy asarlar qaysi turlarga bo‘linadi?", "o": ["Lirik, epik, dramatik", "Tarixiy, ilmiy, siyosiy", "Nasriy, ilmiy, she’riy", "Og‘zaki, yozma, ilmiy"], "a": 0, "e": "Adabiy turlar — lirika, epos, drama." }
+    ],
+    "2": [
+      { "q": "Darslikdagi «Alpomish» nusxasini kim aytgan?", "o": ["Ergash Jumanbulbul o‘g‘li", "Fozil Yo‘ldosh o‘g‘li", "Po‘lkan shoir", "Islom shoir"], "a": 1, "e": "Fozil shoir nusxasi eng mukammali hisoblanadi." },
+      { "q": "Hakimbek nega «Alpomish» nomini oladi?", "o": ["Ajdarni o‘ldirgani uchun", "Bobosi Alpinbiyning yoyini otgani uchun", "Kurashda yengmagani uchun", "Qalmoq yurtini bosgani uchun"], "a": 1, "e": "Yetti yoshida o‘n to‘rt botmonlik yoyni ko‘tarib otadi." },
+      { "q": "Boysari qalmoq yurtiga nima sababdan ko‘chib ketadi?", "o": ["Ochlik tufayli", "Zakot mojarosi tufayli", "Urush tufayli", "Barchinni uzatish uchun"], "a": 1, "e": "Boybo‘ri ukasidan zakot talab qilgan." }
+    ],
+    "3": [
+      { "q": "Birinchi turkiy «Xamsa» muallifi kim?", "o": ["Nizomiy Ganjaviy", "Alisher Navoiy", "Xusrav Dehlaviy", "Abdurahmon Jomiy"], "a": 1, "e": "1483–1485-yillarda yozilgan." },
+      { "q": "Navoiy «Farhod va Shirin»ni qanday atagan?", "o": ["«Hayrat dostoni»", "«Shavq dostoni»", "«Ishq dostoni»", "«Adolat dostoni»"], "a": 1, "e": "«Xamsa»ning ikkinchi dostoni." },
+      { "q": "Farhod Arman yurtini nimada ko‘radi?", "o": ["Tushida", "Iskandar ko‘zgusida", "Suratda", "Kitobda"], "a": 1, "e": "Ko‘zguda bir go‘zalni ko‘rib, ishq dardiga tushadi." }
+    ],
+    "4": [
+      { "q": "Xojaning «Miftoh ul-adl» asari qanday tarjima qilinadi?", "o": ["«Adolat kaliti»", "«Ilm bog‘i»", "«Gul bog‘i»", "«Maqsad yo‘li»"], "a": 0, "e": "1508–1510-yillarda yozilgan hikoyalar to‘plami." },
+      { "q": "Zohid yigirma haj savobini nimaga almashishni so‘raydi?", "o": ["Podshohning xazinasiga", "Podshohning bir soatlik adolati savobiga", "Saroydagi o‘ringa", "Bir yillik ibodatga"], "a": 1, "e": "Bir soat adolat ibodatdan ortiq." },
+      { "q": "Xoja qayerda dafn etilgan?", "o": ["Hirotda", "Buxoroda, Bahouddin Naqshband qabri yonida", "Balxda", "Nisoda"], "a": 1, "e": "1547-yilda vafot etgan." }
+    ],
+    "5": [
+      { "q": "Ogahiy devonining nomi qaysi?", "o": ["«Firdavs ul-iqbol»", "«Ta’viz ul-oshiqin»", "«Badoye ul-vasat»", "«Riyoz ud-davla»"], "a": 1, "e": "«Oshiqlar tumori»." },
+      { "q": "Ogahiyni kim tarbiyalagan?", "o": ["Otasi Erniyozbek", "Amakisi Munis", "Feruz", "Muhammad Rahimxon"], "a": 1, "e": "Munis — shoir va tarixchi." },
+      { "q": "Lirika nimani tasvirlaydi?", "o": ["Tarixiy voqealarni", "Inson ichki kechinmalari va his-tuyg‘ularini", "Sahna harakatlarini", "Ilmiy kashfiyotlarni"], "a": 1, "e": "Yunoncha «lira» — musiqa asbobi." }
+    ],
+    "6": [
+      { "q": "«Furqat» so‘zi qanday ma’noni anglatadi?", "o": ["Shodlik", "Ayriliq", "Sabr", "Ishq"], "a": 1, "e": "Taxallus shoir taqdiriga aylangan." },
+      { "q": "Furqat umrining oxirini qayerda o‘tkazgan?", "o": ["Istanbulda", "Yorkentda", "Makkada", "Toshkentda"], "a": 1, "e": "1893-yildan Yorkentda yashagan, 1909-yilda vafot etgan." },
+      { "q": "Musaddasdagi sayyod nimaning timsoli?", "o": ["Oshiqning", "Zolim kuchning", "Ozodlikning", "Vatanning"], "a": 1, "e": "Sayd — ozodlikdan mahrum inson." }
+    ],
+    "7": [
+      { "q": "Imom al-Buxoriyning eng mashhur asari qaysi?", "o": ["«At-ta’rix al-kabir»", "«Al-jome’ as-sahih»", "«Barr ul-volidayn»", "«Al-adab al-mufrad»"], "a": 1, "e": "«Sahihi Buxoriy» — 7275 hadis." },
+      { "q": "Hadis kim orqali, qachon, qanday aytilgani haqidagi ma’lumot qanday ataladi?", "o": ["Matn", "Sanad", "Roviy", "Osor"], "a": 1, "e": "Matn — hadisning mazmuni." },
+      { "q": "Imom al-Buxoriy qayerda vafot etgan?", "o": ["Buxoroda", "Samarqand yaqinidagi Xartang qishlog‘ida", "Makkada", "Nishopurda"], "a": 1, "e": "870-yil 31-avgustda." }
+    ],
+    "8": [
+      { "q": "«Navoiy» romani nimasi bilan alohida ahamiyatga ega?", "o": ["Birinchi o‘zbek romani", "Navoiy haqidagi dunyo adabiyotidagi ilk yirik nasriy asar", "She’riy roman", "Trilogiya"], "a": 1, "e": "Oybek uni urush yillarida yozgan." },
+      { "q": "Muhr bosish voqeasi Navoiyning qaysi fazilatini ko‘rsatadi?", "o": ["Boyligini", "Kamtarligi va mas’uliyatini", "Jangovarligini", "Shoirligini"], "a": 1, "e": "Muhrdorlik lavozimida ilk bor muhr bosadi." },
+      { "q": "Oybekda adabiyotga mehrni kim uyg‘otgan?", "o": ["Otasi", "Onasi Shahodatbonu", "Cho‘lpon", "Zarifa Saidnosirova"], "a": 1, "e": "Oybek Govkush mahallasida tug‘ilgan." }
+    ],
+    "9": [
+      { "q": "«Ulug‘bek xazinasi»da kim otasiga qarshi qo‘shin tortadi?", "o": ["Abdulaziz", "Abdullatif", "Abu Said Mirzo", "Sayid Abbos"], "a": 1, "e": "Hokimiyat ishqida otaga tig‘ ko‘taradi." },
+      { "q": "Abdullatif otasini qayerga jo‘natmoqchi bo‘ladi?", "o": ["Hirotga", "Makkaga hajga", "Buxoroga", "Qashqarga"], "a": 1, "e": "Biroq Sayid Abbos qasos da’vosi bilan chiqadi." },
+      { "q": "Odil Yoqubov qachon Yozuvchilar uyushmasi raisi bo‘lgan?", "o": ["1970–1980", "1989–1996", "1996–2009", "1980–1985"], "a": 1, "e": "1996–2009-yillarda bu lavozimda Abdulla Oripov bo‘lgan." }
+    ],
+    "10": [
+      { "q": "«Sohibqiron» parchasi kim bilan suhbatdan boshlanadi?", "o": ["Yassaviy bilan", "Sartarosh bilan", "Amir Husayn bilan", "Boyazid bilan"], "a": 1, "e": "«Sartaroshga bosh egar, ha, jahongirlar ham»." },
+      { "q": "Abdulla Oripov qaysi muhim matn muallifi?", "o": ["Konstitutsiya", "O‘zbekiston Davlat madhiyasi", "«Alpomish» nashri", "Imlo qoidalari"], "a": 1, "e": "U O‘zbekiston Qahramoni (1998)." },
+      { "q": "Abdulla Oripovning ilk to‘plami qaysi?", "o": ["«Ko‘zlarim yo‘lingda»", "«Mitti yulduz»", "«Hayrat»", "«Haj daftari»"], "a": 1, "e": "1965-yilda chiqqan." }
+    ],
+    "11": [
+      { "q": "«Eng so‘nggi xazina» she’riga ko‘ra millatning eng so‘nggi xazinasi nima?", "o": ["Oltin", "Milliy g‘urur", "Yer", "Til"], "a": 1, "e": "«Bu g‘ururdir! U — har qalbning qa’rida!»" },
+      { "q": "«Avvalgilarg‘a o‘xshamas» qaysi janrda?", "o": ["Ruboiy", "Muxammas (taxmis)", "Tuyuq", "Qasida"], "a": 1, "e": "Navoiy g‘azaliga yozilgan." },
+      { "q": "Omon Matjon qaysi viloyatda tug‘ilgan?", "o": ["Xorazm", "Qashqadaryo", "Sirdaryo", "Jizzax"], "a": 0, "e": "Gurlan tumanining Bog‘olon qishlog‘ida." }
+    ],
+    "12": [
+      { "q": "«Shunchaki» she’rida shoira nimani rad etadi?", "o": ["Muhabbatni", "Hayotga chala, yuzaki munosabatni", "Ijodni", "Onani"], "a": 1, "e": "«Shunchaki yozmoq bu — shoirga o‘lim»." },
+      { "q": "«Begim, sizni tabiat...» she’ri nima asosida yozilgan?", "o": ["Shaxsiy kundalik", "Rivoyat", "Tarixiy hujjat", "Xalq qo‘shig‘i"], "a": 1, "e": "Farzand ko‘rmagan ayol sadoqati haqida." },
+      { "q": "Halima Xudoyberdiyeva qaysi jurnal bosh muharriri bo‘lgan?", "o": ["«Yoshlik»", "«Saodat»", "«Sharq yulduzi»", "«Gulxan»"], "a": 1, "e": "1985-yildan." }
+    ],
+    "13": [
+      { "q": "Shavkat Rahmonning e’tiqodiga ko‘ra shoirlik nima?", "o": ["Hunar", "Jasorat so‘zining tarjimasi", "Kasb", "O‘yin"], "a": 1, "e": "U jasoratli, o‘tli she’rlar yozgan." },
+      { "q": "«Tong ochar ko‘zlarin...»dagi chumoli qanday inson timsoli?", "o": ["Mehnatkash qahramon", "Go‘zallikka befarq, faqat ishlaydigan inson", "Dangasa inson", "Shoir"], "a": 1, "e": "«Dunyoni qilma ko‘p masxara»." },
+      { "q": "Shavkat Rahmon qaysi ispan shoirini tarjima qilgan?", "o": ["Servantes", "Lorka", "Neruda", "Lope de Vega"], "a": 1, "e": "Ispan tilini o‘rganib, bevosita tarjima qilgan." }
+    ],
+    "14": [
+      { "q": "«Temir xotin»dagi Alomat kim?", "o": ["Qo‘shni ayol", "Robot ayol", "Qumrining onasi", "Olima"], "a": 1, "e": "Olimjon tajriba uchun qoldiradi." },
+      { "q": "Qumri uydan ketib qayerga boradi?", "o": ["Otasinikiga", "Onasinikiga", "Qo‘shnisinikiga", "Shaharga"], "a": 1, "e": "Darslikda bu tafsilotga alohida savol beriladi." },
+      { "q": "«Temir xotin» qaysi janrda?", "o": ["Tragediya", "Jiddiy komediya", "Drama", "Opera"], "a": 1, "e": "Fojiali manzara kulgili yo‘sinda ko‘rsatilgan." }
+    ],
+    "15": [
+      { "q": "Hamlet Klavdiyni qanday fosh qiladi?", "o": ["Xat orqali", "«Sahna ichidagi sahna» orqali", "Duelda", "Arvoh yordamida"], "a": 1, "e": "Aktyorlar otasining o‘ldirilishini sahnalashtiradi." },
+      { "q": "«Hamlet»ni o‘zbek tiliga ilk bor kim tarjima qilgan?", "o": ["Jamol Kamol", "Cho‘lpon", "Oybek", "G‘afur G‘ulom"], "a": 1, "e": "Keyin asliyatdan Jamol Kamol tarjima qilgan." },
+      { "q": "Shekspir nechta sonet yozgan?", "o": ["36", "100", "154", "200"], "a": 2, "e": "36 — dramatik asarlar soni." }
+    ],
+    "16": [
+      { "q": "Manqurt kim?", "o": ["Botir jangchi", "Xotirasidan mahrum qilingan qul", "Ko‘chmanchi cho‘pon", "Afsonaviy qush"], "a": 1, "e": "Jungjanglar asirni manqurtga aylantirgan." },
+      { "q": "Onaning oq ro‘moli qaysi qushga aylanadi?", "o": ["Oqqushga", "Do‘nanboy qushiga", "Burgutga", "Lochinga"], "a": 1, "e": "«Otangning oti Do‘nanboy!»" },
+      { "q": "Pafos nima?", "o": ["Asar hajmi", "Asarga singgan jo‘shqin tuyg‘u va ko‘tarinki ruh", "She’r vazni", "Kompozitsiya"], "a": 1, "e": "Yunoncha «pathos» — ehtiros, hissiyot." }
+    ],
+    "17": [
+      { "q": "O‘ljas Sulaymonov qaysi tilda ijod qiladi?", "o": ["Qozoq", "Rus", "O‘zbek", "Ingliz"], "a": 1, "e": "Lekin qozoq milliy ruhini teran ifodalaydi." },
+      { "q": "«Mambet botirning qatl oldidan aytganlari»ni kim tarjima qilgan?", "o": ["Azim Suyun", "Shavkat Rahmon", "Sirojiddin Sayyid", "Abdulla Oripov"], "a": 1, "e": "«Arg‘umoq» — Azim Suyun, «Tungi taqqoslar» — Sirojiddin Sayyid." },
+      { "q": "«Az i Ya» kitobida nima asoslangan?", "o": ["Koinot sirlari", "Turkiylarning qadimiy madaniyatli xalq ekani", "Qozoq dostonlari", "Rus tili tarixi"], "a": 1, "e": "O‘ljas Sulaymonovning ilmiy-publitsistik kitobi." }
+    ]
+  }
+}

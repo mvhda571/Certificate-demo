@@ -1,0 +1,89 @@
+{
+  "topics": {
+    "1": [
+      { "q": "«Haq berilmas, olinur» kimning hikmati?", "o": ["Qodiriy", "Behbudiy", "Navoiy", "Fitrat"], "a": 1, "e": "Jadidchilik rahnamosi." },
+      { "q": "Ma’naviyat nima?", "o": ["Faqat bilim", "Milliy va umuminsoniy qadriyatlarning yuksak yaxlitligi", "Boylik", "San’at turi"], "a": 1, "e": "Adabiyot — ma’naviyatni yuksaltirish vositasi." },
+      { "q": "Adabiyot nega chegara bilmaydi?", "o": ["Tarjima qilinmaydi", "Go‘zal asar boshqa xalqning ham mulkiga aylanadi", "Faqat bir tilda yoziladi", "Kitob qimmat"], "a": 1, "e": "Geografik chegara bilmaydi." }
+    ],
+    "2": [
+      { "q": "«Rustamxon» dostonini kim yozib olgan?", "o": ["Fozil Yo‘ldosh o‘g‘li", "Hodi Zarif", "Ergash Jumanbulbul o‘g‘li", "Po‘lkan shoir"], "a": 1, "e": "1937-yilda Fozil Yo‘ldosh o‘g‘li tilidan." },
+      { "q": "Rustam necha kundan so‘ng shohlikdan voz kechadi?", "o": ["Bir", "Uch", "Yetti", "Qirq"], "a": 1, "e": "Yorini olib onasi oldiga qaytadi." },
+      { "q": "Huroyimga tuhmat qilgan makkor kampir kim?", "o": ["Surxayil", "Momogul maston", "Oftoboy", "Qorasoch"], "a": 1, "e": "Kundoshlar bilan fitna qiladi." }
+    ],
+    "3": [
+      { "q": "«To‘nyuquq» bitiktoshini kim topgan?", "o": ["V. Radlov", "Klemenslar", "V. Tomson", "S. Malov"], "a": 1, "e": "1897-yilda Yelizaveta va Dmitriy Klemens." },
+      { "q": "Bitiktoshdagi asosiy badiiy vosita qaysi?", "o": ["Tajnis", "Alliteratsiya", "Talmeh", "Kitobat"], "a": 1, "e": "Bir xil tovushlar takrori." },
+      { "q": "To‘nyuquq kimning maslahatchisi edi?", "o": ["Bilga xoqon", "Eltarish xoqon", "Kul Tegin", "Tabg‘ach xoni"], "a": 1, "e": "Bitik Bilga xoqon davrida yozdirilgan." }
+    ],
+    "4": [
+      { "q": "Tasavvufning to‘rt bosqichi qaysi?", "o": ["Iymon, islom, ehson, ilm", "Shariat, tariqat, ma’rifat, haqiqat", "Zikr, fikr, sabr, shukr", "Tavba, zuhd, faqr, tavakkul"], "a": 1, "e": "Haqiqat — o‘zlikni anglash." },
+      { "q": "Yassaviy maqbarasini kim qurdirgan?", "o": ["Ulug‘bek", "Amir Temur", "Husayn Boyqaro", "Shayboniyxon"], "a": 1, "e": "1395–1397-yillarda." },
+      { "q": "Yassaviy Buxoroda kimdan tahsil olgan?", "o": ["Arslonbobo", "Yusuf Hamadoniy", "Najmiddin Kubro", "Bahouddin Naqshband"], "a": 1, "e": "Avval Arslonbobo tarbiyasida." }
+    ],
+    "5": [
+      { "q": "Atoyi kimning saroyida xizmat qilgan?", "o": ["Husayn Boyqaro", "Mirzo Ulug‘bek", "Amir Temur", "Shohruh"], "a": 1, "e": "XV asr shoiri." },
+      { "q": "«Qizardi gul uyottin anjumanda» misrasida qaysi san’at bor?", "o": ["Tajnis", "Husni ta’lil", "Kitobat", "Tardi aks"], "a": 1, "e": "Shuningdek, tashxis." },
+      { "q": "Atoyi lirikasida qanday ishq tasvirlanadi?", "o": ["Faqat ilohiy", "Dunyoviy, real yor", "Vatan ishqi", "Ishq tasvirlanmaydi"], "a": 1, "e": "O‘zini «qul», yorni «shoh» deydi." }
+    ],
+    "6": [
+      { "q": "Navoiyning to‘rt devoni umumiy nomi qaysi?", "o": ["«Xamsa»", "«Xazoyin ul-ma’oniy»", "«Majolis un-nafois»", "«Mezon ul-avzon»"], "a": 1, "e": "«Chor devon»." },
+      { "q": "«Muhokamat ul-lug‘atayn» qachon yozilgan?", "o": ["1483", "1498", "1501", "1469"], "a": 1, "e": "Turkiy tilning qadri haqida." },
+      { "q": "«Ko‘zung ne balo qaro bo‘lubtur» g‘azalida qaysi san’at bor?", "o": ["Tajnis", "Tardi aks", "Talmeh", "Tashxis"], "a": 1, "e": "So‘zlar o‘rni almashib, ma’no o‘zgaradi." }
+    ],
+    "7": [
+      { "q": "«Boburnoma»ning asl nomi qaysi?", "o": ["«Mubayyin»", "«Vaqoyi’»", "«Xatti Boburiy»", "«Devon»"], "a": 1, "e": "Qariyb 50 yillik voqealar." },
+      { "q": "Bobur necha yoshida taxtga o‘tirgan?", "o": ["10", "12", "15", "18"], "a": 1, "e": "Otasi Umarshayx mirzo vafotidan so‘ng." },
+      { "q": "«Do‘stlar bilan birga bo‘lgan o‘lim to‘ydir» qaysi lavhada aytilgan?", "o": ["Hirot bazmi", "Qorli tog‘ yo‘li", "Panipat jangi", "Samarqandni olish"], "a": 1, "e": "Bobur g‘or og‘zida qor kurab o‘tiradi." }
+    ],
+    "8": [
+      { "q": "Turdi Farog‘iy qaysi yo‘nalishni cho‘qqiga olib chiqqan?", "o": ["Tasavvufiy", "Satirik-tanqidiy", "Ishqiy", "Tarixiy"], "a": 1, "e": "Ijtimoiy illatlarni tanqid qilgan." },
+      { "q": "Turdi g‘azalida o‘zbak yurti necha bovli deyiladi?", "o": ["40", "92", "33", "18"], "a": 1, "e": "«To‘qson ikki bovli o‘zbak yurtidur»." },
+      { "q": "Turdidan nechta she’r yetib kelgan?", "o": ["5", "18", "92", "240"], "a": 1, "e": "5 muxammas, 12 g‘azal, 1 fard." }
+    ],
+    "9": [
+      { "q": "Istiora nima?", "o": ["Zid qo‘yish", "Qisqartirilgan o‘xshatish", "Sanab ketish", "Murojaat"], "a": 1, "e": "«Qarz olish» ma’nosida." },
+      { "q": "Bilib bilmaslikka olish san’ati qanday ataladi?", "o": ["Husni ta’lil", "Tajohil ul-orif", "Talmeh", "Tanosib"], "a": 1, "e": "«Mengiz yo ravzai rizvonmudur bu?»" },
+      { "q": "Misra oxiridagi so‘z keyingi misra boshida takrorlansa, bu qaysi san’at?", "o": ["Tasdir", "Tasbe", "Tardi aks", "Ta’did"], "a": 1, "e": "Tasdir — bayt boshidagi so‘z oxirida." }
+    ],
+    "10": [
+      { "q": "«Padarkush» so‘zining ma’nosi nima?", "o": ["O‘qimagan bola", "Ota qotili", "Boy odam", "O‘g‘ri"], "a": 1, "e": "Fors tilidan." },
+      { "q": "«Padarkush» qachon yozilgan?", "o": ["1905", "1911", "1913", "1919"], "a": 1, "e": "1913-yilda nashr etilgan." },
+      { "q": "Behbudiy qayerda qatl etilgan?", "o": ["Samarqandda", "Shahrisabzda", "Buxoroda", "Qarshida"], "a": 1, "e": "1919-yil 25-martda." }
+    ],
+    "11": [
+      { "q": "Otabekning oshiqligini kim bilib oladi?", "o": ["Homid", "Hasanali", "Yusufbek hoji", "Rahmat"], "a": 1, "e": "Uyqusida alahsirashidan." },
+      { "q": "Kumush kuyovni ko‘rib nima deydi?", "o": ["«Kimsiz?»", "«Siz o‘shami?»", "«Xush kelibsiz»", "«Ketaver»"], "a": 1, "e": "Kutilmagan baxt bobi." },
+      { "q": "Qodiriyning mashhur taxallusi qaysi?", "o": ["Cho‘lpon", "Julqunboy", "Fitrat", "Hamza"], "a": 1, "e": "Dumbulboy, Kalvak Mahzum ham." }
+    ],
+    "12": [
+      { "q": "Hamid Olimjonning ilk she’rlar to‘plami qaysi?", "o": ["«Olov sochlar»", "«Ko‘klam»", "«Poyga»", "«Baxt»"], "a": 1, "e": "Hikoyalar to‘plami — «Tong shabadasi»." },
+      { "q": "«O‘rik gullaganda»da shoir har bahorda nima so‘raydi?", "o": ["«Gul qayerda?»", "«Baxtim bormi?»", "«Yor qayerda?»", "«Bahor qachon?»"], "a": 1, "e": "Baxt — lirik qahramon uchun eng muhim." },
+      { "q": "Hamid Olimjonning «G‘azal»i qaysi vaznda?", "o": ["Ramali musammani mahzuf", "Hazaji musammani solim", "Barmoq", "Mutaqorib"], "a": 1, "e": "Mafoiylun ×4." }
+    ],
+    "13": [
+      { "q": "Saodat ayaning vafodor iti nomi nima?", "o": ["Bo‘ribosar", "Qorako‘z", "Olapar", "Qoplon"], "a": 1, "e": "Hikoya nomi — «Qorako‘z majnun»." },
+      { "q": "Bo‘rixon qaytganda nimasi ma’lum bo‘ladi?", "o": ["Boyib ketgani", "Ota-bobolari dinidan qaytgani", "Kasal bo‘lgani", "Uylanmagani"], "a": 1, "e": "Ona ko‘ngli soviydi." },
+      { "q": "Said Ahmad qaysi lagerda hibsda bo‘lgan?", "o": ["Solovki", "Jezqazg‘an", "Kolima", "Norilsk"], "a": 1, "e": "«Lager turkumi» hikoyalari." }
+    ],
+    "14": [
+      { "q": "«Munojot» so‘zining ma’nosi nima?", "o": ["Shodlik", "Yolvorish, najot so‘rash", "Bahor", "Raqs"], "a": 1, "e": "Mumtoz g‘amgin kuy." },
+      { "q": "«Qo‘riqxona» she’rida nimalar himoyaga muhtoj deyiladi?", "o": ["Faqat hayvonlar", "Insoniy fazilatlar: iymon, vijdon, insof", "O‘rmonlar", "Tog‘lar"], "a": 1, "e": "Iymon «Qor odam» kabi yo‘qolmasin." },
+      { "q": "«Yurtim shamoli»da asosiy obraz qaysi?", "o": ["Tog‘", "Shamol", "Daryo", "Quyosh"], "a": 1, "e": "Metafora: turli holat va o‘zgarishlar." }
+    ],
+    "15": [
+      { "q": "«Ikki eshik orasi» necha personaj hikoyasi orqali bayon etiladi?", "o": ["Uch", "To‘qqiz", "Yetti", "O‘n ikki"], "a": 1, "e": "7 qism, 47 bob." },
+      { "q": "Qora ammaning urushga ketgan o‘g‘li kim?", "o": ["Shomurod", "Kimsan", "Umar", "Orif"], "a": 1, "e": "Ona aza ochmay kutadi." },
+      { "q": "«Ijodkorda qishloqning qalbi, shaharning aqli bo‘lishi kerak» kimning so‘zi?", "o": ["Said Ahmad", "O‘tkir Hoshimov", "Abdulla Qahhor", "Oybek"], "a": 1, "e": "«Mashaqqatli safar»dan." }
+    ],
+    "16": [
+      { "q": "«Hayotga muhabbat»da sherigini tashlab ketgan kim?", "o": ["Martin", "Bill", "Jek", "Odam"], "a": 1, "e": "Keyin uning suyaklari topiladi." },
+      { "q": "Qahramon kasal bo‘rini qanday yengadi?", "o": ["Miltiq bilan", "Tishi bilan bo‘g‘ib", "Pichoq bilan", "Tosh bilan"], "a": 1, "e": "Hayot uchun kurash." },
+      { "q": "Qahramonni qaysi kema qutqaradi?", "o": ["«Titanik»", "«Bedford»", "«Pequod»", "«Viktoriya»"], "a": 1, "e": "Kit ovlovchi ilmiy ekspeditsiya." }
+    ],
+    "17": [
+      { "q": "«So‘nggi saboq»dagi muallimning ismi nima?", "o": ["Frans", "Mosye Amel", "Ernest", "Fromon"], "a": 1, "e": "Bayramona kiyinib keladi." },
+      { "q": "Berlindan qanday buyruq kelgan?", "o": ["Maktablar yopilsin", "Faqat nemis tili o‘qitilsin", "Hamma ko‘chsin", "Kitoblar yoqilsin"], "a": 1, "e": "Elzas va Lotaringiya maktablarida." },
+      { "q": "Mosye Amel doskaga nima yozadi?", "o": ["«Alvido!»", "«Yashasin Fransiya!»", "«Ozodlik!»", "«Ona tilim!»"], "a": 1, "e": "Ona tili — millat taqdiri." }
+    ]
+  }
+}

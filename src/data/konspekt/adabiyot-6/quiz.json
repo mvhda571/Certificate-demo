@@ -1,0 +1,114 @@
+{
+  "topics": {
+    "1": [
+      { "q": "«Adabiyot» so‘zi qaysi so‘zdan olingan?", "o": ["Adab — bilim", "Odob", "Adib — yozuvchi", "Abad — mangu"], "a": 1, "e": "Sharqda adabiyot insonni odob-axloqqa yo‘naltiruvchi manba hisoblangan." },
+      { "q": "«Adabiyot yashasa — millat yashaydi» degan fikr kimga tegishli?", "o": ["Abdulla Qahhor", "Cho‘lpon", "G‘afur G‘ulom", "Abdulla Avloniy"], "a": 1, "e": "Bu Cho‘lponning mashhur so‘zi; Qahhor esa adabiyotni atomdan kuchli degan." },
+      { "q": "Shoir va yozuvchilar qanday ta’riflanadi?", "o": ["Xalq muallimlari", "Inson ruhining muhandislari", "So‘z sarbozlari", "Millat chirog‘i"], "a": 1, "e": "Adabiyot — «insonshunoslik», ijodkorlar — «inson ruhining muhandislari»." }
+    ],
+    "2": [
+      { "q": "«Shum bola»da Sariboyning odatiy so‘rog‘i qaysi?", "o": ["«Xo‘sh?»", "«Innaykeyin?»", "«Rostmi?»", "«Nega?»"], "a": 1, "e": "Javob topolmagan xizmatkorni Sariboy qamchilardi." },
+      { "q": "Shum bola uydan nima sababdan chiqib ketadi?", "o": ["Otasi haydagani uchun", "Onasini xafa qilib qo‘ygani uchun", "Ochlikdan", "Sayohat qilish uchun"], "a": 1, "e": "Otasidan ayrilgan 14 yoshli bola onasini xafa qilib, uydan ketadi." },
+      { "q": "Sariboy nega Shum bola yolg‘onlariga ishonadi?", "o": ["Bola rostgo‘y bo‘lgani uchun", "Uni faqat mol-dunyo qiziqtirgani uchun", "Kasal bo‘lgani uchun", "Guvohlar tasdiqlagani uchun"], "a": 1, "e": "Ziqnalik va ochko‘zlik Sariboyni ko‘r qilgan." }
+    ],
+    "3": [
+      { "q": "«Do‘nan» so‘zi nimani anglatadi?", "o": ["Bir yashar toy", "To‘rt yashar ot", "Qari ot", "Poyga oti"], "a": 1, "e": "Do‘nan — to‘rt yashar ot." },
+      { "q": "Ota nega otni mehmonga hadya qiladi?", "o": ["Mehmon pul to‘lagani uchun", "Odat bo‘yicha", "Ot kasal bo‘lgani uchun", "Bola rozi bo‘lgani uchun"], "a": 1, "e": "Mehmon otga mahliyo bo‘lgach, odat bo‘yicha ot hadya qilinadi." },
+      { "q": "«Yetti zog‘ora qissasi»ning bosh hikoyachisi kim?", "o": ["Toshtemir", "Baxshilla maxsum", "Turob To‘la", "Chorpo‘latlik mehmon"], "a": 1, "e": "Bobo Baxshilla maxsum nabirasi Toshtemirga hikoya qiladi." }
+    ],
+    "4": [
+      { "q": "Hoshimjon topgan sehrli qalpoqchaning xususiyati nima?", "o": ["Uchirib ketadi", "Kiyganni ko‘rinmas qiladi", "Bilim beradi", "Istakni bajaradi"], "a": 1, "e": "Oq jundan yasalgan qalpoqchani kiysa, ko‘rinmay qoladi." },
+      { "q": "Hoshimjon nega qaysi kasbga qo‘l ursa, fosh bo‘ladi?", "o": ["Qalpoqcha yo‘qolgani uchun", "Bilimsizligi tufayli", "Dangasaligi uchun", "Kasal bo‘lgani uchun"], "a": 1, "e": "Romanning g‘oyasi: bilimsiz hech qanday kasbni egallab bo‘lmaydi." },
+      { "q": "«Sariq devni minib» necha tilga tarjima qilingan?", "o": ["12 tilga", "24 tilga", "40 tilga", "7 tilga"], "a": 1, "e": "Roman 24 tilga tarjima qilingan va Janni Rodari tahsiniga sazovor bo‘lgan." }
+    ],
+    "5": [
+      { "q": "Janni Rodari ertakchilikka qanday yangilik kiritdi?", "o": ["She’riy ertaklar yozdi", "Har ertakka uch xil yakun berdi", "Ertaklarni telefonda aytdi", "Rasmli ertaklar yaratdi"], "a": 1, "e": "«Uchtadan oxiri bor ertaklar»da har ertak uch xil yakun topadi." },
+      { "q": "Muallif «Hurishni eplolmagan kuchukcha»ning qaysi yakunini yoqlaydi?", "o": ["Birinchisini", "Ikkinchisini", "Uchinchisini", "Hech birini"], "a": 2, "e": "«Inson uchun, avvalo, yaxshi bir ustoz darkor» — uchinchi yakunda ovchi it yordam beradi." },
+      { "q": "Rodari qanday xalqaro mukofot sohibi?", "o": ["Nobel mukofoti", "H. K. Andersen nomidagi oltin medal", "Pulitser mukofoti", "Gonkur mukofoti"], "a": 1, "e": "Bolalar adabiyotidagi eng nufuzli mukofot." }
+    ],
+    "6": [
+      { "q": "«Tanobchilar» qanday janrdagi asar?", "o": ["Lirik g‘azal", "Satirik she’riy hikoya", "Sayohatnoma", "Doston"], "a": 1, "e": "Muqimiy poraxo‘r amaldorlarni satira ostiga oladi." },
+      { "q": "«Xo‘ja — chiroq yog‘i, Hakimjon — pilik» misrasida qaysi badiiy vosita bor?", "o": ["Mubolag‘a", "O‘xshatish", "Qarshilantirish", "Sifatlash"], "a": 1, "e": "Ikki tanobchi chiroq yog‘i va pilikka o‘xshatiladi." },
+      { "q": "Tanobchilar kimlar?", "o": ["Dehqonlar", "Yerni o‘lchab soliq belgilovchi amaldorlar", "Savdogarlar", "Qozilar"], "a": 1, "e": "Sulton Alixo‘ja va Hakimjon yer tanobini duchandon solib, dehqonni talaydi." }
+    ],
+    "7": [
+      { "q": "Satira yumordan nimasi bilan farq qiladi?", "o": ["She’rda yozilishi bilan", "Illatlarni ayovsiz, keskin fosh etishi bilan", "Kulgisizligi bilan", "Qisqaligi bilan"], "a": 1, "e": "Yumor kamchiliklarni yengil, do‘stona kulgi bilan tanqid qiladi." },
+      { "q": "Gogolning qaysi asari hajviy pyesa?", "o": ["«Revizor»", "«O‘n ikki stul»", "«Qiyshiq oyna»", "«Yelvizak»"], "a": 0, "e": "«O‘n ikki stul» — Ilf va Petrov romani, «Qiyshiq oyna» — Chexov hikoyasi." },
+      { "q": "Qaysi biri mumtoz adabiyotdagi hajvchi EMAS?", "o": ["Gulxaniy", "Maxmur", "Zavqiy", "Said Ahmad"], "a": 3, "e": "Said Ahmad — bugungi adabiyot hajvchisi." }
+    ],
+    "8": [
+      { "q": "«Bemor» hikoyasining qahramoni Sotiboldi kim?", "o": ["Boy", "Abdug‘aniboyning xizmatkori", "Tabib", "Doktor"], "a": 1, "e": "Sotiboldi chigit po‘choq va kunjara savdogari Abdug‘aniboyning xizmatkori." },
+      { "q": "Hikoya qaysi so‘zlar bilan yakunlanadi?", "o": ["«Ayam tuzaldi»", "«Xudoyo, ayamdi daydiga davo beygin...»", "«Doktorga boramiz»", "«Hammasi o‘tdi»"], "a": 1, "e": "To‘rt yashar qizcha onasi vafot etganini bilmay, odatdagidek duo qiladi." },
+      { "q": "Abdulla Qahhor qayerda tug‘ilgan?", "o": ["Toshkentda", "Qo‘qon yaqinidagi Asht qishlog‘ida", "Jizzaxda", "Andijonda"], "a": 1, "e": "1907-yil 17-sentabrda temirchi oilasida tug‘ilgan." }
+    ],
+    "9": [
+      { "q": "«Muzqaymoq» hikoyasi qaysi davr haqida?", "o": ["Birinchi jahon urushi", "XX asr 30-yillari qatag‘onlari", "Mustaqillik yillari", "Chor mustamlakasi"], "a": 1, "e": "Stalin qatag‘onlari davri, 10 yashar bola tilidan." },
+      { "q": "Bolani «qashqirdan tug‘ilgan qashqircha» deb haqoratlagan kim?", "o": ["Tergovchi", "Shahar komsomol qo‘mitasi kotibi", "O‘qituvchi", "Qo‘shni chol"], "a": 1, "e": "Ilgari otaga xushomad qilgan qo‘shni yigit musibatdan so‘ng yovga aylanadi." },
+      { "q": "Hikoya sarlavhasi nimani ifodalaydi?", "o": ["Bolaning sevimli taomini", "Ota o‘g‘liga muzqaymoq olib berolmay qolgan armonini", "Yoz faslini", "Bozorni"], "a": 1, "e": "Muzqaymoq — otaning ojiz, g‘arib holati ramzi." }
+    ],
+    "10": [
+      { "q": "«Kamtarlik haqida» she’rida qaysi obrazlar qo‘llangan?", "o": ["Gul va bulbul", "Choynak va piyola", "Quyosh va oy", "Tog‘ va daryo"], "a": 1, "e": "Choynak piyolaga egiladi, inson piyolani peshonasidan o‘padi." },
+      { "q": "«O‘zbegim» qasidasi nega ijodiy jasorat hisoblanadi?", "o": ["Juda uzun bo‘lgani uchun", "Sho‘ro davrida ona xalqqa bag‘ishlangani uchun", "Fors tilida yozilgani uchun", "Podshohga bag‘ishlangani uchun"], "a": 1, "e": "Barcha millatlar «sovet xalqi» deyilgan paytda qasida o‘zbek xalqiga bag‘ishlangan." },
+      { "q": "Erkin Vohidov qaysi shoir to‘garagida ijod sirlarini o‘rgangan?", "o": ["G‘afur G‘ulom", "G‘ayratiy", "Oybek", "Uyg‘un"], "a": 1, "e": "Ota-onasidan erta ayrilgan shoir tog‘asi qaramog‘ida o‘sib, G‘ayratiy to‘garagiga qatnagan." }
+    ],
+    "11": [
+      { "q": "«Urushning so‘nggi qurboni»da simga ilinib kim halok bo‘ladi?", "o": ["Qulupnay o‘g‘risi", "Shoikromning onasi Umri xola", "Shone’mat", "Xadicha"], "a": 1, "e": "Shoikrom o‘g‘rilarga qo‘ygan tokli simga o‘z onasi ilinadi." },
+      { "q": "Umri xola qulupnayni nima uchun yashirincha tergan?", "o": ["Sotib pul topish uchun", "Kasal o‘g‘li Shone’matga sut olish uchun", "Nevaralariga berish uchun", "Qo‘shnisiga sovg‘a qilish uchun"], "a": 1, "e": "Ona qulupnayni sutga alishtirgan." },
+      { "q": "Nega Umri xola urushning «so‘nggi qurboni»?", "o": ["Frontda halok bo‘lgani uchun", "Urush tugagan kunlarda halok bo‘lgani uchun", "Eng keksa bo‘lgani uchun", "Bombardimonda qolgani uchun"], "a": 1, "e": "Dafndan qaytishda odamlar «Urush tamom bo‘pti...» deyishadi." }
+    ],
+    "12": [
+      { "q": "«Qoplon» hikoyasida «Bu itni taniyman» gapi kimga qaratilgan?", "o": ["Qoplon itiga", "Qurbonboyga", "Yangi direktorga", "Tillayevning xotiniga"], "a": 1, "e": "It eski egasini tanib dum likillatadi, Qurbonboy esa qaramaydi — it undan vafoliroq." },
+      { "q": "Said Ahmadning ilk hajviy hikoyasi qaysi?", "o": ["«Qoplon»", "«Ishqiboz»", "«Sobiq»", "«Tortiq»"], "a": 1, "e": "«Ishqiboz» 16 yoshida «Mushtum» jurnalida chop etilgan." },
+      { "q": "«Sobiq» hikoyasi qanday hajviy asar?", "o": ["Satirik", "Yumoristik", "Tragik", "Fantastik"], "a": 1, "e": "Achchiq satiradan yiroq, yengil kulgi bilan dabdababozlik ustidan kulinadi." }
+    ],
+    "13": [
+      { "q": "«Moabit daftari»ni asirlikdan olib chiqqan kim?", "o": ["Yulius Fuchik", "Belgiyalik Andre Timmermans", "Musa Jalilning xotini", "Nemis soqchisi"], "a": 1, "e": "115 she’rdan 60 tasi ko‘chirilgan daftarni Andre Timmermans olib chiqqan." },
+      { "q": "Musa Jalil qaysi turmada saqlangan?", "o": ["Butirka", "Berlindagi Moabit", "Varshava", "Volxov"], "a": 1, "e": "Volxov bo‘yida asirga tushib, so‘ng Berlindagi Moabit turmasida saqlangan." },
+      { "q": "«Ishonma» she’rining asosiy g‘oyasi nima?", "o": ["Sevgi iztiroblari", "Vatanparvarlik, sadoqat, matonat", "Tabiat go‘zalligi", "Bolalik xotiralari"], "a": 1, "e": "Shoir sotqinlik gumoniga javob berib, o‘limni mardonavor qarshi oladi." }
+    ],
+    "14": [
+      { "q": "«Boychechak» qaysi turdagi xalq qo‘shig‘i?", "o": ["Marosim", "Mehnat", "Mavsum", "Lirik"], "a": 2, "e": "Bahorda aytiladigan mavsum qo‘shig‘i." },
+      { "q": "«Yor-yor» qaysi turdagi qo‘shiq?", "o": ["Marosim qo‘shig‘i", "Mehnat qo‘shig‘i", "Mavsum qo‘shig‘i", "Bolalar qo‘shig‘i"], "a": 0, "e": "«Yor-yor», «Kelinsalom», «Kuyovsalom» — to‘y marosimi qo‘shiqlari." },
+      { "q": "Xalq qo‘shiqlari qayerda paydo bo‘lgan?", "o": ["Saroyda", "Mehnat jarayonida", "Madrasada", "Teatrda"], "a": 1, "e": "Xalq qo‘shiqlari mehnat jarayonida paydo bo‘lgan." }
+    ],
+    "15": [
+      { "q": "«Mahbub ul-qulub» nomining ma’nosi nima?", "o": ["«Yaxshilar hayrati»", "«Ko‘ngillarning sevgani»", "«Qushlar tili»", "«Saxovat bog‘i»"], "a": 1, "e": "Navoiy bu pandnomani 1500-yilda, umrining oxirida yozgan." },
+      { "q": "Navoiy saxiy va baxilni nimalarga qiyoslaydi?", "o": ["Saxiy — lochin, baxil — kalxat", "Saxiy — bulut, baxil — chumoli", "Saxiy — quyosh, baxil — oy", "Saxiy — daryo, baxil — cho‘l"], "a": 1, "e": "Himmatli — lochin, behimmat — kalxat; saxiy — bulut, baxil — chumoli." },
+      { "q": "«Tilga ixtiyorsiz — elga e’tiborsiz» hikmatining ma’nosi?", "o": ["Ko‘p til bilish kerak", "Tilini tiymagan kishi el hurmatidan mahrum bo‘ladi", "Jim yurish yomon", "Faqat ona tilida gapirish kerak"], "a": 1, "e": "Navoiy ezmani tun bo‘yi huradigan itga o‘xshatadi." }
+    ],
+    "16": [
+      { "q": "«Zarbulmasal» deganda qanday asar tushuniladi?", "o": ["Tarixiy doston", "Masallar, maqollar yig‘indisi", "G‘azallar devoni", "Sayohatnoma"], "a": 1, "e": "Gulxaniyning tanqidiy-hajviy, majoziy asari." },
+      { "q": "«Maymun bilan Najjor» masalining xulosasi qaysi?", "o": ["Har kim o‘z tengi bilan", "Qo‘lidan kelmagan ishga urinish sharmandalik keltiradi", "Yomonning tabiati o‘zgarmaydi", "Sabr qil"], "a": 1, "e": "Duradgorga taqlid qilgan maymun arra tishiga qisilib qoladi." },
+      { "q": "Gulxaniy taxallusi nima bilan bog‘liq?", "o": ["Gul yetishtirgani bilan", "Hammomda o‘t (gulxan) yoquvchi bo‘lgani bilan", "Saroy shoiri bo‘lgani bilan", "Navkarligi bilan"], "a": 1, "e": "Gulxan — o‘choq; Gulxaniyning ikkinchi taxallusi — Jur’at." }
+    ],
+    "17": [
+      { "q": "«Til vositai robitai olamiyondur» jumlasining ma’nosi?", "o": ["Til — eng qiyin fan", "Til olam ahlini bog‘lovchi aloqa vositasi", "Faqat ona tili kerak", "Til — san’at"], "a": 1, "e": "Avaz O‘tar yoshlarni chet tillarni o‘rganishga chaqiradi." },
+      { "q": "Avaz O‘tar devoni qanday nomlanadi?", "o": ["«Saodat ul-iqbol»", "«Devoni Muqimiy»", "«Hayot varaqlari»", "«Bideh»"], "a": 0, "e": "Devonda g‘azal, muxammas, masnaviy, mustazod, ruboiy, qit’a bor." },
+      { "q": "Avaz O‘tar saroyni tark etgach qanday kasb qilgan?", "o": ["Xattotlik", "Sartaroshlik", "Novvoylik", "Muallimlik"], "a": 1, "e": "Otasi kabi sartaroshlik qilgan." }
+    ],
+    "18": [
+      { "q": "Abayning «17-so‘z»ida G‘ayrat, Aql va Yurak bahsiga kim hakamlik qiladi?", "o": ["Til", "Ilm", "Vijdon", "Ota"], "a": 1, "e": "Ilm: uchalasi birlashsa, inson komil bo‘ladi, yurak boshchilik qilsin." },
+      { "q": "Abayning asl ismi nima?", "o": ["Ibrohim", "Ahmad", "Qo‘nonboy", "Chingiz"], "a": 0, "e": "Abay — taxallus, asl ismi Ibrohim Qo‘nonboyev." },
+      { "q": "«Naqliya so‘zlar»ni o‘zbekchaga kim tarjima qilgan?", "o": ["Mirtemir", "Nosir Fozilov", "Uyg‘un", "Erkin Vohidov"], "a": 1, "e": "Mirtemir va Uyg‘un esa Abay dostonlarini tarjima qilgan." }
+    ],
+    "19": [
+      { "q": "«Bog‘lar qiyg‘os gulda» she’rida «bir kaft bog‘» nimaning ramzi?", "o": ["Oila", "Vatan", "Bolalik", "Maktab"], "a": 1, "e": "Bog‘dagi har xil daraxtlar — bir O‘zbekistonda jam bo‘lgan turli millatlar." },
+      { "q": "«Bahor keldi seni so‘roqlab» she’rida asosiy badiiy vosita qaysi?", "o": ["Mubolag‘a", "Jonlantirish", "Kinoya", "Tazod"], "a": 1, "e": "Bahor jonlantirilib, Hamid Olimjonni izlab kelgani tasvirlanadi." },
+      { "q": "Zulfiya nomidagi Davlat mukofoti kimlarga beriladi?", "o": ["Keksa shoirlarga", "Iste’dodli qizlarga", "O‘qituvchilarga", "Jurnalistlarga"], "a": 1, "e": "Mukofot iste’dodli qizlarga beriladi." }
+    ],
+    "20": [
+      { "q": "«Yulduzli tunlar» romani kim haqida?", "o": ["Amir Temur", "Bobur", "Ulug‘bek", "Navoiy"], "a": 1, "e": "Romanning ikkinchi nomi ham «Bobur»." },
+      { "q": "«Yulduzli tunlar» nega 6 yil chop etilmay yotgan?", "o": ["Qog‘oz yo‘qligidan", "«Zolim podsholarni ulug‘lash»da ayblangani uchun", "Muallif kasal bo‘lgani uchun", "Tarjima kutilgani uchun"], "a": 1, "e": "Sho‘ro mafkurachilari tazyiq o‘tkazgan." },
+      { "q": "Romandagi xoin, manfaatparast obraz kim?", "o": ["Qosimbek", "Ali Do‘stbek", "Xo‘ja Abdulla", "Bobur"], "a": 1, "e": "Qosimbek — sodiq maslahatchi, Ali Do‘stbek — xoin." }
+    ],
+    "21": [
+      { "q": "Bo‘ri polvon nega o‘g‘lining g‘alabasini tan olmadi?", "o": ["O‘g‘lini yoqtirmagani uchun", "G‘alaba nohaq bo‘lgani uchun", "Hakam xato qilgani uchun", "Raqib qarindoshi bo‘lgani uchun"], "a": 1, "e": "Bo‘ri polvon uchun halollik g‘olib bo‘lishdan ustun." },
+      { "q": "«Yulduzlar mangu yonadi» qanday uslubda yozilgan?", "o": ["Ilmiy uslubda", "Xalq og‘zaki ijodi uslubida", "Rasmiy uslubda", "She’riy uslubda"], "a": 1, "e": "Go‘yo qishloqdoshlarga rivoyat aytilayotgandek, Surxon shevasi ohangida." },
+      { "q": "Tilovberdi kimdan yengiladi?", "o": ["Bo‘ri polvondan", "Abray polvondan", "Nasim polvondan", "Ziyodulladan"], "a": 1, "e": "Otasi uni qayta kurashga tushirgach, Tilovberdi Abray polvondan yengiladi." }
+    ],
+    "22": [
+      { "q": "Ibroyim Yusupov qaysi mintaqa xalq shoiri?", "o": ["Xorazm", "Qoraqalpog‘iston", "Surxondaryo", "Farg‘ona"], "a": 1, "e": "U O‘zbekiston va Qoraqalpog‘iston xalq shoiri, Chimboyda tug‘ilgan." },
+      { "q": "«Qadrdon so‘qmoqlar»da umr nimaga o‘xshatiladi?", "o": ["Yo‘lga", "Oqar daryoga", "Bog‘ga", "Kitobga"], "a": 1, "e": "O‘tgan daqiqa qaytmaydi — umr oqar daryo." },
+      { "q": "Eshak va olma haqidagi misralarda qanday haqiqat bor?", "o": ["Eshakning foydasi", "Qadrdon narsalarga befarqlik, vaqt o‘zgarishi", "Bog‘dorchilik qoidasi", "Hazil-mutoyiba"], "a": 1, "e": "Shoir uchun qadrdon daraxt boshqaga «chiriy deb qolgan olma»." }
+    ]
+  }
+}
