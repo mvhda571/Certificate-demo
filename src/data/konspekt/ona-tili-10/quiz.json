@@ -1,0 +1,89 @@
+{
+  "topics": {
+    "1": [
+      { "q": "«Atmosfera bosimi» birikmasi qaysi uslubga xos?", "o": ["So‘zlashuv", "Ilmiy", "Badiiy", "Rasmiy"], "a": 1, "e": "Ilmiy termin." },
+      { "q": "So‘zlar uslubiy jihatdan qanday guruhlarga bo‘linadi?", "o": ["Ot, fe’l, sifat", "Kitobiy, betaraf, so‘zlashuvga xos", "Eski va yangi", "Sodda va qo‘shma"], "a": 1, "e": "Uslubiy qatlamlar." },
+      { "q": "«Quyida imzo chekuvchilar» qaysi uslubga xos?", "o": ["Badiiy", "Rasmiy", "Publitsistik", "So‘zlashuv"], "a": 1, "e": "Hujjat tili." }
+    ],
+    "2": [
+      { "q": "Qaysi biri publitsistik uslub janri?", "o": ["G‘azal", "Felyeton", "Dalolatnoma", "Askiya"], "a": 1, "e": "Ocherk, felyeton, reportaj, intervyu." },
+      { "q": "«Apteka» so‘zi qaysi uslubga xos?", "o": ["Ilmiy", "So‘zlashuv", "Rasmiy", "Badiiy"], "a": 1, "e": "Kitobiy muqobili — dorixona." },
+      { "q": "Uslubga xos bo‘lmagan birlikni qo‘llash nima deyiladi?", "o": ["Uslubiy erkinlik", "Nutqiy me’yor buzilishi", "Inversiya", "Tazod"], "a": 1, "e": "Me’yordan chetga chiqish." }
+    ],
+    "3": [
+      { "q": "Rezyume — ma’lumotnomaning orqa sahifasida nima yoziladi?", "o": ["Mehnat faoliyati", "Yaqin qarindoshlar haqida ma’lumot", "Surat", "Mukofotlar"], "a": 1, "e": "Old tomonda — shaxsiy ma’lumot." },
+      { "q": "«Petitsiya» nima?", "o": ["Shaxsiy xat", "Jamoaviy murojaat", "Buyruq", "Tilxat"], "a": 1, "e": "Rasmiy uslubning yangi shakli." },
+      { "q": "Rasmiy uslubda qaysi birlik qo‘llanmaydi?", "o": ["Kasbiy termin", "Ko‘chma ma’noli so‘z", "Barqaror rasmiy birikma", "Nutqiy qolip"], "a": 1, "e": "Aniqlik va bir ma’nolilik." }
+    ],
+    "4": [
+      { "q": "Ilmiy uslubda nima qo‘llanmaydi?", "o": ["Terminlar", "Maqol va iboralar", "Murakkab jumlalar", "Kirish qurilmalar"], "a": 1, "e": "Bo‘yoqdor birliklar ham." },
+      { "q": "Tezis nima?", "o": ["Roman turi", "Ma’ruza bayoni", "Rasmiy hujjat", "She’r turi"], "a": 1, "e": "Ilmiy janr." },
+      { "q": "Mutaxassis bo‘lmaganlar uchun ilmiy uslubning qaysi shakli bor?", "o": ["Rasmiy", "Ilmiy-ommabop", "Badiiy", "So‘zlashuv"], "a": 1, "e": "Keng kitobxon uchun." }
+    ],
+    "5": [
+      { "q": "Qaysi uslub eng murakkab hisoblanadi?", "o": ["Rasmiy", "Badiiy", "Ilmiy", "So‘zlashuv"], "a": 1, "e": "Turli uslub unsurlarini qorishiq qo‘llaydi." },
+      { "q": "«Nazm bilan nasr o‘rtasida chegara bo‘lishi kerak» kimning fikri?", "o": ["O‘. Hoshimov", "Said Ahmad", "O‘. Usmonov", "O. Sharafiddinov"], "a": 1, "e": "Nasriy va she’riy shakllar." },
+      { "q": "Gap bo‘laklari o‘rnining almashishi nima deyiladi?", "o": ["Tazod", "Inversiya", "Tajnis", "Ellipsis"], "a": 1, "e": "Badiiy uslubda erkin." }
+    ],
+    "6": [
+      { "q": "Esse so‘zi qanday ma’noni bildiradi?", "o": ["Hikoya", "Tajriba, mashq", "Qo‘shiq", "Hujjat"], "a": 1, "e": "Fransuzcha essai." },
+      { "q": "Essedagi muammo qo‘yish qaysi uslubga yaqin?", "o": ["Badiiy", "Ilmiy", "So‘zlashuv", "Rasmiy"], "a": 1, "e": "Ifoda esa badiiyga yaqin." },
+      { "q": "Nega esse murakkab janr?", "o": ["Juda uzun", "Ilmiy va badiiy jihatlarni birlashtiradi", "She’riy shaklda", "Faqat olimlar yozadi"], "a": 1, "e": "Muammo + ta’sirchan ifoda." }
+    ],
+    "7": [
+      { "q": "Qaysi nutqni tahrir qilish mumkin?", "o": ["Og‘zaki", "Yozma", "Ikkalasini ham", "Hech birini"], "a": 1, "e": "Og‘zakini qaytarib bo‘lmaydi." },
+      { "q": "Og‘zaki nutqqa xos gap qurilishi?", "o": ["Murakkab, to‘liq gaplar", "Sodda, to‘liqsiz gaplar", "Faqat qo‘shma gaplar", "Faqat atov gaplar"], "a": 1, "e": "Yozmada — murakkab." },
+      { "q": "Navoiy notiqlik haqida qaysi asarda yozgan?", "o": ["«Xamsa»", "«Mahbub ul-qulub»", "«Muhokamat ul-lug‘atayn»", "«Xazoyin ul-maoniy»"], "a": 1, "e": "Voiz haqidagi fikr." }
+    ],
+    "8": [
+      { "q": "Til taraqqiyotida ortiqcha birlik bilan nima bo‘ladi?", "o": ["Doim saqlanadi", "Tezda nutqdan tushib ketadi", "Rasmiy uslubga o‘tadi", "Iboraga aylanadi"], "a": 1, "e": "Tilda ortiqcha birlik bo‘lmaydi." },
+      { "q": "Til birligining qo‘llanish o‘rni qanday?", "o": ["Ixtiyoriy", "Qat’iy", "Faqat og‘zakida", "Aniq emas"], "a": 1, "e": "Ayrimlari bir uslubga xos." },
+      { "q": "So‘zlovchi ifoda tanlashda nimaga ega?", "o": ["Cheksiz erkinlikka", "Erkinlik bilan birga majburiyatga", "Faqat majburiyatga", "Hech narsaga"], "a": 1, "e": "Qachon nimani qo‘llashni bilish." }
+    ],
+    "9": [
+      { "q": "«Qarg‘a sayradi» qanday nomoslik?", "o": ["Grammatik", "Uslubiy", "Mantiqiy", "Imloviy"], "a": 1, "e": "Qarg‘a qag‘illadi." },
+      { "q": "«Otasini suyandi» qanday nomoslik?", "o": ["Uslubiy", "Grammatik", "Mantiqiy", "Nomoslik yo‘q"], "a": 1, "e": "Otasiga suyandi." },
+      { "q": "«Shomda oy bo‘zardi» qanday nomoslik?", "o": ["Grammatik", "Mantiqiy", "Uslubiy", "Talaffuz"], "a": 1, "e": "Tongda oy bo‘zardi." }
+    ],
+    "10": [
+      { "q": "«Kulmoq — tirjaymoq» sinonimlari nimasi bilan farqlanadi?", "o": ["Bo‘yoq kuchi", "Bo‘yoq turi (ijobiy/salbiy)", "Birikuvchi tanlashi", "Farqi yo‘q"], "a": 1, "e": "Tirjaymoq — salbiy." },
+      { "q": "Qaysi biri barqaror sinonimlar?", "o": ["Go‘zal — oy — gul", "Kishi — odam — inson", "Stol — yuz", "Apteka — kitob"], "a": 1, "e": "Nutqiy sinonimlar — kontekstda." },
+      { "q": "«Stolning basharasi» nega noto‘g‘ri?", "o": ["Grammatik xato", "Birikuvchi noto‘g‘ri tanlangan", "Imlo xatosi", "To‘g‘ri"], "a": 1, "e": "Stolning yuzi." }
+    ],
+    "11": [
+      { "q": "Badiiy uslubda antonimlar qanday san’at hosil qiladi?", "o": ["Tajnis", "Tazod", "Tashbeh", "Mubolag‘a"], "a": 1, "e": "Qarama-qarshilik san’ati." },
+      { "q": "Sinonim va antonimlarni nima bog‘lab turadi?", "o": ["Imlo qoidasi", "Uslubiy xoslanganlik qonuniyati", "Urg‘u", "Kelishik"], "a": 1, "e": "Aka — uka, birodar — ini." },
+      { "q": "«Vafodor yigit» birikmasidagi so‘zning antonimi?", "o": ["Sodiq", "Bevafo", "Mard", "Yosh"], "a": 1, "e": "Bevafo yigit." }
+    ],
+    "12": [
+      { "q": "Omonimlar asosan qayerda omonim bo‘lib turadi?", "o": ["Nutqda", "Lug‘atlarda", "Faqat she’rda", "Faqat rasmiy matnda"], "a": 1, "e": "Nutqda ma’nosi ayon bo‘ladi." },
+      { "q": "Omonimlar turkiy she’riyatning qaysi janriga xizmat qiladi?", "o": ["G‘azal", "Tuyuq", "Ruboiy", "Qasida"], "a": 1, "e": "Mumtozda — tajnis." },
+      { "q": "Omonimni ko‘p ma’noli so‘zdan nima farqlaydi?", "o": ["Talaffuzi", "Ma’nolari o‘zaro bog‘lanmagan", "Yozilishi", "Urg‘usi"], "a": 1, "e": "Ko‘p ma’nolida ma’nolar bog‘liq." }
+    ],
+    "13": [
+      { "q": "«Nufusli» so‘zining ma’nosi?", "o": ["Obro‘li", "Aholisi ko‘p", "Boy", "Qadimiy"], "a": 1, "e": "Nufuzli — obro‘li." },
+      { "q": "«Xalos» so‘zining ma’nosi?", "o": ["Faqat", "Qutulgan", "Tamom", "Bo‘sh"], "a": 1, "e": "Xolos — faqat." },
+      { "q": "Paronimlar yozma nutqda nimaga sabab bo‘ladi?", "o": ["Ta’sirchanlikka", "Nutqiy g‘alizlikka", "Ixchamlikka", "Obrazlilikka"], "a": 1, "e": "Savodxonlikka salbiy ta’sir." }
+    ],
+    "14": [
+      { "q": "Narsa qolib, uning nomi yangi so‘z bilan almashsa eski so‘z nima deyiladi?", "o": ["Tarixiy so‘z", "Arxaizm", "Neologizm", "Paronim"], "a": 1, "e": "Yig‘och — daraxt." },
+      { "q": "«Qag‘un» so‘zining hozirgi shakli?", "o": ["Qayin", "Qovun", "Qog‘oz", "Qovoq"], "a": 1, "e": "«Qisasi Rabg‘uziy»dan." },
+      { "q": "Ko‘hna so‘zlar badiiy asarda nima uchun qo‘llanadi?", "o": ["Ilmiylik uchun", "Davr ruhini berish uchun", "Rasmiylik uchun", "Qisqalik uchun"], "a": 1, "e": "Tarixiy tadqiqotlarda ham." }
+    ],
+    "15": [
+      { "q": "«Skaner» qanday o‘zlashma so‘z?", "o": ["To‘la o‘zlashgan", "O‘zlashayotgan", "O‘zlashmagan", "Nisbatan o‘zlashgan"], "a": 1, "e": "Skotch ham." },
+      { "q": "«Ministr, oblast, rayon» qanday so‘zlar?", "o": ["To‘la o‘zlashgan", "O‘zlashmagan", "O‘zlashayotgan", "O‘z qatlam"], "a": 1, "e": "O‘zbekcha: vazir, viloyat, tuman." },
+      { "q": "Ilmiy uslubda o‘zlashma so‘zlar asosan qanday qo‘llanadi?", "o": ["Ibora sifatida", "Termin sifatida", "Undov sifatida", "Qo‘llanmaydi"], "a": 1, "e": "Fan-texnika terminlari." }
+    ],
+    "16": [
+      { "q": "Tillar yashab qolish darajasiga ko‘ra nechta guruhga bo‘linadi?", "o": ["Uch", "Besh", "Yetti", "Ikki"], "a": 1, "e": "Xavfsizdan o‘layotgangacha." },
+      { "q": "YUNESKO hisobicha har oyda nechta til o‘lmoqda?", "o": ["Bitta", "Ikkita", "O‘nta", "Yuzta"], "a": 1, "e": "Asr oxirigacha yarmi yo‘qolishi mumkin." },
+      { "q": "Qaysi omil tilning xavfsizligini ta’minlamaydi?", "o": ["Davlat tili maqomi", "Shevalarga bo‘linish", "Internetda qo‘llanish", "Alifbo-imlo"], "a": 1, "e": "Ko‘p so‘zlashuvchi ham omil." }
+    ],
+    "17": [
+      { "q": "Rasmiy hujjatlarni boshqa janrlardan nima farqlaydi?", "o": ["Uzunligi", "Erkin, ijodiy yondashib bo‘lmasligi", "She’riy shakli", "Obrazliligi"], "a": 1, "e": "Qat’iy qolip." },
+      { "q": "Hujjat avval qanday nusxada tayyorlanadi?", "o": ["Oq nusxa", "Qoralama", "Elektron", "Nusxasiz"], "a": 1, "e": "Keyin tahrir va oqqa ko‘chirish." },
+      { "q": "Shaxsning nutqiy madaniyati hujjatlarda nima bilan belgilanadi?", "o": ["Husnixat", "Qoliplarni bilish va rioya qilish", "Uzun yozish", "Ibora ko‘pligi"], "a": 1, "e": "Qolipdan chiqmaslik." }
+    ]
+  }
+}

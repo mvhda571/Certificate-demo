@@ -1,0 +1,89 @@
+{
+  "topics": {
+    "1": [
+      { "q": "O‘zlashma so‘zlarning talaffuzdagi o‘zgarishi yozuvda aks etadimi?", "o": ["Ha", "Yo‘q", "Faqat ko‘plikda", "Faqat she’rda"], "a": 1, "e": "Kitob — kitop." },
+      { "q": "O‘z qatlam so‘zlari qachon tovush o‘zgarishiga uchraydi?", "o": ["Asos holatida", "Qo‘shimcha qo‘shilganda", "Hech qachon", "Faqat she’rda"], "a": 1, "e": "Yosh — yasha." },
+      { "q": "Qaysi o‘zgarish yozuvda aks etadi?", "o": ["Bog‘ga — boqqa", "Ong — angla", "Boribdi — boripti", "Kitob — kitop"], "a": 1, "e": "Yosh — yasha ham." }
+    ],
+    "2": [
+      { "q": "«Boho» deb aytiladigan so‘z qanday yoziladi?", "o": ["Boho", "Baho", "Bahu", "Bohu"], "a": 1, "e": "Talaffuz va imlo farqi." },
+      { "q": "Qaysi talaffuz noto‘g‘ri?", "o": ["Kampyuter", "Voxshiy", "Partret", "Mabil"], "a": 1, "e": "Vahshiy deb aytiladi va yoziladi." },
+      { "q": "Muammoli holatda nimaga tayaniladi?", "o": ["Shevaga", "Talaffuz va imlo lug‘atlariga", "Do‘stlarga", "Gazetaga"], "a": 1, "e": "Me’yoriy manbalar." }
+    ],
+    "3": [
+      { "q": "Nega hamma so‘zlar aytilganidek yozilmaydi?", "o": ["Yozish qiyin", "Imlo tartibsizlanib, savodsizlik kuchayadi", "Harf yetmaydi", "Qonun taqiqlaydi"], "a": 1, "e": "Imlo me’yorlashtirilgan." },
+      { "q": "«Shamba» deb aytiladigan so‘z qanday yoziladi?", "o": ["Shamba", "Shanba", "Shanbe", "Shamba’"], "a": 1, "e": "Undosh o‘zgaradi." },
+      { "q": "«Ketti» deb talaffuz qilish noto‘g‘rimi?", "o": ["Ha, xato", "Yo‘q, lekin «ketdi» deb yoziladi", "Yozuvda ham «ketti»", "Faqat she’rda to‘g‘ri"], "a": 1, "e": "Talaffuz erkin, imlo qat’iy." }
+    ],
+    "4": [
+      { "q": "Urg‘uga rioya qilib talaffuz qilish nimaning belgisi?", "o": ["Shevaning", "Madaniy nutqning", "Ilmiy uslubning", "Rasmiylikning"], "a": 1, "e": "To‘g‘ri talaffuz." },
+      { "q": "«Diréktor» so‘ziga -ni qo‘shilsa urg‘u qayerga tushadi?", "o": ["Di-", "-ni qo‘shimchasiga", "-rek-", "-tor"], "a": 1, "e": "Direktorní." },
+      { "q": "O‘z qatlam so‘zlarida urg‘u odatda qayerda?", "o": ["Birinchi bo‘g‘inda", "Oxirgi bo‘g‘inda", "O‘rtada", "Urg‘u yo‘q"], "a": 1, "e": "Kitób." }
+    ],
+    "5": [
+      { "q": "Qo‘shma so‘z qachon qo‘shib yoziladi?", "o": ["Ikki urg‘u olsa", "Bitta so‘z urg‘usi olsa", "Doim", "Hech qachon"], "a": 1, "e": "Uchburchak, so‘zboshi." },
+      { "q": "Qaysi biri ajratib yoziladi?", "o": ["Uchburchak", "Temir yo‘l", "So‘zboshi", "Olibsotar"], "a": 1, "e": "Har qismida alohida urg‘u." },
+      { "q": "Qaysi so‘z ikki xil yozilishi mumkin?", "o": ["Temir yo‘l", "Beshikto‘y — beshik to‘yi", "Uchburchak", "Xarid qilmoq"], "a": 1, "e": "Soch siypatar — sochsiypatar ham." }
+    ],
+    "6": [
+      { "q": "So‘zning o‘rinli-noo‘rinligini aniqlash uchun nima kerak?", "o": ["Husnixat", "Mantiqiy tafakkur", "Tezlik", "Baland ovoz"], "a": 1, "e": "Bilim va farosat." },
+      { "q": "«Mening joyimga o‘tirib olibsiz» o‘rniga o‘rinli ifoda?", "o": ["Turing joyimdan!", "Bu joyni men band qilgan edim", "Bu yer meniki", "Ketinglar"], "a": 1, "e": "Muloyim ifoda." },
+      { "q": "«Ikki kishi talashib qolishibdi» o‘rniga o‘rinliroq so‘z?", "o": ["Urishib", "Tortishib", "Janjallashib", "Qichqirib"], "a": 1, "e": "Ular tortishib qolishibdi." }
+    ],
+    "7": [
+      { "q": "Nutqiy taqiqning fandagi nomi?", "o": ["Evfemizm", "Tabu", "Arxaizm", "Paronim"], "a": 1, "e": "Polineziya tilidan." },
+      { "q": "«Chayon» o‘rniga «gajak» deyish qaysi asosdagi taqiq?", "o": ["Uyat", "Qo‘rquv", "Hurmat", "Odat"], "a": 1, "e": "O‘lmoq → ketmoq ham." },
+      { "q": "«Sen» o‘rniga «siz» deyish qaysi asosdagi taqiq?", "o": ["Qo‘rquv", "Hurmat", "Uyat", "Taqiq emas"], "a": 1, "e": "Bor → boring." }
+    ],
+    "8": [
+      { "q": "Evfemizm so‘zining ma’nosi?", "o": ["Qo‘pol gapirmoq", "Yumshoq gapirmoq", "Ko‘p gapirmoq", "Kam gapirmoq"], "a": 1, "e": "Grekcha." },
+      { "q": "«Joni chiqdi — o‘ldi — uzildi» qatorida betaraf ifoda?", "o": ["Joni chiqdi", "O‘ldi", "Uzildi", "Hech biri"], "a": 1, "e": "O‘rtada turadi." },
+      { "q": "«Kasal» so‘zining disfemizmi?", "o": ["Mazasi yo‘q", "Dard uribdi", "Betob", "Tobi qochgan"], "a": 1, "e": "Evfemizm — mazasi yo‘q." }
+    ],
+    "9": [
+      { "q": "«Bu ishni biz qildik» da «biz» nimani bildiradi?", "o": ["Ko‘plik", "Kamtarlik", "Hurmat", "Shubha"], "a": 1, "e": "O‘zini ta’kidlamaslik." },
+      { "q": "Gap orasida bosh harf bilan yozilgan «Siz» nimani bildiradi?", "o": ["Imlo xatosi", "Alohida hurmat", "Ko‘plik", "Kinoya"], "a": 1, "e": "Hazrat, Sizga ixlosim baland." },
+      { "q": "«Ular keldilarmi?» da «ular» qanday vazifada?", "o": ["Ko‘plik", "Kishi ismini aytmaslik (evfemizm)", "Ega emas", "Kinoya"], "a": 1, "e": "Dadam keldilarmi." }
+    ],
+    "10": [
+      { "q": "Iboralar uslubiy jihatdan qanday?", "o": ["Bo‘yoqsiz", "Har doim bo‘yoqdor", "Ba’zan bo‘yoqdor", "Faqat rasmiy"], "a": 1, "e": "So‘z bo‘yoqli yoki bo‘yoqsiz." },
+      { "q": "O‘zlashma ibora bo‘ladimi?", "o": ["Ha, ko‘p", "Yo‘q", "Faqat rus tilidan", "Faqat arab tilidan"], "a": 1, "e": "Iboraning boshqa tilda aynan muqobili yo‘q." },
+      { "q": "Nega iborani har doim so‘z bilan almashtirib bo‘lmaydi?", "o": ["Ibora uzunroq", "Bo‘yoqdorligi tufayli", "Ibora eskirgan", "Grammatika taqiqlaydi"], "a": 1, "e": "Qo‘li ochiq ≈ saxiy." }
+    ],
+    "11": [
+      { "q": "Maqol qanday birlik?", "o": ["Faqat adabiy janr", "Ham og‘zaki ijod janri, ham til birligi", "Faqat so‘z", "Ibora"], "a": 1, "e": "Ixcham, ta’sirchan." },
+      { "q": "Nega maqollar bir-birini inkor etishi mumkin?", "o": ["Xato tuzilgan", "Har biri muayyan nutq vaziyatiga xos", "Turli tillardan", "Eskirgan"], "a": 1, "e": "Yaxshilik qil, umidvor bo‘l — Yaxshilik qil — unut." },
+      { "q": "Maqol qanday vazifani ham bajaradi?", "o": ["Termin", "Evfemizm", "Undalma", "Kirish so‘z"], "a": 1, "e": "Fikrni yumshoq yetkazadi." }
+    ],
+    "12": [
+      { "q": "«Qora oltin» tasviriy ifodasi nimani bildiradi?", "o": ["Ko‘mir", "Neft", "Paxta", "Temir"], "a": 1, "e": "Oq oltin — paxta." },
+      { "q": "Tasviriy ifoda ko‘proq qaysi uslubga xos?", "o": ["Rasmiy", "Publitsistik", "Ilmiy", "So‘zlashuv"], "a": 1, "e": "Ko‘tarinki nutq vositasi." },
+      { "q": "«Zangori ekran» nima?", "o": ["Osmon", "Televizor", "Dengiz", "Kompyuter"], "a": 1, "e": "Bo‘yoqdor muqobil." }
+    ],
+    "13": [
+      { "q": "Qaysi birikmada ortiqcha qo‘shimcha bor?", "o": ["O‘nta o‘quvchi", "O‘nta o‘quvchilar", "Ko‘p kitob", "Besh daftar"], "a": 1, "e": "Son ko‘plikni bildiradi." },
+      { "q": "«Qo‘llanib kelinmoqda» dagi ortiqcha qo‘shimcha?", "o": ["-ib", "Nisbat qo‘shimchasi -n", "-moq", "-da"], "a": 1, "e": "Qo‘llanib kelmoqda." },
+      { "q": "Qo‘shimcha qo‘llashda nimaga rioya qilinadi?", "o": ["Ko‘p qo‘shimcha qo‘shishga", "Nutqiy tejamkorlikka", "Shevaga", "Arxaik shaklga"], "a": 1, "e": "Ortiqcha qo‘shimcha — «yuk»." }
+    ],
+    "14": [
+      { "q": "Chiqish kelishigi variantlari?", "o": ["-ga, -ka", "-dan, -din", "-ni, -n", "-da, -ta"], "a": 1, "e": "Jo‘nalish: -ga, -ka, -qa, -g‘a, -a." },
+      { "q": "«Kelganiga xursand» ning sinonimi?", "o": ["Kelganini xursand", "Kelganidan xursand", "Kelganda xursand", "Kelgan xursand"], "a": 1, "e": "Kelishik sinonimiyasi." },
+      { "q": "Variantlilikni nimadan farqlash kerak?", "o": ["Sinonimiyadan", "Omonimlikdan", "Antonimiyadan", "Paronimiyadan"], "a": 1, "e": "Bir qo‘shimcha shakllari." }
+    ],
+    "15": [
+      { "q": "Madaniy nutq belgisi qaysi?", "o": ["Uzun jumlalar", "Fikrni ixcham ifodalash", "Ko‘p takror", "Murakkab so‘zlar"], "a": 1, "e": "Shakl va mazmun mosligi." },
+      { "q": "Ilmiy matnda qaysi chegara belgilanadi?", "o": ["Quyi chegara", "Yuqori chegara", "Ikkalasi", "Hech biri"], "a": 1, "e": "Quyi chegara ko‘rsatilmaydi." },
+      { "q": "So‘zlovchi mahorati nimada namoyon bo‘ladi?", "o": ["Tez gapirishda", "Uzilgan jumlani mantiqan va usluban to‘g‘ri davom ettirishda", "Baland gapirishda", "Ko‘p so‘zlashda"], "a": 1, "e": "Izchillik." }
+    ],
+    "16": [
+      { "q": "Tinish belgilari nimadan kelib chiqib qo‘llanadi?", "o": ["Muallif xohishidan", "Gap mazmunidan", "Gap uzunligidan", "Ohangdan"], "a": 1, "e": "Mazmun aniqligining sharti." },
+      { "q": "Umumlashtiruvchi so‘zdan keyin (u oldin kelganda) qaysi belgi?", "o": ["Tire", "Ikki nuqta", "Vergul", "Qavs"], "a": 1, "e": "Keyin kelsa — tire." },
+      { "q": "«O‘rdak emas, burgut bo‘ling» matnida burgutlar nima qiladi?", "o": ["Muammo topadi", "Har muammodan imkoniyat izlaydi", "Qochadi", "Kutadi"], "a": 1, "e": "O‘rdaklar — har imkoniyatdan muammo." }
+    ],
+    "17": [
+      { "q": "Bayonnoma qaror bandlarida kesim qanday shaklda?", "o": ["I shaxs, aniq nisbat", "Buyruq maylidagi majhul nisbat", "O‘tgan zamon", "Shart mayli"], "a": 1, "e": "...taqdirlansin." },
+      { "q": "Bayonnomani kim imzolaydi?", "o": ["Barcha qatnashchilar", "Rais va kotib", "Faqat ma’ruzachi", "Hech kim"], "a": 1, "e": "Oxirgi qism." },
+      { "q": "«So‘zga chiqdilar» qismida nima yoziladi?", "o": ["Qaror", "Ism-familiya, lavozim, fikr", "Kun tartibi", "Sana"], "a": 1, "e": "Muhokama qatnashchilari." }
+    ]
+  }
+}
