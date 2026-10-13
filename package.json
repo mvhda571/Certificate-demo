@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "scrape:math": "node scripts/scrape-test-uz-math.mjs --pages=3",
     "api:mock": "node server/mock-test-api.mjs",
-    "mock:groq": "node scripts/mock-groq.mjs"
+    "mock:groq": "node scripts/mock-groq.mjs",
+    "tutor:ask": "node scripts/tutor-ask.mjs"
   },
   "dependencies": {
     "framer-motion": "^13.1.0",

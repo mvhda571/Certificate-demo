@@ -4,6 +4,8 @@ import path from 'node:path';
 const notesRoot = path.resolve(process.cwd(), 'src', 'data', 'konspekt');
 // Aloqasiz savollarga (salomlashish, IELTS narxi va h.k.) konspekt biriktirilmasligi uchun.
 const MIN_SCORE = 0.2;
+// So'rovda bitta ma'noli so'z bo'lsa, tasodifiy moslik ehtimoli yuqori — chegara qattiqroq.
+const MIN_SCORE_SINGLE_TERM = 0.35;
 const MIN_MATCHED_TERMS = 2;
 const STOP_WORDS = new Set([
   // o'zbekcha
@@ -11,6 +13,7 @@ const STOP_WORDS = new Set([
   'emas', 'edi', 'bor', "yo'q", 'menga', 'iltimos', 'salom', 'assalomu', 'alaykum', 'rahmat', 'qalaysan',
   'qalaysiz', 'yaxshi', 'nega', 'qachon', 'qayerda', 'nechta', 'qancha', 'tushuntir', 'tushuntiring',
   'tushuntirib', 'ber', 'bering', 'ayt', 'ayting', 'aytib', 'misol', 'savol', 'javob', 'mavzu', 'mavzusi',
+  'yoz', 'yozing', 'yozib', 'qisqacha', 'batafsil', 'manba', 'manbasi', 'manbalar', 'test', 'testlar',
   // English
   'the', 'a', 'an', 'and', 'or', 'of', 'to', 'in', 'on', 'for', 'is', 'are', 'what', 'how', 'why', 'tips',
   'please', 'explain', 'hello', 'hi', 'me', 'about',
@@ -38,6 +41,7 @@ function parseDocument(file, raw) {
     fan: metadataValue(frontmatter, 'fan'),
     sinf: metadataValue(frontmatter, 'sinf'),
   };
+  const document = body.trim();
   const sections = body.split(/(?=^##\s+)/m);
 
   return sections.map((section, index) => {
@@ -48,6 +52,9 @@ function parseDocument(file, raw) {
       ...metadata,
       heading,
       content: content.slice(0, 7000),
+      // Modelga bo'lak emas, butun konspekt beriladi (qidiruv baribir bo'laklar bo'yicha).
+      document,
+      file: file.split(path.sep).join('/'),
       id: `${file}:${index}`,
     };
   }).filter(Boolean);
@@ -87,13 +94,15 @@ function tokenize(value) {
     .match(/[\p{L}\p{N}']+/gu) || [];
 }
 
-export async function findRelevantNotes(question, limit = 4) {
+// Eng mos konspekt fayllarini (takrorlanmasdan) to'liq matni bilan qaytaradi.
+export async function findRelevantNotes(question, limit = 3) {
   knowledgePromise ||= loadKnowledge();
   const chunks = await knowledgePromise;
   const queryTerms = [...new Set(tokenize(question))]
     .filter((term) => term.length > 1 && !STOP_WORDS.has(term));
   if (!chunks.length || !queryTerms.length) return [];
   const requiredMatches = Math.min(MIN_MATCHED_TERMS, queryTerms.length);
+  const minScore = queryTerms.length === 1 ? MIN_SCORE_SINGLE_TERM : MIN_SCORE;
 
   const documents = chunks.map((chunk) => {
     const counts = new Map();
@@ -136,8 +145,16 @@ export async function findRelevantNotes(question, limit = 4) {
   });
 
   return scored
-    .filter(({ score, matchedTerms }) => score >= MIN_SCORE && matchedTerms >= requiredMatches)
+    .filter(({ score, matchedTerms }) => score >= minScore && matchedTerms >= requiredMatches)
     .sort((a, b) => b.score - a.score)
+    .filter(({ chunk }, index, list) => list.findIndex((item) => item.chunk.file === chunk.file) === index)
     .slice(0, limit)
-    .map(({ chunk }) => chunk);
+    .map(({ chunk }) => ({
+      title: chunk.title,
+      fan: chunk.fan,
+      sinf: chunk.sinf,
+      heading: chunk.heading,
+      file: chunk.file,
+      content: chunk.document,
+    }));
 }
