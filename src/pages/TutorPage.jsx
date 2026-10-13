@@ -31,6 +31,7 @@ import { compressImage, ImageCompressError } from '../utils/imageCompress'
 import { stopSpeaking } from '../utils/speech'
 import { subjectEmoji } from '../utils/tutorSubjects'
 import { normalizeTutorMarkdown } from '../utils/tutorMarkdown'
+import { tutorAuthHeaders } from '../utils/tutorIdentity'
 import 'katex/dist/katex.min.css'
 import './TutorPage.css'
 
@@ -212,6 +213,8 @@ export function TutorPage() {
   const [preparingImages, setPreparingImages] = useState(0)
   const [transcribing, setTranscribing] = useState(false)
   const [composerError, setComposerError] = useState('')
+  // Kunlik limit: { limit, remaining, resetAt, unlimited } — server qaytaradi.
+  const [quota, setQuota] = useState(null)
   const streamRef = useRef(null)
   const transcribeAbortRef = useRef(null)
   const rootRef = useRef(null)
@@ -237,6 +240,21 @@ export function TutorPage() {
     transcribeAbortRef.current?.abort()
     stopSpeaking()
   }, [])
+
+  const refreshQuota = useCallback(() => {
+    fetch('/api/tutor', { headers: tutorAuthHeaders() })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((data) => { if (data?.quota) setQuota(data.quota) })
+      .catch(() => {})
+  }, [])
+  useEffect(() => { refreshQuota() }, [refreshQuota])
+  // Toshkent vaqti bilan 00:00 da limit yangilanadi — sahifa ochiq tursa ham qayta so'raymiz.
+  useEffect(() => {
+    if (!quota?.resetAt) return undefined
+    const delay = Math.min(Math.max(new Date(quota.resetAt).getTime() - Date.now() + 2000, 1000), 2 ** 31 - 1)
+    const timer = setTimeout(refreshQuota, delay)
+    return () => clearTimeout(timer)
+  }, [quota?.resetAt, refreshQuota])
 
   // Yangi xabar qo'shilsa — pastga; stream paytida faqat foydalanuvchi pastda bo'lsa ergashamiz.
   useEffect(() => {
@@ -391,7 +409,7 @@ export function TutorPage() {
     try {
       const response = await fetch('/api/tutor', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/x-ndjson' },
+        headers: { 'Content-Type': 'application/json', Accept: 'application/x-ndjson', ...tutorAuthHeaders() },
         body: JSON.stringify({
           messages: history,
           subject: conversation.subject,
@@ -406,6 +424,7 @@ export function TutorPage() {
         try {
           const errorBody = await response.json()
           if (typeof errorBody.error === 'string') message = errorBody.error
+          if (errorBody.quota) setQuota(errorBody.quota)
         } catch {
           // Javob JSON bo'lmasa, HTTP status bilan qolamiz.
         }
@@ -417,7 +436,9 @@ export function TutorPage() {
       const decoder = new TextDecoder()
       let buffer = ''
       const handleEvent = (event) => {
-        if (event.type === 'delta') {
+        if (event.type === 'quota') {
+          setQuota({ limit: event.limit, remaining: event.remaining, resetAt: event.resetAt, unlimited: event.unlimited })
+        } else if (event.type === 'delta') {
           pendingText += event.text
           if (!flushTimer) flushTimer = setTimeout(flush, FLUSH_MS)
         } else if (event.type === 'status' && event.status === 'searching') {
@@ -508,7 +529,9 @@ export function TutorPage() {
     onNew: startNewConversation,
   }
   const busyComposer = recorder.recording || transcribing
-  const canSend = (input.trim() || pendingImages.length) && !sending && !preparingImages && !busyComposer
+  const quotaExhausted = Boolean(quota && !quota.unlimited && quota.remaining <= 0)
+  const quotaLow = Boolean(quota && !quota.unlimited && quota.remaining < 3)
+  const canSend = (input.trim() || pendingImages.length) && !sending && !preparingImages && !busyComposer && !quotaExhausted
   const chipClass = 'inline-flex items-center gap-1 rounded-full py-1 pl-2.5 pr-1 text-xs font-medium'
   const chipButtonClass = 'grid h-5 w-5 place-items-center rounded-full'
 
@@ -559,7 +582,7 @@ export function TutorPage() {
                     key={question}
                     type="button"
                     onClick={() => sendMessage(question)}
-                    disabled={sending}
+                    disabled={sending || quotaExhausted}
                     className="group flex items-center justify-between gap-3 rounded-2xl border border-slate-200 px-4 py-3 text-left text-sm text-slate-600 transition hover:border-emerald-300 hover:bg-emerald-50/50 disabled:opacity-50 dark:border-slate-700 dark:text-slate-300 dark:hover:border-emerald-500/40 dark:hover:bg-emerald-500/5"
                   >
                     <span>{question}</span>
@@ -598,6 +621,12 @@ export function TutorPage() {
               hidden
               onChange={(event) => { addImageFiles(event.target.files); event.target.value = '' }}
             />
+            {quotaExhausted && (
+              <p role="status" className="mb-2 flex items-start gap-2 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-xs font-medium text-amber-800 dark:border-amber-500/30 dark:bg-amber-500/10 dark:text-amber-200">
+                <FiAlertTriangle aria-hidden="true" className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+                {t('tutor.quota.exhausted')}
+              </p>
+            )}
             {visibleError && (
               <p role="alert" className="mb-2 flex items-start gap-2 rounded-xl border border-red-200 bg-red-50 px-3 py-2 text-xs text-red-700 dark:border-red-500/30 dark:bg-red-500/10 dark:text-red-300">
                 <FiAlertTriangle aria-hidden="true" className="mt-0.5 h-3.5 w-3.5 shrink-0" />
@@ -659,7 +688,7 @@ export function TutorPage() {
                 onPickImages={() => fileInputRef.current?.click()}
                 imagesFull={pendingImages.length + preparingImages >= MAX_IMAGES}
                 onStartSpeaking={startSpeakingPractice}
-                disabled={busyComposer}
+                disabled={busyComposer || quotaExhausted}
               />
               {recorder.recording ? (
                 <div role="status" className="flex min-h-10 min-w-0 flex-1 items-center gap-2 px-1 text-sm text-slate-700 dark:text-slate-200">
@@ -677,7 +706,7 @@ export function TutorPage() {
                     rows={1}
                     maxLength={MAX_LENGTH}
                     value={input}
-                    disabled={transcribing}
+                    disabled={transcribing || quotaExhausted}
                     placeholder={transcribing ? t('tutor.voice.transcribing') : speakingMode ? t('tutor.speaking.placeholder') : t('tutor.placeholder')}
                     onChange={(event) => { setInput(event.target.value); resizeTextarea() }}
                     onPaste={(event) => {
@@ -705,10 +734,10 @@ export function TutorPage() {
                 <button
                   type="button"
                   onClick={recorder.start}
-                  disabled={transcribing}
+                  disabled={transcribing || quotaExhausted}
                   aria-label={transcribing ? t('tutor.voice.transcribing') : t('tutor.voice.record')}
                   title={transcribing ? t('tutor.voice.transcribing') : t('tutor.voice.record')}
-                  className={`grid h-10 w-10 shrink-0 place-items-center rounded-full transition disabled:cursor-wait ${speakingMode ? 'bg-violet-500 text-white hover:bg-violet-600' : 'text-slate-500 hover:bg-slate-200 dark:text-slate-300 dark:hover:bg-slate-700'}`}
+                  className={`grid h-10 w-10 shrink-0 place-items-center rounded-full transition disabled:cursor-not-allowed disabled:opacity-40 ${speakingMode ? 'bg-violet-500 text-white hover:bg-violet-600' : 'text-slate-500 hover:bg-slate-200 dark:text-slate-300 dark:hover:bg-slate-700'}`}
                 >
                   {transcribing ? <FiLoader aria-hidden="true" className="h-5 w-5 animate-spin" /> : <FiMic aria-hidden="true" className="h-5 w-5" />}
                 </button>
@@ -723,9 +752,14 @@ export function TutorPage() {
                 </button>
               )}
             </div>
-            <div className="mt-1 hidden justify-between px-3 text-[11px] text-slate-400 sm:flex">
-              <span>{t('tutor.hint')}</span>
-              <span>{t('tutor.characters', { count: input.length })}</span>
+            <div className="mt-1 flex items-center justify-between gap-3 px-3 text-[11px] text-slate-400">
+              {quota && (
+                <span aria-live="polite" className={quotaLow ? 'rounded-full bg-amber-100 px-2 py-0.5 font-semibold text-amber-800 dark:bg-amber-500/15 dark:text-amber-200' : ''}>
+                  {quota.unlimited ? t('tutor.quota.unlimited') : t('tutor.quota.remaining', { remaining: quota.remaining, limit: quota.limit })}
+                </span>
+              )}
+              <span className="hidden sm:inline">{t('tutor.hint')}</span>
+              <span className="ml-auto hidden sm:inline">{t('tutor.characters', { count: input.length })}</span>
             </div>
           </div>
         </form>

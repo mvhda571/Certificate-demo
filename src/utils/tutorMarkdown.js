@@ -16,6 +16,8 @@ function normalizeCitations(text, webSources) {
       const index = webSources.findIndex((source) => source.cursor === Number(cursor));
       return index === -1 ? '' : ` [[${index + 1}]](${webSources[index].url})`;
     })
+    // Bir xil manba ketma-ket takrorlansa ("[2] [2]"), bittasi qoladi.
+    .replace(/( \[\[(\d+)\]\]\([^)\s]*\))(?:\s*\[\[\2\]\]\([^)\s]*\))+/g, '$1')
     .replace(/【[^】]*】/g, '')
     // Stream paytida hali yopilmagan belgi ko'rinmasin.
     .replace(/【[^】]*$/, '');

@@ -8,6 +8,8 @@ import {
   WEB_SEARCH_WITH_IMAGES,
 } from './prompt.mjs';
 import { createRateLimiter, getClientIp, groqBaseUrl, jsonResponse, retryAfterSeconds } from './http.mjs';
+import { identifyStudent } from './identity.mjs';
+import { getQuota, reserveQuestion } from './quota.mjs';
 
 const MAX_MESSAGES = 12;
 const MAX_MESSAGE_LENGTH = 4000;
@@ -161,7 +163,7 @@ function createToolTracker() {
   };
 }
 
-function ndjsonStream({ upstream, attempt, notes, fallback, log }) {
+function ndjsonStream({ upstream, attempt, notes, fallback, log, quota }) {
   const encoder = new TextEncoder();
   const decoder = new TextDecoder();
   const tools = createToolTracker();
@@ -175,6 +177,7 @@ function ndjsonStream({ upstream, attempt, notes, fallback, log }) {
   const body = new ReadableStream({
     async start(controller) {
       const send = (event) => controller.enqueue(encoder.encode(`${JSON.stringify(event)}\n`));
+      send({ type: 'quota', ...quota });
       send({ type: 'sources', web: [], notes: noteMeta, search: attempt.search === 'off' ? 'off' : 'pending' });
       let announcedSearch = false;
 
@@ -237,8 +240,17 @@ function ndjsonStream({ upstream, attempt, notes, fallback, log }) {
 }
 
 export async function handleTutorRequest(request) {
+  // GET — bugungi qolgan savollar soni (hisobni o'zgartirmaydi).
+  if (request.method === 'GET') {
+    try {
+      return jsonResponse(200, { quota: await getQuota(await identifyStudent(request)) });
+    } catch (error) {
+      console.error('[quota] status failed:', error);
+      return jsonResponse(503, { error: 'Limit holatini olib bo‘lmadi.' });
+    }
+  }
   if (request.method !== 'POST') {
-    return jsonResponse(405, { error: 'Faqat POST so‘rovlari qabul qilinadi.' });
+    return jsonResponse(405, { error: 'Faqat GET va POST so‘rovlari qabul qilinadi.' });
   }
   if (Number(request.headers.get('content-length') || 0) > MAX_BODY_BYTES) {
     return jsonResponse(413, { error: 'So‘rov juda katta. Kamroq yoki kichikroq rasm yuboring.' });
@@ -268,6 +280,18 @@ export async function handleTutorRequest(request) {
     return jsonResponse(503, { error: 'AI xizmati sozlanmagan: serverda GROQ_API_KEY qiymatini kiriting.' });
   }
 
+  // Kunlik limit: savol oldindan band qilinadi, Groq javob bera olmasa qaytariladi.
+  let reservation;
+  try {
+    reservation = await reserveQuestion(await identifyStudent(request));
+  } catch (error) {
+    console.error('[quota] reserve failed:', error);
+    return jsonResponse(503, { error: 'Savollar limitini tekshirib bo‘lmadi. Birozdan so‘ng urinib ko‘ring.' });
+  }
+  if (!reservation.allowed) {
+    return jsonResponse(429, { error: 'Bugungi savollar tugadi. Ertaga 00:00 da (Toshkent vaqti) yangilanadi.', code: 'daily_limit', quota: reservation.quota });
+  }
+
   const speaking = body.mode === 'ielts-speaking';
   const uiLanguage = UI_LANGUAGES[body.language] || UI_LANGUAGES.uz;
   let notes = { used: [], text: '' };
@@ -276,6 +300,7 @@ export async function handleTutorRequest(request) {
       notes = buildNotesContext(await findRelevantNotes(messages.at(-1).content));
     } catch (error) {
       console.error('Tutor knowledge base could not be loaded:', error);
+      await reservation.release();
       return jsonResponse(500, { error: 'Platforma konspektlarini o‘qishda xatolik yuz berdi.' });
     }
   }
@@ -333,26 +358,30 @@ export async function handleTutorRequest(request) {
       const upstream = await makeRequest(attempt);
       if (upstream.ok && upstream.body) {
         log.push(`${attempt.model}/${attempt.search}:ok`);
-        return ndjsonStream({ upstream, attempt, notes: notes.used, fallback: index > 0, log });
+        return ndjsonStream({ upstream, attempt, notes: notes.used, fallback: index > 0, log, quota: reservation.quota });
       }
       const details = (await upstream.text().catch(() => '')).slice(0, 300);
       log.push(`${attempt.model}/${attempt.search}:${upstream.status}`);
       console.warn(`[tutor] Groq request failed (${attempt.model}, search=${attempt.search}, ${upstream.status}): ${details}`);
       // Groq limiti (masalan, bepul tarifda 8000 token/daqiqa) — boshqa modelga o'tish ham shu limitga uriladi.
       if (upstream.status === 429) {
+        await reservation.release();
         console.error(`[tutor] rate limited: ${log.join(' → ')}`);
         return jsonResponse(429, { error: `AI so‘rovlar limiti vaqtincha tugadi. ${retryAfterSeconds(details, upstream.headers)} soniyadan keyin qayta urinib ko‘ring.` });
       }
       if (attempt.vision) {
+        await reservation.release();
         const reason = upstream.status === 404 || upstream.status === 400
           ? `${attempt.model} modeli rasmni qabul qilmadi (GROQ_VISION_MODEL sozlamasini tekshiring).`
           : `${attempt.model} modeli hozir javob bermayapti.`;
         return jsonResponse(502, { error: `Rasmni tahlil qilib bo‘lmadi: ${reason} Savolni matn bilan yozib ko‘ring.` });
       }
     }
+    await reservation.release();
     console.error(`[tutor] all attempts failed: ${log.join(' → ')}`);
     return jsonResponse(502, { error: 'AI javob bera olmadi. Birozdan so‘ng qayta urinib ko‘ring.' });
   } catch (error) {
+    await reservation.release();
     if (error.name === 'AbortError') {
       return new Response(null, { status: 499 });
     }

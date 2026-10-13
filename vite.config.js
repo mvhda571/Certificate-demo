@@ -14,9 +14,11 @@ function tutorApiPlugin() {
     name: 'certificate-tutor-api',
     configureServer(server) {
       for (const [route, handle] of Object.entries(tutorApiRoutes)) server.middlewares.use(route, async (req, res, next) => {
-        if (req.method !== 'POST') {
+        // GET faqat /api/tutor uchun (kunlik limit holati).
+        const allowGet = route === '/api/tutor'
+        if (req.method !== 'POST' && !(allowGet && req.method === 'GET')) {
           res.statusCode = 405
-          res.setHeader('Allow', 'POST')
+          res.setHeader('Allow', allowGet ? 'GET, POST' : 'POST')
           res.end('Method not allowed')
           return
         }
@@ -29,7 +31,7 @@ function tutorApiPlugin() {
           const request = new Request(`http://${req.headers.host || 'localhost'}${route}`, {
             method: req.method,
             headers: req.headers,
-            body: Buffer.concat(chunks),
+            ...(req.method === 'GET' ? {} : { body: Buffer.concat(chunks) }),
             signal: controller.signal,
           })
           const response = await handle(request)
@@ -62,7 +64,12 @@ function tutorApiPlugin() {
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
-  for (const key of ['GROQ_API_KEY', 'GROQ_BASE_URL', 'GROQ_MODEL', 'GROQ_SEARCH_MODEL', 'GROQ_VISION_MODEL', 'GROQ_TRANSCRIBE_MODEL']) {
+  const serverKeys = [
+    'GROQ_API_KEY', 'GROQ_BASE_URL', 'GROQ_MODEL', 'GROQ_SEARCH_MODEL', 'GROQ_VISION_MODEL', 'GROQ_TRANSCRIBE_MODEL',
+    'TUTOR_DAILY_LIMIT', 'TUTOR_UNLIMITED_EMAILS', 'UPSTASH_REDIS_REST_URL', 'UPSTASH_REDIS_REST_TOKEN',
+    'GOOGLE_CLIENT_ID', 'VITE_GOOGLE_CLIENT_ID', 'GOOGLE_CERTS_URL',
+  ]
+  for (const key of serverKeys) {
     if (env[key] !== undefined) process.env[key] = env[key]
   }
 
