@@ -18,4 +18,12 @@ export default defineConfig([
       parserOptions: { ecmaFeatures: { jsx: true } },
     },
   },
+  {
+    // AI Tutor server kodi (Vercel funksiyasi va Vite dev plagini) Node muhitida ishlaydi.
+    files: ['api/**/*.js', 'server/tutor/**/*.mjs', 'scripts/mock-groq.mjs', 'vite.config.js'],
+    extends: [js.configs.recommended],
+    languageOptions: {
+      globals: globals.node,
+    },
+  },
 ])
