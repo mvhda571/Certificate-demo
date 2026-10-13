@@ -6,7 +6,9 @@ export function jsonResponse(status, payload) {
 }
 
 export function getClientIp(request) {
-  return request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
+  // Netlify haqiqiy mijoz IP'sini x-nf-client-connection-ip sarlavhasida beradi.
+  return request.headers.get('x-nf-client-connection-ip')
+    || request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
     || request.headers.get('x-real-ip')
     || 'unknown';
 }

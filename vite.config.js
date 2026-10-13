@@ -67,7 +67,7 @@ export default defineConfig(({ mode }) => {
   const serverKeys = [
     'GROQ_API_KEY', 'GROQ_BASE_URL', 'GROQ_MODEL', 'GROQ_SEARCH_MODEL', 'GROQ_VISION_MODEL', 'GROQ_TRANSCRIBE_MODEL',
     'TUTOR_DAILY_LIMIT', 'TUTOR_UNLIMITED_EMAILS', 'UPSTASH_REDIS_REST_URL', 'UPSTASH_REDIS_REST_TOKEN',
-    'GOOGLE_CLIENT_ID', 'VITE_GOOGLE_CLIENT_ID', 'GOOGLE_CERTS_URL',
+    'GOOGLE_CLIENT_ID', 'VITE_GOOGLE_CLIENT_ID', 'GOOGLE_CERTS_URL', 'TUTOR_SEARCH_TIMEOUT_MS', 'TUTOR_MAX_DURATION_MS',
   ]
   for (const key of serverKeys) {
     if (env[key] !== undefined) process.env[key] = env[key]

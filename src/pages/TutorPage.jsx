@@ -110,7 +110,7 @@ function AssistantMessage({ message, onRetry, onCopy, copied }) {
   const web = message.sources?.web || []
   const notes = message.sources?.notes || []
   const streaming = message.status === 'streaming'
-  const searchFailed = message.status === 'done' && ['unavailable', 'unused'].includes(message.search)
+  const searchFailed = message.status === 'done' && ['unavailable', 'unused', 'timeout'].includes(message.search)
 
   return (
     <article className="flex min-w-0 gap-3">
@@ -122,7 +122,7 @@ function AssistantMessage({ message, onRetry, onCopy, copied }) {
         {searchFailed && (
           <p className="mb-3 flex items-start gap-2 rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-800 dark:border-amber-500/30 dark:bg-amber-500/10 dark:text-amber-200">
             <FiAlertTriangle aria-hidden="true" className="mt-0.5 h-3.5 w-3.5 shrink-0" />
-            {t('tutor.searchUnavailable')}
+            {message.search === 'timeout' ? t('tutor.searchTimeout') : t('tutor.searchUnavailable')}
           </p>
         )}
         <div className="markdown-body">
@@ -435,6 +435,7 @@ export function TutorPage() {
       const reader = response.body.getReader()
       const decoder = new TextDecoder()
       let buffer = ''
+      let finished = false
       const handleEvent = (event) => {
         if (event.type === 'quota') {
           setQuota({ limit: event.limit, remaining: event.remaining, resetAt: event.resetAt, unlimited: event.unlimited })
@@ -443,9 +444,12 @@ export function TutorPage() {
           if (!flushTimer) flushTimer = setTimeout(flush, FLUSH_MS)
         } else if (event.type === 'status' && event.status === 'searching') {
           update({ searching: true })
+        } else if (event.type === 'status' && event.status === 'search-timeout') {
+          update({ searching: false })
         } else if (event.type === 'sources') {
           update({ sources: { web: event.web || [], notes: event.notes || [] }, search: event.search })
         } else if (event.type === 'done') {
+          finished = true
           flush()
           update({ status: 'done', searching: false, model: event.model, fallback: Boolean(event.fallback) })
         } else if (event.type === 'error') {
@@ -461,6 +465,8 @@ export function TutorPage() {
         if (done) break
       }
       flush()
+      // Oqim "done"siz tugadi (masalan, server funksiyasi vaqt chegarasida uzildi).
+      if (!finished) throw new Error(t('tutor.interrupted'))
     } catch (error) {
       flush()
       if (error.name === 'AbortError') update({ status: 'stopped', searching: false })

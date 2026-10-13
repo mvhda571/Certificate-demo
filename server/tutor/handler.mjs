@@ -163,80 +163,181 @@ function createToolTracker() {
   };
 }
 
-function ndjsonStream({ upstream, attempt, notes, fallback, log, quota }) {
-  const encoder = new TextEncoder();
+// Internet qidiruvi shu vaqt ichida javob matnini boshlamasa, qidiruvsiz javobga o'tamiz.
+const searchTimeoutMs = () => Number(process.env.TUTOR_SEARCH_TIMEOUT_MS) || 7000;
+// Butun javob uchun chegara (Netlify/Vercel funksiyasi 60 s'da uziladi — undan oldin o'zimiz yopamiz).
+const maxDurationMs = () => Number(process.env.TUTOR_MAX_DURATION_MS) || 55000;
+
+const NDJSON_HEADERS = {
+  'Content-Type': 'application/x-ndjson; charset=utf-8',
+  'Cache-Control': 'no-cache, no-transform',
+  Connection: 'keep-alive',
+  'X-Accel-Buffering': 'no',
+};
+
+// Groq SSE oqimini o'qiydi va mijozga NDJSON hodisalari sifatida uzatadi.
+async function pumpAttempt({ upstream, send, tools, onFirstContent }) {
   const decoder = new TextDecoder();
-  const tools = createToolTracker();
-  const noteMeta = notes.map(({ title, fan, sinf, heading, file }) => ({ title, fan, sinf, heading, file }));
-  const searchStatus = () => {
-    if (attempt.search === 'off') return 'off';
-    if (attempt.search === 'unavailable') return 'unavailable';
-    return tools.executed ? 'ok' : 'unused';
+  const reader = upstream.body.getReader();
+  let buffer = '';
+  let announcedSearch = false;
+  let gotContent = false;
+
+  const handleEvent = (event) => {
+    const choice = event.choices?.[0];
+    const delta = choice?.delta || choice?.message || {};
+    if (typeof delta.content === 'string' && delta.content) {
+      if (!gotContent) {
+        gotContent = true;
+        onFirstContent();
+      }
+      send({ type: 'delta', text: delta.content });
+    }
+    for (const tool of [delta.executed_tools, choice?.executed_tools, event.executed_tools].flat()) {
+      if (!tool) continue;
+      tools.handle(tool);
+      if (!announcedSearch) {
+        announcedSearch = true;
+        send({ type: 'status', status: 'searching' });
+      }
+    }
   };
+
+  while (true) {
+    const { done, value } = await reader.read();
+    buffer += decoder.decode(value || new Uint8Array(), { stream: !done });
+    const lines = buffer.split(/\r?\n/);
+    buffer = done ? '' : lines.pop() || '';
+    for (const line of lines) {
+      if (!line.startsWith('data:')) continue;
+      const data = line.slice(5).trim();
+      if (!data || data === '[DONE]') continue;
+      try {
+        handleEvent(JSON.parse(data));
+      } catch {
+        // To'liq bo'lmagan SSE qatori — o'tkazib yuboramiz.
+      }
+    }
+    if (done) break;
+  }
+}
+
+// Javob oqimi darhol boshlanadi (quota/sources hodisalari), Groq'ga urinishlar oqim ichida bajariladi.
+function streamAnswer({ attempts, makeRequest, notes, reservation, requestSignal }) {
+  const encoder = new TextEncoder();
+  const noteMeta = notes.map(({ title, fan, sinf, heading, file }) => ({ title, fan, sinf, heading, file }));
+  const startedAt = Date.now();
+  const log = [];
 
   const body = new ReadableStream({
     async start(controller) {
-      const send = (event) => controller.enqueue(encoder.encode(`${JSON.stringify(event)}\n`));
-      send({ type: 'quota', ...quota });
-      send({ type: 'sources', web: [], notes: noteMeta, search: attempt.search === 'off' ? 'off' : 'pending' });
-      let announcedSearch = false;
-
-      const handleEvent = (event) => {
-        const choice = event.choices?.[0];
-        const delta = choice?.delta || choice?.message || {};
-        if (typeof delta.content === 'string' && delta.content) send({ type: 'delta', text: delta.content });
-        for (const tool of [delta.executed_tools, choice?.executed_tools, event.executed_tools].flat()) {
-          if (!tool) continue;
-          tools.handle(tool);
-          if (!announcedSearch) {
-            announcedSearch = true;
-            send({ type: 'status', status: 'searching' });
-          }
-        }
+      let closed = false;
+      let contentSent = false;
+      let searchTimedOut = false;
+      const send = (event) => {
+        if (!closed) controller.enqueue(encoder.encode(`${JSON.stringify(event)}\n`));
       };
+      const fail = async (message, code) => {
+        if (!contentSent) await reservation.release();
+        send({ type: 'error', message, ...(code ? { code } : {}) });
+      };
+      const deadline = new AbortController();
+      const deadlineTimer = setTimeout(() => deadline.abort(), maxDurationMs());
+
+      send({ type: 'quota', ...reservation.quota });
+      send({ type: 'sources', web: [], notes: noteMeta, search: attempts[0].search === 'off' ? 'off' : 'pending' });
 
       try {
-        const reader = upstream.body.getReader();
-        let buffer = '';
-        while (true) {
-          const { done, value } = await reader.read();
-          buffer += decoder.decode(value || new Uint8Array(), { stream: !done });
-          const lines = buffer.split(/\r?\n/);
-          buffer = done ? '' : lines.pop() || '';
-          for (const line of lines) {
-            if (!line.startsWith('data:')) continue;
-            const data = line.slice(5).trim();
-            if (!data || data === '[DONE]') continue;
-            try {
-              handleEvent(JSON.parse(data));
-            } catch {
-              // To'liq bo'lmagan SSE qatori — o'tkazib yuboramiz.
-            }
-          }
-          if (done) break;
-        }
+        for (const [index, attempt] of attempts.entries()) {
+          if (searchTimedOut && attempt.search !== 'unavailable') continue;
+          const searching = attempt.search === 'browser' || attempt.search === 'compound';
+          const tools = createToolTracker();
+          const attemptController = new AbortController();
+          const abortAttempt = () => attemptController.abort();
+          requestSignal.addEventListener('abort', abortAttempt);
+          deadline.signal.addEventListener('abort', abortAttempt);
+          let searchTimerFired = false;
+          const searchTimer = searching
+            ? setTimeout(() => { searchTimerFired = true; attemptController.abort(); }, searchTimeoutMs())
+            : null;
 
-        const web = tools.sources();
-        console.info(`[tutor] model=${attempt.model} search=${searchStatus()} fallback=${fallback} tools=[${tools.log.join(', ')}] web=${web.length} notes=[${notes.map((note) => note.file).join(', ')}] attempts=[${log.join(' → ')}]`);
-        send({ type: 'sources', web, notes: noteMeta, search: searchStatus() });
-        send({ type: 'done', model: attempt.model, fallback });
-        controller.close();
+          try {
+            const upstream = await makeRequest(attempt, attemptController.signal);
+            if (!upstream.ok || !upstream.body) {
+              const details = (await upstream.text().catch(() => '')).slice(0, 300);
+              log.push(`${attempt.model}/${attempt.search}:${upstream.status}`);
+              console.warn(`[tutor] Groq request failed (${attempt.model}, search=${attempt.search}, ${upstream.status}): ${details}`);
+              // Groq limiti (masalan, bepul tarifda 8000 token/daqiqa) — boshqa modelga o'tish ham shu limitga uriladi.
+              if (upstream.status === 429) {
+                await fail(`AI so‘rovlar limiti vaqtincha tugadi. ${retryAfterSeconds(details, upstream.headers)} soniyadan keyin qayta urinib ko‘ring.`, 'rate_limited');
+                return;
+              }
+              if (attempt.vision) {
+                const reason = upstream.status === 404 || upstream.status === 400
+                  ? `${attempt.model} modeli rasmni qabul qilmadi (GROQ_VISION_MODEL sozlamasini tekshiring).`
+                  : `${attempt.model} modeli hozir javob bermayapti.`;
+                await fail(`Rasmni tahlil qilib bo‘lmadi: ${reason} Savolni matn bilan yozib ko‘ring.`, 'vision_failed');
+                return;
+              }
+              continue;
+            }
+
+            await pumpAttempt({
+              upstream,
+              send,
+              tools,
+              onFirstContent: () => {
+                contentSent = true;
+                clearTimeout(searchTimer);
+              },
+            });
+            log.push(`${attempt.model}/${attempt.search}:ok`);
+
+            const search = attempt.search === 'off' ? 'off'
+              : attempt.search === 'unavailable' ? (searchTimedOut ? 'timeout' : 'unavailable')
+                : tools.executed ? 'ok' : 'unused';
+            const web = tools.sources();
+            console.info(`[tutor] model=${attempt.model} search=${search} fallback=${index > 0} tools=[${tools.log.join(', ')}] web=${web.length} notes=[${notes.map((note) => note.file).join(', ')}] attempts=[${log.join(' → ')}] ${Date.now() - startedAt}ms`);
+            send({ type: 'sources', web, notes: noteMeta, search });
+            send({ type: 'done', model: attempt.model, fallback: index > 0 });
+            return;
+          } catch (error) {
+            // Qidiruv chegaradan oshdi va hali matn yuborilmagan — qidiruvsiz urinishga o'tamiz.
+            if (searchTimerFired && !contentSent && !deadline.signal.aborted && !requestSignal.aborted) {
+              searchTimedOut = true;
+              log.push(`${attempt.model}/${attempt.search}:search-timeout(${searchTimeoutMs()}ms)`);
+              console.warn(`[tutor] web search exceeded ${searchTimeoutMs()}ms — falling back to an answer without search`);
+              send({ type: 'status', status: 'search-timeout' });
+              continue;
+            }
+            throw error;
+          } finally {
+            clearTimeout(searchTimer);
+            requestSignal.removeEventListener('abort', abortAttempt);
+            deadline.signal.removeEventListener('abort', abortAttempt);
+          }
+        }
+        console.error(`[tutor] all attempts failed: ${log.join(' → ')}`);
+        await fail('AI javob bera olmadi. Birozdan so‘ng qayta urinib ko‘ring.');
       } catch (error) {
-        if (error?.name !== 'AbortError') console.error('[tutor] stream failed:', error);
-        send({ type: 'error', message: error instanceof Error ? error.message : 'Stream uzilib qoldi.' });
+        if (deadline.signal.aborted) {
+          console.warn(`[tutor] answer exceeded ${maxDurationMs()}ms: ${log.join(' → ')}`);
+          await fail('Javob vaqt chegarasiga yetib uzildi. Qayta urinib ko‘ring.', 'timeout');
+        } else if (requestSignal.aborted) {
+          if (!contentSent) await reservation.release();
+        } else {
+          console.error('[tutor] stream failed:', error);
+          await fail('AI xizmatiga ulanishda xatolik yuz berdi.');
+        }
+      } finally {
+        clearTimeout(deadlineTimer);
+        closed = true;
         controller.close();
       }
     },
   });
 
-  return new Response(body, {
-    headers: {
-      'Content-Type': 'application/x-ndjson; charset=utf-8',
-      'Cache-Control': 'no-cache, no-transform',
-      Connection: 'keep-alive',
-      'X-Accel-Buffering': 'no',
-    },
-  });
+  return new Response(body, { headers: NDJSON_HEADERS });
 }
 
 export async function handleTutorRequest(request) {
@@ -334,7 +435,7 @@ export async function handleTutorRequest(request) {
   ];
 
   const endpoint = `${groqBaseUrl()}/chat/completions`;
-  const makeRequest = (attempt) => fetch(endpoint, {
+  const makeRequest = (attempt, signal) => fetch(endpoint, {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${apiKey}`,
@@ -348,44 +449,14 @@ export async function handleTutorRequest(request) {
       // Qwen fikrlash matnini javobga aralashtirmasin.
       ...(/qwen/i.test(attempt.model) ? { reasoning_format: 'hidden' } : {}),
     }),
-    signal: request.signal,
+    signal,
   });
 
-  const attempts = planAttempts(body.webSearch && !speaking, images.length > 0);
-  const log = [];
-  try {
-    for (const [index, attempt] of attempts.entries()) {
-      const upstream = await makeRequest(attempt);
-      if (upstream.ok && upstream.body) {
-        log.push(`${attempt.model}/${attempt.search}:ok`);
-        return ndjsonStream({ upstream, attempt, notes: notes.used, fallback: index > 0, log, quota: reservation.quota });
-      }
-      const details = (await upstream.text().catch(() => '')).slice(0, 300);
-      log.push(`${attempt.model}/${attempt.search}:${upstream.status}`);
-      console.warn(`[tutor] Groq request failed (${attempt.model}, search=${attempt.search}, ${upstream.status}): ${details}`);
-      // Groq limiti (masalan, bepul tarifda 8000 token/daqiqa) — boshqa modelga o'tish ham shu limitga uriladi.
-      if (upstream.status === 429) {
-        await reservation.release();
-        console.error(`[tutor] rate limited: ${log.join(' → ')}`);
-        return jsonResponse(429, { error: `AI so‘rovlar limiti vaqtincha tugadi. ${retryAfterSeconds(details, upstream.headers)} soniyadan keyin qayta urinib ko‘ring.` });
-      }
-      if (attempt.vision) {
-        await reservation.release();
-        const reason = upstream.status === 404 || upstream.status === 400
-          ? `${attempt.model} modeli rasmni qabul qilmadi (GROQ_VISION_MODEL sozlamasini tekshiring).`
-          : `${attempt.model} modeli hozir javob bermayapti.`;
-        return jsonResponse(502, { error: `Rasmni tahlil qilib bo‘lmadi: ${reason} Savolni matn bilan yozib ko‘ring.` });
-      }
-    }
-    await reservation.release();
-    console.error(`[tutor] all attempts failed: ${log.join(' → ')}`);
-    return jsonResponse(502, { error: 'AI javob bera olmadi. Birozdan so‘ng qayta urinib ko‘ring.' });
-  } catch (error) {
-    await reservation.release();
-    if (error.name === 'AbortError') {
-      return new Response(null, { status: 499 });
-    }
-    console.error('Tutor request failed:', error);
-    return jsonResponse(502, { error: 'AI xizmatiga ulanishda xatolik yuz berdi.' });
-  }
+  return streamAnswer({
+    attempts: planAttempts(body.webSearch && !speaking, images.length > 0),
+    makeRequest,
+    notes: notes.used,
+    reservation,
+    requestSignal: request.signal,
+  });
 }

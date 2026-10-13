@@ -1,7 +1,7 @@
 import { createServer } from 'node:http';
 
 // Groq API taqlidi: chat (oqim, browser_search, rasm, IELTS Speaking) va Whisper transkripsiyasi.
-// Muhit: MOCK_GROQ_PORT, MOCK_DELAY_MS, MOCK_ERROR, MOCK_FAIL_SEARCH, MOCK_FAIL_VISION, MOCK_FAIL_TRANSCRIBE.
+// Muhit: MOCK_GROQ_PORT, MOCK_DELAY_MS, MOCK_SEARCH_DELAY_MS, MOCK_ERROR, MOCK_FAIL_SEARCH, MOCK_FAIL_VISION, MOCK_FAIL_TRANSCRIBE.
 const port = Number(process.env.MOCK_GROQ_PORT || 4010);
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const json = (response, status, payload) => response
@@ -69,6 +69,8 @@ createServer(async (request, response) => {
       send({ executed_tools: [tool] });
       await sleep(150);
     }
+    // Sekin internet qidiruvini taqlid qilish (vaqt chegarasini sinash uchun).
+    await sleep(Number(process.env.MOCK_SEARCH_DELAY_MS || 0));
   }
   const delay = Number(process.env.MOCK_DELAY_MS || 120);
   let parts;

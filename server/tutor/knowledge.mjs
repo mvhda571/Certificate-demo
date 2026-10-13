@@ -1,7 +1,15 @@
 import { readdir, readFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const notesRoot = path.resolve(process.cwd(), 'src', 'data', 'konspekt');
+// Lokal dev'da cwd = loyiha ildizi; serverless funksiyada fayllar boshqa joyda bo'lishi mumkin.
+const notesRootCandidates = [
+  path.resolve(process.cwd(), 'src', 'data', 'konspekt'),
+  fileURLToPath(new URL('../../src/data/konspekt', import.meta.url)),
+  path.resolve(process.env.LAMBDA_TASK_ROOT || '/var/task', 'src', 'data', 'konspekt'),
+];
+const notesRoot = notesRootCandidates.find((candidate) => existsSync(candidate)) || notesRootCandidates[0];
 // Aloqasiz savollarga (salomlashish, IELTS narxi va h.k.) konspekt biriktirilmasligi uchun.
 const MIN_SCORE = 0.2;
 // So'rovda bitta ma'noli so'z bo'lsa, tasodifiy moslik ehtimoli yuqori — chegara qattiqroq.
@@ -86,7 +94,10 @@ async function loadKnowledge() {
     file: path.relative(notesRoot, file),
     text: await readFile(file, 'utf8'),
   })));
-  return documents.flatMap(({ file, text }) => parseDocument(file, text));
+  const chunks = documents.flatMap(({ file, text }) => parseDocument(file, text));
+  console.info(`[knowledge] ${documents.length} ta konspekt yuklandi (${notesRoot})`);
+  if (!documents.length) console.warn(`[knowledge] konspekt topilmadi. Sinalgan yo'llar: ${notesRootCandidates.join(', ')}`);
+  return chunks;
 }
 
 function tokenize(value) {
