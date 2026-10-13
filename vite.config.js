@@ -1,13 +1,19 @@
 import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 import { handleTutorRequest } from './server/tutor/handler.mjs'
+import { handleTranscribeRequest } from './server/tutor/transcribe.mjs'
 
-// Dev rejimida /api/tutor so'rovlarini Vercel funksiyasi bilan bir xil handler'ga yo'naltiradi.
+const tutorApiRoutes = {
+  '/api/tutor': handleTutorRequest,
+  '/api/transcribe': handleTranscribeRequest,
+}
+
+// Dev rejimida /api/tutor va /api/transcribe so'rovlarini Vercel funksiyalari bilan bir xil handler'larga yo'naltiradi.
 function tutorApiPlugin() {
   return {
     name: 'certificate-tutor-api',
     configureServer(server) {
-      server.middlewares.use('/api/tutor', async (req, res, next) => {
+      for (const [route, handle] of Object.entries(tutorApiRoutes)) server.middlewares.use(route, async (req, res, next) => {
         if (req.method !== 'POST') {
           res.statusCode = 405
           res.setHeader('Allow', 'POST')
@@ -20,13 +26,13 @@ function tutorApiPlugin() {
           for await (const chunk of req) chunks.push(chunk)
           const controller = new AbortController()
           res.on('close', () => controller.abort())
-          const request = new Request(`http://${req.headers.host || 'localhost'}/api/tutor`, {
+          const request = new Request(`http://${req.headers.host || 'localhost'}${route}`, {
             method: req.method,
             headers: req.headers,
             body: Buffer.concat(chunks),
             signal: controller.signal,
           })
-          const response = await handleTutorRequest(request)
+          const response = await handle(request)
           res.statusCode = response.status
           response.headers.forEach((value, key) => res.setHeader(key, value))
           if (!response.body) {
@@ -56,7 +62,7 @@ function tutorApiPlugin() {
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
-  for (const key of ['GROQ_API_KEY', 'GROQ_BASE_URL', 'GROQ_MODEL', 'GROQ_SEARCH_MODEL']) {
+  for (const key of ['GROQ_API_KEY', 'GROQ_BASE_URL', 'GROQ_MODEL', 'GROQ_SEARCH_MODEL', 'GROQ_VISION_MODEL', 'GROQ_TRANSCRIBE_MODEL']) {
     if (env[key] !== undefined) process.env[key] = env[key]
   }
 

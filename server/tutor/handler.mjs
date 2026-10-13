@@ -1,51 +1,53 @@
 import { findRelevantNotes } from './knowledge.mjs';
-import { TUTOR_SYSTEM_PROMPT, WEB_SEARCH_ON, WEB_SEARCH_UNAVAILABLE } from './prompt.mjs';
+import {
+  IELTS_SPEAKING_PROMPT,
+  IMAGE_ONLY_QUESTION,
+  TUTOR_SYSTEM_PROMPT,
+  WEB_SEARCH_ON,
+  WEB_SEARCH_UNAVAILABLE,
+  WEB_SEARCH_WITH_IMAGES,
+} from './prompt.mjs';
+import { createRateLimiter, getClientIp, groqBaseUrl, jsonResponse, retryAfterSeconds } from './http.mjs';
 
-const WINDOW_MS = 10 * 60 * 1000;
-const REQUEST_LIMIT = 20;
 const MAX_MESSAGES = 12;
 const MAX_MESSAGE_LENGTH = 4000;
 const NOTES_CHAR_BUDGET = 6000;
 const DEFAULT_MODEL = 'openai/gpt-oss-120b';
-const rateLimits = new Map();
+const DEFAULT_VISION_MODEL = 'qwen/qwen3.8-27b';
+// Rasmlar brauzerda ~1600px JPEG'ga siqiladi; Vercel funksiyasi tanasi 4.5 MB bilan cheklangan.
+const MAX_IMAGES = 3;
+const MAX_IMAGE_CHARS = 1_600_000;
+const MAX_BODY_BYTES = 4_400_000;
+const IMAGE_DATA_URL = /^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+/]+=*$/;
+const UI_LANGUAGES = { uz: 'Uzbek (Latin script)', ru: 'Russian', en: 'English' };
+const overRateLimit = createRateLimiter({ windowMs: 10 * 60 * 1000, limit: 20 });
 
-function jsonResponse(status, payload) {
-  return new Response(JSON.stringify(payload), {
-    status,
-    headers: { 'Content-Type': 'application/json; charset=utf-8' },
-  });
+function validateImages(images) {
+  if (images === undefined) return [];
+  if (!Array.isArray(images) || images.length > MAX_IMAGES) return null;
+  if (images.some((image) => typeof image !== 'string' || image.length > MAX_IMAGE_CHARS || !IMAGE_DATA_URL.test(image))) return null;
+  return images;
 }
 
-function getClientIp(request) {
-  return request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
-    || request.headers.get('x-real-ip')
-    || 'unknown';
-}
-
-function overRateLimit(ip) {
-  const now = Date.now();
-  const active = (rateLimits.get(ip) || []).filter((time) => now - time < WINDOW_MS);
-  if (active.length >= REQUEST_LIMIT) {
-    rateLimits.set(ip, active);
-    return true;
-  }
-  active.push(now);
-  rateLimits.set(ip, active);
-  return false;
-}
-
+// Rasmlar faqat oxirgi foydalanuvchi xabarida bo'lishi mumkin (eski rasmlar saqlanmaydi).
 function validateMessages(value) {
   if (!Array.isArray(value) || value.length === 0) return null;
   const messages = value.slice(-MAX_MESSAGES);
+  const last = messages.at(-1);
+  if (last?.role !== 'user') return null;
+  const images = validateImages(last.images);
+  if (!images) return null;
   if (messages.some((message) => (
     !message
     || !['user', 'assistant'].includes(message.role)
     || typeof message.content !== 'string'
-    || !message.content.trim()
     || message.content.length > MAX_MESSAGE_LENGTH
+    || (!message.content.trim() && !(message === last && images.length))
   ))) return null;
-  if (messages.at(-1).role !== 'user') return null;
-  return messages.map(({ role, content }) => ({ role, content }));
+  return {
+    messages: messages.map(({ role, content }) => ({ role, content })),
+    images,
+  };
 }
 
 // Konspektlar to'liq beriladi, lekin umumiy hajm NOTES_CHAR_BUDGET dan oshmaydi.
@@ -73,8 +75,12 @@ const supportsBrowserSearch = (model) => /^openai\/gpt-oss-(120b|20b)$/.test(mod
 const isCompound = (model) => model.startsWith('groq/compound');
 
 // Internet so'ralganda modellarni navbat bilan sinaymiz; oxirgi variant — internetsiz javob.
-function planAttempts(webSearch) {
+function planAttempts(webSearch, hasImages) {
   const baseModel = process.env.GROQ_MODEL || DEFAULT_MODEL;
+  // Rasmli savol faqat vision modelga ketadi (unda browser_search yo'q).
+  if (hasImages) {
+    return [{ model: process.env.GROQ_VISION_MODEL || DEFAULT_VISION_MODEL, search: webSearch ? 'unavailable' : 'off', vision: true }];
+  }
   if (!webSearch) return [{ model: baseModel, search: 'off' }];
 
   const searchModel = process.env.GROQ_SEARCH_MODEL || DEFAULT_MODEL;
@@ -234,6 +240,9 @@ export async function handleTutorRequest(request) {
   if (request.method !== 'POST') {
     return jsonResponse(405, { error: 'Faqat POST so‘rovlari qabul qilinadi.' });
   }
+  if (Number(request.headers.get('content-length') || 0) > MAX_BODY_BYTES) {
+    return jsonResponse(413, { error: 'So‘rov juda katta. Kamroq yoki kichikroq rasm yuboring.' });
+  }
 
   if (overRateLimit(getClientIp(request))) {
     return jsonResponse(429, { error: 'So‘rovlar limiti tugadi. Iltimos, 10 daqiqadan keyin urinib ko‘ring.' });
@@ -245,10 +254,11 @@ export async function handleTutorRequest(request) {
   } catch {
     return jsonResponse(400, { error: 'So‘rov tanasi to‘g‘ri JSON formatida emas.' });
   }
-  const messages = validateMessages(body?.messages);
-  if (!messages) {
-    return jsonResponse(400, { error: 'Xabarlar ro‘yxati bo‘sh yoki noto‘g‘ri. Har bir xabar 4000 belgidan oshmasin.' });
+  const validated = validateMessages(body?.messages);
+  if (!validated) {
+    return jsonResponse(400, { error: 'Xabarlar ro‘yxati bo‘sh yoki noto‘g‘ri. Har bir xabar 4000 belgidan oshmasin, rasmlar 3 tadan ko‘p bo‘lmasin.' });
   }
+  const { messages, images } = validated;
   if (typeof body.webSearch !== 'boolean') {
     return jsonResponse(400, { error: 'webSearch mantiqiy qiymat bo‘lishi kerak.' });
   }
@@ -258,35 +268,47 @@ export async function handleTutorRequest(request) {
     return jsonResponse(503, { error: 'AI xizmati sozlanmagan: serverda GROQ_API_KEY qiymatini kiriting.' });
   }
 
-  let notes;
-  try {
-    notes = buildNotesContext(await findRelevantNotes(messages.at(-1).content));
-  } catch (error) {
-    console.error('Tutor knowledge base could not be loaded:', error);
-    return jsonResponse(500, { error: 'Platforma konspektlarini o‘qishda xatolik yuz berdi.' });
+  const speaking = body.mode === 'ielts-speaking';
+  const uiLanguage = UI_LANGUAGES[body.language] || UI_LANGUAGES.uz;
+  let notes = { used: [], text: '' };
+  if (!speaking && messages.at(-1).content.trim()) {
+    try {
+      notes = buildNotesContext(await findRelevantNotes(messages.at(-1).content));
+    } catch (error) {
+      console.error('Tutor knowledge base could not be loaded:', error);
+      return jsonResponse(500, { error: 'Platforma konspektlarini o‘qishda xatolik yuz berdi.' });
+    }
   }
 
   const subject = typeof body.subject === 'string' ? body.subject.slice(0, 100) : 'general';
   const history = messages.slice(0, -1);
   const question = messages.at(-1);
-  const buildMessages = (attempt) => [
-    {
-      role: 'system',
+  const questionMessage = (attempt) => (attempt.vision
+    ? {
+      role: 'user',
       content: [
-        TUTOR_SYSTEM_PROMPT,
-        `Selected subject: ${subject}.`,
-        ...(attempt.search === 'browser' || attempt.search === 'compound' ? [WEB_SEARCH_ON] : []),
-        ...(attempt.search === 'unavailable' ? [WEB_SEARCH_UNAVAILABLE] : []),
-      ].join('\n\n'),
-    },
+        { type: 'text', text: question.content.trim() || IMAGE_ONLY_QUESTION },
+        ...images.map((url) => ({ type: 'image_url', image_url: { url } })),
+      ],
+    }
+    : question);
+  const systemPrompt = (attempt) => (speaking
+    ? [IELTS_SPEAKING_PROMPT, `Write feedback explanations in ${uiLanguage}; keep examiner questions, corrections and model answers in English.`]
+    : [
+      TUTOR_SYSTEM_PROMPT,
+      `Selected subject: ${subject}.`,
+      ...(attempt.search === 'browser' || attempt.search === 'compound' ? [WEB_SEARCH_ON] : []),
+      ...(attempt.search === 'unavailable' ? [attempt.vision ? WEB_SEARCH_WITH_IMAGES : WEB_SEARCH_UNAVAILABLE] : []),
+    ]).join('\n\n');
+  const buildMessages = (attempt) => [
+    { role: 'system', content: systemPrompt(attempt) },
     ...history,
     // Konspekt oxirgi savoldan oldin alohida kontekst sifatida turadi.
     ...(notes.text ? [{ role: 'system', content: notes.text }] : []),
-    question,
+    questionMessage(attempt),
   ];
 
-  const baseUrl = (process.env.GROQ_BASE_URL || 'https://api.groq.com/openai/v1').replace(/\/+$/, '');
-  const endpoint = `${baseUrl}/chat/completions`;
+  const endpoint = `${groqBaseUrl()}/chat/completions`;
   const makeRequest = (attempt) => fetch(endpoint, {
     method: 'POST',
     headers: {
@@ -304,7 +326,7 @@ export async function handleTutorRequest(request) {
     signal: request.signal,
   });
 
-  const attempts = planAttempts(body.webSearch);
+  const attempts = planAttempts(body.webSearch && !speaking, images.length > 0);
   const log = [];
   try {
     for (const [index, attempt] of attempts.entries()) {
@@ -318,9 +340,14 @@ export async function handleTutorRequest(request) {
       console.warn(`[tutor] Groq request failed (${attempt.model}, search=${attempt.search}, ${upstream.status}): ${details}`);
       // Groq limiti (masalan, bepul tarifda 8000 token/daqiqa) — boshqa modelga o'tish ham shu limitga uriladi.
       if (upstream.status === 429) {
-        const seconds = Math.ceil(Number(details.match(/try again in ([\d.]+)s/)?.[1]) || Number(upstream.headers.get('retry-after')) || 30);
         console.error(`[tutor] rate limited: ${log.join(' → ')}`);
-        return jsonResponse(429, { error: `AI so‘rovlar limiti vaqtincha tugadi. ${seconds} soniyadan keyin qayta urinib ko‘ring.` });
+        return jsonResponse(429, { error: `AI so‘rovlar limiti vaqtincha tugadi. ${retryAfterSeconds(details, upstream.headers)} soniyadan keyin qayta urinib ko‘ring.` });
+      }
+      if (attempt.vision) {
+        const reason = upstream.status === 404 || upstream.status === 400
+          ? `${attempt.model} modeli rasmni qabul qilmadi (GROQ_VISION_MODEL sozlamasini tekshiring).`
+          : `${attempt.model} modeli hozir javob bermayapti.`;
+        return jsonResponse(502, { error: `Rasmni tahlil qilib bo‘lmadi: ${reason} Savolni matn bilan yozib ko‘ring.` });
       }
     }
     console.error(`[tutor] all attempts failed: ${log.join(' → ')}`);

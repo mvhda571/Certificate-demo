@@ -13,17 +13,23 @@ import {
   FiCopy,
   FiEdit3,
   FiGlobe,
+  FiLoader,
   FiMessageCircle,
+  FiMic,
   FiRotateCcw,
   FiSend,
   FiSquare,
   FiX,
 } from 'react-icons/fi'
 import { MdHistory } from 'react-icons/md'
-import { createMessage, useTutorStore } from '../store/useTutorStore'
+import { createId, createMessage, setMessageImages, useTutorAttachments, useTutorStore } from '../store/useTutorStore'
 import { ComposerOptions } from '../components/tutor/ComposerOptions'
-import { subjectEmoji } from '../utils/tutorSubjects'
 import { ConversationList } from '../components/tutor/ConversationList'
+import { ListenButton } from '../components/tutor/ListenButton'
+import { useVoiceRecorder } from '../hooks/useVoiceRecorder'
+import { compressImage, ImageCompressError } from '../utils/imageCompress'
+import { stopSpeaking } from '../utils/speech'
+import { subjectEmoji } from '../utils/tutorSubjects'
 import { normalizeTutorMarkdown } from '../utils/tutorMarkdown'
 import 'katex/dist/katex.min.css'
 import './TutorPage.css'
@@ -31,7 +37,12 @@ import './TutorPage.css'
 const MAX_LENGTH = 4000
 const HISTORY_LIMIT = 12
 const FLUSH_MS = 50
+const MAX_IMAGES = 3
+const MAX_RECORD_SECONDS = 60
+const SPEAKING_MODE = 'ielts-speaking'
 const EMPTY_MESSAGES = []
+
+const formatSeconds = (value) => `${Math.floor(value / 60)}:${String(Math.floor(value % 60)).padStart(2, '0')}`
 
 // Sahifa balandligi = ekran − (yuqoridagi header va hokazo). Transformlarni hisobga olmaslik uchun offsetTop ishlatiladi.
 function useTopOffset(ref) {
@@ -68,6 +79,30 @@ const AssistantMarkdown = memo(function AssistantMarkdown({ content, webSources 
     </ReactMarkdown>
   )
 })
+
+function UserMessage({ message }) {
+  const { t } = useTranslation()
+  const images = useTutorAttachments((state) => state.images[message.id])
+  return (
+    <article className="flex flex-col items-end gap-1.5">
+      <h3 className="sr-only">{t('tutor.you')}</h3>
+      {images?.length ? (
+        <div className="flex max-w-[85%] flex-wrap justify-end gap-1.5">
+          {images.map((src, index) => (
+            <img key={src.slice(-32)} src={src} alt={t('tutor.images.alt', { index: index + 1 })} className="h-24 w-24 rounded-xl border border-slate-200 object-cover dark:border-slate-700 sm:h-28 sm:w-28" />
+          ))}
+        </div>
+      ) : message.imageCount ? (
+        <p className="inline-flex items-center gap-1.5 rounded-xl border border-dashed border-slate-300 px-3 py-1.5 text-xs text-slate-500 dark:border-slate-600 dark:text-slate-400">
+          <span aria-hidden="true">🖼️</span>{t('tutor.images.sentCount', { count: message.imageCount })}
+        </p>
+      ) : null}
+      {message.content && (
+        <p className="max-w-[85%] whitespace-pre-wrap break-words rounded-2xl rounded-br-md bg-emerald-600 px-4 py-2.5 text-sm leading-relaxed text-white">{message.content}</p>
+      )}
+    </article>
+  )
+}
 
 function AssistantMessage({ message, onRetry, onCopy, copied }) {
   const { t } = useTranslation()
@@ -135,6 +170,7 @@ function AssistantMessage({ message, onRetry, onCopy, copied }) {
 
         {!streaming && (
           <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-slate-400">
+            {message.content && <ListenButton id={message.id} content={message.content} />}
             {message.content && (
               <button type="button" onClick={() => onCopy(message)} className="inline-flex items-center gap-1 rounded-md py-1 hover:text-slate-700 dark:hover:text-slate-200">
                 {copied ? <FiCheck aria-hidden="true" /> : <FiCopy aria-hidden="true" />}
@@ -154,8 +190,11 @@ function AssistantMessage({ message, onRetry, onCopy, copied }) {
   )
 }
 
+// Tarixdagi eski rasmli xabarlar: rasmlarning o'zi saqlanmaydi, model uchun izoh qoladi.
+const imageHistoryNote = (count) => `[The student attached ${count} image(s) to this message earlier; the images are no longer available.]`
+
 export function TutorPage() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const conversations = useTutorStore((state) => state.conversations)
   const activeId = useTutorStore((state) => state.activeId)
   const draft = useTutorStore((state) => state.draft)
@@ -163,22 +202,41 @@ export function TutorPage() {
   const messages = active?.messages || EMPTY_MESSAGES
   const subject = active?.subject ?? draft.subject
   const webSearch = active?.webSearch ?? draft.webSearch
+  const speakingMode = active?.mode === SPEAKING_MODE
 
   const [input, setInput] = useState('')
   const [streamingConversationId, setStreamingConversationId] = useState(null)
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [copiedId, setCopiedId] = useState('')
+  const [pendingImages, setPendingImages] = useState([])
+  const [preparingImages, setPreparingImages] = useState(0)
+  const [transcribing, setTranscribing] = useState(false)
+  const [composerError, setComposerError] = useState('')
   const streamRef = useRef(null)
+  const transcribeAbortRef = useRef(null)
   const rootRef = useRef(null)
   const listRef = useRef(null)
   const textareaRef = useRef(null)
+  const fileInputRef = useRef(null)
   const lastCountRef = useRef(0)
   const topOffset = useTopOffset(rootRef)
   const sending = Boolean(streamingConversationId)
   const sendingHere = sending && streamingConversationId === activeId
 
-  const abortStream = useCallback(() => streamRef.current?.controller.abort(), [])
-  useEffect(() => abortStream, [abortStream])
+  const recorder = useVoiceRecorder({ maxSeconds: MAX_RECORD_SECONDS, onAudio: transcribeAudio })
+  const visibleError = composerError || (recorder.error ? t(`tutor.voice.${recorder.error}`) : '')
+  const dismissError = () => { setComposerError(''); recorder.clearError() }
+
+  const abortStream = useCallback(() => {
+    streamRef.current?.controller.abort()
+    streamRef.current = null
+    setStreamingConversationId(null)
+  }, [])
+  useEffect(() => () => {
+    streamRef.current?.controller.abort()
+    transcribeAbortRef.current?.abort()
+    stopSpeaking()
+  }, [])
 
   // Yangi xabar qo'shilsa — pastga; stream paytida faqat foydalanuvchi pastda bo'lsa ergashamiz.
   useEffect(() => {
@@ -209,8 +267,66 @@ export function TutorPage() {
     textarea.style.height = `${Math.min(textarea.scrollHeight, 160)}px`
   }
 
-  async function sendMessage(text = input, retryMessageId = null) {
-    if (streamRef.current) return
+  // Ovoz → /api/transcribe (Whisper) → matn inputga tushadi, o'quvchi tekshirib yuboradi.
+  async function transcribeAudio(blob) {
+    setTranscribing(true)
+    setComposerError('')
+    const controller = new AbortController()
+    transcribeAbortRef.current = controller
+    try {
+      const extension = blob.type.includes('mp4') ? 'mp4' : blob.type.includes('ogg') ? 'ogg' : 'webm'
+      const form = new FormData()
+      form.append('file', blob, `voice.${extension}`)
+      // IELTS Speaking javoblari doim ingliz tilida.
+      form.append('language', speakingMode ? 'en' : (i18n.language || 'uz').slice(0, 2))
+      const response = await fetch('/api/transcribe', { method: 'POST', body: form, signal: controller.signal })
+      const data = await response.json().catch(() => ({}))
+      if (!response.ok) throw new Error(typeof data.error === 'string' ? data.error : t('tutor.voice.failed'))
+      const text = String(data.text || '').trim()
+      if (!text) {
+        setComposerError(t('tutor.voice.empty'))
+        return
+      }
+      setInput((previous) => (previous.trim() ? `${previous.trimEnd()} ${text}` : text).slice(0, MAX_LENGTH))
+      requestAnimationFrame(() => {
+        resizeTextarea()
+        textareaRef.current?.focus()
+      })
+    } catch (error) {
+      if (error.name !== 'AbortError') setComposerError(error.message || t('tutor.voice.failed'))
+    } finally {
+      if (transcribeAbortRef.current === controller) transcribeAbortRef.current = null
+      setTranscribing(false)
+    }
+  }
+
+  // Rasmlar brauzerda siqiladi (≤1600px JPEG) va yuborilguncha faqat xotirada turadi.
+  async function addImageFiles(fileList) {
+    const files = [...(fileList || [])].filter(Boolean)
+    if (!files.length) return
+    setComposerError('')
+    const free = MAX_IMAGES - pendingImages.length - preparingImages
+    if (free <= 0) {
+      setComposerError(t('tutor.images.limit'))
+      return
+    }
+    if (files.length > free) setComposerError(t('tutor.images.limit'))
+    const accepted = files.slice(0, free)
+    setPreparingImages((count) => count + accepted.length)
+    for (const file of accepted) {
+      try {
+        const { dataUrl } = await compressImage(file)
+        setPendingImages((list) => (list.length >= MAX_IMAGES ? list : [...list, { id: createId(), dataUrl }]))
+      } catch (error) {
+        setComposerError(t(`tutor.images.${error instanceof ImageCompressError ? error.code : 'failed'}`))
+      } finally {
+        setPreparingImages((count) => count - 1)
+      }
+    }
+  }
+
+  async function sendMessage(text = input, retryMessageId = null, overrides = null) {
+    if (streamRef.current || preparingImages) return
     const store = useTutorStore.getState()
     let conversationId = store.activeId
 
@@ -218,28 +334,38 @@ export function TutorPage() {
       store.removeMessage(conversationId, retryMessageId)
     } else {
       const content = text.trim()
-      if (!content) return
-      const userMessage = createMessage({ role: 'user', content })
+      const images = overrides ? [] : pendingImages.map((image) => image.dataUrl)
+      if (!content && !images.length) return
+      const userMessage = createMessage({ role: 'user', content, ...(images.length ? { imageCount: images.length } : {}) })
+      if (images.length) setMessageImages(userMessage.id, images)
       if (conversationId) store.addMessage(conversationId, userMessage)
-      else conversationId = store.createConversation(userMessage)
+      else conversationId = store.createConversation(userMessage, { ...overrides, ...(!content ? { title: t('tutor.images.title') } : {}) })
       setInput('')
+      setPendingImages([])
       if (textareaRef.current) textareaRef.current.style.height = 'auto'
     }
 
     const conversation = useTutorStore.getState().conversations.find((item) => item.id === conversationId)
     if (!conversation) return
-    const history = conversation.messages
+    const recent = conversation.messages
       .filter((message) => message.role === 'user' || (message.content && message.status !== 'error'))
       .slice(-HISTORY_LIMIT)
-      .map(({ role, content }) => ({ role, content }))
-    if (history.at(-1)?.role !== 'user') return
+    const lastUser = recent.at(-1)
+    if (lastUser?.role !== 'user') return
+    const attachments = useTutorAttachments.getState().images
+    const history = recent.map((message) => {
+      if (message.role !== 'user' || !message.imageCount) return { role: message.role, content: message.content }
+      const urls = message === lastUser ? attachments[message.id] : null
+      if (urls?.length) return { role: 'user', content: message.content, images: urls }
+      return { role: 'user', content: [message.content, imageHistoryNote(message.imageCount)].filter(Boolean).join('\n') }
+    })
 
     const { addMessage, updateMessage } = useTutorStore.getState()
     const assistantMessage = createMessage({
       role: 'assistant',
       content: '',
       status: 'streaming',
-      search: conversation.webSearch ? 'pending' : 'off',
+      search: conversation.webSearch && conversation.mode !== SPEAKING_MODE ? 'pending' : 'off',
       sources: { web: [], notes: [] },
     })
     const assistantId = assistantMessage.id
@@ -266,7 +392,13 @@ export function TutorPage() {
       const response = await fetch('/api/tutor', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/x-ndjson' },
-        body: JSON.stringify({ messages: history, subject: conversation.subject, webSearch: conversation.webSearch }),
+        body: JSON.stringify({
+          messages: history,
+          subject: conversation.subject,
+          webSearch: conversation.webSearch,
+          mode: conversation.mode || undefined,
+          language: (i18n.language || 'uz').slice(0, 2),
+        }),
         signal: controller.signal,
       })
       if (!response.ok) {
@@ -313,8 +445,11 @@ export function TutorPage() {
       if (error.name === 'AbortError') update({ status: 'stopped', searching: false })
       else update({ status: 'error', searching: false, error: error.message || t('tutor.error') })
     } finally {
-      streamRef.current = null
-      setStreamingConversationId(null)
+      // To'xtatilgan eski oqim yangi boshlangan oqimni o'chirib yubormasin.
+      if (streamRef.current?.controller === controller) {
+        streamRef.current = null
+        setStreamingConversationId(null)
+      }
     }
   }
 
@@ -335,19 +470,30 @@ export function TutorPage() {
   // Boshqa suhbatga o'tilganda oqim to'xtatiladi — javob faqat o'z suhbatiga yoziladi.
   function selectConversation(id) {
     if (streamRef.current && streamRef.current.conversationId !== id) abortStream()
+    stopSpeaking()
     useTutorStore.getState().selectConversation(id)
     setDrawerOpen(false)
   }
 
   function startNewConversation() {
     abortStream()
+    stopSpeaking()
     useTutorStore.getState().startNewConversation()
     setDrawerOpen(false)
     window.setTimeout(() => textareaRef.current?.focus(), 0)
   }
 
+  function startSpeakingPractice() {
+    abortStream()
+    stopSpeaking()
+    useTutorStore.getState().startNewConversation()
+    setDrawerOpen(false)
+    sendMessage(t('tutor.speaking.kickoff'), null, { mode: SPEAKING_MODE, subject: 'ielts', webSearch: false, title: t('tutor.speaking.title') })
+  }
+
   function deleteConversation(id) {
     if (streamRef.current?.conversationId === id) abortStream()
+    stopSpeaking()
     useTutorStore.getState().deleteConversation(id)
   }
 
@@ -361,6 +507,10 @@ export function TutorPage() {
     onDelete: deleteConversation,
     onNew: startNewConversation,
   }
+  const busyComposer = recorder.recording || transcribing
+  const canSend = (input.trim() || pendingImages.length) && !sending && !preparingImages && !busyComposer
+  const chipClass = 'inline-flex items-center gap-1 rounded-full py-1 pl-2.5 pr-1 text-xs font-medium'
+  const chipButtonClass = 'grid h-5 w-5 place-items-center rounded-full'
 
   return (
     <div ref={rootRef} className="tutor-shell flex gap-4" style={{ '--tutor-top': `${topOffset}px` }}>
@@ -421,10 +571,7 @@ export function TutorPage() {
           ) : (
             <div className="mx-auto flex max-w-3xl flex-col gap-6 px-3 py-5 sm:px-6" aria-live="polite">
               {messages.map((message) => (message.role === 'user' ? (
-                <article key={message.id} className="flex justify-end">
-                  <h3 className="sr-only">{t('tutor.you')}</h3>
-                  <p className="max-w-[85%] whitespace-pre-wrap break-words rounded-2xl rounded-br-md bg-emerald-600 px-4 py-2.5 text-sm leading-relaxed text-white">{message.content}</p>
-                </article>
+                <UserMessage key={message.id} message={message} />
               ) : (
                 <AssistantMessage
                   key={message.id}
@@ -440,23 +587,67 @@ export function TutorPage() {
 
         <form
           className="shrink-0 border-t border-slate-200/70 bg-white px-2 pb-2 pt-2 dark:border-slate-800 dark:bg-slate-900 sm:px-4 sm:pb-3"
-          onSubmit={(event) => { event.preventDefault(); sendMessage() }}
+          onSubmit={(event) => { event.preventDefault(); if (canSend) sendMessage() }}
         >
           <div className="mx-auto max-w-3xl">
-            {(subject !== 'general' || webSearch) && (
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/*"
+              multiple
+              hidden
+              onChange={(event) => { addImageFiles(event.target.files); event.target.value = '' }}
+            />
+            {visibleError && (
+              <p role="alert" className="mb-2 flex items-start gap-2 rounded-xl border border-red-200 bg-red-50 px-3 py-2 text-xs text-red-700 dark:border-red-500/30 dark:bg-red-500/10 dark:text-red-300">
+                <FiAlertTriangle aria-hidden="true" className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+                <span className="flex-1">{visibleError}</span>
+                <button type="button" onClick={dismissError} aria-label={t('tutor.close')} className="-m-1 grid h-6 w-6 place-items-center rounded-full hover:bg-red-100 dark:hover:bg-red-500/20"><FiX aria-hidden="true" className="h-3.5 w-3.5" /></button>
+              </p>
+            )}
+            {(subject !== 'general' || webSearch || speakingMode) && (
               <div className="mb-2 flex flex-wrap gap-1.5">
-                {subject !== 'general' && (
-                  <span className="inline-flex items-center gap-1 rounded-full bg-slate-100 py-1 pl-2.5 pr-1 text-xs font-medium text-slate-700 dark:bg-slate-800 dark:text-slate-200">
+                {speakingMode && (
+                  <span className={`${chipClass} bg-violet-50 text-violet-700 dark:bg-violet-500/10 dark:text-violet-300`}>
+                    <span aria-hidden="true">🎤</span>{t('tutor.speaking.chip')}
+                    <button type="button" onClick={() => updateSettings({ mode: null })} aria-label={t('tutor.removeChip', { label: t('tutor.speaking.chip') })} className={`${chipButtonClass} text-violet-400 hover:bg-violet-100 hover:text-violet-800 dark:hover:bg-violet-500/20 dark:hover:text-violet-200`}><FiX aria-hidden="true" className="h-3 w-3" /></button>
+                  </span>
+                )}
+                {subject !== 'general' && !speakingMode && (
+                  <span className={`${chipClass} bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-200`}>
                     <span aria-hidden="true">{subjectEmoji(subject)}</span>{t(`tutor.subjects.${subject}`)}
-                    <button type="button" onClick={() => updateSettings({ subject: 'general' })} aria-label={t('tutor.removeChip', { label: t(`tutor.subjects.${subject}`) })} className="grid h-5 w-5 place-items-center rounded-full text-slate-400 hover:bg-slate-200 hover:text-slate-700 dark:hover:bg-slate-700 dark:hover:text-slate-200"><FiX aria-hidden="true" className="h-3 w-3" /></button>
+                    <button type="button" onClick={() => updateSettings({ subject: 'general' })} aria-label={t('tutor.removeChip', { label: t(`tutor.subjects.${subject}`) })} className={`${chipButtonClass} text-slate-400 hover:bg-slate-200 hover:text-slate-700 dark:hover:bg-slate-700 dark:hover:text-slate-200`}><FiX aria-hidden="true" className="h-3 w-3" /></button>
                   </span>
                 )}
-                {webSearch && (
-                  <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 py-1 pl-2.5 pr-1 text-xs font-medium text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-300">
+                {webSearch && !speakingMode && (
+                  <span className={`${chipClass} bg-emerald-50 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-300`}>
                     <span aria-hidden="true">🌐</span>{t('tutor.internetChip')}
-                    <button type="button" onClick={() => updateSettings({ webSearch: false })} aria-label={t('tutor.removeChip', { label: t('tutor.internetChip') })} className="grid h-5 w-5 place-items-center rounded-full text-emerald-500 hover:bg-emerald-100 hover:text-emerald-800 dark:hover:bg-emerald-500/20 dark:hover:text-emerald-200"><FiX aria-hidden="true" className="h-3 w-3" /></button>
+                    <button type="button" onClick={() => updateSettings({ webSearch: false })} aria-label={t('tutor.removeChip', { label: t('tutor.internetChip') })} className={`${chipButtonClass} text-emerald-500 hover:bg-emerald-100 hover:text-emerald-800 dark:hover:bg-emerald-500/20 dark:hover:text-emerald-200`}><FiX aria-hidden="true" className="h-3 w-3" /></button>
                   </span>
                 )}
+                {speakingMode && <span className="self-center text-[11px] text-slate-400">{t('tutor.speaking.hint')}</span>}
+              </div>
+            )}
+            {(pendingImages.length > 0 || preparingImages > 0) && (
+              <div className="mb-2 flex gap-2" aria-label={t('tutor.images.pending')}>
+                {pendingImages.map((image, index) => (
+                  <span key={image.id} className="relative">
+                    <img src={image.dataUrl} alt={t('tutor.images.alt', { index: index + 1 })} className="h-16 w-16 rounded-xl border border-slate-200 object-cover dark:border-slate-700" />
+                    <button
+                      type="button"
+                      onClick={() => setPendingImages((list) => list.filter((item) => item.id !== image.id))}
+                      aria-label={t('tutor.images.remove', { index: index + 1 })}
+                      className="absolute -right-1.5 -top-1.5 grid h-6 w-6 place-items-center rounded-full bg-slate-900 text-white shadow ring-2 ring-white dark:bg-slate-100 dark:text-slate-900 dark:ring-slate-900"
+                    >
+                      <FiX aria-hidden="true" className="h-3.5 w-3.5" />
+                    </button>
+                  </span>
+                ))}
+                {Array.from({ length: preparingImages }, (_, index) => (
+                  <span key={`preparing-${index}`} role="status" aria-label={t('tutor.images.preparing')} className="grid h-16 w-16 place-items-center rounded-xl border border-dashed border-slate-300 text-slate-400 dark:border-slate-600">
+                    <FiLoader aria-hidden="true" className="h-5 w-5 animate-spin" />
+                  </span>
+                ))}
               </div>
             )}
             <div className="flex items-end gap-1.5 rounded-[1.6rem] border border-slate-200 bg-slate-50 p-1.5 transition focus-within:border-emerald-400 focus-within:ring-2 focus-within:ring-emerald-500/15 dark:border-slate-700 dark:bg-slate-800/60">
@@ -465,30 +656,69 @@ export function TutorPage() {
                 webSearch={webSearch}
                 onSubjectChange={(value) => updateSettings({ subject: value })}
                 onWebSearchChange={(value) => updateSettings({ webSearch: value })}
+                onPickImages={() => fileInputRef.current?.click()}
+                imagesFull={pendingImages.length + preparingImages >= MAX_IMAGES}
+                onStartSpeaking={startSpeakingPractice}
+                disabled={busyComposer}
               />
-              <label className="sr-only" htmlFor="tutor-input">{t('tutor.placeholder')}</label>
-              <textarea
-                id="tutor-input"
-                ref={textareaRef}
-                rows={1}
-                maxLength={MAX_LENGTH}
-                value={input}
-                placeholder={t('tutor.placeholder')}
-                onChange={(event) => { setInput(event.target.value); resizeTextarea() }}
-                onKeyDown={(event) => {
-                  if (event.key === 'Enter' && !event.shiftKey && !event.nativeEvent.isComposing) {
-                    event.preventDefault()
-                    sendMessage()
-                  }
-                }}
-                className="max-h-40 min-h-10 min-w-0 flex-1 resize-none bg-transparent px-1 py-2 text-[15px] leading-6 text-slate-900 outline-none placeholder:text-slate-400 dark:text-white sm:text-sm"
-              />
+              {recorder.recording ? (
+                <div role="status" className="flex min-h-10 min-w-0 flex-1 items-center gap-2 px-1 text-sm text-slate-700 dark:text-slate-200">
+                  <span aria-hidden="true" className="h-2.5 w-2.5 shrink-0 animate-pulse rounded-full bg-red-500" />
+                  <span className="sr-only min-[400px]:not-sr-only min-[400px]:truncate">{t('tutor.voice.recording')}</span>
+                  <span className="ml-auto whitespace-nowrap font-mono text-xs tabular-nums text-slate-500 dark:text-slate-400">{formatSeconds(recorder.elapsed)} / {formatSeconds(MAX_RECORD_SECONDS)}</span>
+                  <button type="button" onClick={recorder.cancel} aria-label={t('tutor.voice.cancel')} title={t('tutor.voice.cancel')} className="grid h-8 w-8 shrink-0 place-items-center rounded-full text-slate-500 hover:bg-slate-200 dark:hover:bg-slate-700"><FiX aria-hidden="true" className="h-4 w-4" /></button>
+                </div>
+              ) : (
+                <>
+                  <label className="sr-only" htmlFor="tutor-input">{t('tutor.placeholder')}</label>
+                  <textarea
+                    id="tutor-input"
+                    ref={textareaRef}
+                    rows={1}
+                    maxLength={MAX_LENGTH}
+                    value={input}
+                    disabled={transcribing}
+                    placeholder={transcribing ? t('tutor.voice.transcribing') : speakingMode ? t('tutor.speaking.placeholder') : t('tutor.placeholder')}
+                    onChange={(event) => { setInput(event.target.value); resizeTextarea() }}
+                    onPaste={(event) => {
+                      const images = [...event.clipboardData.files].filter((file) => file.type.startsWith('image/'))
+                      if (images.length) {
+                        event.preventDefault()
+                        addImageFiles(images)
+                      }
+                    }}
+                    onKeyDown={(event) => {
+                      if (event.key === 'Enter' && !event.shiftKey && !event.nativeEvent.isComposing) {
+                        event.preventDefault()
+                        if (canSend) sendMessage()
+                      }
+                    }}
+                    className="max-h-40 min-h-10 min-w-0 flex-1 resize-none bg-transparent px-1 py-2 text-[15px] leading-6 text-slate-900 outline-none placeholder:text-slate-400 disabled:opacity-60 dark:text-white sm:text-sm"
+                  />
+                </>
+              )}
+              {recorder.recording ? (
+                <button type="button" onClick={recorder.stop} aria-label={t('tutor.voice.stop')} title={t('tutor.voice.stop')} className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-red-500 text-white transition hover:bg-red-600">
+                  <FiSquare aria-hidden="true" className="h-4 w-4 fill-current" />
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  onClick={recorder.start}
+                  disabled={transcribing}
+                  aria-label={transcribing ? t('tutor.voice.transcribing') : t('tutor.voice.record')}
+                  title={transcribing ? t('tutor.voice.transcribing') : t('tutor.voice.record')}
+                  className={`grid h-10 w-10 shrink-0 place-items-center rounded-full transition disabled:cursor-wait ${speakingMode ? 'bg-violet-500 text-white hover:bg-violet-600' : 'text-slate-500 hover:bg-slate-200 dark:text-slate-300 dark:hover:bg-slate-700'}`}
+                >
+                  {transcribing ? <FiLoader aria-hidden="true" className="h-5 w-5 animate-spin" /> : <FiMic aria-hidden="true" className="h-5 w-5" />}
+                </button>
+              )}
               {sendingHere ? (
                 <button type="button" onClick={abortStream} aria-label={t('tutor.stop')} title={t('tutor.stop')} className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-slate-900 text-white transition hover:bg-slate-700 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200">
                   <FiSquare aria-hidden="true" className="h-4 w-4 fill-current" />
                 </button>
               ) : (
-                <button type="submit" disabled={!input.trim() || sending} aria-label={t('tutor.send')} title={t('tutor.send')} className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-emerald-500 text-white transition hover:bg-emerald-600 disabled:bg-slate-300 dark:disabled:bg-slate-700">
+                <button type="submit" disabled={!canSend} aria-label={t('tutor.send')} title={t('tutor.send')} className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-emerald-500 text-white transition hover:bg-emerald-600 disabled:bg-slate-300 dark:disabled:bg-slate-700">
                   <FiSend aria-hidden="true" className="h-4 w-4" />
                 </button>
               )}

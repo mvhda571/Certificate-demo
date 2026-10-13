@@ -17,7 +17,9 @@ function useIsDesktop() {
 }
 
 // "+" menyusi: fan tanlash va internetdan izlash. Kompyuterda popover, telefonda pastdan chiqadigan sheet.
-export function ComposerOptions({ subject, webSearch, onSubjectChange, onWebSearchChange, disabled }) {
+const actionClass = 'flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left text-sm text-slate-700 outline-none transition hover:bg-slate-100 focus-visible:bg-slate-100 focus-visible:ring-2 focus-visible:ring-emerald-500/40 disabled:cursor-not-allowed disabled:opacity-50 dark:text-slate-200 dark:hover:bg-slate-800 dark:focus-visible:bg-slate-800'
+
+export function ComposerOptions({ subject, webSearch, onSubjectChange, onWebSearchChange, onPickImages, imagesFull, onStartSpeaking, disabled }) {
   const { t } = useTranslation()
   const [open, setOpen] = useState(false)
   const isDesktop = useIsDesktop()
@@ -31,7 +33,7 @@ export function ComposerOptions({ subject, webSearch, onSubjectChange, onWebSear
 
   useEffect(() => {
     if (!open) return undefined
-    const items = () => [...(panelRef.current?.querySelectorAll('[data-menu-item]') || [])]
+    const items = () => [...(panelRef.current?.querySelectorAll('[data-menu-item]:not(:disabled)') || [])]
     // Ochilganda tanlangan elementga fokus.
     const selected = items().find((item) => item.getAttribute('aria-checked') === 'true') || items()[0]
     selected?.focus()
@@ -90,6 +92,33 @@ export function ComposerOptions({ subject, webSearch, onSubjectChange, onWebSear
         ))}
       </div>
       <div className="my-2 h-px bg-slate-200 dark:bg-slate-700" />
+      <button
+        type="button"
+        role="menuitem"
+        data-menu-item
+        disabled={imagesFull}
+        onClick={() => { close(false); onPickImages() }}
+        className={actionClass}
+      >
+        <span aria-hidden="true" className="w-5 text-center">🖼️</span>
+        <span className="flex-1">
+          <span className="block font-medium">{t('tutor.images.add')}</span>
+          <span className="block text-xs text-slate-400">{imagesFull ? t('tutor.images.limit') : t('tutor.images.addHint')}</span>
+        </span>
+      </button>
+      <button
+        type="button"
+        role="menuitem"
+        data-menu-item
+        onClick={() => { close(false); onStartSpeaking() }}
+        className={actionClass}
+      >
+        <span aria-hidden="true" className="w-5 text-center">🎤</span>
+        <span className="flex-1">
+          <span className="block font-medium">{t('tutor.speaking.start')}</span>
+          <span className="block text-xs text-slate-400">{t('tutor.speaking.startHint')}</span>
+        </span>
+      </button>
       <button
         type="button"
         role="menuitemcheckbox"

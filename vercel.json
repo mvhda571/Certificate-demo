@@ -1,7 +1,11 @@
 {
   "functions": {
     "api/tutor.js": {
-      "includeFiles": "src/data/konspekt/**"
+      "includeFiles": "src/data/konspekt/**",
+      "maxDuration": 60
+    },
+    "api/transcribe.js": {
+      "maxDuration": 30
     }
   },
   "rewrites": [

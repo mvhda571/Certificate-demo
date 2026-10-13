@@ -64,7 +64,7 @@ function ConversationItem({ conversation, active, onSelect, onRename, onDelete }
         aria-current={active ? 'true' : undefined}
         className="flex min-w-0 flex-1 items-center gap-2.5 rounded-xl px-3 py-2.5 text-left outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
       >
-        <span aria-hidden="true" className="text-sm">{subjectEmoji(conversation.subject)}</span>
+        <span aria-hidden="true" className="text-sm">{conversation.mode === 'ielts-speaking' ? '🎤' : subjectEmoji(conversation.subject)}</span>
         <span className={`truncate text-sm ${active ? 'font-semibold text-emerald-800 dark:text-emerald-200' : 'text-slate-700 dark:text-slate-200'}`}>{conversation.title}</span>
       </button>
       <span className="flex shrink-0 opacity-100 transition lg:opacity-0 lg:group-focus-within:opacity-100 lg:group-hover:opacity-100">

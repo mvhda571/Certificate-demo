@@ -52,14 +52,16 @@ export const useTutorStore = create(persist(
     startNewConversation: () => set({ activeId: null, draft: { ...DEFAULT_SETTINGS } }),
     selectConversation: (id) => set({ activeId: id }),
 
-    createConversation: (firstMessage) => {
+    // overrides: masalan IELTS Speaking uchun { mode, subject, webSearch, title }.
+    createConversation: (firstMessage, overrides = {}) => {
       const now = Date.now();
       const { draft } = get();
       const conversation = {
         id: createId(),
-        title: makeConversationTitle(firstMessage.content),
-        subject: draft.subject,
-        webSearch: draft.webSearch,
+        title: makeConversationTitle(overrides.title || firstMessage.content || firstMessage.titleHint),
+        subject: overrides.subject ?? draft.subject,
+        webSearch: overrides.webSearch ?? draft.webSearch,
+        mode: overrides.mode ?? null,
         messages: [firstMessage],
         createdAt: now,
         updatedAt: now,
@@ -157,6 +159,13 @@ export const useTutorStore = create(persist(
     },
   },
 ));
+
+// Yuborilgan rasmlar faqat shu sessiya xotirasida turadi (localStorage tez to'lib qoladi).
+// Saqlanadigan xabarda faqat imageCount qoladi.
+export const useTutorAttachments = create(() => ({ images: {} }));
+export const setMessageImages = (messageId, dataUrls) => useTutorAttachments.setState((state) => ({
+  images: { ...state.images, [messageId]: dataUrls },
+}));
 
 export function useActiveConversation() {
   return useTutorStore((state) => state.conversations.find((conversation) => conversation.id === state.activeId) || null);
