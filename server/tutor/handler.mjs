@@ -9,12 +9,19 @@ import {
 } from './prompt.mjs';
 import { createRateLimiter, getClientIp, groqBaseUrl, jsonResponse, retryAfterSeconds } from './http.mjs';
 import { identifyStudent } from './identity.mjs';
+import { createMistakeFilter } from './mistakeFilter.mjs';
 import { getQuota, reserveQuestion } from './quota.mjs';
 
 const MAX_MESSAGES = 12;
 const MAX_MESSAGE_LENGTH = 4000;
 const NOTES_CHAR_BUDGET = 6000;
 const DEFAULT_MODEL = 'openai/gpt-oss-120b';
+const envNumber = (name, fallback) => {
+  const value = Number.parseFloat(process.env[name]);
+  return Number.isFinite(value) && value >= 0 && value <= 2 ? value : fallback;
+};
+const temperatureWithNotes = () => envNumber('TUTOR_TEMPERATURE_NOTES', 0.3);
+const temperatureDefault = () => envNumber('TUTOR_TEMPERATURE', 0.5);
 const DEFAULT_VISION_MODEL = 'qwen/qwen3.8-27b';
 // Rasmlar brauzerda ~1600px JPEG'ga siqiladi; Vercel funksiyasi tanasi 4.5 MB bilan cheklangan.
 const MAX_IMAGES = 3;
@@ -52,6 +59,15 @@ function validateMessages(value) {
   };
 }
 
+// "Imlo", "Eslab qolish", "xato" bo'limlari — "Ko'p uchraydigan xato" qismi shulardan tuziladi.
+const MISTAKE_SECTION = /^##\s+.*(imlo|eslab qolish|xato).*$/im;
+function mistakeSections(content) {
+  return content
+    .split(/(?=^##\s+)/m)
+    .filter((section) => MISTAKE_SECTION.test(section.split('\n')[0]))
+    .map((section) => section.trim());
+}
+
 // Konspektlar to'liq beriladi, lekin umumiy hajm NOTES_CHAR_BUDGET dan oshmaydi.
 function buildNotesContext(notes) {
   let remaining = NOTES_CHAR_BUDGET;
@@ -65,10 +81,14 @@ function buildNotesContext(notes) {
     used.push(note);
     parts.push(`${header}\n${body}`);
   }
+  const spelling = used.flatMap((note) => mistakeSections(note.content)).join('\n\n').slice(0, 1500);
   return {
     used,
     text: used.length
-      ? `PLATFORM NOTES (konspekt) for the student's next question. Base the answer only on these notes.\n\n${parts.join('\n\n---\n\n')}`
+      ? [
+        `PLATFORM NOTES (konspekt) for the student's next question. Base the answer only on these notes.\n\n${parts.join('\n\n---\n\n')}`,
+        ...(spelling ? [`SPELLING / MEMORY SECTIONS from the notes — use them for "Ko'p uchraydigan xato" and copy every form exactly:\n\n${spelling}`] : []),
+      ].join('\n\n=====\n\n')
       : '',
   };
 }
@@ -176,7 +196,8 @@ const NDJSON_HEADERS = {
 };
 
 // Groq SSE oqimini o'qiydi va mijozga NDJSON hodisalari sifatida uzatadi.
-async function pumpAttempt({ upstream, send, tools, onFirstContent }) {
+// filter — konspekt bo'lsa, "❌ … → ✅ …" qatorlarini tekshiradi (mistakeFilter.mjs).
+async function pumpAttempt({ upstream, send, tools, onFirstContent, filter }) {
   const decoder = new TextDecoder();
   const reader = upstream.body.getReader();
   let buffer = '';
@@ -191,7 +212,8 @@ async function pumpAttempt({ upstream, send, tools, onFirstContent }) {
         gotContent = true;
         onFirstContent();
       }
-      send({ type: 'delta', text: delta.content });
+      const text = filter ? filter.push(delta.content) : delta.content;
+      if (text) send({ type: 'delta', text });
     }
     for (const tool of [delta.executed_tools, choice?.executed_tools, event.executed_tools].flat()) {
       if (!tool) continue;
@@ -220,6 +242,8 @@ async function pumpAttempt({ upstream, send, tools, onFirstContent }) {
     }
     if (done) break;
   }
+  const rest = filter?.flush();
+  if (rest) send({ type: 'delta', text: rest });
 }
 
 // Javob oqimi darhol boshlanadi (quota/sources hodisalari), Groq'ga urinishlar oqim ichida bajariladi.
@@ -282,16 +306,19 @@ function streamAnswer({ attempts, makeRequest, notes, reservation, requestSignal
               continue;
             }
 
+            const filter = notes.length ? createMistakeFilter(notes.map((note) => note.content).join('\n')) : null;
             await pumpAttempt({
               upstream,
               send,
               tools,
+              filter,
               onFirstContent: () => {
                 contentSent = true;
                 clearTimeout(searchTimer);
               },
             });
             log.push(`${attempt.model}/${attempt.search}:ok`);
+            if (filter?.dropped.length) console.warn(`[tutor] konspektga mos kelmagan xato qatorlari olib tashlandi: ${filter.dropped.join(' | ')}`);
 
             const search = attempt.search === 'off' ? 'off'
               : attempt.search === 'unavailable' ? (searchTimedOut ? 'timeout' : 'unavailable')
@@ -445,6 +472,8 @@ export async function handleTutorRequest(request) {
       model: attempt.model,
       messages: buildMessages(attempt),
       stream: true,
+      // Konspekt bo'lsa — past temperature: misollar konspektdan aynan ko'chirilsin.
+      temperature: notes.text ? temperatureWithNotes() : temperatureDefault(),
       ...(attempt.search === 'browser' ? { tools: [{ type: 'browser_search' }] } : {}),
       // Qwen fikrlash matnini javobga aralashtirmasin.
       ...(/qwen/i.test(attempt.model) ? { reasoning_format: 'hidden' } : {}),

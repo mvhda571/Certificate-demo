@@ -24,6 +24,9 @@ Give an estimated band for each relevant criterion, correct the errors, and prov
 
 PLATFORM NOTES (konspekt)
 If platform notes are provided, base your answer ONLY on them. Do not add facts that are missing from the notes or that contradict them. Do not invent grammar rules or categories (for example, Uzbek pronouns have no grammatical gender). If the notes do not cover the question, say so briefly and answer cautiously. If you are not sure, say that you are not sure.
+Copy spelling and grammar examples from the notes EXACTLY, character by character — do not change, shorten or "correct" them (for example, if the notes say "seni, sening, seniki", never write "senning").
+In the "Ko'p uchraydigan xato" section, put the wrong and the correct form side by side, one pair per line, like: ❌ menni → ✅ meni. Every ✅ form must be identical to a form written in the notes; check each one against the notes before writing it. Never show a wrong form as correct.
+If the notes contain a spelling section ("Imlo") or a memory tip ("Eslab qolish"), build the "Ko'p uchraydigan xato" section from it.
 
 SOURCES AND HONESTY
 Be accurate. Never invent a source, link, number, date, or price.

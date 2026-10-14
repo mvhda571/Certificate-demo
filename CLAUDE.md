@@ -2,13 +2,15 @@ Yangi sessiya boshlanganda birinchi javobingda shu bo'limga qarab qayerda qolgan
 
 ## AI Tutor — holat
 
-**Branch:** `feat/ai-tutor` (`feat/ona-tili-10-11` ustidan ochilgan, GitHub'ga push qilingan).
+**Holat:** AI Tutor `main` ga qo'shilgan (PR #1) va https://certificate-demoo.netlify.app da ishlayapti.
+**Joriy branch:** `fix/tutor-accuracy` (`main` dan) — konspekt misollarining aniqligi.
 **Hosting:** Netlify (asosiy). Vercel fayllari (`api/*.js`, `vercel.json`) ham saqlangan.
-**Oxirgi commit:** `feat(tutor): Netlify functions support` — aniq hash uchun `git log -1 feat/ai-tutor`.
+**Oxirgi commit:** `fix(tutor): copy konspekt examples exactly` — aniq hash uchun `git log -1 fix/tutor-accuracy`.
 
 ### Tayyor
 - `/tutor` sahifasi: Groq (`openai/gpt-oss-120b`), oqimli javob, KaTeX formulalar, javob ostida model nomi.
 - Konspekt RAG: `src/data/konspekt/**/*.md` dan mos faylning to'liq matni (≤6000 belgi); aloqasiz savollarga konspekt berilmaydi.
+- Konspekt aniqligi: konspekt bo'lsa temperature 0.3 (`TUTOR_TEMPERATURE_NOTES`), aks holda 0.5 (`TUTOR_TEMPERATURE`); "Imlo"/"Eslab qolish" bo'limlari alohida beriladi; "Ko'p uchraydigan xato" ❌ → ✅ formatida; server ✅ shakli konspektda aynan bo'lmagan yoki ❌ bilan bir xil qatorlarni o'quvchiga yubormaydi (`server/tutor/mistakeFilter.mjs`, logda `[tutor] konspektga mos kelmagan xato qatorlari olib tashlandi`).
 - Internetdan izlash: gpt-oss `browser_search`; 【N】 belgilari manba havolasiga aylanadi, takrorlanganlari qisqaradi; qidiruv imkonsiz bo'lsa ogohlantirish.
 - Suhbatlar tarixi (localStorage, 30 suhbat × 100 xabar), qidiruv, nomini o'zgartirish, o'chirish; mobil uchun drawer va bottom sheet.
 - Rasmli savol (3 tagacha, brauzerda siqiladi) → `qwen/qwen3.8-27b`; rasmlar localStorage'ga yozilmaydi.
@@ -34,7 +36,11 @@ Yangi sessiya boshlanganda birinchi javobingda shu bo'limga qarab qayerda qolgan
 - Groq bepul tarifi: 8000 token/daqiqa; internet qidiruvi buni tez tugatadi.
 - Brauzerlarda odatda o'zbekcha ovoz yo'q — o'zbekcha javoblarda "Bu tilda ovoz mavjud emas".
 
+### Hal qilinganlar
+- Upstash read-only token muammosi hal qilindi (endi yozish huquqi bor token ishlatiladi).
+
 ### Mening (egasining) qilishim kerak bo'lgan ishlar
+0. Google OAuth ilovasi hozircha **Testing** holatida — faqat qo'shilgan test foydalanuvchilar kira oladi. Hammaga ochish uchun: Google Cloud Console → Google Auth Platform → **Branding** (app home page, privacy policy havolasi, authorized domain `certificate-demoo.netlify.app` / `netlify.app`) ni to'ldirish → **Audience** → **Publish app**.
 1. Lokal `.env` da: `GROQ_SEARCH_MODEL=openai/gpt-oss-120b` (hozirgi `groq/compound` bu kalitda mavjud emas).
 2. Hosting'da env o'zgaruvchilari (qiymatlarini repoga yozmang):
    - majburiy: `GROQ_API_KEY`, `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`, `VITE_GOOGLE_CLIENT_ID` (yoki `GOOGLE_CLIENT_ID`);
@@ -43,8 +49,8 @@ Yangi sessiya boshlanganda birinchi javobingda shu bo'limga qarab qayerda qolgan
    - Netlify CLI orqali ham mumkin: `netlify env:set GROQ_API_KEY <qiymat> --scope functions`.
    - Vercel (zaxira): Project → Settings → Environment Variables → Production (va Preview) → Redeploy.
    - ixtiyoriy vaqt sozlamalari: `TUTOR_SEARCH_TIMEOUT_MS` (7000), `TUTOR_MAX_DURATION_MS` (55000).
-3. Upstash'ni ulash: console.upstash.com → Create Database (Redis, Frankfurt `eu-central-1` yaqinroq) → "REST API" bo'limidan `UPSTASH_REDIS_REST_URL` va `UPSTASH_REDIS_REST_TOKEN` ni nusxalab, hosting env'iga qo'yish → redeploy. Netlify'da Functions log'ida `[quota] UPSTASH... yo‘q` ogohlantirishi chiqmasa, ulangan.
-4. Avval `feat/ona-tili-10-11` ni `main` ga qo'shish, keyin `feat/ai-tutor` uchun PR ochish (aks holda PR'ga Ona tili commit'lari ham kiradi).
+3. ✅ Upstash ulangan. Qayta sozlashda **read-only emas**, standart REST token (`UPSTASH_REDIS_REST_TOKEN`) ishlatilsin — limit hisoblagichi INCR/DECR/EXPIRE yozadi. Tekshirish: Netlify Functions log'ida `[quota] UPSTASH... yo‘q` ogohlantirishi chiqmasligi kerak.
+4. `fix/tutor-accuracy` uchun PR ochib, `main` ga qo'shish (Netlify avtomatik deploy qiladi).
 
 ### Keyingi g'oyalar
 - Suhbatlarni bazada saqlab, barcha qurilmalarda ko'rsatish (hozir faqat shu brauzerda).
