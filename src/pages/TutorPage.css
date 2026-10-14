@@ -1,0 +1,86 @@
+/* AI Tutor sahifasi — faqat .tutor-shell ichida amal qiladi. */
+
+/* Chat butun ekranni egallaydi: ekran − yuqoridagi header − pastki joy.
+   Pastki joy = main'ning BottomNav uchun padding'i (5rem + safe-area) + layout padding'i (p-3 / sm:p-5 / lg:p-8). */
+.tutor-shell {
+  --tutor-bottom: calc(5.75rem + env(safe-area-inset-bottom));
+  height: calc(100dvh - var(--tutor-top, 0px) - var(--tutor-bottom));
+  min-height: 420px;
+}
+@media (min-width: 640px) {
+  .tutor-shell { --tutor-bottom: calc(6.25rem + env(safe-area-inset-bottom)); }
+}
+@media (min-width: 1024px) {
+  .tutor-shell { --tutor-bottom: 2rem; }
+}
+
+.tutor-shell .markdown-body { color: #334155; font-size: 15px; line-height: 1.75; overflow-wrap: anywhere; }
+.tutor-shell .markdown-body > :first-child { margin-top: 0; }
+.tutor-shell .markdown-body > :last-child { margin-bottom: 0; }
+.tutor-shell .markdown-body p { margin: 0 0 .75rem; }
+.tutor-shell .markdown-body strong { color: #0f172a; font-weight: 700; }
+.tutor-shell .markdown-body h1,
+.tutor-shell .markdown-body h2,
+.tutor-shell .markdown-body h3,
+.tutor-shell .markdown-body h4 { margin: 1.25rem 0 .5rem; color: #0f172a; font-weight: 700; line-height: 1.35; }
+.tutor-shell .markdown-body h1 { font-size: 1.25rem; }
+.tutor-shell .markdown-body h2 { font-size: 1.125rem; }
+.tutor-shell .markdown-body h3, .tutor-shell .markdown-body h4 { font-size: 1rem; }
+.tutor-shell .markdown-body ul { list-style: disc; padding-left: 1.4rem; margin: 0 0 .75rem; }
+.tutor-shell .markdown-body ol { list-style: decimal; padding-left: 1.4rem; margin: 0 0 .75rem; }
+.tutor-shell .markdown-body li { margin: .25rem 0; }
+.tutor-shell .markdown-body li > p { margin: 0; }
+.tutor-shell .markdown-body a { color: #059669; text-decoration: underline; text-underline-offset: 2px; }
+.tutor-shell .markdown-body blockquote { margin: .75rem 0; border-left: 3px solid #6ee7b7; padding: .25rem 0 .25rem .85rem; color: #475569; }
+.tutor-shell .markdown-body table { display: block; max-width: 100%; margin: .75rem 0; overflow-x: auto; border-collapse: collapse; font-size: 14px; }
+.tutor-shell .markdown-body th, .tutor-shell .markdown-body td { border: 1px solid #e2e8f0; padding: .4rem .65rem; text-align: left; }
+.tutor-shell .markdown-body th { background: #f8fafc; font-weight: 600; }
+.tutor-shell .markdown-body pre { margin: .75rem 0; overflow-x: auto; border-radius: .75rem; padding: .85rem 1rem; background: #f1f5f9; font-size: 13px; }
+.tutor-shell .markdown-body code { border-radius: .3rem; padding: .1rem .3rem; background: #f1f5f9; font-size: .9em; }
+.tutor-shell .markdown-body pre code { padding: 0; background: transparent; }
+.tutor-shell .markdown-body hr { margin: 1rem 0; border-color: #e2e8f0; }
+.tutor-shell .markdown-body .katex { font-size: 1.05em; }
+.tutor-shell .markdown-body .katex-display { margin: .75rem 0; overflow-x: auto; overflow-y: hidden; padding: .25rem 0; }
+
+/* 【N】 o'rniga chiqadigan manba raqami */
+.tutor-shell .markdown-body a.citation-link {
+  display: inline-grid;
+  min-width: 1.15rem;
+  height: 1.15rem;
+  margin: 0 .1rem;
+  place-items: center;
+  border-radius: .35rem;
+  padding: 0 .25rem;
+  background: #d1fae5;
+  color: #047857;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  vertical-align: super;
+}
+
+html.dark .tutor-shell .markdown-body { color: #cbd5e1; }
+html.dark .tutor-shell .markdown-body strong,
+html.dark .tutor-shell .markdown-body h1,
+html.dark .tutor-shell .markdown-body h2,
+html.dark .tutor-shell .markdown-body h3,
+html.dark .tutor-shell .markdown-body h4 { color: #f8fafc; }
+html.dark .tutor-shell .markdown-body a { color: #34d399; }
+html.dark .tutor-shell .markdown-body blockquote { border-color: #047857; color: #94a3b8; }
+html.dark .tutor-shell .markdown-body th, html.dark .tutor-shell .markdown-body td, html.dark .tutor-shell .markdown-body hr { border-color: #334155; }
+html.dark .tutor-shell .markdown-body th, html.dark .tutor-shell .markdown-body pre, html.dark .tutor-shell .markdown-body code { background: #1e293b; }
+html.dark .tutor-shell .markdown-body a.citation-link { background: rgba(16, 185, 129, .18); color: #6ee7b7; }
+
+.tutor-shell .typing-indicator { display: inline-flex; gap: 4px; }
+.tutor-shell .typing-indicator i { width: 6px; height: 6px; border-radius: 50%; background: #10b981; animation: tutor-bounce 1s infinite ease-in-out; }
+.tutor-shell .typing-indicator i:nth-child(2) { animation-delay: .15s; }
+.tutor-shell .typing-indicator i:nth-child(3) { animation-delay: .3s; }
+.tutor-shell .stream-cursor { display: inline-block; width: 2px; height: 1em; margin-left: 2px; vertical-align: text-bottom; background: #10b981; animation: tutor-blink .9s steps(2) infinite; }
+
+@keyframes tutor-bounce { 0%, 60%, 100% { transform: translateY(0); opacity: .5; } 30% { transform: translateY(-4px); opacity: 1; } }
+@keyframes tutor-blink { 50% { opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .tutor-shell .typing-indicator i, .tutor-shell .stream-cursor { animation: none; }
+}

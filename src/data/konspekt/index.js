@@ -21,6 +21,8 @@ import { uzbekLanguage6Course } from './onatili6'
 import { uzbekLanguage7Course } from './onatili7'
 import { uzbekLanguage8Course } from './onatili8'
 import { uzbekLanguage9Course } from './onatili9'
+import { uzbekLanguage10Course } from './onatili10'
+import { uzbekLanguage11Course } from './onatili11'
 
 // Konspekt asosidagi kurslar. `key` — progress saqlanadigan kalit (useLearningStore).
 // `subject` berilmasa — tarix kursi.
@@ -79,6 +81,10 @@ export const konspektCourses = {
     ru: { title: 'Родной язык', period: 'Синтаксис: словосочетание и простое предложение' } },
   'ona-tili-9': { key: 'ona-tili-9-konspekt', dir: 'ona-tili-9', grade: '9', subject: 'ona-tili', title: 'Ona tili', period: 'Qo‘shma gap, ko‘chirma gap va nutq uslublari', course: uzbekLanguage9Course,
     ru: { title: 'Родной язык', period: 'Сложное предложение, прямая речь и стили речи' } },
+  'ona-tili-10': { key: 'ona-tili-10-konspekt', dir: 'ona-tili-10', grade: '10', subject: 'ona-tili', title: 'Ona tili', period: 'Nutq uslublari va so‘z uslubiyati (2-qism)', course: uzbekLanguage10Course,
+    ru: { title: 'Родной язык', period: 'Стили речи и стилистика слова (2-я часть)' } },
+  'ona-tili-11': { key: 'ona-tili-11-konspekt', dir: 'ona-tili-11', grade: '11', subject: 'ona-tili', title: 'Ona tili', period: 'Nutq madaniyati me’yorlari (2-qism)', course: uzbekLanguage11Course,
+    ru: { title: 'Родной язык', period: 'Нормы культуры речи (2-я часть)' } },
 }
 
 export const courseSubject = entry => entry.subject || 'tarix'

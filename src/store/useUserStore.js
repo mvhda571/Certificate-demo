@@ -26,15 +26,19 @@ export const useUserStore = create(persist((set) => ({
   points: 0,
   notifications: true,
   updateProfile: (profile) => set((state) => ({ profile: { ...state.profile, ...profile } })),
+  // Google ID token (GIS credential): AI Tutor serveri kunlik limit uchun o'quvchini shu orqali aniqlaydi.
+  googleCredential: '',
   login: ({ name, email, ...details }) => set((state) => ({
     isAuthenticated: true,
+    googleCredential: '',
     profile: { ...state.profile, ...details, name: name || email.split('@')[0], displayName: name || email.split('@')[0], email, userId: getOrCreateUserId(email), authProvider: 'local' },
   })),
-  loginWithGoogle: ({ email, displayName, photoURL, googleId }) => set((state) => ({
+  loginWithGoogle: ({ email, displayName, photoURL, googleId, credential = '' }) => set((state) => ({
     isAuthenticated: true,
+    googleCredential: credential,
     profile: { ...state.profile, name: displayName, displayName, email, photoURL, googleId, userId: getOrCreateUserId(googleId || email), authProvider: 'google' },
   })),
-  logout: () => set({ isAuthenticated: false, profile: { name: '', email: '', displayName: '', photoURL: '', googleId: '', userId: '', authProvider: 'local', grade: '', targetGrade: 'A', telegram: '' }, points: 0 }),
+  logout: () => set({ isAuthenticated: false, googleCredential: '', profile: { name: '', email: '', displayName: '', photoURL: '', googleId: '', userId: '', authProvider: 'local', grade: '', targetGrade: 'A', telegram: '' }, points: 0 }),
   addPoints: (points) => set((state) => ({ points: state.points + points })),
   toggleNotifications: () => set((state) => ({ notifications: !state.notifications })),
 }), {

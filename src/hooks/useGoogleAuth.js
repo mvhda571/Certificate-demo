@@ -32,7 +32,7 @@ export function useGoogleAuth() {
       try {
         const account = decodeCredential(credential)
         if (!account.email || !account.sub) throw new Error('Required claims are missing')
-        loginWithGoogle({ email: account.email, displayName: account.name || account.email, photoURL: account.picture || '', googleId: account.sub })
+        loginWithGoogle({ email: account.email, displayName: account.name || account.email, photoURL: account.picture || '', googleId: account.sub, credential })
         toast.success('Google akkauntingiz muvaffaqiyatli ulandi')
       } catch {
         setError('Google orqali kirish yakunlanmadi. Qayta urinib ko‘ring.')
